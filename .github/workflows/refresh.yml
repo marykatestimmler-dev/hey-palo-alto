@@ -1,0 +1,64 @@
+name: Refresh civic data
+
+# Runs the agenda ingest on a schedule (and on demand), then commits the
+# regenerated civic-data.json / civic-data.js back to the repo so the
+# published site is always up to date. Runs on GitHub's servers — your
+# own computer does not need to be on.
+
+on:
+  schedule:
+    # 09:17 UTC ≈ 1:17 AM Pacific (PST) / 2:17 AM (PDT), daily.
+    # Off-the-hour to avoid GitHub's busy-time scheduling delays.
+    - cron: "17 9 * * *"
+  workflow_dispatch:        # adds a manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write           # allow the job to commit the refreshed data back
+
+# Prevent overlapping runs if one is still going.
+concurrency:
+  group: refresh-civic-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install ingest dependencies
+        working-directory: ingest
+        run: npm install
+
+      - name: Run the ingest (regenerates civic-data.json and civic-data.js)
+        working-directory: ingest
+        run: node ingest.mjs
+
+      # Optional: drafts neutral plain-language headlines with the Claude API.
+      # Needs the ANTHROPIC_API_KEY repository secret (see STAKES-README.md).
+      # Skips quietly if the secret is missing; never fails the data refresh.
+      - name: Draft plain-language headlines (optional)
+        working-directory: ingest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node stakes.mjs
+        continue-on-error: true
+
+      - name: Commit refreshed data if it changed
+        run: |
+          git config user.name  "civic-pulse-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add civic-data.json civic-data.js
+          git add stakes.js stakes-review.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes — agendas are already up to date."
+          else
+            git commit -m "chore: refresh civic data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
