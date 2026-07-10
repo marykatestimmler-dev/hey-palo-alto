@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 226" role="img" aria-label="Hey Palo Alto — Have your say — HeyPaloAlto.org">
+  <defs>
+    <style>
+      .wm{font-family:'Trebuchet MS','Comic Sans MS','Chalkboard SE','Segoe UI',sans-serif;font-weight:800;fill:#f3f1e2}
+      .tg{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:600;fill:#eef0e4}
+    </style>
+  </defs>
+  <!-- speech bubble body + tail -->
+  <path d="M120 12
+           C58 12 20 50 20 100
+           C20 142 48 174 90 184
+           L92 214 L126 186
+           C190 182 220 146 220 100
+           C220 50 182 12 120 12 Z" fill="#4f7c35"/>
+  <!-- wordmark -->
+  <text class="wm" x="120" y="86"  text-anchor="middle" font-size="56">Hey</text>
+  <text class="wm" x="120" y="138" text-anchor="middle" font-size="48">Palo Alto</text>
+  <!-- tagline -->
+  <text class="tg" x="120" y="164" text-anchor="middle" font-size="15">Have your say</text>
+  <text class="tg" x="120" y="183" text-anchor="middle" font-size="15">HeyPaloAlto.org</text>
+</svg>

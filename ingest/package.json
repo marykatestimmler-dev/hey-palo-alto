@@ -1,0 +1,16 @@
+{
+  "name": "civic-pulse-ingest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ingest Palo Alto agendas (all bodies, past 6 + next 6 months) from PrimeGov into civic-data.json/js",
+  "scripts": {
+    "start": "node ingest.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

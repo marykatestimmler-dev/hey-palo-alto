@@ -1,0 +1,2731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hey Palo Alto — Have your say</title>
+<meta name="description" content="Follow Palo Alto City Council and commission issues, see what's coming up, and email the right officials in two minutes. Independent, non-partisan, built from the city's public agendas and meeting videos.">
+<meta property="og:title" content="Hey Palo Alto — Take local action in 2 minutes">
+<meta property="og:description" content="Follow the local issues you care about and be heard. Independent and non-partisan, built from public sources.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<meta name="theme-color" content="#4f7c35">
+<!-- Editorial + friendly type: Fraunces (display serif) + Inter (UI). Loads online; falls back gracefully offline. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f6f7f1; --panel:#ffffff; --ink:#17251c; --muted:#5a6b5c;
+    --line:#e3ebe1; --brand:#0e7c4a; --brand-dark:#0a5c37; --accent:#12a5b8;
+    --warm:#a5610c; --action:#dc1f5c; --action-dark:#c31a51; --gold:#e8b04b; --sky:#12a5b8;
+    --chip:#eef3e8; --header-bg:#f7f5ea;
+    --shadow:0 1px 2px rgba(30,45,20,.06),0 8px 24px rgba(30,45,20,.07);
+    --shadow-lift:0 6px 16px rgba(30,45,20,.10),0 18px 40px rgba(30,45,20,.10);
+    --radius:16px;
+    --spring:cubic-bezier(.32,1.22,.55,1);  /* gentle spring — dialed down from 1.56 overshoot per MK */
+    --serif:'Fraunces',Georgia,'Times New Roman',serif;
+    --sans:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:var(--sans);
+    background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 12% -5%,rgba(79,124,53,.06),transparent 40%),radial-gradient(circle at 92% 0%,rgba(63,125,140,.05),transparent 38%)}
+  a{color:var(--brand);text-decoration:none}
+  a:hover{text-decoration:underline}
+  /* Links inside body text must not rely on color alone (v4 a11y fix) */
+  main p a:not(.btn), .note a, .databanner a{text-decoration:underline;text-underline-offset:2px}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* Header */
+  header.app{background:#f3f1e2;color:var(--brand-dark);padding:30px 0 12px;position:relative;overflow:hidden}
+  /* City-hall backdrop (option A) — sits behind the brand row, faded into the cream on its left edge */
+  .header-bg{position:absolute;right:0;top:0;bottom:0;height:100%;width:60%;object-fit:cover;object-position:center;
+    opacity:.92;z-index:0;pointer-events:none;
+    -webkit-mask-image:linear-gradient(to right,transparent 0%,#000 34%);mask-image:linear-gradient(to right,transparent 0%,#000 34%)}
+  @media(max-width:720px){.header-bg{opacity:.5}}
+  @media(max-width:560px){.header-bg{display:none}}
+  header.app::after{content:"";position:absolute;right:-60px;top:-40px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(232,176,75,.18),transparent 70%);pointer-events:none}
+  .brandrow{display:flex;align-items:center;gap:22px;flex-wrap:wrap;position:relative;z-index:1}
+  .logo{flex:none;display:grid;place-items:center}
+  .logo img,.logo svg{width:auto;height:190px;max-width:400px;display:block;object-fit:contain;filter:drop-shadow(0 6px 14px rgba(40,70,25,.14))}
+  .brandtext{background:rgba(249,247,236,.82);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);
+    border-radius:16px;padding:14px 20px;box-shadow:0 2px 10px rgba(40,70,25,.06)}
+  .brandtext h1{margin:0;font-family:var(--serif);font-size:45px;font-weight:900;letter-spacing:-.9px;line-height:1.06;color:var(--brand-dark);max-width:780px}
+  .brandtext p{margin:7px 0 0;font-size:15px;color:var(--muted);max-width:430px;line-height:1.45}
+  .neutral-badge{margin-left:auto;align-self:flex-start;background:#fff;border:1px solid var(--line);
+    padding:7px 13px;border-radius:999px;font-size:12px;font-weight:700;color:var(--brand-dark);display:flex;align-items:center;gap:6px;box-shadow:var(--shadow)}
+  .neutral-badge svg{width:14px;height:14px}
+  @media(max-width:560px){.logo img,.logo svg{height:170px}.brandtext h1{font-size:32px}}
+  /* Slim header on inner views (v4 audit P1) — the full poster header lives on Home only;
+     everywhere else it collapses to a compact brand bar so content starts at the fold.
+     The h1 stays in the DOM (screen-reader-only) so the page always has its heading. */
+  body.inner header.app{padding:10px 0}
+  body.inner .header-bg{display:none}
+  body.inner header.app::after{display:none}
+  body.inner .brandrow{gap:14px;flex-wrap:nowrap;align-items:center}
+  body.inner .logo img,body.inner .logo svg{height:54px;max-width:160px;filter:none}
+  body.inner .brandtext{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+    clip:rect(0 0 0 0);white-space:nowrap;border:0;box-shadow:none;background:none}
+  body.inner .neutral-badge{align-self:center}
+  @media(max-width:560px){body.inner .logo img,body.inner .logo svg{height:44px}body.inner header.app{padding:8px 0}}
+
+  /* Nav */
+  nav.tabs{background:#f3f1e2;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30;box-shadow:0 2px 8px rgba(40,70,25,.05)}
+  .tabrow{display:flex;gap:4px;overflow-x:auto}
+  .tab{appearance:none;border:0;background:none;font:inherit;cursor:pointer;color:var(--muted);
+    padding:14px 16px;font-weight:600;font-size:14.5px;border-bottom:3px solid transparent;white-space:nowrap;display:flex;align-items:center;gap:7px}
+  .tab .count{background:var(--chip);color:var(--brand);border-radius:999px;font-size:11px;padding:1px 7px;font-weight:700}
+  .tab:hover{color:var(--ink)}
+  .tab.active{color:var(--brand);border-bottom-color:var(--brand)}
+  @media(max-width:560px){
+    .tabrow{display:grid;grid-template-columns:repeat(5,1fr);gap:0}
+    .tab{flex-direction:column;gap:3px;padding:9px 2px 10px;font-size:11.5px;justify-content:center;border-bottom-width:3px}
+    .tab svg{width:18px;height:18px}
+  }
+
+  /* Subnav (within-area pills) */
+  .subnav-bar{background:var(--bg);border-bottom:1px solid var(--line);position:sticky;top:48px;z-index:29}
+  .subnav{display:flex;gap:8px;overflow-x:auto;padding:10px 20px}
+  .pill{appearance:none;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 15px;
+    font:inherit;font-size:13.5px;font-weight:600;cursor:pointer;color:var(--ink);white-space:nowrap;
+    display:inline-flex;align-items:center;gap:7px;transition:.12s}
+  .pill:hover{border-color:var(--brand)}
+  .pill.active{background:var(--brand);border-color:var(--brand);color:#fff}
+  .pill .count{background:rgba(255,255,255,.92);color:var(--brand-dark);border-radius:999px;font-size:11px;padding:1px 7px;font-weight:700}
+  .pill:not(.active) .count{background:var(--chip);color:var(--brand-dark)}
+
+  /* "Your one thing this week" */
+  .onething{position:relative;overflow:hidden;background:linear-gradient(135deg,#33511d,#476f30);
+    border-radius:24px;padding:30px 32px;margin:6px 0 28px;color:#f4f5ee;box-shadow:var(--shadow-lift)}
+  .onething::before{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;border-radius:50%;
+    background:repeating-radial-gradient(circle at center,rgba(255,255,255,.09) 0 2px,transparent 2px 20px);pointer-events:none}
+  .ot-eyebrow{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;letter-spacing:.7px;
+    text-transform:uppercase;color:#f2c875;margin-bottom:12px}
+  .onething h2{font-family:var(--serif);font-weight:600;font-size:25px;line-height:1.15;letter-spacing:-.4px;margin:0 0 8px;color:#fff;max-width:620px}
+  .ot-sum{margin:0 0 12px;font-size:15px;color:#dfe7d4;line-height:1.55;max-width:600px}
+  .ot-door{margin:0 0 18px;font-size:14.5px;font-weight:600;color:#f4f5ee}
+  .ot-actions{display:flex;flex-wrap:wrap;gap:10px;position:relative}
+  .ot-ghost{background:transparent;border:1.5px solid rgba(255,255,255,.55);color:#fff}
+  .ot-ghost:hover{background:rgba(255,255,255,.12);border-color:#fff}
+  .ot-note{margin:14px 0 0;font-size:12px;color:#cfe3bf}
+  @media(max-width:560px){.onething{padding:22px 20px}.onething h2{font-size:21px}}
+
+  /* Your civic footprint — personal action history (self-efficacy) */
+  .footprint{background:#fff;border:1.5px solid var(--brand);border-radius:16px;padding:18px 22px;margin:0 0 22px}
+  .fp-eyebrow{display:block;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--brand-dark);margin-bottom:6px}
+  .fp-line{margin:0 0 10px;font-size:15.5px;line-height:1.5}
+  .fp-stats{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px}
+  .fp-stat{background:var(--cream,#f3f1e2);border-radius:999px;padding:5px 13px;font-size:13px;font-weight:700}
+  .fp-recent{margin:8px 0 0;padding:0;list-style:none;font-size:13px;color:#5a5f53}
+  .fp-recent li{margin:3px 0}
+  /* Your grove — the footprint counter as a living redwood grove (El Palo Alto motif).
+     Trees are inline SVG in the site's flat-vector language; one tree per weigh-in. */
+  .fp-grove{margin:4px 0 14px;background:linear-gradient(180deg,#f4f9f1 0%,#eef4e7 100%);border-radius:14px;overflow:hidden}
+  .fp-grove svg{width:100%;height:auto;display:block}
+  .fp-grove .tree{transform-box:fill-box;transform-origin:bottom center}
+  .fp-grove .tree-new{animation:treeGrow .9s var(--spring) both}
+  @keyframes treeGrow{from{transform:scaleY(.08) scaleX(.55);opacity:0}60%{opacity:1}to{transform:none;opacity:1}}
+  /* Real-momentum chip on issue cards */
+  .agchip{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;font-weight:700;color:var(--brand-dark);
+    background:rgba(79,124,53,.1);border-radius:999px;padding:3px 9px}
+
+  /* Accessibility: skip link, visible keyboard focus, reduced motion */
+  .skip-link{position:absolute;left:-9999px;top:0;z-index:100;background:var(--brand-dark);color:#fff;
+    padding:10px 18px;border-radius:0 0 11px 0;font-weight:700;font-size:14px;text-decoration:none}
+  .skip-link:focus{left:0}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+  .view h2[tabindex="-1"]:focus,.view h3[tabindex="-1"]:focus{outline:none}
+  :focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-radius:4px}
+  .btn:focus-visible,.tab:focus-visible,.pick-chip:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;
+      transition-duration:.01ms !important;scroll-behavior:auto !important}
+  }
+
+  main{padding:24px 0 60px}
+  .view{display:none}
+  .view.active{display:block;animation:fade .25s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+  .lead{font-size:16px;color:var(--muted);max-width:680px;margin:0 0 18px;line-height:1.6}
+  .lead .yc{color:var(--brand-dark);font-weight:700;font-family:var(--serif);font-size:18px}
+
+  /* TOP TOPIC PICKER — the hero of the home page; the first thing you reach for */
+  .topic-picker{margin:8px 0 26px;background:#e9f3ec;border:1px solid #cfe6d6;
+    border-radius:22px;padding:clamp(20px,3vw,30px);box-shadow:var(--shadow)}
+  .tp-q{font-family:var(--serif);font-weight:900;font-size:clamp(28px,4.6vw,42px);line-height:1.05;
+    letter-spacing:-.8px;color:var(--brand-dark);margin:0 0 16px}
+  .tp-sub{font-size:16px;color:var(--muted);margin:0 0 18px}
+  .tp-chips{display:flex;flex-wrap:wrap;gap:12px}
+  /* Mobile (v4 fix): one swipeable row instead of ~10 screens of stacked chips */
+  @media(max-width:560px){.tp-chips{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:8px;scrollbar-width:thin}.tp-chips .tp-chip{flex:none}}
+  .tp-chip{display:inline-flex;align-items:center;gap:10px;border:2px solid var(--line);background:#fff;
+    color:var(--ink);font-family:var(--sans);font-weight:700;font-size:17.5px;border-radius:999px;
+    padding:14px 24px;cursor:pointer;box-shadow:var(--shadow);transition:transform .1s ease,border-color .12s,background .12s,color .12s,box-shadow .12s}
+  .tp-chip:hover{transform:translateY(-2px);border-color:var(--tc,#cdd7c1);box-shadow:var(--shadow-lift)}
+  .tp-chip svg{width:21px;height:21px}
+  .tp-chip.sel{background:var(--tc,#4f7c35);border-color:var(--tc,#4f7c35);color:#fff}
+  .tp-chip.sel svg{stroke:#fff}
+  .tp-all{font-weight:800}
+  .tp-all.sel{background:var(--brand-dark);border-color:var(--brand-dark);color:#fff}
+  @media(max-width:560px){.tp-chip{font-size:15.5px;padding:12px 18px}.tp-chip svg{width:18px;height:18px}}
+
+  .ic{width:1em;height:1em;flex:none;vertical-align:-.13em}
+  .btn-mega svg{width:18px;height:18px}
+  /* Chunkier, warmer icon set — heavier stroke + round joins on functional icons only
+     (illustration SVGs like .ah-art / .po-art are deliberately excluded) */
+  .tab svg, .btn svg, .btn-mega svg, .btn-attend svg, .hero-cta svg,
+  .tp-chip svg, .chipfilter svg, .tchip svg, .tbadge svg,
+  .how-ico svg, .act-ico svg, .neutral-badge svg, .attend-col .ac-head svg,
+  svg.ic{stroke-width:2.6px;stroke-linecap:round;stroke-linejoin:round}
+  /* Celebration when a resident opens their draft (positive reinforcement of the act) */
+  .confetti-layer{position:fixed;inset:0;pointer-events:none;z-index:999;overflow:hidden}
+  .confetti-bit{position:absolute;top:14vh;width:9px;height:14px;border-radius:2px;opacity:0;
+    animation:confetti 1.15s cubic-bezier(.2,.6,.3,1) forwards}
+  @keyframes confetti{0%{opacity:0;transform:translate(0,-12px) rotate(0)}
+    14%{opacity:1}100%{opacity:0;transform:translate(var(--dx),48vh) rotate(var(--rot))}}
+  .cheer{position:fixed;left:50%;top:20vh;transform:translateX(-50%) scale(.7);z-index:999;pointer-events:none;
+    display:flex;align-items:center;gap:9px;background:var(--brand);color:#fff;font-weight:800;font-size:15px;
+    padding:12px 20px;border-radius:999px;box-shadow:var(--shadow-lift);opacity:0;animation:cheer 1.6s ease forwards}
+  .cheer svg{width:20px;height:20px}
+  .cheer .cheer-sub{display:block;font-size:11.5px;font-weight:600;opacity:.85;margin-top:1px}
+  @keyframes cheer{0%{opacity:0;transform:translateX(-50%) scale(.7)}
+    16%{opacity:1;transform:translateX(-50%) scale(1.06)}28%{transform:translateX(-50%) scale(1)}
+    78%{opacity:1}100%{opacity:0;transform:translateX(-50%) scale(1)}}
+  @media (prefers-reduced-motion: reduce){.confetti-layer,.cheer{display:none}}
+  /* Attend-meeting panel (inside the modal) */
+  .attend-eyebrow{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--brand-dark);margin-bottom:6px}
+  .attend-when{display:grid;gap:12px;background:#e9f3ec;border:1px solid #cfe6d6;border-radius:14px;padding:16px 18px;margin:2px 0 14px}
+  .attend-when .aw-label{display:block;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+  .attend-when a{color:var(--brand-dark);font-weight:600}
+  .attend-cal{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 18px}
+  .attend-cal .btn svg{width:17px;height:17px;margin-right:2px}
+  .attend-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 8px}
+  @media(max-width:560px){.attend-cols{grid-template-columns:1fr}}
+  .attend-col{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:14px 16px}
+  .attend-col .ac-head{font-weight:800;font-size:14.5px;color:var(--brand-dark);margin-bottom:8px}
+  .attend-col ol{margin:0;padding-left:18px;font-size:13.5px;line-height:1.5;color:var(--ink)}
+  .attend-col li{margin-bottom:6px}
+  .attend-col a{color:var(--sky);font-weight:600}
+  /* Secondary "Attend" button on the poster */
+  .btn-attend{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1.5px solid rgba(255,255,255,.6);
+    color:#fff;font-weight:800;font-size:15px;border-radius:12px;padding:12px 18px;cursor:pointer;transition:background .12s,border-color .12s}
+  .btn-attend:hover{background:rgba(255,255,255,.24);border-color:#fff}
+  .btn-attend svg{width:18px;height:18px}
+
+  /* ACTION POSTER — the front door: one live decision, one giant button */
+  .poster{position:relative;overflow:hidden;border-radius:18px;margin:0 0 22px;color:#fff;
+    background:radial-gradient(130% 150% at 88% -25%,#0f8aa0 0%,#0e7c4a 52%,#0a5c37 100%);
+    padding:clamp(18px,3vw,26px);box-shadow:var(--shadow)}
+  .po-now{display:inline-flex;align-items:center;gap:7px;background:#e8b04b;color:#3a2c08;
+    font-weight:800;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:11px}
+  .po-now .pulse{width:8px;height:8px;border-radius:50%;background:#3a2c08;animation:pulse 1.6s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+  .poster h2{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-family:var(--serif);font-weight:900;font-size:clamp(19px,2.8vw,26px);line-height:1.08;
+    letter-spacing:-.5px;margin:0 0 8px;max-width:560px;position:relative;z-index:1}
+  .po-when{font-size:clamp(13px,1.5vw,14.5px);font-weight:600;color:#eef0dc;margin:0 0 14px;max-width:560px;position:relative;z-index:1}
+  .po-when b{color:#ffd98a}
+  .po-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;position:relative;z-index:1}
+  .btn-mega{display:inline-flex;align-items:center;gap:8px;background:#dc1f5c;color:#fff;font-weight:800;
+    font-size:15px;border:0;border-radius:12px;padding:12px 20px;cursor:pointer;text-decoration:none;
+    box-shadow:0 5px 16px rgba(0,0,0,.22);transition:transform .12s ease,background .12s ease}
+  .btn-mega:hover{transform:scale(1.04);background:#c31a51}
+  .btn-skip{background:transparent;border:1.5px solid rgba(255,255,255,.5);color:#fff;font-weight:700;font-size:13px;
+    border-radius:11px;padding:10px 15px;cursor:pointer;transition:border-color .12s,background .12s}
+  .btn-skip:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+  /* Quiet text links under the poster's two actions (v4 audit P1: exactly one
+     unmistakable primary + one secondary; everything else demoted to links) */
+  .po-links{margin:12px 0 0;position:relative;z-index:1;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .po-link{appearance:none;background:none;border:0;padding:0;cursor:pointer;font:inherit;
+    font-size:13.5px;font-weight:700;color:#fff;text-decoration:underline;text-underline-offset:3px;
+    text-decoration-color:rgba(255,255,255,.55)}
+  .po-link:hover{text-decoration-color:#fff}
+  .po-linksep{color:rgba(255,255,255,.6)}
+  .po-meta{margin:12px 0 0;font-size:11.5px;color:#cfe3bf;position:relative;z-index:1}
+  .po-official{margin:-4px 0 10px;font-size:12.5px;color:#cfe3bf;position:relative;z-index:1;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:640px}
+  .po-count{position:absolute;top:22px;right:26px;font-size:12px;font-weight:700;color:#eef0dc;
+    background:rgba(0,0,0,.22);padding:5px 12px;border-radius:999px;z-index:1}
+  .po-art{position:absolute;right:-34px;bottom:-38px;width:330px;pointer-events:none}
+  .po-art svg{transform-origin:70% 70%;animation:hpDrift 14s ease-in-out infinite}
+  @media(max-width:700px){.po-art{width:200px;right:-50px;opacity:.45}}
+
+  /* Poster art strip — the current issue's topic banner, swaps as the deck flips */
+  .poster.has-strip{padding-bottom:78px}
+  .po-strip{position:absolute;left:0;right:0;bottom:0;height:54px;z-index:0}
+  .po-strip img{width:100%;height:100%;object-fit:cover;display:block}
+  .po-strip::before{content:"";position:absolute;left:0;right:0;top:0;height:42px;
+    background:linear-gradient(180deg,rgba(44,74,30,.55),rgba(44,74,30,0));z-index:1;pointer-events:none}
+  .poster.has-strip .po-art{bottom:44px}
+  @media(max-width:700px){.poster.has-strip{padding-bottom:64px}.po-strip{height:44px}}
+
+  /* Front-page closer — full-width brand scene */
+  .front-art{margin:18px 0 0;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow)}
+  .front-art img{width:100%;height:auto;display:block}
+  .front-art .fa-media{width:100%;aspect-ratio:16/9;max-height:480px;object-fit:cover;display:block;background:#f3f1e2}
+  .fa-bar{display:flex;align-items:center;gap:12px;padding:13px 18px;flex-wrap:wrap}
+  .fa-bar span{font-family:var(--serif);font-weight:600;font-size:17px;color:var(--brand-dark)}
+  .fa-bar .btn{margin-left:auto}
+
+  /* Area-hero picture slot — img/area-<view>.png replaces nothing, it joins the hero */
+  .area-hero{flex-wrap:wrap}
+  .ah-img{flex:1 1 100%;margin-top:14px}
+  .ah-img img{width:100%;height:112px;object-fit:cover;border-radius:14px;display:block}
+
+  /* Personalized plan art */
+  .plan-art{margin:0 0 12px}
+  .plan-art img{width:100%;height:92px;object-fit:cover;border-radius:13px;display:block}
+
+  /* "Make it yours" — personalization deferred behind one friendly chip */
+  .make-yours{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:#fff;
+    border:1.5px dashed var(--brand);border-radius:16px;padding:15px 20px;margin:0 0 20px;cursor:pointer;
+    font-family:var(--sans);font-size:15px;color:var(--ink);transition:background .12s}
+  .make-yours:hover{background:#f4f8ef}
+  .make-yours .my-go{margin-left:auto;font-weight:800;color:var(--brand);white-space:nowrap}
+
+  /* Card art band — illustrated topic block; img slot drops nano-banana art in by filename */
+  .card-art{position:relative;height:96px;margin:-20px -20px 14px;border-radius:var(--radius) var(--radius) 0 0;
+    overflow:hidden;background:var(--tbg,#eef1ea)}
+  .card-art svg{position:absolute;inset:0;width:100%;height:100%}
+  .card-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+
+  /* Poster-style area heroes — big empowering headline + spot illustration */
+  .area-hero{display:flex;align-items:center;justify-content:space-between;gap:20px;border-radius:22px;
+    padding:26px 30px;margin:0 0 22px;background:var(--ah-bg,#eef4e7);position:relative;overflow:hidden}
+  .area-hero .ah-text{max-width:560px}
+  .area-hero h2{font-family:var(--serif);font-size:clamp(26px,4.5vw,36px);line-height:1.06;letter-spacing:-.7px;
+    margin:0 0 8px;color:var(--ah-ink,var(--brand-dark));font-weight:600}
+  .area-hero p{margin:0;font-size:14.5px;color:var(--muted);line-height:1.5} /* solid color, no opacity (v4 a11y: opacity washed colored words below AA) */
+  .area-hero .ah-art{flex:0 0 auto}
+  .area-hero .ah-art svg{width:130px;height:130px;display:block;transform-origin:center;animation:hpFloat 6.5s ease-in-out infinite}
+  @keyframes hpFloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-6px) rotate(-1.4deg)}}
+  @keyframes hpDrift{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-5px) rotate(4deg)}}
+  @media(max-width:620px){.area-hero{padding:20px 22px}.area-hero .ah-art svg{width:88px;height:88px}}
+  @media(max-width:440px){.area-hero .ah-art{display:none}}
+
+  /* Real-numbers strip — the city is reachable, in big type */
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 24px}
+  .stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px 14px;text-align:center;box-shadow:var(--shadow)}
+  .stat b{display:block;font-family:var(--serif);font-size:36px;font-weight:600;color:var(--brand-dark);line-height:1.05}
+  .stat span{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+  @media(max-width:560px){.stat b{font-size:25px}.stat span{font-size:10.5px}}
+  h2.section{font-family:var(--serif);font-size:22px;letter-spacing:-.2px;color:var(--brand-dark);margin:30px 0 14px;font-weight:600}
+
+  /* Hero */
+  .hero{display:flex;flex-direction:column;gap:20px;
+    background:linear-gradient(135deg,#eef4e7,#f7f3e6 55%,#eaf1ee);border:1px solid var(--line);
+    border-radius:24px;padding:30px 32px 26px;margin:6px 0 22px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .hero-eyebrow{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;letter-spacing:.6px;
+    text-transform:uppercase;color:var(--brand);background:#fff;border:1px solid var(--line);padding:5px 11px;border-radius:999px;margin-bottom:14px}
+  .hero h2{font-family:var(--serif);font-weight:600;font-size:30px;line-height:1.12;letter-spacing:-.6px;margin:0 0 10px;color:var(--brand-dark)}
+  .hero p{margin:0 0 16px;font-size:15.5px;color:var(--muted);max-width:440px;line-height:1.5}
+  .hero-cta{display:inline-flex;align-items:center;gap:8px;background:var(--brand);color:#fff;font-weight:700;font-size:14.5px;
+    border:0;border-radius:11px;padding:11px 18px;cursor:pointer;box-shadow:var(--shadow)}
+  .hero-cta:hover{background:var(--brand-dark)}
+  .hero-art{width:100%}
+  .hero-art img{width:100%;height:auto;display:block;border-radius:16px;box-shadow:var(--shadow-lift);border:1px solid rgba(0,0,0,.04)}
+  .hero-art svg{width:100%;max-width:320px;height:auto;display:block;margin:0 auto}
+  @media(max-width:720px){.hero{padding:24px}.hero h2{font-size:25px}}
+
+  /* How it works */
+  .how{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 0 26px}
+  .how-step{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px;box-shadow:var(--shadow);position:relative}
+  .how-num{position:absolute;top:14px;right:16px;font-family:var(--serif);font-size:30px;font-weight:600;color:#e7ecdf;line-height:1}
+  .how-ico{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;margin-bottom:11px}
+  .how-ico svg{width:22px;height:22px}
+  .how-step h3{margin:0 0 4px;font-family:var(--serif);font-weight:600;font-size:16.5px;color:var(--ink)}
+  .how-step p{margin:0;font-size:13.5px;color:var(--muted);line-height:1.45}
+  @media(max-width:680px){.how{grid-template-columns:1fr}}
+
+  /* Act locally */
+  .act-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:8px}
+  .act-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .15s ease,box-shadow .15s ease}
+  .act-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lift)}
+  .act-ico{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;margin-bottom:12px}
+  .act-ico svg{width:23px;height:23px}
+  .act-card h3{margin:0 0 6px;font-family:var(--serif);font-weight:600;font-size:17px;line-height:1.2;color:var(--ink)}
+  .act-card p{margin:0 0 14px;font-size:13.5px;color:var(--muted);line-height:1.5;flex:1}
+  .act-card .btn{align-self:flex-start}
+
+  /* Start Here */
+  .tab-start{color:var(--brand);font-weight:800}
+  .start-hero{background:linear-gradient(135deg,#eef4e7,#f7f3e6 55%,#eaf1ee);border:1px solid var(--line);border-radius:22px;padding:28px 30px;margin-bottom:24px}
+  .start-h{font-family:var(--serif);font-weight:600;font-size:30px;line-height:1.1;letter-spacing:-.6px;margin:8px 0 8px;color:var(--brand-dark)}
+  .start-hero p{margin:0;font-size:16px;color:var(--muted);max-width:560px;line-height:1.55}
+  .start-step{margin:0 0 26px}
+  .start-q{font-family:var(--serif);font-weight:600;font-size:21px;color:var(--ink);margin:0 0 4px;display:flex;align-items:center;gap:10px}
+  .start-n{width:28px;height:28px;border-radius:50%;background:var(--brand);color:#fff;font-family:var(--sans);font-size:14px;font-weight:700;display:grid;place-items:center;flex:none}
+  .start-hint{margin:0 0 14px;font-size:14px;color:var(--muted)}
+  .pick-grid{display:flex;flex-wrap:wrap;gap:10px}
+  .pick-chip{appearance:none;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:10px 16px;font:inherit;font-size:14.5px;font-weight:600;cursor:pointer;color:var(--ink);transition:.12s}
+  .pick-chip:hover{border-color:var(--brand)}
+  .pick-chip.sel{background:var(--brand);border-color:var(--brand);color:#fff}
+  .pick-chip.sel::before{content:"✓ "}
+  .pick-card{position:relative;cursor:pointer;border:1.5px solid var(--line);transition:.12s}
+  .pick-card:hover{border-color:var(--brand)}
+  .pick-card.sel{border-color:var(--brand);box-shadow:0 0 0 3px rgba(79,124,53,.15)}
+  .pick-card .pick-check{position:absolute;top:12px;right:12px;width:22px;height:22px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;color:#fff;font-size:13px}
+  .pick-card.sel .pick-check{background:var(--brand);border-color:var(--brand)}
+  .start-email{width:100%;max-width:420px;padding:12px 15px;border:1px solid var(--line);border-radius:11px;font:inherit;background:#fff}
+  .plan-section{margin:0 0 26px}
+  .plan-banner{background:var(--brand-dark);color:#fff;border-radius:20px;padding:26px 28px;margin-bottom:22px}
+  .plan-banner h2{font-family:var(--serif);font-weight:600;font-size:27px;margin:0 0 6px;letter-spacing:-.4px}
+  .plan-banner p{margin:0;opacity:.92;font-size:15px}
+  .plan-banner .chips{margin-top:14px;display:flex;flex-wrap:wrap;gap:7px}
+  .plan-banner .chips .chip{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.25)}
+  .act-card.pick-on{box-shadow:0 0 0 2px var(--brand);border-color:var(--brand)}
+  .act-card .yourpick{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:var(--brand);background:#eaf2e4;border-radius:999px;padding:2px 9px;margin-bottom:8px}
+
+  /* Local news */
+  #newsList{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+  .news-card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px;box-shadow:var(--shadow);
+    text-decoration:none;color:inherit;transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+  .news-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lift);border-color:#d4ddc8;text-decoration:none}
+  .news-meta{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+  .news-src{font-size:11.5px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:var(--brand)}
+  .news-date{font-size:12px;color:var(--muted)}
+  .news-card h3{margin:0 0 8px;font-family:var(--serif);font-weight:600;font-size:18px;line-height:1.25;color:var(--ink)}
+  .news-card p{margin:0 0 14px;font-size:13.5px;color:var(--muted);line-height:1.5}
+  .news-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+  .news-read{font-size:12.5px;font-weight:600;color:var(--brand);white-space:nowrap}
+  /* Related news inside issue modal */
+  .rnews{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid var(--line);text-decoration:none;color:inherit}
+  .rnews:last-child{border-bottom:0}
+  .rnews:hover .rnews-title{text-decoration:underline}
+  .rnews-dot{width:7px;height:7px;border-radius:50%;background:var(--brand);margin-top:7px;flex:none}
+  .rnews-title{display:block;font-size:14px;font-weight:600;color:var(--ink);line-height:1.3}
+  .rnews-src{display:block;font-size:12px;color:var(--muted);margin-top:1px}
+
+  /* Filters */
+  .filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+  .filters input[type=search]{flex:1;min-width:200px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff}
+  .chipfilter{appearance:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 13px;font:inherit;font-size:13px;cursor:pointer;color:var(--muted);font-weight:600}
+  .chipfilter.active{background:var(--brand);color:#fff;border-color:var(--brand)}
+
+  /* Issue cards */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);display:flex;flex-direction:column;position:relative;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
+  .card::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:5px;border-radius:5px;background:var(--tc,var(--brand));opacity:.6;transition:opacity .16s ease}
+  .card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lift);border-color:var(--tc,#d4ddc8)}
+  .card:hover::before{opacity:1}
+  .card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:12px}
+  .card-head-r{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;align-items:center}
+  .tbadge{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;flex:none}
+  .tbadge svg{width:24px;height:24px}
+  .tchip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:700;border-radius:999px;padding:3px 10px 3px 7px;line-height:1.3}
+  .tchip svg{width:13px;height:13px;flex:none}
+  .sum.clamp2{display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card .topics{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:13px}
+  .chip{background:var(--chip);color:var(--brand-dark);border-radius:999px;font-size:11.5px;padding:3px 10px;font-weight:600}
+  .chip.status{background:#fff;border:1px solid var(--line)}
+  .chip.upcoming{color:var(--warm);border-color:#e8cdb0;background:#fdf6ee}
+  .chip.discussed{color:var(--accent);border-color:#c2ded7;background:#eef7f4}
+  .chip.data-real{background:#e7f3ec;color:#1d6b3f;border:1px solid #b8ddc6;font-weight:700}
+  .chip.data-sample{background:#eef0e4;color:#5a6b5c;border:1px solid #dbe0cf;font-weight:700}
+  .approx{font-size:11px;color:var(--muted);font-style:italic;margin-left:6px}
+  .agenda-guide{background:#f3f7fb;border:1px solid #dbe6ef;border-radius:9px;padding:9px 12px;font-size:13px;color:#33485c;margin:6px 0 8px}
+  .agenda-guide b{color:var(--brand-dark)}
+  .item-tag{display:inline-block;background:var(--brand);color:#fff;font-size:11px;font-weight:700;border-radius:6px;padding:2px 8px;margin-right:6px}
+  .databanner{background:#eef3f7;border:1px solid #d6e2ec;border-radius:12px;padding:12px 16px;margin-bottom:16px;font-size:13px;color:#33485c;display:flex;gap:10px;align-items:flex-start}
+  .databanner b{color:var(--brand-dark)}
+  .databanner .dot{color:#1d6b3f;font-weight:700}
+  .src-link{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;margin-top:8px}
+  .card h3{margin:0 0 7px;font-family:var(--serif);font-size:19px;font-weight:600;line-height:1.22;letter-spacing:-.2px;color:var(--ink)}
+  .card p.sum{margin:0 0 14px;font-size:14px;color:var(--muted);flex:1}
+  .card .bodies{font-size:12.5px;color:var(--muted);margin-bottom:14px}
+  .card .bodies b{color:var(--ink);font-weight:600}
+  .cardfoot{display:flex;gap:8px;flex-wrap:wrap}
+
+  .btn{appearance:none;border:1px solid var(--brand);background:var(--brand);color:#fff;font:inherit;font-weight:600;font-size:13.5px;
+    padding:9px 14px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:.12s}
+  .btn:hover{background:var(--brand-dark);border-color:var(--brand-dark)}
+  .btn svg{width:15px;height:15px}
+  .btn.ghost{background:#fff;color:var(--brand)}
+  .btn.ghost:hover{background:var(--chip)}
+  .btn.following{background:#0c7a89;border-color:#0c7a89}  /* darkened teal — WCAG AA (was var(--accent) at 2.96:1) */
+  .btn.following:hover{background:#256356;border-color:#256356}
+  .btn.small{padding:7px 11px;font-size:12.5px}
+  .btn.warm{background:var(--action);border-color:var(--action)}
+  .btn.warm:hover{background:var(--action-dark);border-color:var(--action-dark)}
+
+  /* Detail modal */
+  .modal-bg{position:fixed;inset:0;background:rgba(15,30,45,.45);backdrop-filter:blur(2px);z-index:50;display:none;align-items:flex-start;justify-content:center;padding:40px 16px;overflow-y:auto}
+  .modal-bg.open{display:flex}
+  .modal{background:var(--panel);border-radius:18px;max-width:680px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.3);overflow:hidden;animation:pop .2s ease}
+  @keyframes pop{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+  .modal-head{padding:22px 24px 16px;border-bottom:1px solid var(--line);position:relative}
+  .modal-head h2{margin:8px 0 0;font-family:var(--serif);font-weight:600;font-size:25px;line-height:1.18;letter-spacing:-.3px;padding-right:34px}
+  .modal-close{position:absolute;top:18px;right:18px;width:30px;height:30px;border-radius:8px;border:0;background:var(--chip);cursor:pointer;font-size:17px;color:var(--muted);line-height:1}
+  .modal-body{padding:20px 24px 26px}
+  .modal-body h3{font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:22px 0 10px}
+  .modal-body h3:first-child{margin-top:0}
+  .timeline{border-left:2px solid var(--line);padding-left:16px;margin-left:4px}
+  .seg{margin-bottom:16px;position:relative}
+  .seg::before{content:"";position:absolute;left:-23px;top:4px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid #fff}
+  .seg .when{font-size:12.5px;color:var(--muted);margin-bottom:2px}
+  .seg .seg-title{font-weight:600;font-size:14.5px;margin-bottom:3px}
+  .seg p{margin:0 0 8px;font-size:13.5px;color:var(--muted)}
+  .ts-link{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;background:#fce9df;color:var(--warm);padding:4px 10px;border-radius:8px}
+  .ts-link svg{width:13px;height:13px}
+  .upcoming-item{background:#fdf6ee;border:1px solid #f0ddc7;border-radius:10px;padding:12px 14px;margin-bottom:10px}
+  .upcoming-item .when{font-weight:700;color:var(--warm);font-size:13px}
+  .official-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+  .official{background:var(--chip);border-radius:9px;padding:6px 11px;font-size:12.5px;color:var(--ink)}
+  .modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+
+  /* Following / alerts */
+  .alert{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:12px;padding:16px 18px;margin-bottom:12px;box-shadow:var(--shadow);display:flex;gap:14px;align-items:flex-start}
+  .alert.is-upcoming{border-left-color:var(--warm)}
+  .alert.is-discussed{border-left-color:var(--accent)}
+  .alert .ico{width:34px;height:34px;border-radius:9px;flex:none;display:grid;place-items:center;background:var(--chip)}
+  .alert .ico svg{width:18px;height:18px}
+  .alert .when{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-weight:700}
+  .alert h3{margin:3px 0 4px;font-size:15.5px}
+  .alert p{margin:0 0 10px;font-size:13.5px;color:var(--muted)}
+  .alert .actions{display:flex;gap:8px;flex-wrap:wrap}
+  .empty{text-align:center;padding:50px 20px;color:var(--muted)}
+  .empty svg{width:46px;height:46px;opacity:.4;margin-bottom:10px}
+
+  /* Calendar list */
+  .cal-day{display:flex;gap:16px;margin-bottom:14px}
+  .cal-date{flex:none;width:64px;text-align:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 0;box-shadow:var(--shadow)}
+  .cal-date .m{font-size:11px;text-transform:uppercase;color:var(--warm);font-weight:700;letter-spacing:.5px}
+  .cal-date .d{font-size:22px;font-weight:700;line-height:1}
+  .cal-card{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow)}
+  .cal-card .body-name{font-size:12.5px;color:var(--brand);font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+  .cal-card h3{margin:4px 0 6px;font-size:15.5px}
+  .cal-card ul{margin:8px 0 0;padding-left:18px;font-size:13.5px;color:var(--muted)}
+  .cal-card li{margin-bottom:4px}
+
+  /* Settings / email */
+  .panel-box{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);max-width:640px}
+  .panel-box label{display:block;font-weight:600;font-size:13.5px;margin:14px 0 6px}
+  .panel-box input[type=email]{width:100%;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font:inherit}
+  .note{font-size:12.5px;color:var(--muted);background:var(--chip);border-radius:10px;padding:12px 14px;margin-top:14px}
+  .bodies-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-top:8px}
+  .body-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow);transition:transform .15s ease,box-shadow .15s ease}
+  .body-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
+  .body-card .kind-tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
+    color:var(--brand);background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:2px 9px;margin-bottom:8px}
+  .body-card h3{margin:0 0 6px;font-family:var(--serif);font-weight:600;font-size:16.5px;line-height:1.2;color:var(--ink)}
+  .body-card p{margin:0;font-size:13px;color:var(--muted);line-height:1.5}
+  /* Council member cards with photo */
+  .member-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow);
+    display:flex;gap:14px;align-items:center;transition:transform .15s ease,box-shadow .15s ease}
+  .member-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
+  .avatar{position:relative;width:64px;height:64px;border-radius:50%;overflow:hidden;flex:none;
+    background:linear-gradient(135deg,var(--brand),var(--brand-dark));display:grid;place-items:center;box-shadow:inset 0 0 0 2px rgba(255,255,255,.5)}
+  .avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .avatar-fallback{font-family:var(--serif);font-weight:600;font-size:21px;color:#fff}
+  .member-info{min-width:0}
+  .member-info h3{margin:0 0 2px;font-family:var(--serif);font-weight:600;font-size:16.5px;line-height:1.15;color:var(--ink)}
+  .member-info .member-role{margin:0 0 4px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--brand)}
+  .member-info p{margin:0;font-size:12.5px;color:var(--muted);word-break:break-word}
+
+  footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:12.5px;text-align:center}
+  .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--ink);color:#fff;padding:12px 20px;border-radius:11px;font-size:14px;font-weight:600;box-shadow:0 8px 30px rgba(0,0,0,.25);z-index:80;transition:.3s;opacity:0}
+  .toast.show{transform:translateX(-50%) translateY(0);opacity:1;animation:toastPop .45s var(--spring)}
+
+  /* ============ BOUNCE LAYER — playful motion (neutralized by the
+     prefers-reduced-motion block above) ============ */
+  .card{animation:cardIn .5s var(--spring) backwards}
+  .card:nth-child(1){animation-delay:.02s}.card:nth-child(2){animation-delay:.07s}
+  .card:nth-child(3){animation-delay:.12s}.card:nth-child(4){animation-delay:.17s}
+  .card:nth-child(5){animation-delay:.22s}.card:nth-child(6){animation-delay:.27s}
+  .card:nth-child(7){animation-delay:.32s}.card:nth-child(8){animation-delay:.37s}
+  .card:hover{transform:translateY(-3px)}
+  .card{transition:transform .35s var(--spring),box-shadow .25s ease}
+  .poster{animation:posterIn .5s var(--spring)}
+  .po-art svg{animation:artFloat 5s ease-in-out infinite alternate}
+  .btn,.pill,.tp-chip,.btn-mega,.btn-skip,.hero-cta{transition:transform .3s var(--spring),background .15s ease,border-color .15s ease,box-shadow .2s ease}
+  .btn:hover,.pill:hover{transform:translateY(-2px)}
+  .btn:active,.pill:active,.tp-chip:active,.btn-mega:active,.btn-skip:active,.hero-cta:active{transform:scale(.96)}
+  .tp-chip.sel,.btn.following{animation:chipPop .4s var(--spring)}
+  .stat b{display:block}
+  .stat{transition:transform .35s var(--spring)}
+  .stat:hover{transform:translateY(-2px)}
+  @keyframes cardIn{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+  @keyframes posterIn{0%{opacity:0;transform:translateY(10px) scale(.985)}60%{opacity:1}100%{opacity:1;transform:none}}
+  @keyframes chipPop{0%{transform:scale(.92)}55%{transform:scale(1.05)}100%{transform:scale(1)}}
+  @keyframes toastPop{0%{transform:translateX(-50%) translateY(18px) scale(.96)}70%{transform:translateX(-50%) translateY(-2px)}100%{transform:translateX(-50%) translateY(0) scale(1)}}
+  @keyframes artFloat{from{transform:translateY(0)}to{transform:translateY(-4px)}}
+  @media(max-width:560px){.brandtext h1{font-size:26px}.neutral-badge{display:none}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div id="viewAnnounce" class="sr-only" aria-live="polite"></div>
+
+<header class="app">
+  <video class="header-bg" autoplay muted loop playsinline poster="hero-poster.jpg" aria-hidden="true">
+    <source src="hero.mp4" type="video/mp4">
+  </video>
+  <div class="wrap brandrow">
+    <div class="logo">
+      <!-- Uses your logo.png if it's in this folder; otherwise shows the vector version. -->
+      <img src="logo.png" alt="Hey Palo Alto" onerror="this.remove();var f=document.getElementById('logoFallback');if(f)f.style.display='block';">
+      <span id="logoFallback" style="display:none" aria-hidden="true">
+        <svg viewBox="0 0 120 112" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 6 C29 6 10 25 10 50 C10 71 24 87 45 92 L46 107 L63 93 C95 91 110 73 110 50 C110 25 91 6 60 6 Z" fill="#0e7c4a"/>
+          <text x="60" y="44" text-anchor="middle" font-size="28" font-weight="800" fill="#f3f1e2" font-family="'Trebuchet MS','Comic Sans MS','Segoe UI',sans-serif">Hey</text>
+          <text x="60" y="73" text-anchor="middle" font-size="22" font-weight="800" fill="#f3f1e2" font-family="'Trebuchet MS','Comic Sans MS','Segoe UI',sans-serif">Palo Alto</text>
+        </svg>
+      </span>
+    </div>
+    <div class="brandtext">
+      <h1>Take local action in <b style="color:var(--warm)">2&nbsp;minutes</b>.</h1>
+    </div>
+    <div class="neutral-badge">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 7l9-4 9 4M5 7v6a7 7 0 0 0 14 0V7"/></svg>
+      Non-partisan
+    </div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="wrap tabrow">
+    <button class="tab active" data-area="home">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg>
+      Home
+    </button>
+    <button class="tab" data-area="issues">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+      Issues
+    </button>
+    <button class="tab" data-area="calendar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+      Calendar
+    </button>
+    <button class="tab" data-area="act">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 14h2a2 2 0 0 0 0-4H9.5a3 3 0 0 0-2.12.88L4 14"/><path d="M1 11h2v9H1z"/><path d="M16 14l4.5-4.3a1.7 1.7 0 0 0-2.4-2.4L13 12"/><path d="M12 6.5C12 4 9 3 8 5c-1-2-4-1-4 1.5C4 9 8 11 8 11s4-2 4-4.5z"/></svg>
+      Act
+    </button>
+    <button class="tab" data-area="vote">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7"/><path d="M3 12l3-8h12l3 8"/></svg>
+      Vote
+    </button>
+  </div>
+</nav>
+<div class="subnav-bar" id="subnavBar" style="display:none">
+  <div class="wrap subnav" id="subnav"></div>
+</div>
+
+<main id="main" tabindex="-1" style="outline:none">
+  <div class="wrap">
+
+    <!-- START HERE -->
+    <section class="view active" id="view-start">
+      <div class="topic-picker" id="topicPicker">
+        <h2 class="tp-q">What do you care about most in Palo Alto?</h2>
+        <div class="tp-chips" id="tpChips"></div>
+      </div>
+      <div id="oneThing"></div>
+      <div id="homeMatches"></div>
+      <div id="footprint"></div>
+      <div id="groveTown"></div>
+      <div class="front-art">
+        <img src="hero.png" alt="" onerror="this.closest('.front-art').remove()">
+        <div class="fa-bar">
+          <span>Palo Alto decides better with you in the room.</span>
+          <button class="btn warm small" onclick="showView('discover')">See all the issues →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCOVER -->
+    <section class="view" id="view-discover">
+      <div class="area-hero" style="--ah-bg:#eaf2e4">
+        <div class="ah-text">
+          <h2>Every issue your city is weighing.</h2>
+          <p>Search, filter, and follow what matters — then weigh in in two minutes.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="42" ry="7" fill="#000" opacity=".06"/>
+          <rect x="24" y="20" width="52" height="66" rx="6" fill="#f3f1e2" stroke="#4f7c35" stroke-width="4"/>
+          <rect x="34" y="34" width="32" height="5" rx="2.5" fill="#4f7c35"/>
+          <rect x="34" y="46" width="32" height="5" rx="2.5" fill="#9aa78f"/>
+          <rect x="34" y="58" width="22" height="5" rx="2.5" fill="#9aa78f"/>
+          <circle cx="82" cy="80" r="17" fill="none" stroke="#3f7d8c" stroke-width="6"/>
+          <path d="M94 92 l11 11" stroke="#3f7d8c" stroke-width="7" stroke-linecap="round"/>
+          <circle cx="82" cy="80" r="8" fill="#e8b04b"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-discover.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+      <div class="databanner">
+        <span class="dot">●</span>
+        <div><b>Live data:</b> Council issues come from the city's real June 2026 agendas and meeting video. <span style="color:var(--muted);font-weight:700">Sample</span> marks commission placeholders, coming next.</div>
+      </div>
+      <div class="stats" id="statsStrip" aria-label="What this app covers"></div>
+      <div class="filters">
+        <input type="search" id="search" placeholder="Search issues — e.g. housing, bikes, Flock, rates…" />
+      </div>
+      <div class="filters" id="topicFilters"></div>
+      <div class="grid" id="issueGrid"></div>
+    </section>
+
+    <!-- FOLLOWING -->
+    <section class="view" id="view-following">
+      <div class="area-hero" style="--ah-bg:#eaf2e4">
+        <div class="ah-text">
+          <h2>You're making a difference.</h2>
+          <p>Your issues — what's <b style="color:#9b5b0b">coming up</b> and what was just <b style="color:#0d7380">discussed</b>.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="106" rx="42" ry="7" fill="#000" opacity=".06"/>
+          <path d="M60 14 C36 14 20 28 20 47 C20 62 30 73 46 77 L47 93 L64 78 C88 77 100 64 100 47 C100 28 84 14 60 14 Z" fill="#4f7c35"/>
+          <path d="M60 64 c-2 0 -12 -7 -15 -13 a8 8 0 0 1 15 -6 a8 8 0 0 1 15 6 c-3 6 -13 13 -15 13z" fill="#f3f1e2"/>
+          <path d="M88 86 c0 -10 6 -16 14 -18 c-1 9 -6 15 -14 18z" fill="#4f7c35"/>
+          <path d="M88 98 v-14" stroke="#4f7c35" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="26" cy="88" r="7" fill="#e8b04b"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-following.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+      <div id="footprintFollow"></div>
+      <div id="alertsFeed"></div>
+    </section>
+
+    <!-- CALENDAR -->
+    <section class="view" id="view-calendar">
+      <div class="area-hero" style="--ah-bg:#fdf2e0;--ah-ink:#7a5413">
+        <div class="ah-text">
+          <h2>Every meeting is open to you.</h2>
+          <p>Attend or comment, in person or online — agendas and videos linked.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="42" ry="7" fill="#000" opacity=".06"/>
+          <circle cx="97" cy="22" r="11" fill="#e8b04b"/>
+          <rect x="18" y="26" width="76" height="76" rx="12" fill="#3f7d8c"/>
+          <rect x="18" y="26" width="76" height="22" rx="12" fill="#33677a"/>
+          <rect x="32" y="18" width="7" height="16" rx="3.5" fill="#7a5413"/>
+          <rect x="73" y="18" width="7" height="16" rx="3.5" fill="#7a5413"/>
+          <circle cx="40" cy="66" r="6" fill="#f3f1e2"/><circle cx="60" cy="66" r="6" fill="#e8b04b"/><circle cx="80" cy="66" r="6" fill="#f3f1e2"/>
+          <circle cx="40" cy="86" r="6" fill="#f3f1e2"/><circle cx="60" cy="86" r="6" fill="#f3f1e2"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-calendar.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+      <h2 class="section">Coming up</h2>
+      <div id="calUpcoming"></div>
+      <h2 class="section">Recently discussed</h2>
+      <div id="calRecent"></div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="view" id="view-news">
+      <div class="area-hero" style="--ah-bg:#e7f1f3;--ah-ink:#2c5b66">
+        <div class="ah-text">
+          <h2>Know what's happening.</h2>
+          <p>Local reporting from <b>Palo Alto Online</b> and the <b>Daily Post</b>.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="42" ry="7" fill="#000" opacity=".06"/>
+          <rect x="20" y="24" width="68" height="80" rx="8" fill="#f3f1e2" stroke="#3f7d8c" stroke-width="4"/>
+          <rect x="30" y="36" width="48" height="8" rx="4" fill="#3f7d8c"/>
+          <rect x="30" y="52" width="22" height="22" rx="4" fill="#e8b04b"/>
+          <rect x="58" y="52" width="20" height="5" rx="2.5" fill="#9aa78f"/>
+          <rect x="58" y="61" width="20" height="5" rx="2.5" fill="#9aa78f"/>
+          <rect x="58" y="70" width="16" height="5" rx="2.5" fill="#9aa78f"/>
+          <rect x="30" y="82" width="48" height="5" rx="2.5" fill="#9aa78f"/>
+          <rect x="30" y="91" width="38" height="5" rx="2.5" fill="#9aa78f"/>
+          <circle cx="96" cy="28" r="9" fill="#4f7c35"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-news.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+      <div class="filters" id="newsTopicFilters"></div>
+      <div id="newsList"></div>
+      <div class="note" style="max-width:680px;margin-top:18px">Headlines link to the original articles on the publishers' sites. Hey Palo Alto is independent and not affiliated with these outlets; we surface local reporting so you can read it in full at the source.</div>
+    </section>
+
+    <!-- BODIES -->
+    <section class="view" id="view-bodies">
+      <div class="area-hero" style="--ah-bg:#eef0e4">
+        <div class="ah-text">
+          <h2>You can reach the people who decide.</h2>
+          <p>Every body, every member — contact them directly.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="44" ry="7" fill="#000" opacity=".06"/>
+          <rect x="16" y="64" width="88" height="26" rx="8" fill="#4f7c35"/>
+          <rect x="24" y="90" width="72" height="12" rx="4" fill="#3d6129"/>
+          <circle cx="38" cy="48" r="10" fill="#e8b04b"/><path d="M26 64 a12 12 0 0 1 24 0z" fill="#e8b04b"/>
+          <circle cx="60" cy="44" r="10" fill="#f3f1e2"/><path d="M48 62 a12 12 0 0 1 24 0z" fill="#f3f1e2"/>
+          <circle cx="82" cy="48" r="10" fill="#3f7d8c"/><path d="M70 64 a12 12 0 0 1 24 0z" fill="#3f7d8c"/>
+          <path d="M60 14 l4 8 9 1 -6.5 6 1.5 9 -8 -4.5 -8 4.5 1.5 -9 -6.5 -6 9 -1z" fill="#e8b04b"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-bodies.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+      <h2 class="section">City Council</h2>
+      <p class="lead" style="margin-bottom:14px">Seven members, elected citywide. They cast the final votes.</p>
+      <div class="bodies-grid" id="councilGrid"></div>
+      <h2 class="section">Boards &amp; Commissions</h2>
+      <p class="lead" style="margin-bottom:14px">Citizen volunteers — residents like you — who shape recommendations before the Council votes.</p>
+      <div class="bodies-grid" id="commissionGrid"></div>
+      <h2 class="section">City Council Committees</h2>
+      <p class="lead" style="margin-bottom:14px">Small groups of councilmembers that review items before they reach the full Council.</p>
+      <div class="bodies-grid" id="committeeGrid"></div>
+      <h2 class="section">Schools</h2>
+      <p class="lead" style="margin-bottom:14px">Schools are run by their own elected board — budget, programs, and policies.</p>
+      <div class="bodies-grid" id="schoolGrid"></div>
+    </section>
+
+    <!-- ACT LOCALLY -->
+    <section class="view" id="view-act">
+      <div class="area-hero" style="--ah-bg:#eaf2e4">
+        <div class="ah-text">
+          <h2>Step up. Our town runs on neighbors.</h2>
+          <p>Real, non-partisan ways to give back and get involved.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="42" ry="7" fill="#000" opacity=".06"/>
+          <circle cx="42" cy="58" r="13" fill="#4f7c35"/>
+          <path d="M26 92 a16 16 0 0 1 32 0z" fill="#4f7c35"/>
+          <circle cx="78" cy="58" r="13" fill="#3f7d8c"/>
+          <path d="M62 92 a16 16 0 0 1 32 0z" fill="#3f7d8c"/>
+          <path d="M60 18 c-3 0 -14 -8 -17.5 -15 a9.4 9.4 0 0 1 17.5 -7 a9.4 9.4 0 0 1 17.5 7 c-3.5 7 -14.5 15 -17.5 15z" transform="translate(0,22)" fill="#e8b04b"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-act.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+
+      <h2 class="section">Get involved</h2>
+      <div class="act-grid">
+        <div class="act-card">
+          <div class="act-ico" style="background:#eaf2e4;color:var(--brand)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+          </div>
+          <h3>Apply to a board or commission</h3>
+          <p>The City regularly recruits residents to serve on its boards and commissions. Lend your expertise to the issues you care about.</p>
+          <a class="btn small" href="https://www.paloalto.gov/Departments/City-Clerk/Boards-and-Commissions/Boards-and-Commissions-Recruitment" target="_blank" rel="noopener">How to apply →</a>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#e7f1f3;color:var(--sky)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+          </div>
+          <h3>Speak up at a meeting</h3>
+          <p>Anyone may give public comment — in person or by Zoom — on agenda items or any local concern. Your comments become part of the official record.</p>
+          <a class="btn small" href="https://cityofpaloalto.primegov.com/public/portal" target="_blank" rel="noopener">See upcoming meetings →</a>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#fdf2e0;color:var(--warm)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg>
+          </div>
+          <h3>Volunteer with the City</h3>
+          <p>From open-space stewardship and emergency response to the library and the Art Center, the City lists current volunteer openings.</p>
+          <a class="btn small" href="https://www.paloalto.gov/Residents/Get-Involved/Volunteering" target="_blank" rel="noopener">Find opportunities →</a>
+        </div>
+      </div>
+
+      <h2 class="section">Give back</h2>
+      <div class="act-grid">
+        <div class="act-card">
+          <div class="act-ico" style="background:#fce8ef;color:#c31a51">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+          </div>
+          <h3>Give where you live</h3>
+          <p>The Palo Alto Community Fund channels local donations to dozens of vetted nonprofits serving Palo Alto, East Palo Alto, and Menlo Park — your gift stays local.</p>
+          <a class="btn small" href="https://paloaltocommfund.org/give/" target="_blank" rel="noopener">Donate locally →</a>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#eaf2e4;color:var(--brand)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 3.5C20 17.5 12 22 12 22z"/></svg>
+          </div>
+          <h3>See who's doing the work</h3>
+          <p>Browse the local nonprofits the Community Fund supports — a quick way to discover causes and organizations active in your neighborhood.</p>
+          <a class="btn small" href="https://paloaltocommfund.org/pacf-grantees/" target="_blank" rel="noopener">Explore local nonprofits →</a>
+        </div>
+      </div>
+
+      <div class="note" style="max-width:680px;margin-top:22px">Hey Palo Alto is independent and isn't affiliated with these organizations. Links go to official city pages and established local nonprofits; we don't endorse particular causes or candidates.</div>
+    </section>
+
+    <!-- VOTING -->
+    <section class="view" id="view-voting">
+      <div class="area-hero" style="--ah-bg:#e7f1f3;--ah-ink:#2c5b66">
+        <div class="ah-text">
+          <h2>Your vote is your loudest voice.</h2>
+          <p>Register, get your ballot, see what's on it — official sources only. We never endorse.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="42" ry="7" fill="#000" opacity=".06"/>
+          <rect x="22" y="56" width="76" height="46" rx="10" fill="#3f7d8c"/>
+          <rect x="44" y="50" width="32" height="10" rx="4" fill="#2c5b66"/>
+          <rect x="40" y="14" width="40" height="48" rx="5" fill="#f3f1e2" transform="rotate(8 60 38)"/>
+          <path d="M50 36 l7 7 14 -16" stroke="#4f7c35" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(8 60 38)"/>
+          <circle cx="60" cy="80" r="7" fill="#e8b04b"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-voting.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+
+      <div class="plan-banner" style="background:var(--brand-dark)">
+        <h2 style="font-family:var(--serif);font-weight:600;font-size:24px;margin:0 0 6px;letter-spacing:-.3px">Next election: Tuesday, November 3, 2026</h2>
+        <p style="margin:0">California Statewide General Election. Registered voters in Santa Clara County are mailed a ballot — you can vote by mail, at a drop box, or at any county vote center.</p>
+        <div class="chips" style="margin-top:14px">
+          <span class="chip">Register by Oct 19, 2026</span>
+          <span class="chip">Vote centers open late Oct</span>
+          <span class="chip">Election Day: Nov 3</span>
+        </div>
+      </div>
+
+      <h2 class="section">Get ready to vote</h2>
+      <div class="act-grid">
+        <div class="act-card">
+          <div class="act-ico" style="background:#eaf2e4;color:var(--brand)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+          </div>
+          <h3>Register or check your status</h3>
+          <p>Register online in minutes, or confirm your current registration. Deadline Oct. 19 — after that, register and vote same-day at any county vote center.</p>
+          <div class="cardfoot">
+            <a class="btn small" href="https://registertovote.ca.gov" target="_blank" rel="noopener">Register to vote →</a>
+            <a class="btn ghost small" href="https://voterstatus.sos.ca.gov" target="_blank" rel="noopener">Check my registration →</a>
+          </div>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#e7f1f3;color:var(--sky)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </div>
+          <h3>Get &amp; track your ballot</h3>
+          <p>Every registered voter is mailed a ballot in early October. Track yours by text or email with "Where's My Ballot?"</p>
+          <div class="cardfoot">
+            <a class="btn small" href="https://www.sos.ca.gov/elections/ballot-status/wheres-my-ballot" target="_blank" rel="noopener">Track my ballot →</a>
+          </div>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#fdf2e0;color:var(--warm)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Find where to vote</h3>
+          <p>Drop your ballot at any official box, or vote in person at any county vote center — open for several days before Election Day.</p>
+          <div class="cardfoot">
+            <a class="btn small" href="https://vote.santaclaracounty.gov/vote-person/official-vote-center-list-and-schedule" target="_blank" rel="noopener">Find a vote center →</a>
+            <a class="btn ghost small" href="https://vote.santaclaracounty.gov/vote-mail/official-ballot-drop-box-sites-and-early-voting-information" target="_blank" rel="noopener">Find a drop box →</a>
+          </div>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#fce8ef;color:#c31a51">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13l2 2 4-4"/></svg>
+          </div>
+          <h3>See what's on your ballot</h3>
+          <p>Your County Voter Information Guide includes a personalized sample ballot — every contest and measure, with impartial analyses.</p>
+          <div class="cardfoot">
+            <a class="btn small" href="https://vote.santaclaracounty.gov/vote-mail/county-voter-information-guide" target="_blank" rel="noopener">View my sample ballot →</a>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section">On your Palo Alto ballot this November</h2>
+      <p class="lead" style="margin-bottom:14px">Local offices on the Nov. 3, 2026 ballot. Your sample ballot has the complete official list.</p>
+      <div class="act-grid">
+        <div class="act-card">
+          <span class="chip" style="align-self:flex-start;margin-bottom:8px">Local office</span>
+          <h3>Palo Alto City Council</h3>
+          <p>Four of the seven at-large seats, each a four-year term. The Council casts the final votes on budget, housing, and most major decisions.</p>
+          <a class="btn ghost small" href="https://www.paloalto.gov/Departments/City-Clerk/Municipal-Elections" target="_blank" rel="noopener">City Clerk: elections →</a>
+        </div>
+        <div class="act-card">
+          <span class="chip" style="align-self:flex-start;margin-bottom:8px">Local office</span>
+          <h3>PAUSD Board of Education</h3>
+          <p>Two of the five school-board seats, each a four-year term. The board sets the district's budget, programs, and policies.</p>
+          <a class="btn ghost small" href="https://www.pausd.org/about-us/board-of-education" target="_blank" rel="noopener">About the school board →</a>
+        </div>
+        <div class="act-card">
+          <span class="chip" style="align-self:flex-start;margin-bottom:8px">Everything else</span>
+          <h3>State, county &amp; federal + measures</h3>
+          <p>Governor, U.S. House, state and county contests, and any ballot measures also appear. Your sample ballot has the complete list.</p>
+          <a class="btn ghost small" href="https://vote.santaclaracounty.gov/city-palo-alto" target="_blank" rel="noopener">Palo Alto voter page →</a>
+        </div>
+      </div>
+
+      <div class="note" style="max-width:680px;margin-top:22px">
+        <b>Questions about your registration, ballot, or voting?</b> Contact the Santa Clara County Registrar of Voters — the official, non-partisan election authority — at <a href="https://vote.santaclaracounty.gov" target="_blank" rel="noopener">vote.santaclaracounty.gov</a> or (866) 430-VOTE (8683).<br>
+        <span style="color:var(--muted)">Hey Palo Alto is non-partisan and doesn't endorse candidates or measures. Dates and offices reviewed June 2026 — always confirm details with the official sources above, which are the authoritative record.</span>
+      </div>
+    </section>
+
+    <!-- BE READY -->
+    <section class="view" id="view-ready">
+      <div class="area-hero" style="--ah-bg:#fdf2e0;--ah-ink:#7a5413">
+        <div class="ah-text">
+          <h2>Be ready before it happens.</h2>
+          <p>Quake, wildfire, flood — a few steps on a calm day, from official sources.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="42" ry="7" fill="#000" opacity=".06"/>
+          <path d="M60 12 C78 20 92 24 100 26 C100 64 86 92 60 104 C34 92 20 64 20 26 C28 24 42 20 60 12z" fill="#4f7c35"/>
+          <path d="M40 62 l16 -22 v14 h12 l-16 22 v-14z" fill="#e8b04b"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-ready.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+
+      <div class="plan-banner" style="display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap">
+        <div>
+          <h2>Start with one thing: emergency alerts</h2>
+          <p>Sign up for <b>AlertSCC</b>, the county's free warning system — get fire, earthquake, severe-weather, and evacuation alerts sent to your phone, landline, or email.</p>
+        </div>
+        <a class="btn warm" style="background:#fff;color:var(--brand-dark);border-color:#fff;font-size:15px;padding:13px 20px" href="https://oem.santaclaracounty.gov/sign-up-for-alerts" target="_blank" rel="noopener">Sign up for AlertSCC →</a>
+      </div>
+
+      <h2 class="section">Get prepared</h2>
+      <div class="act-grid">
+        <div class="act-card">
+          <div class="act-ico" style="background:#eaf2e4;color:var(--brand)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          </div>
+          <h3>Make a plan &amp; build a kit</h3>
+          <p>The City's step-by-step guide for individuals and families: emergency plans, go-bags, water, and supplies.</p>
+          <a class="btn small" href="https://www.paloalto.gov/Departments/Emergency-Services/Emergency-Preparedness/Be-Prepared-Individuals-and-Families" target="_blank" rel="noopener">Be prepared →</a>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#fdf2e0;color:var(--warm)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.2a1 1 0 0 1 1.7 0l9 16a1 1 0 0 1-.9 1.5H2.2a1 1 0 0 1-.9-1.5l9-16z"/><path d="M11 9v4M11 17h.01"/></svg>
+          </div>
+          <h3>Know Palo Alto's hazards</h3>
+          <p>The local risks — earthquakes, foothill wildfire, and creek flooding — and how to prepare for each.</p>
+          <a class="btn small" href="https://www.paloalto.gov/Departments/Emergency-Services/Emergency-Preparedness" target="_blank" rel="noopener">Emergency preparedness →</a>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#e7f1f3;color:var(--sky)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          </div>
+          <h3>Know where to turn in an emergency</h3>
+          <p>Where the City posts real-time information during a disaster — so you know your sources before you need them.</p>
+          <a class="btn small" href="https://www.paloalto.gov/Departments/Emergency-Services/Emergency-Preparedness/Stay-Informed" target="_blank" rel="noopener">Stay informed →</a>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#fce8ef;color:#c31a51">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Train &amp; help your neighbors</h3>
+          <p>Train as a City Emergency Services Volunteer to help your neighborhood when help is stretched thin.</p>
+          <a class="btn small" href="https://www.paloalto.gov/Departments/Emergency-Services/Become-an-Emergency-Services-Volunteer-ESV" target="_blank" rel="noopener">Get trained →</a>
+        </div>
+      </div>
+
+      <h2 class="section">Wildfire ready</h2>
+      <p class="lead" style="margin-bottom:14px">The foothills face real wildfire risk — a prepared home gives firefighters a better chance.</p>
+      <div class="act-grid">
+        <div class="act-card">
+          <div class="act-ico" style="background:#fdf2e0;color:var(--warm)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.4-.5-2-1-3-1.1-2-1-4 .5-5 .5 2 1.5 3 3 4.5 1.5 1.5 2 3 2 5a5 5 0 1 1-9.5 2.2"/></svg>
+          </div>
+          <h3>Ready, Set, Go!</h3>
+          <p>CAL FIRE's wildfire plan: get your home ready, stay set, and leave early.</p>
+          <a class="btn small" href="https://www.fire.ca.gov/prepare" target="_blank" rel="noopener">Ready, Set, Go! →</a>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#e7f1f3;color:var(--sky)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          </div>
+          <h3>Know your evacuation zone</h3>
+          <p>Look up your evacuation zone on Genasys Protect, so you'll know exactly when to go.</p>
+          <a class="btn small" href="https://protect.genasys.com/" target="_blank" rel="noopener">Find your zone →</a>
+        </div>
+        <div class="act-card">
+          <div class="act-ico" style="background:#eaf2e4;color:var(--brand)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10l7-5 7 5v11"/><path d="M9 21v-5h6v5"/></svg>
+          </div>
+          <h3>Create defensible space (Zone 0)</h3>
+          <p>Follow CAL FIRE's defensible-space guidance — start with Zone 0, the first 5 feet around your home.</p>
+          <a class="btn small" href="https://www.fire.ca.gov/prepare/get-ready" target="_blank" rel="noopener">Defensible space →</a>
+        </div>
+      </div>
+
+      <div class="note" style="max-width:680px;margin-top:22px">Links go to official City of Palo Alto, County of Santa Clara, and CAL FIRE resources. In a life-threatening emergency, always call 911. Hey Palo Alto is an independent tool and not an official emergency service.</div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section class="view" id="view-settings">
+      <div class="area-hero" style="--ah-bg:#eef0e4">
+        <div class="ah-text">
+          <h2>We'll tap you on the shoulder.</h2>
+          <p>Choose when to hear about the issues you follow.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="38" ry="7" fill="#000" opacity=".06"/>
+          <path d="M60 16 a26 26 0 0 1 26 26 c0 18 6 26 10 30 H24 c4 -4 10 -12 10 -30 a26 26 0 0 1 26 -26z" fill="#e8b04b"/>
+          <path d="M50 78 a10 10 0 0 0 20 0z" fill="#d99a2b"/>
+          <circle cx="86" cy="26" r="10" fill="#4f7c35"/>
+          <path d="M82 26 l3 3 6 -6" stroke="#f3f1e2" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-settings.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+      <div class="panel-box">
+        <label for="emailInput">Your email address</label>
+        <input type="email" id="emailInput" placeholder="you@example.com" />
+        <label style="display:flex;align-items:center;gap:10px;margin-top:18px;font-weight:500">
+          <input type="checkbox" id="optUpcoming" checked style="width:18px;height:18px"> Email me when a followed issue is added to an upcoming agenda
+        </label>
+        <label style="display:flex;align-items:center;gap:10px;margin-top:10px;font-weight:500">
+          <input type="checkbox" id="optDiscussed" checked style="width:18px;height:18px"> Email me after a followed issue is discussed at a meeting
+        </label>
+        <div style="margin-top:18px">
+          <button class="btn" id="saveSettings">Save preferences</button>
+          <button class="btn ghost" id="previewDigest">Preview my email digest</button>
+        </div>
+        <div class="note">
+          <b>How alerts work:</b> This prototype saves your follows in this browser. <i>Preview my email digest</i> opens a ready-to-send summary in your own mail app, so you can see what a notification looks like. Automated emails to every resident are the next build step.
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-about">
+      <div class="area-hero" style="--ah-bg:#eef0e4">
+        <div class="ah-text">
+          <h2>Built for neighbors, not for sides.</h2>
+          <p>An independent, non-partisan tool to help Palo Alto residents follow local government — and be heard.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="40" ry="7" fill="#000" opacity=".06"/>
+          <path d="M26 96 a18 18 0 0 1 36 0z" fill="#4f7c35"/>
+          <path d="M58 96 a18 18 0 0 1 36 0z" fill="#e8b04b"/>
+          <circle cx="44" cy="56" r="15" fill="#4f7c35"/>
+          <circle cx="76" cy="56" r="15" fill="#e8b04b"/>
+          <path d="M50 32 a16 16 0 0 1 20 0" stroke="#3f7d8c" stroke-width="4" fill="none" stroke-linecap="round"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-about.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+
+      <div class="panel-box" style="max-width:720px">
+        <h3 style="margin:0 0 6px">Independent &amp; non-partisan</h3>
+        <p style="margin:0 0 18px;line-height:1.55">Hey Palo Alto is an independent website. It is not affiliated with the City of Palo Alto or any campaign, party, or advocacy group. It never endorses candidates, ballot measures, or positions — it shows you what your local government is working on and makes it easy to share <i>your own</i> views with the right officials.</p>
+
+        <h3 style="margin:0 0 6px">Where the information comes from</h3>
+        <p style="margin:0 0 18px;line-height:1.55">Content is generated automatically from public sources: the City's officially published meeting agendas and meeting videos, official city and county webpages, and local news outlets' public feeds. Nothing is written to persuade. Automated summaries can contain errors — the City's published agenda and video are always the official record, at <a href="https://www.paloalto.gov" target="_blank" rel="noopener">paloalto.gov</a>. "Find it in the video" times are estimates from the published agenda, not transcripts.<span id="stakesNote"></span><span id="dataStamp"></span></p>
+
+        <h3 style="margin:0 0 6px">Your privacy</h3>
+        <p style="margin:0 0 18px;line-height:1.55">The issues you follow and your preferences are saved only in your own browser, on your own device. No accounts, no tracking, nothing sent to a server. Emails you write to officials go from your own email app.</p>
+
+        <h3 style="margin:0 0 6px">Who's behind it</h3>
+        <p style="margin:0;line-height:1.55">This site is created and maintained by Mary Kate Stimmler, a Palo Alto resident, acting as a private citizen — not in her role as a City Commissioner on the Human Relations Commission. Questions, corrections, or ideas are welcome: marykatestimmler at gmail dot com.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!-- Issue detail modal -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal" id="modal"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<footer>
+  <div class="wrap">
+    Hey Palo Alto — an independent, non-partisan tool to help residents follow local government. Not affiliated with the City of Palo Alto.<br>
+    Content is generated automatically from public sources: the City's published agendas and meeting videos, official webpages, and local news feeds.<span id="dataStampFoot"></span><br>
+    <a href="#" onclick="showView('about');return false" style="color:var(--brand-dark);font-weight:600">About this site &amp; contact →</a>
+  </div>
+</footer>
+
+<!-- Real data generated by ingest/ingest.mjs. If present, the app renders from it
+     (all bodies). If missing, the app falls back to its built-in real Council data. -->
+<script src="civic-data.js" onerror="window.__noCivicData=true"></script>
+<script src="stakes.js" onerror="/* optional — generated nightly by ingest/stakes.mjs */"></script>
+<script src="grove.js" onerror="/* optional — written by the community-grove backend (EMAIL-ALERTS-spec §16b); absent until it exists */"></script>
+<script>
+/* ============================================================
+   DATA LAYER
+   Bodies and officials are REAL (City of Palo Alto, 2026).
+   Issues / meetings / agenda items are SAMPLE data for the demo,
+   structured so real scraped data can replace them with no UI change.
+   ============================================================ */
+
+const COUNCIL_GENERAL = "city.council@PaloAlto.gov"; // official public-comment channel (from real agenda)
+
+/* Official headshots hotlinked from the City of Palo Alto site. */
+const PHOTO_BASE = "https://www.paloalto.gov/files/assets/public/v/1/city-council-and-mayor/cm-bios-amp-images/2025/";
+const PHOTO_Q = "?w=200&h=200&dimension=userprofile";
+const OFFICIALS = [
+  {name:"Vicki Veenker",      role:"Mayor",       email:"Vicki.Veenker@PaloAlto.gov",       photo:PHOTO_BASE+"capture4.png"+PHOTO_Q},
+  {name:"Greer Stone",        role:"Vice Mayor",  email:"Greer.Stone@PaloAlto.gov",         photo:PHOTO_BASE+"stone.jpg"+PHOTO_Q},
+  {name:"Pat Burt",           role:"Councilmember",email:"Pat.Burt@PaloAlto.gov",           photo:PHOTO_BASE+"burt.jpg"+PHOTO_Q},
+  {name:"Ed Lauing",          role:"Councilmember",email:"Ed.Lauing@PaloAlto.gov",          photo:PHOTO_BASE+"lauing.jpg"+PHOTO_Q},
+  {name:"George Lu",          role:"Councilmember",email:"George.Lu@PaloAlto.gov",          photo:PHOTO_BASE+"lu.jpg"+PHOTO_Q},
+  {name:"Julie Lythcott-Haims",role:"Councilmember",email:"Julie.LythcottHaims@PaloAlto.gov",photo:PHOTO_BASE+"jlh-headshot.jpg"+PHOTO_Q},
+  {name:"Keith Reckdahl",     role:"Councilmember",email:"Keith.Reckdahl@PaloAlto.gov",      photo:PHOTO_BASE+"reckdahl.jpg"+PHOTO_Q}
+];
+
+const BODIES = {
+  council:   {name:"City Council", abbrev:"Council", schedule:"Most Mondays, 5:00 p.m.", email:COUNCIL_GENERAL,
+              desc:"The elected governing body. Casts final votes on budgets, ordinances, and major projects."},
+  ptc:       {name:"Planning & Transportation Commission", abbrev:"PTC", schedule:"2nd & 4th Wednesdays", email:"planning.commission@cityofpaloalto.org",
+              desc:"Advises Council on land use, development, housing, and transportation."},
+  arb:       {name:"Architectural Review Board", abbrev:"ARB", schedule:"1st & 3rd Thursdays, 8:30 a.m.", email:"architectural.review@cityofpaloalto.org",
+              desc:"Reviews the design of new commercial and multi-family buildings."},
+  hrb:       {name:"Historic Resources Board", abbrev:"HRB", schedule:"2nd Thursdays, 8:30 a.m.", email:"historic.resources@cityofpaloalto.org",
+              desc:"Advises on preservation of historic buildings and districts."},
+  parks:     {name:"Parks & Recreation Commission", abbrev:"Parks & Rec", schedule:"4th Tuesdays", email:"parks.recreation@cityofpaloalto.org",
+              desc:"Advises on parks, open space, trails, and recreation programs."},
+  uac:       {name:"Utilities Advisory Commission", abbrev:"UAC", schedule:"1st Wednesdays, 6:00 p.m.", email:"utilities.advisory@cityofpaloalto.org",
+              desc:"Advises on city-owned electric, gas, water, and fiber utilities and rates."},
+  hrc:       {name:"Human Relations Commission", abbrev:"HRC", schedule:"2nd Thursdays, 6:00 p.m.", email:"human.relations@cityofpaloalto.org",
+              desc:"Advises on equity, human services, and community wellbeing."},
+  art:       {name:"Public Art Commission", abbrev:"Public Art", schedule:"3rd Thursdays, 7:00 p.m.", email:"public.art@cityofpaloalto.org",
+              desc:"Oversees the city's public art collection and new installations."},
+  storm:     {name:"Stormwater Management Oversight Committee", abbrev:"Stormwater", schedule:"Quarterly", email:"stormwater@cityofpaloalto.org",
+              desc:"Oversees the stormwater fund, flood protection, and creek health."},
+  pausd:     {name:"PAUSD Board of Education", abbrev:"PAUSD Board", kind:"School board",
+              schedule:"2nd & 4th Tuesdays, 6:30 p.m. — Board Room, 25 Churchill Ave",
+              email:"board@pausd.org",
+              agenda:"https://go.boarddocs.com/ca/pausd/Board.nsf/Public",
+              desc:"The separately elected board that governs Palo Alto's public schools — setting budget, curriculum, facilities, and policy for PAUSD. Five members elected citywide to four-year terms. <a href=\"https://go.boarddocs.com/ca/pausd/Board.nsf/Public\" target=\"_blank\" rel=\"noopener\">View board agendas on BoardDocs →</a>"}
+};
+
+const TOPICS = ["Housing","Transportation","Parks & Open Space","Climate & Utilities","Crime, Policing, and Public Safety","Youth and Education","Historic Preservation","Arts & Culture","Budget & Taxes","Downtown & Business"];
+
+/* Each topic gets a colour + icon so the UI reads visually, not as gray text. */
+const TOPIC_META={
+  "Housing":{c:"#9c5a22",bg:"#f8ebdf",i:'<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/>'},
+  "Transportation":{c:"#39707e",bg:"#e5f0f3",i:'<rect x="4" y="5" width="16" height="11" rx="2"/><path d="M4 11h16"/><path d="M8 16v2M16 16v2"/>'},
+  "Parks & Open Space":{c:"#4a7631",bg:"#ecf4e1",i:'<path d="M12 2L7 11h10L12 2z"/><path d="M9 11l-3 6h12l-3-6"/><path d="M12 17v5"/>'},
+  "Climate & Utilities":{c:"#26745d",bg:"#e2f1ec",i:'<path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/>'},
+  "Crime, Policing, and Public Safety":{c:"#ad4830",bg:"#f7e8e2",i:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/>'},
+  "Youth and Education":{c:"#396ba1",bg:"#e6eef6",i:'<path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 3 2.5 6 2.5s6-1.5 6-2.5v-5"/>'},
+  "Historic Preservation":{c:"#7f6536",bg:"#f2ece1",i:'<path d="M3 21h18"/><path d="M5 21V10M9 21V10M15 21V10M19 21V10"/><path d="M3 10l9-6 9 6z"/>'},
+  "Arts & Culture":{c:"#7a4f93",bg:"#f1ebf5",i:'<circle cx="13.5" cy="6.8" r="1"/><circle cx="17.2" cy="10.5" r="1"/><circle cx="8.4" cy="7.6" r="1"/><circle cx="6.6" cy="12.4" r="1"/><path d="M12 2a10 10 0 1 0 0 20c1.1 0 2-.9 2-2 0-.5-.2-.9-.5-1.3-.3-.3-.5-.7-.5-1.2 0-1 .9-1.8 2-1.8h2.3A4.4 4.4 0 0 0 22 10C22 5.6 17.5 2 12 2z"/>'},
+  "Budget & Taxes":{c:"#846722",bg:"#f6efdb",i:'<path d="M12 2v20"/><path d="M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>'},
+  "Downtown & Business":{c:"#4a5e8c",bg:"#e8ebf4",i:'<path d="M3 9l1.5-5h15L21 9"/><path d="M4 9v11h16V9"/><path d="M9 20v-6h6v6"/>'}
+};
+TOPIC_META["Public Safety"]=TOPIC_META["Crime, Policing, and Public Safety"]; // alias: data uses both names
+function tMeta(t){return TOPIC_META[t]||{c:"#666f5b",bg:"#eef1ea",i:'<circle cx="12" cy="12" r="4"/>'};}
+function tIcon(t,w){const m=tMeta(t);return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${w||2.6}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${m.i}</svg>`;}
+function chipFor(t){const m=tMeta(t);return `<span class="tchip" style="color:${m.c};background:${m.bg}">${tIcon(t)}${t}</span>`;}
+function topicSlug(t){
+  if(t==="Public Safety") t="Crime, Policing, and Public Safety"; // same art file as the alias above
+  return (t||"other").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+}
+/* Illustrated art band for issue cards — replaced automatically by img/topic-<slug>.png if present */
+function cardArt(m){
+  return `<svg viewBox="0 0 400 96" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="96" fill="${m.bg}"/>
+    <circle cx="345" cy="20" r="58" fill="${m.c}" opacity=".14"/>
+    <circle cx="40" cy="92" r="46" fill="${m.c}" opacity=".10"/>
+    <circle cx="120" cy="6" r="22" fill="#e8b04b" opacity=".30"/>
+    <g transform="translate(316,48) scale(2.6) translate(-12,-12)" fill="none" stroke="${m.c}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity=".9">${m.i}</g>
+    <g transform="translate(60,54) scale(1.4) translate(-12,-12)" fill="none" stroke="${m.c}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity=".35">${m.i}</g>
+  </svg>`;
+}
+function primaryTopic(issue){return (issue.topics||[]).find(t=>TOPIC_META[t])||(issue.topics||[])[0]||"Other";}
+function topicBadge(issue){const t=primaryTopic(issue),m=tMeta(t);return `<span class="tbadge" style="color:${m.c};background:${m.bg}" title="${t}">${tIcon(t,2.6)}</span>`;}
+
+/* REAL meetings pulled live from the City of Palo Alto's PrimeGov portal.
+   ytid = the city's actual YouTube recording. url = the official agenda page. */
+const MEETINGS = {
+  jun1: {date:"2026-06-01", title:"City Council Regular Meeting", start:"5:30 PM",
+         ytid:"Cczy-CGO8IE",
+         url:"https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18727"},
+  jun15:{date:"2026-06-15", title:"City Council Regular Meeting", start:"5:30 PM",
+         ytid:null, // upcoming — no recording yet
+         url:"https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18739"},
+  /* PAUSD school-board meeting. Agendas live on BoardDocs (not the city PrimeGov
+     portal), so url points there. Seeded for now; wire-ready for live BoardDocs ingestion. */
+  pausd_jun23:{date:"2026-06-23", title:"PAUSD Board of Education Regular Meeting", start:"6:30 PM",
+         ytid:null,
+         url:"https://go.boarddocs.com/ca/pausd/Board.nsf/Public"}
+};
+const AGENDA_PORTAL = "https://cityofpaloalto.primegov.com/public/portal";
+/* Real video deep-link. Offsets are APPROXIMATE — derived from the agenda's
+   published time estimates (the city's videos have no transcript index yet). */
+function watchUrl(ytid, seconds){ return "https://www.youtube.com/watch?v="+ytid+(seconds?("&t="+seconds+"s"):""); }
+/* Full meeting recording. */
+function videoUrl(seg){ const m=MEETINGS[seg.meeting]; return (m&&m.ytid)?watchUrl(m.ytid):"#"; }
+/* Convenience jump based on the AGENDA's published time estimate (not a transcript timestamp). */
+function agendaJumpUrl(seg){ const m=MEETINGS[seg.meeting]; if(!m||!m.ytid) return "#"; return watchUrl(m.ytid, seg.t); }
+/* Turn a meeting start ("5:30 PM") + offset seconds into the agenda's scheduled clock time. */
+function clockFromStart(startStr, offsetSec){
+  const mm=(startStr||"").match(/(\d+):(\d+)\s*(AM|PM)/i); if(!mm) return null;
+  let h=+mm[1]%12+(/PM/i.test(mm[3])?12:0); let total=h*60+ +mm[2] + Math.round(offsetSec/60);
+  let H=Math.floor(total/60)%24, M=total%60; const ap=H>=12?"PM":"AM"; let h12=H%12; if(h12===0)h12=12;
+  return h12+":"+String(M).padStart(2,'0')+" "+ap;
+}
+function humanElapsed(sec){ const h=Math.floor(sec/3600), m=Math.round((sec%3600)/60); return (h?h+"h ":"")+m+"m"; }
+function srcUrl(ref){ const m=MEETINGS[ref.meeting]; return m?m.url:AGENDA_PORTAL; }
+function sourceBadge(issue){
+  return issue.dataSource==="real"
+    ? `<span class="chip data-real" title="Wired to the real City of Palo Alto agenda &amp; meeting video">● Live data</span>`
+    : `<span class="chip data-sample" title="Illustrative placeholder — real commission data coming">Sample</span>`;
+}
+
+/* hhmmss helper for display */
+function fmtTime(s){const h=Math.floor(s/3600),m=Math.floor((s%3600)/60),x=s%60;
+  return (h?h+":":"")+String(m).padStart(h?2:1,'0')+":"+String(x).padStart(2,'0');}
+
+/* ISSUES (sample). status: 'ongoing' just organizes the list.
+   discussed[]: past meeting segments with video timestamps.
+   upcoming[]: future agenda appearances. */
+/* dataSource:"real" issues are wired to ACTUAL Palo Alto City Council agendas
+   (June 1 & June 15, 2026) pulled live from the city's PrimeGov portal, with the
+   real meeting video. discussed[].t offsets are APPROXIMATE (approx:true), derived
+   from the agenda's published time estimates. dataSource:"sample" issues are
+   illustrative placeholders for the commissions, pending the same real-data wiring. */
+const ISSUES = [
+  {
+    id:"flock-alpr", dataSource:"real",
+    title:"Automated license plate readers (Flock cameras)",
+    topics:["Public Safety"],
+    bodies:["council"],
+    summary:"The city held a study session on Flock automated license-plate-recognition cameras — technology that photographs passing vehicles' plates. Supporters cite help solving crimes; others raise privacy and data-retention concerns.",
+    discussed:[
+      {bodyKey:"council", date:"2026-06-01", meeting:"jun1", item:2, t:3000, approx:true,
+       segTitle:"Study Session on Flock license plate recognition technology",
+       note:"Council received a staff presentation and public comment on whether and how to use automated license plate readers."}
+    ],
+    upcoming:[]
+  },
+  {
+    id:"calave-parklets", dataSource:"real",
+    title:"California Avenue car-free promenade & parklets",
+    topics:["Downtown & Business","Transportation"],
+    bodies:["council"],
+    summary:"California Avenue's car-free section is being shaped with outdoor-dining parklet standards and a public-space design. The Council is also updating sign rules tied to parklets.",
+    discussed:[
+      {bodyKey:"council", date:"2026-06-01", meeting:"jun1", item:16, t:10200, approx:true,
+       segTitle:"Outdoor activation standards & pre-approved parklet plans (Item 16)",
+       note:"Council reviewed design concepts for the car-free portion and a first reading of sign-code changes for parklets."}
+    ],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:22, agendaTitle:"Second reading: sign code amendment for parklets (Item 22)"}
+    ]
+  },
+  {
+    id:"sb79-housing", dataSource:"real",
+    title:"SB 79 & the Downtown Housing Plan (new housing near transit)",
+    topics:["Housing"],
+    bodies:["council"],
+    summary:"State law SB 79 allows more housing near transit. The Council is adopting temporary ordinances and a transit-oriented development district, and shaping a Downtown Housing Plan — balancing state mandates, neighborhood concerns, and historic sites.",
+    discussed:[
+      {bodyKey:"council", date:"2026-06-01", meeting:"jun1", item:17, t:13800, approx:true,
+       segTitle:"SB 79 implementation & Downtown Housing Plan (Item 17)",
+       note:"Council received an update and gave direction on temporary ordinances implementing SB 79 and a transit-oriented development combining district."}
+    ],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:23, agendaTitle:"Second reading: temporary SB 79 ordinances & TOD overlays (Item 23)"}
+    ]
+  },
+  {
+    id:"utility-rates", dataSource:"real",
+    title:"2027 utility rate changes (electric, gas, water, refuse, stormwater)",
+    topics:["Climate & Utilities","Budget & Taxes"],
+    bodies:["council"],
+    summary:"Palo Alto owns its utilities. A Proposition 218 hearing covers proposed 2027 rate changes across electric, gas, water, wastewater, refuse, and stormwater, plus reserve and rate-assistance updates.",
+    discussed:[
+      {bodyKey:"council", date:"2026-06-01", meeting:"jun1", item:14, t:6600, approx:true,
+       segTitle:"Utilities rules & regulations amendments (Item 14, consent)",
+       note:"Council amended utility rules and the residential rate-assistance schedule as part of the consent calendar."}
+    ],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:2, agendaTitle:"Public hearing & Prop 218 hearing: adopt 2027 utility rates (Item 2)"}
+    ]
+  },
+  {
+    id:"city-budget", dataSource:"real",
+    title:"City budget for fiscal year 2027",
+    topics:["Budget & Taxes"],
+    bodies:["council"],
+    summary:"The Council is adopting Palo Alto's operating and capital budgets, fee schedule, and staffing plan for fiscal year 2027 — the document that sets spending across every city service.",
+    discussed:[],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:3, agendaTitle:"Public hearing: adopt FY 2027 operating & capital budget (Item 3)"}
+    ]
+  },
+  {
+    id:"cdbg-services", dataSource:"real",
+    title:"Federal block-grant funds for housing & human services (CDBG)",
+    topics:["Housing","Budget & Taxes"],
+    bodies:["council"],
+    summary:"Palo Alto receives federal Community Development Block Grant funds for affordable housing and human services. The Council adopts the annual plan for how those dollars are used.",
+    discussed:[
+      {bodyKey:"council", date:"2026-06-01", meeting:"jun1", item:15, t:8400, approx:true,
+       segTitle:"CDBG 2026-2027 Annual Action Plan (Item 15)",
+       note:"Council adopted the plan for federal block-grant funds, as recommended by the Human Relations Commission."}
+    ],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:15, agendaTitle:"Administration contract for the CDBG program (Item 15)"}
+    ]
+  },
+  {
+    id:"rent-registry", dataSource:"real",
+    title:"Rental registry & rent stabilization",
+    topics:["Housing"],
+    bodies:["council"],
+    summary:"The Council considered whether to expand a rental registry and study rent stabilization. The Policy & Services Committee recommended indefinitely deferring both.",
+    discussed:[
+      {bodyKey:"council", date:"2026-06-01", meeting:"jun1", item:4, t:6600, approx:true,
+       segTitle:"Rental registry & rent stabilization deferral (Item 4, consent)",
+       note:"Council acted on a committee recommendation to indefinitely defer expanding the rental registry and further rent-stabilization study."}
+    ],
+    upcoming:[]
+  },
+  {
+    id:"police-auditor", dataSource:"real",
+    title:"Independent police auditor & oversight",
+    topics:["Public Safety"],
+    bodies:["council"],
+    summary:"Palo Alto contracts an outside firm to independently review police investigations and use-of-force. The Council is acting on extending that auditing contract.",
+    discussed:[],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:13, agendaTitle:"Extend independent police auditing services contract (Item 13)"}
+    ]
+  },
+  {
+    id:"bike-ped-plan", dataSource:"real",
+    title:"2026 Bicycle & Pedestrian Transportation Plan",
+    topics:["Transportation","Public Safety"],
+    bodies:["council"],
+    summary:"The Council is adopting an updated citywide plan for bike and pedestrian routes, safety improvements, and priorities for future projects.",
+    discussed:[],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:24, agendaTitle:"Adopt the 2026 Bicycle & Pedestrian Transportation Plan (Item 24)"}
+    ]
+  },
+  {
+    id:"rail-crossing", dataSource:"real",
+    title:"Alma/Charleston railroad crossing safety",
+    topics:["Transportation","Public Safety"],
+    bodies:["council"],
+    summary:"The Council is reviewing a conceptual design for near-term safety improvements at the Alma Street–Charleston Road railroad crossing, as recommended by the Rail Committee.",
+    discussed:[],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:6, agendaTitle:"Approve conceptual design for Alma–Charleston crossing safety (Item 6)"}
+    ]
+  },
+  {
+    id:"historic-hamilton", dataSource:"real",
+    title:"Adding 855 Hamilton Ave to the historic inventory",
+    topics:["Historic Preservation"],
+    bodies:["council"],
+    summary:"The Council is considering adding 855 Hamilton Avenue to the city's Historic Resources Inventory as a Category 2 resource, based on owner interest from a 2023 survey.",
+    discussed:[],
+    upcoming:[
+      {bodyKey:"council", date:"2026-06-15", meeting:"jun15", item:17, agendaTitle:"Add 855 Hamilton Ave to the Historic Resources Inventory (Item 17)"}
+    ]
+  },
+  /* ---- The items below are SAMPLE placeholders for the commissions. They are
+     clearly labeled in the UI and will be replaced with real commission agenda
+     data using the same pipeline now proven for City Council. ---- */
+  {
+    id:"foothills-access", dataSource:"sample",
+    title:"Foothills Nature Preserve: access & reservations",
+    topics:["Parks & Open Space"],
+    bodies:["parks"],
+    summary:"After opening to non-residents, the preserve uses a reservation and fee system. The commission is reviewing how access, parking capacity, and fees are working.",
+    discussed:[],
+    upcoming:[]
+  },
+  {
+    id:"public-art-cal-ave", dataSource:"sample",
+    title:"New public art for California Avenue",
+    topics:["Arts & Culture","Downtown & Business"],
+    bodies:["art"],
+    summary:"The Public Art Commission is selecting an artist for a new installation tied to the California Avenue area improvements.",
+    discussed:[],
+    upcoming:[]
+  },
+  {
+    id:"historic-building", dataSource:"sample",
+    title:"Preserving a downtown historic building",
+    topics:["Historic Preservation"],
+    bodies:["hrb"],
+    summary:"A property owner has applied to alter a building the city lists as historically significant. The Historic Resources Board reviews whether changes meet preservation standards.",
+    discussed:[],
+    upcoming:[]
+  }
+];
+
+/* ============================================================
+   STATE (persisted in this browser)
+   ============================================================ */
+const LS_FOLLOW="pacp_follows", LS_EMAIL="pacp_email", LS_OPTS="pacp_opts";
+let follows = new Set(JSON.parse(localStorage.getItem(LS_FOLLOW)||"[]"));
+let activeTopic = null;
+let activeNewsTopic = null;
+let searchTerm = "";
+let NEWS = [];
+
+function saveFollows(){localStorage.setItem(LS_FOLLOW, JSON.stringify([...follows]));}
+function isFollowed(id){return follows.has(id);}
+
+/* ============================================================
+   HELPERS
+   ============================================================ */
+const $ = s=>document.querySelector(s);
+const el = (t,c)=>{const e=document.createElement(t);if(c)e.className=c;return e;};
+function bodyName(k){return BODIES[k]?BODIES[k].name:k;}
+function bodyAbbr(k){return BODIES[k]?BODIES[k].abbrev:k;}
+function prettyDate(iso){const d=new Date(iso+"T12:00:00");return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});}
+function shortDate(iso){const d=new Date(iso+"T12:00:00");return {m:d.toLocaleDateString('en-US',{month:'short'}),d:d.getDate()};}
+/* Real "today" (v4 audit P1 fix — was hardcoded to 2026-06-08 during development,
+   which froze every "Happening now" / "Coming up" label in time).
+   Pinned to noon local so date-only ISO comparisons don't wobble around midnight. */
+const TODAY = new Date(); TODAY.setHours(12,0,0,0);
+function isFuture(iso){return new Date(iso+"T12:00:00") >= TODAY;}
+/* Staleness guard: if the data snapshot is older than 10 days, the UI must stop
+   claiming "now" — posters switch to dated, honest labels instead. */
+function dataAgeDays(){
+  const g = (window.CIVIC_DATA && window.CIVIC_DATA.generatedAt) ? new Date(window.CIVIC_DATA.generatedAt) : null;
+  return (g && !isNaN(g)) ? Math.floor((TODAY - g)/86400000) : null;
+}
+function isDataStale(){ const a=dataAgeDays(); return a!==null && a>10; }
+/* AI plain-language headlines ("stakes lines") — generated nightly by ingest/stakes.mjs,
+   template-constrained + adversarially checked for neutrality. The app shows a line ONLY
+   when STAKES.mode==="live" AND that line passed the automated checker. The official
+   agenda title is always shown alongside. Same key normalization as stakes.mjs. */
+function stakesKey(t){return (t||"").toLowerCase().replace(/\s+/g," ").trim().slice(0,140);}
+function stakesFor(issueOrTitle){
+  const S=window.STAKES;
+  if(!S||S.mode!=="live"||!S.lines) return null;
+  /* Real-data issues carry a display-shortened .title; the FULL agenda item title
+     (what stakes.mjs keys on) lives in .summary. Try full first, then the short one. */
+  const cands = typeof issueOrTitle==="string" ? [issueOrTitle] : [issueOrTitle.summary, issueOrTitle.title];
+  for(const t of cands){
+    if(!t) continue;
+    const e=S.lines[stakesKey(t)];
+    if(e&&e.ok&&e.s) return e.s;
+  }
+  return null;
+}
+
+function toast(msg,ms){const t=$("#toast");t.textContent=msg;t.classList.add("show");
+  clearTimeout(window._tt);window._tt=setTimeout(()=>t.classList.remove("show"),ms||2200);}
+
+/* ============================================================
+   CIVIC FOOTPRINT — personal action history (builds self-efficacy:
+   small successful acts, acknowledged immediately, remembered)
+   ============================================================ */
+const LS_ACTS="pacp_acts";
+let acts = JSON.parse(localStorage.getItem(LS_ACTS)||"[]"); // {type:'email', id, title, topic, date:'YYYY-MM-DD'}
+function saveActs(){localStorage.setItem(LS_ACTS, JSON.stringify(acts));}
+function logEmailAct(issue){
+  const date=new Date().toISOString().slice(0,10);
+  // one act per issue per day (repeat clicks on the same draft don't inflate history)
+  if(acts.some(a=>a.type==="email" && a.id===issue.id && a.date===date)) return false;
+  acts.push({type:"email", id:issue.id, title:issue.title, topic:primaryTopic(issue), date});
+  saveActs(); window._groveNew=true; renderFootprint();
+  return true;
+}
+function fpMilestone(n){
+  if(n===1) return "That's how groves — and local decisions — start: one resident at a time.";
+  if(n===2) return "Two trees now. Officials read these — your name is becoming familiar.";
+  if(n<5)  return "You're becoming a regular voice in Palo Alto's decisions.";
+  if(n<10) return "A real grove now — and a real record of showing up.";
+  return "You're one of the residents who consistently shows up. The record shows it.";
+}
+/* ---- Your grove: one redwood per weigh-in, drawn in the site's flat-vector style.
+   Deterministic layout (no Math.random) so the grove is stable between visits;
+   heights/positions vary naturally via a seeded jitter + golden-ratio spread.
+   Renders up to 28 trees (the fp-line text always carries the true count). ---- */
+function groveTreeImg(x,h,i,extraClass){
+  /* Bottom-center anchored box; preserveAspectRatio keeps MK's art unsquashed. */
+  const GY=132, w=h*0.85, src=`img/grove-tree-${(i%2)+1}.png`;
+  return `<g class="tree${extraClass||""}"><image href="${src}" x="${(x-w/2).toFixed(1)}" y="${(GY-h).toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" preserveAspectRatio="xMidYMax meet"/></g>`;
+}
+function groveFernImg(x,sc,i){
+  const GY=140, h=16*sc, w=h*1.9, src=`img/grove-fern-${(i%2)+1}.png`;
+  return `<image href="${src}" x="${(x-w/2).toFixed(1)}" y="${(GY-h+2).toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" preserveAspectRatio="xMidYMax meet"/>`;
+}
+function groveTree(x,h,c,extraClass){
+  const GY=132, trunkH=Math.max(7,h*0.16), w=h*0.46;
+  const tri=(halfW,topY,botY)=>`<path d="M${x.toFixed(1)} ${topY.toFixed(1)} L${(x+halfW).toFixed(1)} ${botY.toFixed(1)} L${(x-halfW).toFixed(1)} ${botY.toFixed(1)} Z" fill="${c}"/>`;
+  const base=GY-trunkH, top=GY-h;
+  return `<g class="tree${extraClass||""}">
+    <rect x="${(x-w*0.07).toFixed(1)}" y="${(base-1).toFixed(1)}" width="${(w*0.14).toFixed(1)}" height="${(trunkH+1).toFixed(1)}" rx="1.6" fill="#7f6536"/>
+    ${tri(w*0.50, top+(h-trunkH)*0.42, base+1)}
+    ${tri(w*0.40, top+(h-trunkH)*0.18, base-(h-trunkH)*0.30)}
+    ${tri(w*0.28, top, base-(h-trunkH)*0.55)}
+  </g>`;
+}
+function groveFern(x,sc,flip){
+  /* A young fern/sprout — follows plant these; a weigh-in grows a full redwood. */
+  const GY=140, f=flip?-1:1;
+  return `<g class="tree" transform="translate(${x.toFixed(1)} ${GY}) scale(${(f*sc).toFixed(2)} ${sc.toFixed(2)})">
+    <path d="M0 0 C0 -7 1 -12 4 -16" fill="none" stroke="#4a7631" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M1.2 -8 C5 -9 8 -12 9 -16 C5 -14 2.5 -11 1.2 -8 Z" fill="#6b9a4d"/>
+    <path d="M0.6 -5 C-3 -6 -6 -9 -7 -13 C-3.4 -11 -1 -8 0.6 -5 Z" fill="#4a7631"/>
+    <path d="M2.5 -12 C6 -13 8.5 -16 9.5 -20 C5.8 -18 3.6 -15 2.5 -12 Z" fill="#26745d"/>
+  </g>`;
+}
+function groveSVG(n,nFerns,isNew,isNewFern){
+  const W=560,H=150,GY=132;
+  const rnd=i=>{const v=Math.sin(i*127.1+311.7)*43758.5453;return v-Math.floor(v);};
+  const scene=[`<path d="M0 ${GY} Q80 92 190 108 T400 96 T560 106 L560 ${GY} Z" fill="#e3efdd" opacity=".8"/>`,
+    `<path d="M120 ${GY} Q260 82 420 102 T560 92 L560 ${GY} Z" fill="#d8e9d2" opacity=".7"/>`,
+    `<circle cx="506" cy="34" r="15" fill="#e8b04b"/>`];
+  if(n===0 && !nFerns){
+    /* Ghost sapling — the spot is already waiting for your first tree */
+    scene.push(`<g opacity=".55">
+      <path d="M280 68 L302 126 L258 126 Z" fill="none" stroke="#0e7c4a" stroke-width="2.6" stroke-dasharray="6 5" stroke-linejoin="round"/>
+      <path d="M280 84 L296 122 L264 122 Z" fill="none" stroke="#0e7c4a" stroke-width="2.2" stroke-dasharray="5 5" stroke-linejoin="round"/>
+      <rect x="277" y="126" width="6" height="7" rx="1.5" fill="none" stroke="#7f6536" stroke-width="2"/>
+    </g>`);
+  }else if(n>0){
+    const shown=Math.min(n,arguments.length>4&&arguments[4]?arguments[4]:28), cols=["#0e7c4a","#26745d","#4a7631","#0a5c37"], trees=[];
+    for(let i=0;i<shown;i++){
+      const x=30+(W-60)*((i*0.6180339887)%1);
+      const h=46+rnd(i)*62;
+      trees.push({x,h,i});
+    }
+    trees.sort((a,b)=>a.h-b.h); /* shorter (distant) first — painter's order */
+    trees.forEach(t=>{
+      const newest=isNew && t.i===shown-1;
+      scene.push(GROVE_ART
+        ? groveTreeImg(t.x,t.h,t.i,newest?" tree-new":"")
+        : groveTree(t.x,t.h,cols[t.i%cols.length],newest?" tree-new":""));
+    });
+  }
+  scene.push(`<rect x="0" y="${GY}" width="${W}" height="${H-GY}" fill="#cfe3bf"/>`);
+  if(nFerns){
+    const fr=Math.min(nFerns,20);
+    const frnd=i=>{const v=Math.sin(i*269.5+183.3)*43758.5453;return v-Math.floor(v);};
+    for(let i=0;i<fr;i++){
+      const x=44+(W-88)*((i*0.6180339887+0.31)%1);
+      const sc=0.85+frnd(i)*0.5;
+      const newest=isNewFern && i===fr-1;
+      scene.push(`<g class="${newest?'tree tree-new':''}">${GROVE_ART?groveFernImg(x,sc,i):groveFern(x,sc,frnd(i+7)>0.5)}</g>`);
+    }
+  }
+  return `<div class="fp-grove"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">${scene.join("")}</svg></div>`;
+}
+/* MK's grove art (img/grove-tree-1/2.png, img/grove-fern-1/2.png): probed once at
+   startup; when present, the grove renders her images instead of the drawn trees.
+   Missing images (chat previews, partial deploys) keep the drawn fallback — the
+   grove never renders empty. */
+let GROVE_ART=false;
+(function probeGroveArt(){
+  try{
+    const im=new Image();
+    im.onload=()=>{GROVE_ART=true; renderFootprint(); renderCommunityGrove();};
+    im.onerror=()=>{GROVE_ART=false;};
+    im.src="img/grove-tree-1.png";
+  }catch(e){}
+})();
+/* ---- Palo Alto's grove: the community's shared forest. Data comes from grove.js,
+   written by the (future) backend — an anonymous city-wide tally of weigh-ins
+   (EMAIL-ALERTS-spec §16b). Absent file or <10 trees → section hidden entirely.
+   We never display invented numbers. ---- */
+function renderCommunityGrove(){
+  const c=$("#groveTown"); if(!c) return;
+  const G=window.GROVE;
+  const n=G && Number.isFinite(G.treesThisYear) ? Math.floor(G.treesThisYear) : 0;
+  if(n<10){c.innerHTML="";return;}
+  c.innerHTML=`<section class="footprint" aria-label="Palo Alto's community grove">
+    <span class="fp-eyebrow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L6 11h4l-4 8h12l-4-8h4L12 2z"/><path d="M12 19v3"/></svg> Palo Alto's grove</span>
+    ${groveSVG(n,0,false,false,40)}
+    <p class="fp-line"><b>${n.toLocaleString()} redwood${n===1?"":"s"} planted by neighbors this year</b> — every one is a resident who weighed in on a city decision. This is what we're building together.</p>
+  </section>`;
+}
+function renderFootprint(){
+  const emails=acts.filter(a=>a.type==="email");
+  const n=emails.length;
+  const html=(()=>{
+    const grove=groveSVG(n, follows.size, !!window._groveNew, !!window._groveNewFern);
+    const byTopic={};emails.forEach(a=>{byTopic[a.topic]=(byTopic[a.topic]||0)+1;});
+    const topicStats=Object.entries(byTopic).sort((a,b)=>b[1]-a[1]).slice(0,3)
+      .map(([t,cnt])=>`<span class="fp-stat">${cnt}× ${t}</span>`).join("");
+    const recent=emails.slice(-3).reverse()
+      .map(a=>`<li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg> ${prettyDate(a.date)} — wrote about “${a.title}”</li>`).join("");
+    const line = n
+      ? `<p class="fp-line"><b>Your grove is ${n} redwood${n>1?"s":""}${follows.size?` and ${follows.size} fern${follows.size>1?"s":""}`:""} strong.</b> ${fpMilestone(n)}</p>`
+      : (follows.size
+        ? `<p class="fp-line"><b>${follows.size} young fern${follows.size>1?"s":""} in your grove — one for each issue you follow.</b> When one comes up for a decision, a two-minute email plants your first redwood.</p>`
+        : `<p class="fp-line"><b>Palo Alto is named for a tall tree.</b> This grove is yours — following an issue plants a fern, and weighing in plants a redwood. One tap starts it.</p>`);
+    return `<section class="footprint" aria-label="Your grove — your civic footprint">
+      <span class="fp-eyebrow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L6 11h4l-4 8h12l-4-8h4L12 2z"/><path d="M12 19v3"/></svg> Your grove</span>
+      ${grove}
+      ${line}
+      <div class="fp-stats">
+        ${n?`<span class="fp-stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg> ${n} email${n>1?"s":""}</span>`:""}
+        ${follows.size?`<span class="fp-stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.3-9.5-8.5A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6.5C19 16.7 12 21 12 21z"/></svg> ${follows.size} issue${follows.size>1?"s":""} followed</span>`:""}
+        ${topicStats}
+      </div>
+      ${recent?`<ul class="fp-recent">${recent}</ul>`:""}
+    </section>`;
+  })();
+  const a=$("#footprint"), b=$("#footprintFollow");
+  if(a)a.innerHTML=html; if(b)b.innerHTML=html;
+  window._groveNew=false; window._groveNewFern=false;
+}
+/* Acknowledge the act the moment a resident opens an issue-email draft (event delegation covers every render site) */
+document.addEventListener("click",e=>{
+  const a=e.target.closest('a[href^="mailto:"]');if(!a)return;
+  const href=decodeURIComponent(a.getAttribute("href")||"");
+  const m=href.match(/subject=Resident input on: (.+?)&body=/);if(!m)return;
+  const issue=ISSUES.find(i=>i.title===m[1]);if(!issue)return;
+  const firstToday=logEmailAct(issue);
+  toast("Draft opened in your mail app. Add a sentence in your own words and send — it becomes part of the public record.",4500);
+  if(firstToday) celebrate();
+});
+/* A small, honest celebration of taking the step (not a claim it was sent) */
+function celebrate(){
+  try{
+    if(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const colors=["#0e7c4a","#dc1f5c","#e8b04b","#12a5b8"];
+    const layer=document.createElement("div"); layer.className="confetti-layer";
+    for(let i=0;i<22;i++){
+      const p=document.createElement("i"); p.className="confetti-bit";
+      p.style.left=(50+(Math.random()*64-32))+"vw";
+      p.style.background=colors[i%colors.length];
+      p.style.setProperty("--dx",(Math.random()*180-90)+"px");
+      p.style.setProperty("--rot",(Math.random()*760-380)+"deg");
+      p.style.animationDelay=(Math.random()*0.12).toFixed(2)+"s";
+      layer.appendChild(p);
+    }
+    const cheer=document.createElement("div"); cheer.className="cheer";
+    cheer.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> <span>You’re weighing in<small class="cheer-sub">a redwood joins your grove</small></span>';
+    document.body.appendChild(layer); document.body.appendChild(cheer);
+    setTimeout(()=>{layer.remove();cheer.remove();},1700);
+  }catch(e){/* decorative only */}
+}
+
+/* Build a mailto with a neutral, pre-filled template */
+function buildMailto(issue){
+  const recips = new Set();
+  issue.bodies.forEach(bk=>{
+    // Each body's official public-comment channel (Council's reaches the whole Council & becomes part of the record).
+    recips.add(BODIES[bk] ? BODIES[bk].email : COUNCIL_GENERAL);
+  });
+  const to = [...recips].join(",");
+  const subject = `Resident input on: ${issue.title}`;
+  /* Salutation matches the actual recipients (v4 fix) */
+  const isC=bk=>bk==="council"||(BODIES[bk]&&BODIES[bk].email===COUNCIL_GENERAL);
+  const allCouncil=issue.bodies.every(isC), noneCouncil=issue.bodies.every(bk=>!isC(bk));
+  const salutation=allCouncil?"Dear Councilmembers,":(noneCouncil?"Dear Commissioners,":"Dear Councilmembers and Commissioners,");
+  const bodyLines = [
+    salutation,
+    "",
+    `I am a Palo Alto resident and I am following the issue of "${issue.title}."`,
+    "",
+    "I would like to share my perspective for your consideration as you discuss this matter:",
+    "",
+    "[ Add your own thoughts here — what you support or are concerned about, and why. ]",
+    "",
+    "Thank you for your public service and for considering resident input.",
+    "",
+    "Sincerely,",
+    "[ Your name ]",
+    "[ Your Palo Alto neighborhood / street ]"
+  ];
+  return `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+}
+
+/* ============================================================
+   ATTEND A MEETING — real venue, real public-comment steps, add-to-calendar.
+   Facts sourced from the City Clerk & PAUSD board pages (June 2026); the official
+   agenda link is always shown as the authoritative source for room + remote link.
+   ============================================================ */
+function meetingVenue(bodyKey){
+  if(bodyKey==="pausd") return {name:"PAUSD Board Room", address:"25 Churchill Ave, Palo Alto, CA 94306", start:"6:30 PM"};
+  return {name:"Council Chambers, Palo Alto City Hall", address:"250 Hamilton Ave, Palo Alto, CA 94301", start:"5:30 PM"};
+}
+function nextMeetingFor(issue){
+  const fut=(issue.upcoming||[]).filter(u=>isFuture(u.date)).slice().sort((a,b)=>a.date<b.date?-1:1);
+  const u=fut[0]; if(!u) return null;
+  return {u, m:MEETINGS[u.meeting]||null};
+}
+function parseStartTime(s){
+  const m=/(\d{1,2}):(\d{2})\s*(AM|PM)/i.exec(s||"");
+  if(!m) return {h:18,mi:0};
+  let h=(+m[1])%12; if(/pm/i.test(m[3])) h+=12; return {h, mi:+m[2]};
+}
+function _2(n){return String(n).padStart(2,"0");}
+function icsStamp(dateStr,h,mi){return dateStr.replace(/-/g,"")+"T"+_2(h)+_2(mi)+"00";}
+function icsEsc(s){return String(s).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n");}
+function meetingTimes(u,m,venue){
+  const st=parseStartTime((m&&m.start)||venue.start);
+  const endH=Math.min(st.h+2,23);
+  return {start:icsStamp(u.date,st.h,st.mi), end:icsStamp(u.date,endH,st.mi), label:(m&&m.start)||venue.start};
+}
+function buildICS(issue,u,m){
+  const venue=meetingVenue(u.bodyKey), t=meetingTimes(u,m,venue);
+  const url=(m&&m.url)||srcUrl(u);
+  const title=`${bodyAbbr(u.bodyKey)}: ${issue.title}`;
+  const desc=`Public comment opportunity on "${issue.title}".\nHow to speak — In person: arrive early, complete a speaker card and give it to the Clerk before the item is called. Remote: join the Zoom link on the official agenda and use "Raise hand." Each speaker usually gets up to 3 minutes.\nOfficial agenda (confirm room, remote link & exact time): ${url}\nvia Hey Palo Alto`;
+  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Hey Palo Alto//Civic//EN","CALSCALE:GREGORIAN","BEGIN:VEVENT",
+    `UID:${issue.id}-${u.date}@heypaloalto`,`DTSTART:${t.start}`,`DTEND:${t.end}`,
+    `SUMMARY:${icsEsc(title)}`,`LOCATION:${icsEsc(venue.name+", "+venue.address)}`,
+    `DESCRIPTION:${icsEsc(desc)}`,`URL:${url}`,"END:VEVENT","END:VCALENDAR"].join("\r\n");
+}
+function icsHref(text){return "data:text/calendar;charset=utf-8,"+encodeURIComponent(text);}
+function gcalHref(issue,u,m){
+  const venue=meetingVenue(u.bodyKey), t=meetingTimes(u,m,venue);
+  const url=(m&&m.url)||srcUrl(u);
+  return "https://calendar.google.com/calendar/render?action=TEMPLATE"
+    +"&text="+encodeURIComponent(`${bodyAbbr(u.bodyKey)}: ${issue.title}`)
+    +"&dates="+t.start+"/"+t.end
+    +"&details="+encodeURIComponent(`Public comment on "${issue.title}". Official agenda: ${url}`)
+    +"&location="+encodeURIComponent(venue.name+", "+venue.address);
+}
+function openAttend(issueId){
+  const issue=ISSUES.find(i=>i.id===issueId); if(!issue) return;
+  const nm=nextMeetingFor(issue);
+  const close=`<button class="modal-close" id="mClose">×</button>`;
+  if(!nm){
+    $("#modal").innerHTML=`<div class="modal-head">${close}<h2>Attend a meeting</h2></div>
+      <div class="modal-body"><p>No meeting is scheduled for this issue yet. Follow it and we'll flag the date the moment it lands on an agenda — meanwhile you can still <a href="${buildMailto(issue)}">email the officials</a>.</p></div>`;
+    _modalOpener=_modalOpener||document.activeElement; $("#modalBg").classList.add("open"); $("#mClose").onclick=closeModal; focusModal(); return;
+  }
+  const {u,m}=nm, venue=meetingVenue(u.bodyKey), t=meetingTimes(u,m,venue);
+  const url=(m&&m.url)||srcUrl(u);
+  const mapHref="https://maps.google.com/?q="+encodeURIComponent(venue.name+", "+venue.address);
+  $("#modal").innerHTML=`
+    <div class="modal-head">${close}
+      <span class="attend-eyebrow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11v2a1 1 0 0 0 1 1h3l8 5V5L7 10H4a1 1 0 0 0-1 1z"/><path d="M18 8a4 4 0 0 1 0 8"/></svg> Show up &amp; be heard</span>
+      <h2>Attend: ${issue.title}</h2>
+    </div>
+    <div class="modal-body">
+      <div class="attend-when">
+        <div><span class="aw-label">When</span><b>${prettyDate(u.date)} · ${t.label}</b></div>
+        <div><span class="aw-label">Where</span><b>${venue.name}</b><br><a href="${mapHref}" target="_blank" rel="noopener">${venue.address} ↗</a></div>
+        <div><span class="aw-label">Item</span>${u.agendaTitle||("An agenda item at the "+bodyName(u.bodyKey))}</div>
+      </div>
+      <div class="attend-cal">
+        <a class="btn small" download="palo-alto-meeting.ics" href="${icsHref(buildICS(issue,u,m))}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          Add to calendar
+        </a>
+        <a class="btn ghost small" href="${gcalHref(issue,u,m)}" target="_blank" rel="noopener">Google Calendar →</a>
+      </div>
+      <h3>How to give a live public comment</h3>
+      <div class="attend-cols">
+        <div class="attend-col">
+          <div class="ac-head"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6M9 11h.01M15 11h.01"/></svg> In person</div>
+          <ol>
+            <li>Arrive a few minutes early at <b>${venue.name}</b>.</li>
+            <li>Complete a <b>speaker card</b> at the entrance and hand it to the ${u.bodyKey==="pausd"?"Board Secretary":"City Clerk"} <b>before your item is called</b>.</li>
+            <li>When called, step to the podium — you usually have <b>up to 3 minutes</b>.</li>
+          </ol>
+        </div>
+        <div class="attend-col">
+          <div class="ac-head"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg> By Zoom</div>
+          <ol>
+            <li>Open the <a href="${url}" target="_blank" rel="noopener">official agenda</a> and join with its Zoom link (it's printed near the top).</li>
+            <li>When your item comes up, click <b>“Raise hand.”</b></li>
+            <li>The clerk unmutes speakers in turn — then you speak.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="note" style="margin-top:6px">The <a href="${url}" target="_blank" rel="noopener">official agenda</a> is the authoritative source — always confirm the room, exact start time, remote link, and speaking limit there, as they can change. Can't make it? You can still <a href="${buildMailto(issue)}">email your comment</a> for the record.</div>
+    </div>`;
+  _modalOpener=_modalOpener||document.activeElement;
+  $("#modalBg").classList.add("open");
+  $("#mClose").onclick=closeModal;
+  focusModal();
+}
+
+/* ============================================================
+   RENDER: DISCOVER
+   ============================================================ */
+function renderTopicFilters(){
+  const c=$("#topicFilters");c.innerHTML="";
+  const all=el("button","chipfilter"+(activeTopic===null?" active":""));all.textContent="All topics";
+  all.onclick=()=>{activeTopic=null;renderIssues();renderTopicFilters();};c.appendChild(all);
+  if(typeof profile!=="undefined" && profile.done && profile.topics.length){
+    const fy=el("button","chipfilter"+(activeTopic==="__foryou"?" active":""));fy.innerHTML='<svg class="ic" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L12 17l-5.6 3.4 1.4-6.3L3 9.5l6.4-.6z"/></svg> For you';
+    fy.onclick=()=>{activeTopic=(activeTopic==="__foryou"?null:"__foryou");renderIssues();renderTopicFilters();};c.appendChild(fy);
+  }
+  TOPICS.forEach(t=>{
+    const b=el("button","chipfilter"+(activeTopic===t?" active":""));b.textContent=t;
+    b.onclick=()=>{activeTopic=(activeTopic===t?null:t);renderIssues();renderTopicFilters();};
+    c.appendChild(b);
+  });
+}
+
+function matchIssue(i){
+  if(activeTopic==="__foryou"){ if(!(profile.done && i.topics.some(t=>profile.topics.includes(t)))) return false; }
+  else if(activeTopic && !i.topics.includes(activeTopic)) return false;
+  if(searchTerm){
+    const hay=(i.title+" "+i.summary+" "+i.topics.join(" ")+" "+i.bodies.map(bodyName).join(" ")).toLowerCase();
+    if(!hay.includes(searchTerm)) return false;
+  }
+  return true;
+}
+
+function statusChip(issue){
+  const up=issue.upcoming.filter(u=>isFuture(u.date)).length;
+  const di=issue.discussed.length;
+  if(up) return `<span class="chip status upcoming">On an upcoming agenda</span>`;
+  if(di) return `<span class="chip status discussed">Recently discussed</span>`;
+  return `<span class="chip status">Being tracked</span>`;
+}
+
+function buildIssueCard(issue){
+  const m=tMeta(primaryTopic(issue));
+  const card=el("div","card");
+  card.setAttribute("style",`--tc:${m.c};--tbg:${m.bg}`);
+  const chips=issue.topics.slice(0,2).map(chipFor).join("");
+  const followed=isFollowed(issue.id);
+  card.innerHTML=`
+    <div class="card-art" aria-hidden="true">
+      ${cardArt(m)}
+      <img src="img/topic-${topicSlug(primaryTopic(issue))}.png" alt="" loading="lazy" onerror="this.remove()">
+    </div>
+    <div class="card-head">
+      ${topicBadge(issue)}
+      <div class="card-head-r">${sourceBadge(issue)}${statusChip(issue)}</div>
+    </div>
+    <h3>${issue.title}</h3>
+    ${(()=>{ // AI plain-language line if available; else summary (hidden when it repeats the title)
+      const pl=stakesFor(issue);
+      if(pl) return `<p class="sum clamp2">${pl}</p>`;
+      const t=(issue.title||"").replace(/…\s*$/,"").trim().toLowerCase();
+      const s=(issue.summary||"").trim();
+      return s && !s.toLowerCase().startsWith(t) ? `<p class="sum clamp2">${s}</p>` : "";
+    })()}
+    <div class="topics">${chips}${(()=>{const n=(issue.upcoming||[]).length+(issue.discussed||[]).length;return n>=2?`<span class="agchip" title="This issue has appeared on ${n} meeting agendas"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> On ${n} agendas</span>`:"";})()}</div>
+    <div class="cardfoot">
+      <a class="btn warm small" href="${buildMailto(issue)}" title="Opens a pre-addressed draft in your own mail app — you write and send it yourself">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+        Email ${issue.bodies.length===1?bodyAbbr(issue.bodies[0]):'officials'} · 2 min
+      </a>
+      <button class="btn ${followed?'following':'ghost'} small" data-follow="${issue.id}">
+        ${followed?'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> Following':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.3-9.5-8.5A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6.5C19 16.7 12 21 12 21z"/></svg> Follow'}
+      </button>
+      <button class="btn ghost small" data-open="${issue.id}">Details</button>
+    </div>`;
+  return card;
+}
+function wireCards(grid){
+  grid.querySelectorAll("[data-follow]").forEach(b=>b.onclick=e=>{toggleFollow(b.dataset.follow);});
+  grid.querySelectorAll("[data-open]").forEach(b=>b.onclick=e=>openIssue(b.dataset.open));
+}
+function renderIssues(){
+  const grid=$("#issueGrid");grid.innerHTML="";
+  const list=ISSUES.filter(matchIssue).slice().sort((a,b)=>(a.dataSource==='real'?0:1)-(b.dataSource==='real'?0:1));
+  if(!list.length){grid.innerHTML=`<div class="empty" style="grid-column:1/-1"><p>No issues match your search.</p></div>`;return;}
+  list.forEach(issue=>grid.appendChild(buildIssueCard(issue)));
+  wireCards(grid);
+}
+
+function toggleFollow(id){
+  if(follows.has(id)){follows.delete(id);toast("Unfollowed");}
+  else{follows.add(id);window._groveNewFern=true;toast("Following — a fern joins your grove");}
+  saveFollows();updateFollowCount();renderIssues();renderAlerts();renderFootprint();
+  if($("#modalBg").classList.contains("open")) openIssue(id); // refresh modal button
+}
+
+function updateFollowCount(){document.querySelectorAll(".js-follow-count").forEach(e=>e.textContent=follows.size);}
+
+/* ============================================================
+   RENDER: ISSUE MODAL
+   ============================================================ */
+function openIssue(id){
+  const issue=ISSUES.find(i=>i.id===id);if(!issue)return;
+  const followed=isFollowed(id);
+  const officialsHtml = issue.bodies.map(bk=>{
+    const isCouncil = bk==="council" || (BODIES[bk] && BODIES[bk].email===COUNCIL_GENERAL);
+    if(isCouncil){
+      return OFFICIALS.map(o=>`<span class="official">${o.name} · ${o.role}</span>`).join("");
+    }
+    return `<span class="official">${BODIES[bk]?BODIES[bk].name:bk}</span>`;
+  }).join("");
+
+  let discussedHtml="";
+  if(issue.discussed.length){
+    discussedHtml=`<h3>What's been discussed</h3><div class="timeline">`+
+      issue.discussed.map(d=>{
+        const m=MEETINGS[d.meeting]; const hasVid=m&&m.ytid;
+        const clock=d.t?clockFromStart(m.start,d.t):null;
+        const guide = clock
+          ? `<div class="agenda-guide"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="3" width="8" height="4" rx="1"/><path d="M9 5H6a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3"/></svg> On the agenda this was <b>Item ${d.item}</b>, scheduled for about <b>${clock}</b> — roughly <b>${humanElapsed(d.t)}</b> into the meeting. Use that to find it in the video.</div>`
+          : "";
+        const links = hasVid
+          ? `<a class="ts-link" href="${agendaJumpUrl(d)}" target="_blank" rel="noopener">
+               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+               Jump to ~that point</a>
+             <a class="ts-link" style="background:#eef3f7;color:var(--brand)" href="${videoUrl(d)}" target="_blank" rel="noopener">Full meeting video</a>`
+          : "";
+        return `
+        <div class="seg">
+          <div class="when">${prettyDate(d.date)} · ${bodyName(d.bodyKey)}</div>
+          <div class="seg-title"><span class="item-tag">Item ${d.item}</span>${d.segTitle}</div>
+          <p>${d.note}</p>
+          ${guide}
+          ${links}
+          <div class="src-link"><a href="${srcUrl(d)}" target="_blank" rel="noopener">View official agenda →</a></div>
+        </div>`;}).join("")+`</div>`;
+  }
+
+  let upcomingHtml="";
+  const futureUp=issue.upcoming.filter(u=>isFuture(u.date));
+  if(futureUp.length){
+    upcomingHtml=`<h3>Coming up</h3>`+futureUp.map(u=>`
+      <div class="upcoming-item">
+        <div class="when">${prettyDate(u.date)} · ${bodyName(u.bodyKey)}</div>
+        <div>${u.agendaTitle}</div>
+        <div class="src-link"><a href="${srcUrl(u)}" target="_blank" rel="noopener">View official agenda →</a></div>
+      </div>`).join("");
+  }
+
+  const rNews=relatedNews(issue,3);
+  const relatedNewsHtml = rNews.length ? `<h3>Related local news</h3>`+rNews.map(n=>`
+      <a class="rnews" href="${n.url}" target="_blank" rel="noopener">
+        <span class="rnews-dot"></span>
+        <span><span class="rnews-title">${n.title}</span><span class="rnews-src">${n.source}${n.date?` · ${prettyDate(n.date)}`:""}</span></span>
+      </a>`).join("") : "";
+
+  $("#modal").innerHTML=`
+    <div class="modal-head">
+      <button class="modal-close" id="mClose">×</button>
+      <div class="topics">${sourceBadge(issue)}${issue.topics.map(chipFor).join("")}</div>
+      <h2>${issue.title}</h2>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:15px;color:var(--muted);margin-top:0">${issue.summary}</p>
+      ${upcomingHtml}
+      ${discussedHtml}
+      ${relatedNewsHtml}
+      <h3>Who you'd be contacting</h3>
+      <div class="official-list">${officialsHtml}</div>
+      <div class="modal-actions">
+        <button class="btn ${followed?'following':''}" id="mFollow">${followed?'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> Following this issue':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.3-9.5-8.5A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6.5C19 16.7 12 21 12 21z"/></svg> Follow this issue'}</button>
+        <a class="btn warm" href="${buildMailto(issue)}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+          Email about this issue · 2 min
+        </a>
+        ${futureUp.length?`<button class="btn" id="mAttend" style="background:var(--sky);border-color:var(--sky)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          Attend the meeting
+        </button>`:""}
+      </div>
+      <div class="note" style="margin-top:16px">The email opens in your own mail app, pre-addressed to the right officials with a neutral starter message. You write your own view and send it from your account — Hey Palo Alto never sends on your behalf.</div>
+    </div>`;
+  _modalOpener=_modalOpener||document.activeElement;
+  $("#modalBg").classList.add("open");
+  $("#mClose").onclick=closeModal;
+  focusModal();
+  $("#mFollow").onclick=()=>toggleFollow(id);
+  const ma=$("#mAttend"); if(ma) ma.onclick=()=>openAttend(id);
+}
+/* Modal focus management (v4 a11y): focus moves in on open, Tab is trapped, and focus
+   returns to whatever opened the modal on close. */
+let _modalOpener=null;
+function focusModal(){setTimeout(()=>{const b=$("#mClose");if(b)try{b.focus({preventScroll:true});}catch(e){}},0);}
+function closeModal(){
+  $("#modalBg").classList.remove("open");
+  if(_modalOpener&&_modalOpener.focus){try{_modalOpener.focus({preventScroll:true});}catch(e){}}
+  _modalOpener=null;
+}
+$("#modalBg").addEventListener("click",e=>{if(e.target.id==="modalBg")closeModal();});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+document.addEventListener("keydown",e=>{
+  if(e.key!=="Tab")return;
+  const bg=$("#modalBg"); if(!bg||!bg.classList.contains("open"))return;
+  const f=bg.querySelectorAll('a[href],button:not([disabled]),input:not([disabled]),select,textarea,[tabindex]:not([tabindex="-1"])');
+  if(!f.length)return;
+  const first=f[0],last=f[f.length-1];
+  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+  else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+});
+
+/* ============================================================
+   RENDER: FOLLOWING / ALERTS FEED
+   ============================================================ */
+function buildAlerts(){
+  const alerts=[];
+  [...follows].forEach(id=>{
+    const issue=ISSUES.find(i=>i.id===id);if(!issue)return;
+    issue.upcoming.filter(u=>isFuture(u.date)).forEach(u=>{
+      alerts.push({type:"upcoming",date:u.date,issue,
+        title:`"${issue.title}" is on an upcoming agenda`,
+        text:`${bodyName(u.bodyKey)} — ${prettyDate(u.date)}: ${u.agendaTitle}. You can attend, comment, or email before the meeting.`});
+    });
+    issue.discussed.forEach(d=>{
+      alerts.push({type:"discussed",date:d.date,issue,seg:d,
+        title:`"${issue.title}" was discussed`,
+        text:`${bodyName(d.bodyKey)} — ${prettyDate(d.date)}: ${d.segTitle}. ${d.note}`});
+    });
+  });
+  // upcoming first (soonest), then discussed (most recent)
+  alerts.sort((a,b)=>{
+    if(a.type!==b.type) return a.type==="upcoming"?-1:1;
+    return a.type==="upcoming" ? new Date(a.date)-new Date(b.date) : new Date(b.date)-new Date(a.date);
+  });
+  return alerts;
+}
+
+function renderAlerts(){
+  const feed=$("#alertsFeed");feed.innerHTML="";
+  if(!follows.size){
+    feed.innerHTML=`<div class="empty">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.3-9.5-8.5A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6.5C19 16.7 12 21 12 21z"/></svg>
+      <h3 style="margin:0 0 4px">You're not following any issues yet</h3>
+      <p>Head to <b>Issues</b> and tap Follow on anything you care about. Your alerts will show up here.</p>
+    </div>`;return;
+  }
+  const alerts=buildAlerts();
+  if(!alerts.length){feed.innerHTML=`<div class="empty"><p>No new activity on your followed issues right now. We'll update this as agendas and videos are posted.</p></div>`;return;}
+  alerts.forEach(a=>{
+    const node=el("div","alert "+(a.type==="upcoming"?"is-upcoming":"is-discussed"));
+    const icon = a.type==="upcoming"
+      ? `<svg viewBox="0 0 24 24" fill="none" stroke="var(--warm)" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>`
+      : `<svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>`;
+    let action="";
+    if(a.type==="upcoming"){
+      action=`<a class="btn warm small" href="${buildMailto(a.issue)}">Email before the meeting</a>
+              <button class="btn ghost small" data-open="${a.issue.id}">View issue</button>`;
+    }else{
+      const vid=MEETINGS[a.seg.meeting]&&MEETINGS[a.seg.meeting].ytid;
+      action=(vid?`<a class="btn small" href="${agendaJumpUrl(a.seg)}" target="_blank" rel="noopener">▶ Jump to ~Item ${a.seg.item}</a>`:"")+
+             `<a class="btn warm small" href="${buildMailto(a.issue)}">Share your view</a>
+              <button class="btn ghost small" data-open="${a.issue.id}">View issue</button>`;
+    }
+    node.innerHTML=`<div class="ico">${icon}</div>
+      <div style="flex:1">
+        <div class="when">${a.type==="upcoming"?"Coming up":"Discussed"}</div>
+        <h3>${a.title}</h3>
+        <p>${a.text}</p>
+        <div class="actions">${action}</div>
+      </div>`;
+    feed.appendChild(node);
+  });
+  feed.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>openIssue(b.dataset.open));
+}
+
+/* ============================================================
+   RENDER: CALENDAR
+   ============================================================ */
+function gatherMeetings(){
+  const up=[], past=[];
+  ISSUES.forEach(issue=>{
+    issue.upcoming.forEach(u=>{ if(isFuture(u.date)) up.push({date:u.date,bodyKey:u.bodyKey,title:u.agendaTitle,issue,src:srcUrl(u)}); });
+    issue.discussed.forEach(d=>{ past.push({date:d.date,bodyKey:d.bodyKey,title:d.segTitle,issue,t:d.t,seg:d}); });
+  });
+  // group by date+body
+  function group(arr){
+    const map={};
+    arr.forEach(x=>{const key=x.date+"|"+x.bodyKey;(map[key]=map[key]||{date:x.date,bodyKey:x.bodyKey,items:[]}).items.push(x);});
+    return Object.values(map);
+  }
+  return {up:group(up).sort((a,b)=>new Date(a.date)-new Date(b.date)),
+          past:group(past).sort((a,b)=>new Date(b.date)-new Date(a.date))};
+}
+
+function renderCalendar(){
+  const {up,past}=gatherMeetings();
+  const uc=$("#calUpcoming");uc.innerHTML="";
+  if(!up.length)uc.innerHTML=`<p class="lead">No upcoming agenda items right now.</p>`;
+  up.forEach(g=>uc.appendChild(calDay(g,true)));
+  const rc=$("#calRecent");rc.innerHTML="";
+  past.forEach(g=>rc.appendChild(calDay(g,false)));
+}
+function calDay(g,future){
+  const wrap=el("div","cal-day");
+  const sd=shortDate(g.date);
+  const items=g.items.map(it=>{
+    const follow=isFollowed(it.issue.id)?' <svg class="ic" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L12 17l-5.6 3.4 1.4-6.3L3 9.5l6.4-.6z"/></svg>':'';
+    return `<li>${it.title}${follow}</li>`;
+  }).join("");
+  const link = future
+    ? `<a href="${g.items[0].src||AGENDA_PORTAL}" target="_blank" rel="noopener">View official agenda →</a>`
+    : `<a href="${videoUrl(g.items[0].seg)}" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg> Watch meeting video →</a>`;
+  wrap.innerHTML=`
+    <div class="cal-date"><div class="m">${sd.m}</div><div class="d">${sd.d}</div></div>
+    <div class="cal-card">
+      <div class="body-name">${bodyName(g.bodyKey)}</div>
+      <h3>${(BODIES[g.bodyKey]&&BODIES[g.bodyKey].schedule)||prettyDate(g.date)}</h3>
+      <ul>${items}</ul>
+      <div style="margin-top:10px;font-size:13px;font-weight:600">${link}</div>
+    </div>`;
+  return wrap;
+}
+
+/* ============================================================
+   RENDER: BODIES
+   ============================================================ */
+function initials(name){return name.split(/\s+/).filter(Boolean).map(w=>w[0]).slice(0,2).join("").toUpperCase();}
+function renderBodies(){
+  const cg=$("#councilGrid");cg.innerHTML="";
+  OFFICIALS.forEach(o=>{
+    const c=el("div","member-card");
+    c.innerHTML=`
+      <div class="avatar"><span class="avatar-fallback">${initials(o.name)}</span>
+        ${o.photo?`<img src="${o.photo}" alt="${o.name}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:""}</div>
+      <div class="member-info">
+        <h3>${o.name}</h3>
+        <p class="member-role">${o.role}</p>
+        <p><a href="mailto:${o.email}">${o.email.replace("@","@<wbr>")}</a></p>
+      </div>`;
+    cg.appendChild(c);
+  });
+  const renderInto=(grid,kinds)=>{
+    grid.innerHTML="";
+    Object.keys(BODIES).filter(k=>BODIES[k].email!==COUNCIL_GENERAL && k!=="council" && kinds.includes(BODIES[k].kind))
+      .sort((a,b)=>BODIES[a].name.localeCompare(BODIES[b].name)).forEach(k=>{
+        const b=BODIES[k];const c=el("div","body-card");
+        const showEmail = b.email && b.email!==COUNCIL_GENERAL;
+        c.innerHTML=`${b.kind?`<span class="kind-tag">${b.kind}</span>`:""}<h3>${b.name}</h3>${b.desc?`<p>${b.desc}</p>`:""}
+          ${b.schedule?`<p style="margin-top:8px;color:var(--muted)">Meets: ${b.schedule}</p>`:""}
+          ${showEmail?`<p style="margin-top:6px"><a href="mailto:${b.email}">${b.email}</a></p>`:""}`;
+        grid.appendChild(c);
+      });
+  };
+  renderInto($("#commissionGrid"),["Citizen commission","Citizen board"]);
+  renderInto($("#committeeGrid"),["Council committee"]);
+  renderInto($("#schoolGrid"),["School board"]);
+}
+
+/* ============================================================
+   RENDER: LOCAL NEWS
+   ============================================================ */
+function newsHost(url){try{return new URL(url).hostname.replace(/^www\./,"");}catch(e){return "";}}
+function newsTopics(){const s=new Set();NEWS.forEach(n=>(n.topics||[]).forEach(t=>s.add(t)));return [...s];}
+function relatedNews(issue,limit){
+  const t=new Set(issue.topics||[]);
+  return NEWS.filter(n=>(n.topics||[]).some(x=>t.has(x))).slice(0,limit||3);
+}
+function renderNewsFilters(){
+  const c=$("#newsTopicFilters");if(!c)return;c.innerHTML="";
+  const topics=newsTopics();
+  if(!topics.length)return;
+  const all=el("button","chipfilter"+(activeNewsTopic===null?" active":""));all.textContent="All topics";
+  all.onclick=()=>{activeNewsTopic=null;renderNews();renderNewsFilters();};c.appendChild(all);
+  topics.forEach(t=>{const b=el("button","chipfilter"+(activeNewsTopic===t?" active":""));b.textContent=t;
+    b.onclick=()=>{activeNewsTopic=(activeNewsTopic===t?null:t);renderNews();renderNewsFilters();};c.appendChild(b);});
+}
+function renderNews(){
+  const list=$("#newsList");if(!list)return;list.innerHTML="";
+  let items=NEWS.slice();
+  if(activeNewsTopic) items=items.filter(n=>(n.topics||[]).includes(activeNewsTopic));
+  if(!items.length){list.innerHTML=`<div class="empty"><p>No local news loaded yet. The nightly refresh pulls recent headlines from the local papers.</p></div>`;return;}
+  items.forEach(n=>{
+    const node=el("a","news-card");node.href=n.url;node.target="_blank";node.rel="noopener";
+    node.innerHTML=`
+      <div class="news-meta"><span class="news-src">${n.source}</span><span class="news-date">${n.date?prettyDate(n.date):""}</span></div>
+      <h3>${n.title}</h3>
+      ${n.summary?`<p>${n.summary}</p>`:""}
+      <div class="news-foot">
+        <div class="topics">${(n.topics||[]).filter(t=>t!=="Other").map(chipFor).join("")}</div>
+        <span class="news-read">Read at ${newsHost(n.url)} →</span>
+      </div>`;
+    list.appendChild(node);
+  });
+}
+
+/* ============================================================
+   SETTINGS / DIGEST
+   ============================================================ */
+function loadSettings(){
+  $("#emailInput").value=localStorage.getItem(LS_EMAIL)||"";
+  const opts=JSON.parse(localStorage.getItem(LS_OPTS)||'{"up":true,"di":true}');
+  $("#optUpcoming").checked=opts.up;$("#optDiscussed").checked=opts.di;
+}
+$("#saveSettings").onclick=()=>{
+  localStorage.setItem(LS_EMAIL,$("#emailInput").value.trim());
+  localStorage.setItem(LS_OPTS,JSON.stringify({up:$("#optUpcoming").checked,di:$("#optDiscussed").checked}));
+  toast("Preferences saved");
+};
+$("#previewDigest").onclick=()=>{
+  const email=$("#emailInput").value.trim();
+  if(!follows.size){toast("Follow some issues first to see a digest");return;}
+  const alerts=buildAlerts();
+  const lines=["Your Hey Palo Alto digest","",
+    "Here's what's happening with the issues you follow:",""];
+  alerts.forEach(a=>{
+    lines.push("• "+a.title);
+    lines.push("  "+a.text);
+    if(a.type==="discussed" && MEETINGS[a.seg.meeting] && MEETINGS[a.seg.meeting].ytid) lines.push("  Find it: agenda Item "+a.seg.item+" — jump to ~"+agendaJumpUrl(a.seg));
+    lines.push("");
+  });
+  lines.push("— Sent from Hey Palo Alto (you control your follows anytime).");
+  const to = email?encodeURIComponent(email):"";
+  const mailto=`mailto:${to}?subject=${encodeURIComponent("Your Hey Palo Alto digest")}&body=${encodeURIComponent(lines.join("\n"))}`;
+  window.location.href=mailto;
+};
+
+/* ============================================================
+   NAVIGATION — 5 areas, each holding one or more views.
+   Old views stay intact; they're reached via friendly subnav pills.
+   ============================================================ */
+const AREAS={
+  home:    {views:[["start","Home"]]},
+  issues:  {views:[["discover","All issues"],["following","Following"],["news","Local news"],["bodies","Who decides"]]},
+  calendar:{views:[["calendar","Meetings"]]},
+  act:     {views:[["act","Ways to act"],["ready","Be ready"],["settings","Email alerts"]]},
+  vote:    {views:[["voting","Voting"]]},
+  about:   {views:[["about","About"]]}   /* no nav tab — reached from the footer link */
+};
+const VIEW_AREA={};Object.entries(AREAS).forEach(([a,cfg])=>cfg.views.forEach(([v])=>VIEW_AREA[v]=a));
+const VIEW_HOOKS={
+  start:()=>{renderTopicPicker();renderOneThing();renderHomeMatches();},
+  following:()=>renderAlerts(),
+  calendar:()=>renderCalendar(),
+  news:()=>{renderNewsFilters();renderNews();},
+  act:()=>highlightActLocally(),
+  discover:()=>{const s=$("#statsStrip");if(s)countUpStats(s);}
+};
+let currentView="start";
+function showView(v){
+  if(!VIEW_AREA[v]) return;
+  const area=VIEW_AREA[v];
+  currentView=v;
+  document.querySelectorAll(".tab").forEach(x=>{
+    const on=x.dataset.area===area;
+    x.classList.toggle("active",on);
+    if(on)x.setAttribute("aria-current","page");else x.removeAttribute("aria-current");
+  });
+  document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));
+  $("#view-"+v).classList.add("active");
+  /* Slim header off Home (v4 audit P1); also pause the ambient video when hidden */
+  document.body.classList.toggle("inner", area!=="home");
+  try{
+    const hv=document.querySelector("video.header-bg");
+    if(hv){
+      const reduce=window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if(area!=="home"){ hv.pause(); }
+      else if(!reduce && hv.paused && hv.play){ hv.play().catch(()=>{}); }
+    }
+  }catch(e){}
+  renderSubnav(area);
+  if(VIEW_HOOKS[v])VIEW_HOOKS[v]();
+  window.scrollTo({top:0,behavior:"smooth"});
+  /* Screen-reader support (v4 a11y): announce the new view + move focus to its heading */
+  if(window._viewInited){
+    const head=document.querySelector(".view.active .area-hero h2")||document.querySelector(".view.active h2");
+    const live=$("#viewAnnounce");
+    if(live) live.textContent="Now viewing: "+(head?head.textContent.trim():v);
+    if(head){head.setAttribute("tabindex","-1");try{head.focus({preventScroll:true});}catch(e){}}
+  }
+  window._viewInited=true;
+}
+function renderSubnav(area){
+  const bar=$("#subnavBar"),c=$("#subnav");
+  const views=AREAS[area].views;
+  if(views.length<2){bar.style.display="none";c.innerHTML="";return;}
+  bar.style.display="";c.innerHTML="";
+  views.forEach(([v,label])=>{
+    const b=el("button","pill"+(v===currentView?" active":""));
+    b.innerHTML=label+(v==="following"?` <span class="count js-follow-count">${follows.size}</span>`:"");
+    if(v===currentView)b.setAttribute("aria-current","true");
+    b.onclick=()=>showView(v);
+    c.appendChild(b);
+  });
+}
+document.querySelectorAll(".tab").forEach(t=>{t.onclick=()=>showView(AREAS[t.dataset.area].views[0][0]);});
+
+/* ============================================================
+   YOUR ONE THING THIS WEEK — one timely action, front and center
+   ============================================================ */
+/* Top-picker state: which topics the home page is focused on (empty = everything) */
+let homeTopics=new Set();
+function renderTopicPicker(){
+  const c=$("#tpChips");if(!c)return;c.innerHTML="";
+  const all=el("button","tp-chip tp-all"+(homeTopics.size===0?" sel":""));
+  all.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg> Everything';
+  all.onclick=()=>{homeTopics.clear();applyHomeTopics();};
+  c.appendChild(all);
+  TOPICS.filter(t=>t!=="Other").forEach(t=>{
+    const m=tMeta(t);
+    const b=el("button","tp-chip"+(homeTopics.has(t)?" sel":""));
+    b.setAttribute("style",`--tc:${m.c}`);
+    b.innerHTML=`${tIcon(t)}${t}`;
+    b.onclick=()=>{homeTopics.has(t)?homeTopics.delete(t):homeTopics.add(t);applyHomeTopics();};
+    c.appendChild(b);
+  });
+}
+function applyHomeTopics(){
+  deckIdx=0;
+  renderTopicPicker();
+  renderOneThing();
+  renderHomeMatches();
+}
+function issueMatchesHome(i){
+  return homeTopics.size===0 || i.topics.some(t=>homeTopics.has(t));
+}
+function renderHomeMatches(){
+  const c=$("#homeMatches");if(!c)return;
+  if(homeTopics.size===0){c.innerHTML="";return;}
+  const list=ISSUES.filter(issueMatchesHome).slice()
+    .sort((a,b)=>(a.dataSource==='real'?0:1)-(b.dataSource==='real'?0:1));
+  const label=[...homeTopics].join(" · ");
+  if(!list.length){
+    c.innerHTML=`<div class="hm-head"><h2 class="section">More on ${label}</h2></div>
+      <p class="lead">No current issues tagged ${label} — try another topic, or browse <b>Issues</b>.</p>`;
+    return;
+  }
+  c.innerHTML=`<div class="hm-head"><h2 class="section">${list.length} issue${list.length>1?"s":""} in ${label}</h2></div>
+    <div class="grid" id="homeGrid"></div>`;
+  const grid=c.querySelector("#homeGrid");
+  list.forEach(i=>grid.appendChild(buildIssueCard(i)));
+  wireCards(grid);
+}
+let deckIdx=0;
+function posterArt(m){
+  return `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="148" cy="150" r="118" fill="rgba(255,255,255,.06)"/>
+    <circle cx="148" cy="150" r="82" fill="rgba(255,255,255,.07)"/>
+    <g transform="translate(118,128) scale(5.4) translate(-12,-12)" fill="none" stroke="#f3f1e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity=".92">${m.i}</g>
+    <circle cx="40" cy="46" r="9" fill="#e8b04b"/>
+  </svg>`;
+}
+function renderOneThing(){
+  const c=$("#oneThing");if(!c)return;
+  let mode="live";
+  let cand=ISSUES.filter(issueMatchesHome).map(i=>{
+    const next=(i.upcoming||[]).filter(u=>isFuture(u.date)).sort((a,b)=>a.date<b.date?-1:1)[0];
+    return next?{i,next}:null;
+  }).filter(Boolean);
+  if(!cand.length && !homeTopics.size){
+    /* Stale-snapshot fallback (v4 audit P1): nothing is genuinely upcoming, so show the
+       most recent agenda appearances (from past agendas OR recent discussions) with
+       honest dated labels instead of a blank home. Capped at the 9 most recent. */
+    mode="past";
+    cand=ISSUES.filter(issueMatchesHome).map(i=>{
+      const appearances=[...(i.upcoming||[]).filter(u=>!isFuture(u.date)),...(i.discussed||[])];
+      const last=appearances.sort((a,b)=>a.date<b.date?1:-1)[0];
+      return last?{i,next:last}:null;
+    }).filter(Boolean)
+     .sort((a,b)=>a.next.date<b.next.date?1:-1).slice(0,9);
+  }
+  if(!cand.length){
+    const label=[...homeTopics].join(" · ");
+    c.innerHTML=homeTopics.size?`<section class="poster" style="background:radial-gradient(130% 150% at 88% -25%,#0f8aa0 0%,#0e7c4a 52%,#0a5c37 100%)">
+      <span class="po-now"><span class="pulse"></span> ${label}</span>
+      <h2>Nothing up for a vote on this yet.</h2>
+      <p class="po-when">No live decision on ${label} right now — but you can still follow it, or weigh in anytime.</p>
+      <div class="po-actions"><button class="btn-mega" data-po-clear>← See what's live now</button></div>
+    </section>`:"";
+    const cl=c.querySelector("[data-po-clear]");if(cl)cl.onclick=()=>{homeTopics.clear();applyHomeTopics();};
+    return;
+  }
+  cand.sort((a,b)=>{
+    const fa=follows.has(a.i.id)?0:1,fb=follows.has(b.i.id)?0:1;
+    if(fa!==fb)return fa-fb;
+    const ta=(profile.done&&a.i.topics.some(t=>profile.topics.includes(t)))?0:1;
+    const tb=(profile.done&&b.i.topics.some(t=>profile.topics.includes(t)))?0:1;
+    if(ta!==tb)return ta-tb;
+    return mode==="past" ? (a.next.date<b.next.date?1:-1) : (a.next.date<b.next.date?-1:1);
+  });
+  const k=((deckIdx%cand.length)+cand.length)%cand.length;
+  const {i:issue,next}=cand[k];
+  const m=tMeta(primaryTopic(issue));
+  const who=bodyName(next.bodyKey||issue.bodies[0]);
+  /* Honest labels (v4 audit P1): "Happening now" + pulse only when the date is truly
+     upcoming AND the snapshot is fresh; otherwise a dated "On the … agenda" framing. */
+  const dated = mode==="past" || isDataStale();
+  const eyebrow = dated ? `On the ${prettyDate(next.date)} agenda`
+                        : (follows.has(issue.id)?"Your issue is up":"Happening now");
+  const when = mode==="past"
+    ? `The <b>${who}</b> took this up <b>${prettyDate(next.date)}</b> — the official agenda and video are the record. You can still email your view.`
+    : `The <b>${who}</b> takes this up <b>${prettyDate(next.date)}</b>.`;
+  c.innerHTML=`
+    <section class="poster has-strip" aria-label="${mode==="past"?"A recent decision you can weigh in on":"A live decision you can act on"}">
+      <span class="po-count">${k+1} of ${cand.length} ${mode==="past"?"recent decisions":"on upcoming agendas"}</span>
+      <span class="po-now">${dated?"":'<span class="pulse"></span> '}${eyebrow}</span>
+      ${(()=>{const pl=stakesFor(issue);return pl
+        ? `<h2>${pl}</h2><p class="po-official">On the agenda as: “${issue.title}”</p>`
+        : `<h2>${issue.title}</h2>`;})()}
+      <p class="po-when">${when}</p>
+      <div class="po-actions">
+        <a class="btn-mega" href="${buildMailto(issue)}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg> Weigh in — 2 min</a>
+        ${mode==="past"?"":`<button class="btn-attend" data-po-attend>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Attend the meeting
+        </button>`}
+      </div>
+      <p class="po-links">
+        <button class="po-link" data-po-next>Pick a different issue →</button>
+        <span class="po-linksep" aria-hidden="true">·</span>
+        <button class="po-link" data-po-open>Details</button>
+      </p>
+      <p class="po-meta">Your words, your mail app. Keep in mind every email to the City becomes a part of the public record.</p>
+      <span class="po-art">${posterArt(m)}</span>
+      <span class="po-strip" aria-hidden="true"><img src="img/topic-${topicSlug(primaryTopic(issue))}.png" alt="" onerror="this.closest('.poster').classList.remove('has-strip');this.parentElement.remove()"></span>
+    </section>`;
+  c.querySelector("[data-po-next]").onclick=()=>{deckIdx=k+1;renderOneThing();};
+  c.querySelector("[data-po-open]").onclick=()=>openIssue(issue.id);
+  const at=c.querySelector("[data-po-attend]");if(at)at.onclick=()=>openAttend(issue.id);
+}
+
+$("#search").addEventListener("input",e=>{searchTerm=e.target.value.toLowerCase().trim();renderIssues();});
+
+/* ============================================================
+   CIVIC DATA ADAPTER
+   If ingest/ingest.mjs has produced civic-data.js (window.CIVIC_DATA),
+   rebuild BODIES / MEETINGS / ISSUES from it so the app shows real,
+   all-body data. Each agenda item becomes a followable issue.
+   ============================================================ */
+function hhmmToClock(hhmm){
+  const m=(hhmm||"").match(/^(\d{1,2}):(\d{2})$/); if(!m) return null;
+  let h=+m[1]; const ap=h>=12?"PM":"AM"; let h12=h%12; if(h12===0)h12=12;
+  return h12+":"+m[2]+" "+ap;
+}
+function shortTitle(t){
+  let s=(t||"").split(/;|– CEQA|\. CEQA| CEQA /)[0].replace(/\s+/g," ").trim();
+  if(s.length>95) s=s.slice(0,92).replace(/\s+\S*$/,"")+"…";
+  return s;
+}
+function applyCivicData(data){
+  const todayISO=TODAY.toISOString().slice(0,10);
+  NEWS = (data.news||[]).slice().sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+  Object.keys(BODIES).forEach(k=>delete BODIES[k]);
+  (data.bodies||[]).forEach(b=>{ BODIES[b.slug]={name:b.name,abbrev:b.name,schedule:b.schedule||"",email:b.email,desc:b.desc||"",kind:b.kind||""}; });
+  Object.keys(MEETINGS).forEach(k=>delete MEETINGS[k]);
+  ISSUES.length=0;
+  (data.meetings||[]).forEach(m=>{
+    const key="m"+m.id;
+    MEETINGS[key]={date:m.date,title:m.body,start:hhmmToClock(m.startTime),ytid:m.videoId||null,
+      url:(data.portalBase||"")+"/Portal/Meeting?meetingTemplateId="+m.tpl};
+    if(!BODIES[m.bodySlug]) BODIES[m.bodySlug]={name:m.body,abbrev:m.body,schedule:"",email:m.bodyEmail,desc:"",kind:""};
+    const past = m.date < todayISO;
+    (m.items||[]).forEach(it=>{
+      (it.topics||[]).forEach(t=>{ if(!TOPICS.includes(t)) TOPICS.push(t); });
+      const issue={id:key+"-"+it.num, dataSource:"real", title:shortTitle(it.title), summary:it.title,
+        topics:(it.topics&&it.topics.length)?it.topics:["Other"], bodies:[m.bodySlug], discussed:[], upcoming:[]};
+      if(past){
+        issue.discussed=[{bodyKey:m.bodySlug,date:m.date,meeting:key,item:it.num,t:it.elapsedSec,
+          segTitle:shortTitle(it.title),note:it.title,approx:it.elapsedSec!=null}];
+      }else{
+        issue.upcoming=[{bodyKey:m.bodySlug,date:m.date,meeting:key,item:it.num,
+          agendaTitle:"Item "+it.num+": "+shortTitle(it.title)}];
+      }
+      ISSUES.push(issue);
+    });
+  });
+}
+function updateBannerForCivicData(data){
+  const b=document.querySelector(".databanner div"); if(!b) return;
+  const nBodies=(data.bodies||[]).length, nMeet=(data.meetings||[]).length,
+        nItems=(data.meetings||[]).reduce((s,m)=>s+(m.items||[]).length,0);
+  const gen=data.generatedAt?new Date(data.generatedAt).toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"}):"";  /* matches the About/footer stamp format */
+  b.innerHTML = data.sample
+    ? `<b>Live sample data</b> from the city's portal (City Council, June 1 &amp; 15). Run <code>ingest/ingest.mjs</code> to load all ${nBodies}+ bodies' meetings for the past 6 + next 6 months. To find a discussion in the video, we use the published agenda's item number and scheduled time as a guide.`
+    : `<b>Live data</b> — ${nItems} agenda items across ${nMeet} meetings and ${nBodies} bodies, ingested from the city's portal${gen?` on ${gen}`:""}. To find a discussion in the video, we use the published agenda's item number and scheduled time as a guide.`;
+  /* Staleness note (v4 audit P1): never let an old snapshot read as current */
+  if(isDataStale()){
+    const age=dataAgeDays();
+    b.innerHTML += ` <b>Heads up:</b> this snapshot is ${age} days old — for the very latest agendas, check <a href="${AGENDA_PORTAL}" target="_blank" rel="noopener">the City's official portal</a>.`;
+  }
+}
+
+/* ============================================================
+   START HERE — diagnostic & personalization
+   ============================================================ */
+const LS_PROFILE="pacp_profile";
+let profile=JSON.parse(localStorage.getItem(LS_PROFILE)||'{"topics":[],"activities":[],"email":"","done":false}');
+function saveProfile(){localStorage.setItem(LS_PROFILE,JSON.stringify(profile));}
+const ACTIVITIES=[
+  {id:"vol-city", label:"Volunteer with the City", desc:"Parks and open space, the library, emergency response, the Art Center, and more.", color:"#eaf2e4;color:var(--brand)", href:"https://www.paloalto.gov/Residents/Get-Involved/Volunteering",
+   icon:`<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/>`},
+  {id:"vol-np", label:"Volunteer with a nonprofit", desc:"Lend your time to local organizations doing the work across Palo Alto.", color:"#e7f1f3;color:var(--sky)", href:"https://paloaltocommfund.org/pacf-grantees/",
+   icon:`<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/>`},
+  {id:"donate-np", label:"Donate to nonprofits", desc:"Give directly to the specific local causes you choose.", color:"#fce8ef;color:#c31a51", href:"https://paloaltocommfund.org/pacf-grantees/",
+   icon:`<path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/>`},
+  {id:"donate-pacf", label:"Donate to the Palo Alto Community Fund", desc:"Support a vetted portfolio of local causes with a single gift.", color:"#fdf2e0;color:var(--warm)", href:"https://paloaltocommfund.org/give/",
+   icon:`<path d="M12 21s-8-4.5-8-11.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 8 3.5C20 16.5 12 21 12 21z"/>`},
+  {id:"kindness", label:"Local acts of kindness", desc:"Small gifts of time or money — under $100 or a few hours — for a neighbor or local cause.", color:"#fdf2e0;color:var(--gold)", href:"https://www.paloalto.gov/Residents/Get-Involved/Volunteering",
+   icon:`<path d="M12 21s-8-4.5-8-11.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 8 3.5C20 16.5 12 21 12 21z"/><path d="M8 12l3 3 5-5" stroke-width="1.6"/>`},
+  {id:"advocate", label:"Advocate for issues you believe in", desc:"Follow the issues, email your officials, and speak up at meetings.", color:"#eaf2e4;color:var(--brand)", inApp:true,
+   icon:`<path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>`}
+];
+const actById=id=>ACTIVITIES.find(a=>a.id===id);
+let startSel={topics:new Set(profile.topics),activities:new Set(profile.activities)};
+
+function renderStartDiagnostic(){
+  startSel={topics:new Set(profile.topics),activities:new Set(profile.activities)};
+  const tg=$("#startTopics");tg.innerHTML="";
+  TOPICS.filter(t=>t!=="Other").forEach(t=>{
+    const b=el("button","pick-chip"+(startSel.topics.has(t)?" sel":""));b.textContent=t;
+    b.onclick=()=>{startSel.topics.has(t)?startSel.topics.delete(t):startSel.topics.add(t);b.classList.toggle("sel");};
+    tg.appendChild(b);
+  });
+  const ag=$("#startActivities");ag.innerHTML="";
+  ACTIVITIES.forEach(a=>{
+    const c=el("div","act-card pick-card"+(startSel.activities.has(a.id)?" sel":""));
+    c.innerHTML=`<span class="pick-check">✓</span>
+      <div class="act-ico" style="background:${a.color}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${a.icon}</svg></div>
+      <h3>${a.label}</h3><p>${a.desc}</p>`;
+    c.onclick=()=>{startSel.activities.has(a.id)?startSel.activities.delete(a.id):startSel.activities.add(a.id);c.classList.toggle("sel");};
+    ag.appendChild(c);
+  });
+  $("#startEmail").value=profile.email||"";
+  $("#startDiagnostic").style.display="";$("#startResults").style.display="none";
+}
+/* Legacy diagnostic "Build my plan" handler — the Start-Here form was retired in favor
+   of the top topic-picker; guard the binding so it's a no-op if the element is absent. */
+(()=>{const sb=$("#startBuild");if(sb)sb.onclick=()=>{
+  profile.topics=[...startSel.topics];profile.activities=[...startSel.activities];
+  profile.email=$("#startEmail").value.trim();profile.done=true;saveProfile();
+  if(profile.email){localStorage.setItem(LS_EMAIL,profile.email);try{loadSettings();}catch(e){}}
+  renderStartResults();
+  renderTopicFilters();renderIssues();
+  window.scrollTo({top:0,behavior:"smooth"});
+};})();
+function renderStartResults(){
+  const matchIssues=ISSUES.filter(i=>i.topics.some(t=>profile.topics.includes(t)));
+  const matchNews=NEWS.filter(n=>(n.topics||[]).some(t=>profile.topics.includes(t))).slice(0,3);
+  const acts=profile.activities.map(actById).filter(Boolean);
+  const topicChips=profile.topics.length?profile.topics.map(t=>`<span class="chip">${t}</span>`).join(""):`<span class="chip">Still deciding</span>`;
+  const html=`
+    <div class="plan-banner">
+      ${profile.topics.length?`<div class="plan-art"><img src="img/topic-${topicSlug(profile.topics[0])}.png" alt="" onerror="this.parentElement.remove()"></div>`:""}
+      <h2>Your Hey Palo Alto plan</h2>
+      <p>Tailored to what you told us. ${profile.email?`We'll send updates to <b>${profile.email}</b> when alerts go live.`:`Add an email anytime to get tailored updates.`}</p>
+      <div class="chips">${topicChips}</div>
+    </div>
+    <div class="plan-section">
+      <h2 class="section">Issues for you ${matchIssues.length?`<span class="chip" style="font-family:var(--sans)">${matchIssues.length}</span>`:""}</h2>
+      ${matchIssues.length?`<p class="lead" style="margin-bottom:12px">${matchIssues.length} current item${matchIssues.length>1?"s":""} match your interests across the Council and commissions.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button class="btn" id="planFollowAll"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.3-9.5-8.5A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6.5C19 16.7 12 21 12 21z"/></svg> Follow all ${matchIssues.length}</button>
+          <button class="btn ghost" id="planBrowse">Browse them →</button>
+        </div>`:`<p class="lead">Pick a few topics above and we'll match current issues here.</p>`}
+    </div>
+    <div class="plan-section">
+      <h2 class="section">Your ways to act</h2>
+      ${acts.length?`<div class="act-grid">`+acts.map(a=>`
+        <div class="act-card"><div class="act-ico" style="background:${a.color}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${a.icon}</svg></div>
+          <h3>${a.label}</h3><p>${a.desc}</p>
+          ${a.inApp?`<button class="btn small" data-goview="discover">Find issues to act on →</button>`:`<a class="btn small" href="${a.href}" target="_blank" rel="noopener">Get started →</a>`}
+        </div>`).join("")+`</div>`:`<p class="lead">No activities picked yet — choose a few above.</p>`}
+      <div style="margin-top:14px"><button class="btn ghost small" data-goview="act">See all ways to act locally →</button></div>
+    </div>
+    ${matchNews.length?`<div class="plan-section"><h2 class="section">News for you</h2>${matchNews.map(n=>`
+      <a class="rnews" href="${n.url}" target="_blank" rel="noopener"><span class="rnews-dot"></span>
+        <span><span class="rnews-title">${n.title}</span><span class="rnews-src">${n.source}${n.date?` · ${prettyDate(n.date)}`:""}</span></span></a>`).join("")}</div>`:""}
+    <div style="margin-top:8px"><button class="btn ghost" id="planEdit">↺ Edit my picks</button></div>`;
+  $("#startResults").innerHTML=html;
+  $("#startDiagnostic").style.display="none";$("#startResults").style.display="";
+  highlightActLocally();
+  const fa=$("#planFollowAll");if(fa)fa.onclick=()=>{matchIssues.forEach(i=>follows.add(i.id));saveFollows();updateFollowCount();renderIssues();renderAlerts();fa.textContent="✓ Following "+matchIssues.length;fa.classList.add("following");};
+  const pb=$("#planBrowse");if(pb)pb.onclick=()=>{activeTopic="__foryou";goView("discover");renderTopicFilters();renderIssues();};
+  const pe=$("#planEdit");if(pe)pe.onclick=()=>renderStartDiagnostic();
+  $("#startResults").querySelectorAll("[data-goview]").forEach(b=>b.onclick=()=>goView(b.dataset.goview));
+}
+function goView(v){showView(v);}
+function highlightActLocally(){
+  const map={'vol-city':/Volunteer with the City/i,'vol-np':/doing the work/i,'donate-np':/doing the work/i,
+    'donate-pacf':/Give where you live/i,'kindness':/Volunteer with the City/i,'advocate':/Speak up at a meeting|Apply to a board/i};
+  document.querySelectorAll('#view-act .act-card').forEach(c=>{
+    const txt=(c.querySelector('h3')||{}).textContent||"";
+    const on=profile.done && profile.activities.some(a=>map[a]&&map[a].test(txt));
+    c.classList.toggle("pick-on",on);
+    let badge=c.querySelector('.yourpick');
+    if(on && !badge){badge=document.createElement('span');badge.className='yourpick';badge.textContent='Your pick';c.insertBefore(badge,c.firstChild);}
+    if(!on && badge)badge.remove();
+  });
+}
+function startHereInit(){
+  // Start-Here diagnostic retired; home is driven by the top topic-picker.
+  // Kept as a guarded no-op so init stays stable and the code can be revived for email alerts.
+  if(!$("#startDiagnostic")) return;
+  if(profile.done) renderStartResults(); else renderStartDiagnostic();
+}
+
+/* ============================================================
+   SEED EXTRAS — runs in BOTH data paths.
+   applyCivicData() rebuilds BODIES/MEETINGS/ISSUES from the live city portal
+   (which has no school-district data), so we re-add the PAUSD board, its meeting,
+   and the seeded Youth & Education items here afterward. Each add is guarded so it
+   never duplicates. PAUSD agendas publish on BoardDocs; these are SAMPLE
+   placeholders, clearly badged, and wire-ready for live BoardDocs ingestion.
+   ============================================================ */
+function seedExtras(){
+  if(!TOPICS.includes("Youth and Education")) TOPICS.push("Youth and Education");
+  if(!BODIES.pausd){
+    BODIES.pausd={name:"PAUSD Board of Education", abbrev:"PAUSD Board", kind:"School board",
+      schedule:"2nd & 4th Tuesdays, 6:30 p.m. — Board Room, 25 Churchill Ave",
+      email:"board@pausd.org",
+      agenda:"https://go.boarddocs.com/ca/pausd/Board.nsf/Public",
+      desc:"The separately elected board that governs Palo Alto's public schools — setting budget, curriculum, facilities, and policy for PAUSD. Five members elected citywide to four-year terms. <a href=\"https://go.boarddocs.com/ca/pausd/Board.nsf/Public\" target=\"_blank\" rel=\"noopener\">View board agendas on BoardDocs →</a>"};
+  }
+  if(!MEETINGS.pausd_jun23){
+    MEETINGS.pausd_jun23={date:"2026-06-23", title:"PAUSD Board of Education Regular Meeting", start:"6:30 PM",
+      ytid:null, url:"https://go.boarddocs.com/ca/pausd/Board.nsf/Public"};
+  }
+  const seeds=[
+    {id:"pausd-budget-lcap", dataSource:"sample",
+     title:"PAUSD budget & Local Control Accountability Plan (LCAP)",
+     topics:["Youth and Education","Budget & Taxes"], bodies:["pausd"],
+     summary:"Each spring the school board adopts the district budget and its Local Control Accountability Plan — the document that sets spending priorities for student programs. Illustrative placeholder; PAUSD agendas live on BoardDocs and are being wired in.",
+     discussed:[],
+     upcoming:[{bodyKey:"pausd", date:"2026-06-23", meeting:"pausd_jun23", item:1, agendaTitle:"Adopt the 2026–27 district budget & LCAP"}]},
+    {id:"youth-mental-health", dataSource:"sample",
+     title:"Youth mental health & wellness services",
+     topics:["Youth and Education"], bodies:["pausd"],
+     summary:"Counseling, wellness centers, and student support come up regularly for the school board, and the city's Human Relations Commission funds community youth services. Illustrative placeholder.",
+     discussed:[], upcoming:[]},
+    {id:"safe-routes-schools", dataSource:"sample",
+     title:"Safe routes to school",
+     topics:["Youth and Education","Transportation"], bodies:["pausd"],
+     summary:"Crossing guards, bike lanes, and traffic calming near campuses involve both the school district and the City. Illustrative placeholder.",
+     discussed:[], upcoming:[]}
+  ];
+  seeds.forEach(s=>{ if(!ISSUES.some(i=>i.id===s.id)) ISSUES.push(s); });
+}
+
+/* ============================================================
+   INIT
+   ============================================================ */
+if(window.CIVIC_DATA && (window.CIVIC_DATA.meetings||[]).length){
+  applyCivicData(window.CIVIC_DATA);
+  updateBannerForCivicData(window.CIVIC_DATA);
+}
+seedExtras();
+renderTopicFilters();
+renderIssues();
+renderBodies();
+/* Real-numbers strip — every figure computed from actual data, never invented */
+function renderStats(){
+  const c=$("#statsStrip");if(!c)return;
+  const nIssues=ISSUES.length, nBodies=Object.keys(BODIES).length;
+  c.innerHTML=`
+    <div class="stat"><b data-count="${nIssues}">${nIssues}</b><span>open issues you can act on</span></div>
+    <div class="stat"><b data-count="${nBodies}">${nBodies}</b><span>public bodies, one place</span></div>
+    <div class="stat"><b>2<small style="font-size:18px"> min</small></b><span>to reach the right official</span></div>`;
+  countUpStats(c);
+}
+/* Bouncy count-up for the stats strip (skipped under prefers-reduced-motion). */
+function countUpStats(c){
+  try{
+    if(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if(typeof requestAnimationFrame!=="function") return;
+    c.querySelectorAll("[data-count]").forEach(elm=>{
+      const target=+elm.dataset.count, dur=750, t0=performance.now();
+      function tick(t){
+        const p=Math.min((t-t0)/dur,1);
+        const eased=1-Math.pow(1-p,3);                       // ease-out cubic
+        elm.textContent=Math.round(target*eased);
+        if(p<1)requestAnimationFrame(tick);else elm.textContent=target;
+      }
+      requestAnimationFrame(tick);
+    });
+  }catch(e){/* decorative only — never break rendering */}
+}
+/* "Data last refreshed" stamp (About page + footer), from CIVIC_DATA.generatedAt. */
+function renderDataStamp(){
+  const iso=window.CIVIC_DATA && window.CIVIC_DATA.generatedAt;
+  if(!iso)return;
+  const d=new Date(iso);if(isNaN(d))return;
+  const nice=d.toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"});
+  const a=$("#dataStamp"),f=$("#dataStampFoot");
+  if(a)a.innerHTML=` Data refreshes nightly — last updated <b>${nice}</b>.`;
+  if(f)f.textContent=` Data last updated ${nice}.`;
+}
+renderDataStamp();
+(function renderStakesNote(){
+  const n=$("#stakesNote"); if(!n) return;
+  const S=window.STAKES;
+  const live=S&&S.mode==="live"&&S.lines&&Object.values(S.lines).some(e=>e&&e.ok);
+  if(live) n.textContent=' One-line summaries are drafted with AI and automatically reviewed for impartiality; the official agenda title is always shown alongside.';
+})();
+updateFollowCount();
+renderAlerts();
+renderFootprint();
+renderCommunityGrove();
+renderStats();
+loadSettings();
+startHereInit();
+showView("start");
+/* Hero video: play at half speed for a calm, ambient feel; respect reduced-motion (show poster still) */
+try{
+  const reduce=window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  document.querySelectorAll("video.header-bg, .front-art video").forEach(v=>{
+    if(reduce){v.removeAttribute("autoplay");v.autoplay=false;if(v.pause)v.pause();return;}
+    const setRate=()=>{try{v.playbackRate=0.5;}catch(e){}};
+    setRate();
+    v.addEventListener("loadedmetadata",setRate);
+    v.addEventListener("play",setRate);
+  });
+}catch(e){}
+</script>
+</body>
+</html>
