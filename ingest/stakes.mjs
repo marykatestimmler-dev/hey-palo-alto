@@ -41,7 +41,7 @@ const CONFIG = {
   MODE: 'live',                 // 'live' = app displays passing lines; 'shadow' = generate + log only
   MODEL: 'claude-haiku-4-5',    // cheapest current Claude model; update if Anthropic renames it
   MAX_NEW_PER_RUN: 80,          // safety cap per night
-  MAX_LINE_CHARS: 90,
+  MAX_LINE_CHARS: 110,
   API_URL: 'https://api.anthropic.com/v1/messages',
 };
 
