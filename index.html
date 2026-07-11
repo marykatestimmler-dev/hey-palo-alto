@@ -552,6 +552,36 @@
   @keyframes toastPop{0%{transform:translateX(-50%) translateY(18px) scale(.96)}70%{transform:translateX(-50%) translateY(-2px)}100%{transform:translateX(-50%) translateY(0) scale(1)}}
   @keyframes artFloat{from{transform:translateY(0)}to{transform:translateY(-4px)}}
   @media(max-width:560px){.brandtext h1{font-size:26px}.neutral-badge{display:none}}
+
+  /* COMPACT MOBILE (2026-07-10): the Issues list measured ~24,700px tall on a phone.
+     Slimmer art strips, tighter type/padding/gaps, compact buttons. Desktop unchanged. */
+  @media(max-width:560px){
+    .grid{gap:10px}
+    .card{padding:14px}
+    .card-art{height:56px;margin:-14px -14px 10px}
+    .card h3{font-size:16px;line-height:1.28;margin-bottom:6px}
+    .card p.sum{font-size:13px;margin-bottom:10px;line-height:1.45}
+    .topics{margin-bottom:2px}
+    .tchip{font-size:10.5px;padding:3px 8px}
+    .agchip{font-size:10.5px}
+    .cardfoot{gap:5px}
+    .cardfoot .btn{padding:7px 10px;font-size:12px;border-radius:9px}
+    .cardfoot .btn svg{width:13px;height:13px}
+    .card-head{margin-bottom:6px}
+    .tbadge{width:34px;height:34px;border-radius:9px}
+    .tbadge svg{width:17px;height:17px}
+    .card h3{font-size:15.5px}
+    .stats{gap:8px;margin-bottom:16px}
+    .stat{padding:10px 8px;border-radius:12px}
+    /* Home poster header: keep it, shrink it — was ~290px of an 844px screen */
+    body:not(.inner) .logo img, body:not(.inner) .logo svg{height:118px}
+    body:not(.inner) .brandtext h1{font-size:24px}
+    body:not(.inner) header.app{padding:16px 0 8px}
+    .area-hero h2{font-size:24px}
+    .footprint{padding:14px 16px}
+  }
+
+
 </style>
 </head>
 <body>
