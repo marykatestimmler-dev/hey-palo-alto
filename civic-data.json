@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-11T09:49:26.966Z",
+  "generatedAt": "2026-07-12T09:58:04.478Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-11",
-    "to": "2027-01-11"
+    "from": "2026-01-12",
+    "to": "2027-01-12"
   },
   "bodies": [
     {
@@ -7655,6 +7655,17 @@
   ],
   "news": [
     {
+      "title": "Planning Commissioner accused of throwing his weight around with tow yard owner",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-11",
+      "url": "https://padailypost.com/2026/07/10/planning-commissioner-accused-of-throwing-his-weight-around-with-tow-yard-owner/",
+      "topics": [
+        "Transportation",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A member of Palo Alto s Planning and Transportation Commission has been accused of using his city position to ask for special treatment "
+    },
+    {
       "title": "Downtown housing proposal becomes the sixth to lean on new state law",
       "source": "Palo Alto Online",
       "date": "2026-07-10",
@@ -7742,16 +7753,6 @@
         "Parks & Open Space"
       ],
       "summary": "BY ELAINE GOODMANDaily Post Correspondent Despite city efforts to reduce the number of RV dwellers parking on Palo Alto streets, the vehicle count has been holding steady or even t"
-    },
-    {
-      "title": "Brothers battle in court over clinic that uses ketamine to treat depression",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-07",
-      "url": "https://padailypost.com/2026/07/07/brothers-battle-in-court-over-clinic-that-uses-ketamine-to-treat-depression/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Two brothers are fighting a legal battle over millions of dollars in profits from a Palo Alto clinic that uses ketamine to treat depress"
     },
     {
       "title": "Builder looks to demolish El Camino Real motel, replace it with housing",
