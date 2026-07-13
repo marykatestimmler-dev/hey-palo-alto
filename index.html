@@ -498,6 +498,12 @@
   .cal-card h3{margin:4px 0 6px;font-size:15.5px}
   .cal-card ul{margin:8px 0 0;padding-left:18px;font-size:13.5px;color:var(--muted)}
   .cal-card li{margin-bottom:4px}
+  .ev-desc{margin:0 0 6px;font-size:14px;line-height:1.5;color:var(--ink)}
+  .ev-where{margin:2px 0 0;font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px}
+  .ev-where .ic{width:14px;height:14px;flex:none}
+  .ev-actions{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;font-size:13px;font-weight:600;align-items:center}
+  .ev-actions a{display:inline-flex;align-items:center;gap:5px}
+  .ev-actions .ic{width:14px;height:14px}
 
   /* Settings / email */
   .panel-box{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);max-width:640px}
@@ -619,6 +625,7 @@
     </div>
     <div class="brandtext">
       <h1>Take local action in <b style="color:var(--warm)">2&nbsp;minutes</b>.</h1>
+      <p>Free, non-partisan tool for getting involved in our City.</p>
     </div>
     <div class="neutral-badge">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 7l9-4 9 4M5 7v6a7 7 0 0 0 14 0V7"/></svg>
@@ -752,6 +759,33 @@
       <div id="calUpcoming"></div>
       <h2 class="section">Recently discussed</h2>
       <div id="calRecent"></div>
+      <div class="note" style="max-width:680px;margin-top:18px">Looking for concerts, workshops, and festivals instead? See <a href="#" onclick="showView('events');return false">Local events</a>.</div>
+    </section>
+
+    <!-- LOCAL EVENTS -->
+    <section class="view" id="view-events">
+      <div class="area-hero" style="--ah-bg:#fdf2e0;--ah-ink:#7a5413">
+        <div class="ah-text">
+          <h2>Your city, in person.</h2>
+          <p>Concerts, workshops, festivals, and more — from the City's official events directory.</p>
+        </div>
+        <span class="ah-art" aria-hidden="true"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="108" rx="44" ry="7" fill="#000" opacity=".06"/>
+          <circle cx="22" cy="22" r="11" fill="#e8b04b"/>
+          <path d="M14 40 L60 34 L106 40" fill="none" stroke="#3f7d8c" stroke-width="3"/>
+          <path d="M26 39 l5 9 5.5-10.3z" fill="#e8b04b"/><path d="M48 36.5 l5 9 5.5-10.3z" fill="#4f7c35"/><path d="M70 36.5 l5 9 5.5-10.3z" fill="#e8b04b"/><path d="M92 39 l5 9 5.5-10.3z" fill="#3f7d8c"/>
+          <path d="M24 104 a36 36 0 0 1 72 0z" fill="#3f7d8c"/>
+          <path d="M32 104 a28 28 0 0 1 56 0z" fill="#f3f1e2"/>
+          <rect x="44" y="76" width="7" height="22" rx="3.5" fill="#4f7c35"/>
+          <rect x="57" y="70" width="7" height="28" rx="3.5" fill="#4f7c35"/>
+          <rect x="70" y="76" width="7" height="22" rx="3.5" fill="#4f7c35"/>
+          <circle cx="47.5" cy="72" r="5" fill="#e8b04b"/><circle cx="60.5" cy="66" r="5" fill="#e8b04b"/><circle cx="73.5" cy="72" r="5" fill="#e8b04b"/>
+        </svg></span>
+        <span class="ah-img" aria-hidden="true"><img src="img/area-events.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
+      </div>
+      <div class="filters" id="evFilters"></div>
+      <div id="evList"></div>
+      <div class="note" style="max-width:680px;margin-top:18px">Events come from the City of Palo Alto's official <a href="https://www.paloalto.gov/Events-Directory" target="_blank" rel="noopener">events directory</a>, refreshed nightly — details, times, and registration live on the City's site. Looking for council and commission meetings instead? They're under <a href="#" onclick="showView('calendar');return false">Meetings</a>.</div>
     </section>
 
     <!-- NEWS -->
@@ -1484,6 +1518,7 @@ let activeTopic = null;
 let activeNewsTopic = null;
 let searchTerm = "";
 let NEWS = [];
+let EVENTS = [];
 
 function saveFollows(){localStorage.setItem(LS_FOLLOW, JSON.stringify([...follows]));}
 function isFollowed(id){return follows.has(id);}
@@ -1547,7 +1582,7 @@ function logEmailAct(issue){
   return true;
 }
 function fpMilestone(n){
-  if(n===1) return "That's how groves — and local decisions — start: one resident at a time.";
+  if(n===1) return "";
   if(n===2) return "Two trees now. Officials read these — your name is becoming familiar.";
   if(n<5)  return "You're becoming a regular voice in Palo Alto's decisions.";
   if(n<10) return "A real grove now — and a real record of showing up.";
@@ -1587,9 +1622,24 @@ function groveFern(x,sc,flip){
     <path d="M2.5 -12 C6 -13 8.5 -16 9.5 -20 C5.8 -18 3.6 -15 2.5 -12 Z" fill="#26745d"/>
   </g>`;
 }
-function groveSVG(n,nFerns,isNew,isNewFern){
+function groveBird(x,y,sc,flip,newest){
+  /* A little bird — one lands for each event you add to your calendar.
+     Drawn flat-vector in the site palette; perches on the tallest redwoods,
+     or atop a fern while the grove is young. */
+  const f=flip?-1:1;
+  return `<g class="tree${newest?" tree-new":""}" transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) scale(${(f*sc).toFixed(2)} ${sc.toFixed(2)})">
+    <path d="M-7.5 -3.2 C-10.5 -1.6 -12 0.4 -12.6 2.6 C-10 2.2 -8 1 -6.6 -0.6 Z" fill="#3f7d8c"/>
+    <path d="M0 2.8 C-4.6 2.8 -7.6 0.4 -7.6 -3 C-7.6 -6.2 -5 -8.6 -1.8 -8.6 C1.4 -8.6 3.6 -6.6 3.9 -3.9 C3.9 -1 2.4 2.8 0 2.8 Z" fill="#e8b04b"/>
+    <path d="M-1.6 -5.4 C-4.4 -5 -6 -3.2 -6.2 -1 C-3.6 -1.5 -2 -3.1 -1.6 -5.4 Z" fill="#3f7d8c"/>
+    <circle cx="1.1" cy="-5.6" r="0.85" fill="#243c2e"/>
+    <path d="M3.7 -5.2 L6.6 -4.3 L3.9 -3.2 Z" fill="#c9822b"/>
+    <path d="M-0.9 2.8 L-0.9 4.6 M1.1 2.8 L1.1 4.6" stroke="#7f6536" stroke-width="0.9" stroke-linecap="round"/>
+  </g>`;
+}
+function groveSVG(n,nFerns,isNew,isNewFern,cap,nBirds,isNewBird){
   const W=560,H=150,GY=132;
   const rnd=i=>{const v=Math.sin(i*127.1+311.7)*43758.5453;return v-Math.floor(v);};
+  const perches=[]; /* filled by tree/fern layout; birds land here last (painter's order) */
   const scene=[`<path d="M0 ${GY} Q80 92 190 108 T400 96 T560 106 L560 ${GY} Z" fill="#e3efdd" opacity=".8"/>`,
     `<path d="M120 ${GY} Q260 82 420 102 T560 92 L560 ${GY} Z" fill="#d8e9d2" opacity=".7"/>`,
     `<circle cx="506" cy="34" r="15" fill="#e8b04b"/>`];
@@ -1600,8 +1650,9 @@ function groveSVG(n,nFerns,isNew,isNewFern){
       <path d="M280 84 L296 122 L264 122 Z" fill="none" stroke="#0e7c4a" stroke-width="2.2" stroke-dasharray="5 5" stroke-linejoin="round"/>
       <rect x="277" y="126" width="6" height="7" rx="1.5" fill="none" stroke="#7f6536" stroke-width="2"/>
     </g>`);
+    perches.push({x:320,y:GY-1,sc:1,flip:true}); /* nothing planted yet — the bird waits on the grass */
   }else if(n>0){
-    const shown=Math.min(n,arguments.length>4&&arguments[4]?arguments[4]:28), cols=["#0e7c4a","#26745d","#4a7631","#0a5c37"], trees=[];
+    const shown=Math.min(n,cap||28), cols=["#0e7c4a","#26745d","#4a7631","#0a5c37"], trees=[];
     for(let i=0;i<shown;i++){
       const x=30+(W-60)*((i*0.6180339887)%1);
       const h=46+rnd(i)*62;
@@ -1614,16 +1665,30 @@ function groveSVG(n,nFerns,isNew,isNewFern){
         ? groveTreeImg(t.x,t.h,t.i,newest?" tree-new":"")
         : groveTree(t.x,t.h,cols[t.i%cols.length],newest?" tree-new":""));
     });
+    /* birds get the tallest treetops, one each */
+    trees.slice().sort((a,b)=>b.h-a.h).slice(0,6)
+      .forEach((t,k)=>perches.push({x:t.x,y:GY-t.h+4,sc:1.05,flip:k%2===1}));
   }
   scene.push(`<rect x="0" y="${GY}" width="${W}" height="${H-GY}" fill="#cfe3bf"/>`);
   if(nFerns){
     const fr=Math.min(nFerns,20);
     const frnd=i=>{const v=Math.sin(i*269.5+183.3)*43758.5453;return v-Math.floor(v);};
+    const fernTops=[];
     for(let i=0;i<fr;i++){
       const x=44+(W-88)*((i*0.6180339887+0.31)%1);
       const sc=0.85+frnd(i)*0.5;
       const newest=isNewFern && i===fr-1;
+      fernTops.push({x,y:140-16*sc,sc:0.8,flip:frnd(i+3)>0.5});
       scene.push(`<g class="${newest?'tree tree-new':''}">${GROVE_ART?groveFernImg(x,sc,i):groveFern(x,sc,frnd(i+7)>0.5)}</g>`);
+    }
+    /* no redwoods yet? birds perch on the ferns instead */
+    if(n===0){perches.length=0;fernTops.slice(0,4).forEach(p=>perches.push(p));}
+  }
+  if(nBirds){
+    const shownB=Math.min(nBirds,perches.length);
+    for(let i=0;i<shownB;i++){
+      const p=perches[i];
+      scene.push(groveBird(p.x,p.y,p.sc||1,!!p.flip,!!isNewBird&&i===shownB-1));
     }
   }
   return `<div class="fp-grove"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">${scene.join("")}</svg></div>`;
@@ -1658,19 +1723,26 @@ function renderCommunityGrove(){
 }
 function renderFootprint(){
   const emails=acts.filter(a=>a.type==="email");
-  const n=emails.length;
+  const n=emails.length, birds=evcal.length;
   const html=(()=>{
-    const grove=groveSVG(n, follows.size, !!window._groveNew, !!window._groveNewFern);
+    const grove=groveSVG(n, follows.size, !!window._groveNew, !!window._groveNewFern, 28, birds, !!window._groveNewBird);
     const byTopic={};emails.forEach(a=>{byTopic[a.topic]=(byTopic[a.topic]||0)+1;});
     const topicStats=Object.entries(byTopic).sort((a,b)=>b[1]-a[1]).slice(0,3)
       .map(([t,cnt])=>`<span class="fp-stat">${cnt}× ${t}</span>`).join("");
     const recent=emails.slice(-3).reverse()
       .map(a=>`<li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg> ${prettyDate(a.date)} — wrote about “${a.title}”</li>`).join("");
+    /* Caption counts everything living in the grove: redwoods (emails sent),
+       ferns (issues followed), birds (events added to your calendar). */
+    const parts=[];
+    if(n)parts.push(`${n} redwood${n>1?"s":""}`);
+    if(follows.size)parts.push(`${follows.size} fern${follows.size>1?"s":""}`);
+    if(birds)parts.push(`${birds} bird${birds>1?"s":""}`);
+    const strong=parts.length>1?parts.slice(0,-1).join(", ")+" and "+parts[parts.length-1]:parts[0];
     const line = n
-      ? `<p class="fp-line"><b>Your grove is ${n} redwood${n>1?"s":""}${follows.size?` and ${follows.size} fern${follows.size>1?"s":""}`:""} strong.</b> ${fpMilestone(n)}</p>`
-      : (follows.size
-        ? `<p class="fp-line"><b>${follows.size} young fern${follows.size>1?"s":""} in your grove — one for each issue you follow.</b> When one comes up for a decision, a two-minute email plants your first redwood.</p>`
-        : `<p class="fp-line"><b>Palo Alto is named for a tall tree.</b> This grove is yours — following an issue plants a fern, and weighing in plants a redwood. One tap starts it.</p>`);
+      ? `<p class="fp-line"><b>Your grove is ${strong} strong.</b> ${fpMilestone(n)}</p>`
+      : (parts.length
+        ? `<p class="fp-line"><b>${strong} in your grove${follows.size&&birds?" — ferns are issues you follow, birds are events on your calendar":follows.size?" — one fern for each issue you follow":" — one bird for each event on your calendar"}.</b> When a decision comes up, a two-minute email plants your first redwood.</p>`
+        : `<p class="fp-line"><b>Your grove will grow as you track issues and weigh in.</b> Following an issue plants a fern, adding an event to your calendar lands a bird, and weighing in grows a redwood.</p>`);
     return `<section class="footprint" aria-label="Your grove — your civic footprint">
       <span class="fp-eyebrow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L6 11h4l-4 8h12l-4-8h4L12 2z"/><path d="M12 19v3"/></svg> Your grove</span>
       ${grove}
@@ -1678,6 +1750,7 @@ function renderFootprint(){
       <div class="fp-stats">
         ${n?`<span class="fp-stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg> ${n} email${n>1?"s":""}</span>`:""}
         ${follows.size?`<span class="fp-stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.3-9.5-8.5A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6.5C19 16.7 12 21 12 21z"/></svg> ${follows.size} issue${follows.size>1?"s":""} followed</span>`:""}
+        ${birds?`<span class="fp-stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> ${birds} event${birds>1?"s":""} on your calendar</span>`:""}
         ${topicStats}
       </div>
       ${recent?`<ul class="fp-recent">${recent}</ul>`:""}
@@ -1685,7 +1758,7 @@ function renderFootprint(){
   })();
   const a=$("#footprint"), b=$("#footprintFollow");
   if(a)a.innerHTML=html; if(b)b.innerHTML=html;
-  window._groveNew=false; window._groveNewFern=false;
+  window._groveNew=false; window._groveNewFern=false; window._groveNewBird=false;
 }
 /* Acknowledge the act the moment a resident opens an issue-email draft (event delegation covers every render site) */
 document.addEventListener("click",e=>{
@@ -2244,6 +2317,126 @@ function renderNews(){
 }
 
 /* ============================================================
+   RENDER: LOCAL EVENTS — community events from the City's official
+   directory (paloalto.gov/Events-Directory), refreshed by the same
+   nightly ingest as everything else. Official meetings are excluded
+   here (they live on the Meetings page); dormant until data exists.
+   ============================================================ */
+let activeEvTag=null;
+const EV_TAG_LABELS={"Community Events":"Community","City Sponsored Events":"City-sponsored","Activities & Classes":"Classes & activities","Zoo Events":"Zoo"};
+function evTagLabel(t){return EV_TAG_LABELS[t]||t;}
+function upcomingEvents(){
+  const todayISO=TODAY.toISOString().slice(0,10);
+  return EVENTS.filter(e=>e.date>=todayISO);
+}
+function renderEventFilters(){
+  const c=$("#evFilters");if(!c)return;c.innerHTML="";
+  const tags=[...new Set(upcomingEvents().flatMap(e=>e.tags||[]))].sort();
+  if(tags.length<2)return;
+  const all=el("button","chipfilter"+(activeEvTag===null?" active":""));all.textContent="All events";
+  all.onclick=()=>{activeEvTag=null;renderEvents();renderEventFilters();};c.appendChild(all);
+  tags.forEach(t=>{const b=el("button","chipfilter"+(activeEvTag===t?" active":""));b.textContent=evTagLabel(t);
+    b.onclick=()=>{activeEvTag=(activeEvTag===t?null:t);renderEvents();renderEventFilters();};c.appendChild(b);});
+}
+function renderEvents(){
+  const list=$("#evList");if(!list)return;list.innerHTML="";
+  let items=upcomingEvents();
+  if(activeEvTag)items=items.filter(e=>(e.tags||[]).includes(activeEvTag));
+  if(!items.length){
+    list.innerHTML=`<div class="empty"><p>${EVENTS.length?"No events match that filter right now — try another category.":"No events loaded yet. The nightly refresh pulls upcoming events straight from the City's official directory."}</p></div>`;
+    return;
+  }
+  let lastMonth="";
+  items.forEach(e=>{
+    const month=new Date(e.date+"T12:00:00").toLocaleDateString("en-US",{month:"long"});
+    if(month!==lastMonth){lastMonth=month;const h=el("h2","section");h.textContent=month;list.appendChild(h);}
+    const sd=shortDate(e.date);
+    const host=newsHost(e.url)||"paloalto.gov";
+    const wrap=el("div","cal-day");
+    wrap.innerHTML=`
+      <div class="cal-date"><div class="m">${sd.m}</div><div class="d">${sd.d}</div></div>
+      <div class="cal-card">
+        <div class="body-name">${(e.tags||[]).map(evTagLabel).join(" · ")||"City event"}</div>
+        <h3>${e.title}</h3>
+        ${e.desc?`<p class="ev-desc">${e.desc}</p>`:""}
+        ${e.start?`<p class="ev-where"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> ${clock12(e.start)}${e.end?" – "+clock12(e.end):""}</p>`:""}
+        ${e.where?`<p class="ev-where"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> ${e.where}</p>`:""}
+        ${e.moreDates?`<p class="ev-where">${prettyDate(e.date)} + ${e.moreDates} more date${e.moreDates>1?"s":""} — see the City's listing</p>`:""}
+        <div class="ev-actions">
+          <a class="ev-cal" href="${gcalUrl(e)}" target="_blank" rel="noopener" data-evkey="${evKey(e).replace(/"/g,"&quot;")}"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M12 14v4M10 16h4"/></svg> Google Calendar</a>
+          <a class="ev-cal ev-ics" href="#" data-evkey="${evKey(e).replace(/"/g,"&quot;")}" aria-label="Download calendar file for ${e.title}"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg> Apple / Outlook</a>
+          <a href="${e.url}" target="_blank" rel="noopener">Details at ${host} →</a>
+        </div>
+      </div>`;
+    list.appendChild(wrap);
+  });
+}
+
+/* ---- Add to calendar: a Google link + a universal .ics download, built
+   client-side from the event's scraped date/time (all-day when the City's
+   page lists no time). Adding an event lands a BIRD in your grove. ---- */
+function clock12(hhmm){
+  const m=(hhmm||"").match(/^(\d{1,2}):(\d{2})$/); if(!m) return hhmm;
+  let h=+m[1]; const ap=h>=12?"PM":"AM"; h=h%12||12;
+  return h+":"+m[2]+" "+ap;
+}
+function evKey(e){return e.title+"|"+e.date;}
+function evNextDay(iso){const d=new Date(iso+"T12:00:00");d.setDate(d.getDate()+1);return d.toISOString().slice(0,10);}
+function evDetails(e){return (e.desc?e.desc+"\n\n":"")+"Exact details & registration: "+e.url+"\n(Added from Hey Palo Alto — heypaloalto.org)";}
+function gcalUrl(e){
+  const d=e.date.replace(/-/g,"");
+  const dates=e.start
+    ? `${d}T${e.start.replace(":","")}00/${d}T${(e.end||e.start).replace(":","")}00`
+    : `${d}/${evNextDay(e.date).replace(/-/g,"")}`;
+  return "https://calendar.google.com/calendar/render?action=TEMPLATE"
+    +"&text="+encodeURIComponent(e.title)
+    +"&dates="+dates
+    +(e.where?"&location="+encodeURIComponent(e.where):"")
+    +"&details="+encodeURIComponent(evDetails(e));
+}
+function downloadICS(e){
+  const d=e.date.replace(/-/g,"");
+  const esc=s=>String(s||"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");
+  const lines=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Hey Palo Alto//Local Events//EN","BEGIN:VEVENT",
+    "UID:"+evKey(e).replace(/[^a-zA-Z0-9]/g,"").slice(0,60)+"@heypaloalto.org",
+    "DTSTAMP:"+d+"T000000Z"];
+  if(e.start){
+    lines.push("DTSTART:"+d+"T"+e.start.replace(":","")+"00");
+    lines.push("DTEND:"+d+"T"+(e.end||e.start).replace(":","")+"00");
+  }else{
+    lines.push("DTSTART;VALUE=DATE:"+d);
+    lines.push("DTEND;VALUE=DATE:"+evNextDay(e.date).replace(/-/g,""));
+  }
+  lines.push("SUMMARY:"+esc(e.title));
+  if(e.where)lines.push("LOCATION:"+esc(e.where));
+  lines.push("DESCRIPTION:"+esc(evDetails(e)));
+  lines.push("URL:"+e.url,"END:VEVENT","END:VCALENDAR");
+  const blob=new Blob([lines.join("\r\n")],{type:"text/calendar"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download=e.title.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,50)+".ics";
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),4000);
+}
+/* One bird per event, no matter how many times its links are clicked */
+const LS_EVCAL="pacp_evcal";
+let evcal=JSON.parse(localStorage.getItem(LS_EVCAL)||"[]"); // {key,title,date,added}
+function logCalendarAct(e){
+  const key=evKey(e);
+  if(evcal.some(x=>x.key===key)){toast("Opening your calendar…");return;}
+  evcal.push({key,title:e.title,date:e.date,added:new Date().toISOString().slice(0,10)});
+  localStorage.setItem(LS_EVCAL,JSON.stringify(evcal));
+  window._groveNewBird=true; renderFootprint();
+  toast("Calendar opening — and a little bird just landed in your grove.",3600);
+}
+document.addEventListener("click",ev=>{
+  const a=ev.target.closest("a.ev-cal"); if(!a)return;
+  const e=EVENTS.find(x=>evKey(x)===a.dataset.evkey); if(!e)return;
+  if(a.classList.contains("ev-ics")){ev.preventDefault();downloadICS(e);}
+  logCalendarAct(e);
+});
+
+/* ============================================================
    SETTINGS / DIGEST
    ============================================================ */
 function loadSettings(){
@@ -2281,7 +2474,7 @@ $("#previewDigest").onclick=()=>{
 const AREAS={
   home:    {views:[["start","Home"]]},
   issues:  {views:[["discover","All issues"],["following","Following"],["news","Local news"],["bodies","Who decides"]]},
-  calendar:{views:[["calendar","Meetings"]]},
+  calendar:{views:[["calendar","Meetings"],["events","Local events"]]},
   act:     {views:[["act","Ways to act"],["ready","Be ready"],["settings","Email alerts"]]},
   vote:    {views:[["voting","Voting"]]},
   about:   {views:[["about","About"]]}   /* no nav tab — reached from the footer link */
@@ -2291,6 +2484,7 @@ const VIEW_HOOKS={
   start:()=>{renderTopicPicker();renderOneThing();renderHomeMatches();},
   following:()=>renderAlerts(),
   calendar:()=>renderCalendar(),
+  events:()=>{renderEventFilters();renderEvents();},
   news:()=>{renderNewsFilters();renderNews();},
   act:()=>highlightActLocally(),
   discover:()=>{const s=$("#statsStrip");if(s)countUpStats(s);}
@@ -2499,6 +2693,7 @@ function shortTitle(t){
 function applyCivicData(data){
   const todayISO=TODAY.toISOString().slice(0,10);
   NEWS = (data.news||[]).slice().sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+  EVENTS = (data.events||[]).slice().sort((a,b)=>(a.date||"").localeCompare(b.date||"")||a.title.localeCompare(b.title));
   Object.keys(BODIES).forEach(k=>delete BODIES[k]);
   (data.bodies||[]).forEach(b=>{ BODIES[b.slug]={name:b.name,abbrev:b.name,schedule:b.schedule||"",email:b.email,desc:b.desc||"",kind:b.kind||""}; });
   Object.keys(MEETINGS).forEach(k=>delete MEETINGS[k]);
