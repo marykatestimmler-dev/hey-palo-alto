@@ -115,6 +115,80 @@ async function fetchNews(){
 }
 
 /* ----------------------------------------------------------------------- *
+ * Community events — paloalto.gov/Events-Directory (OpenCities).
+ * Official meetings are EXCLUDED here (they come from PrimeGov above and
+ * live on the app's Calendar page); holidays/closures are skipped too.
+ * Pagination: ?dlv_OC%20CL%20Public%20Events%20Listing=(pageindex=N),
+ * 10 <article> cards per page. Canceled events carry a "Canceled" title
+ * prefix in the directory markup. Never throws — worst case returns [].
+ * ----------------------------------------------------------------------- */
+const EVENTS_BASE = 'https://www.paloalto.gov';
+const EVENTS_MAX_PAGES = 15;      // safety cap; loop stops when a page repeats or is empty
+const EVENTS_DAYS_AHEAD = 60;
+const EVENT_SKIP_TAGS = /Council Meetings|Commissions Meetings|Other City Meetings|City Holiday/i;
+async function fetchEvents(){
+  const out = [], seen = new Set();
+  const horizon = new Date(); horizon.setDate(horizon.getDate() + EVENTS_DAYS_AHEAD);
+  let prevFirst = null;
+  for (let p = 1; p <= EVENTS_MAX_PAGES; p++) {
+    let $;
+    try {
+      $ = load(await getTextAbs(`${EVENTS_BASE}/Events-Directory?dlv_OC%20CL%20Public%20Events%20Listing=(pageindex=${p})`));
+    } catch (e) { console.warn(`  ! events page ${p} failed: ${e.message}`); break; }
+    const arts = $('article');
+    if (!arts.length) break;
+    const first = cleanText(arts.first().find('.list-item-title').text());
+    if (first && first === prevFirst) break;               // pagination wrapped around
+    prevFirst = first;
+    arts.each((_, el) => {
+      const $a = $(el);
+      const title = cleanText($a.find('.list-item-title').first().text());
+      if (!title || /^Canceled/i.test(title)) return;      // canceled events: title prefix in markup
+      if (/\bMeeting\b/i.test(title)) return;              // meeting stragglers without tags
+      const tags = $a.find('.tagged-as-list .text').text().split(',').map(s => s.trim()).filter(Boolean);
+      if (tags.some(t => EVENT_SKIP_TAGS.test(t))) return;
+      const when = new Date(`${cleanText($a.find('.part-date').text())} ${cleanText($a.find('.part-month').text())} ${cleanText($a.find('.part-year').text())} 12:00`);
+      if (isNaN(when) || when > horizon) return;           // next N days only
+      let url = ($a.find('a').first().attr('href') || '').split('?')[0];
+      if (url.startsWith('/')) url = EVENTS_BASE + url;
+      const date = when.toISOString().slice(0, 10);
+      if (seen.has(title + '|' + date)) return; seen.add(title + '|' + date);
+      const more = (cleanText($a.find('.published-on').first().text()).match(/(\d+) more date/) || [])[1];
+      out.push({
+        title, date,
+        desc: cleanText($a.find('.list-item-block-desc').first().text()).slice(0, 200),
+        where: cleanText($a.find('.list-item-address').first().text()).replace(/,?\s*(Palo Alto)?\s*,?\s*(CA)?\s*(9\d{4})?\s*$/i, '').replace(/,\s*$/, '').trim(),
+        moreDates: more ? +more : 0,
+        tags, url,
+      });
+    });
+    await sleep(FETCH_DELAY_MS);
+  }
+  /* Second pass: real start/end times live on each event's DETAIL page
+     (.multi-date-item rows, or the "Next date:" .event-date header).
+     City pages only — external listings (e.g. the zoo) stay all-day.
+     Any failure just leaves the event timeless; never fails the run. */
+  const to24 = (h, mm, ap) => {
+    let H = parseInt(h, 10) % 12; if (/PM/i.test(ap)) H += 12;
+    return String(H).padStart(2, '0') + ':' + mm;
+  };
+  for (const e of out) {
+    if (!e.url.startsWith(EVENTS_BASE)) continue;
+    try {
+      const $ = load(await getTextAbs(e.url));
+      const want = new Date(e.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+      let txt = '';
+      $('.multi-date-item').each((_, el) => { const t = cleanText($(el).text()); if (!txt && t.includes(want)) txt = t; });
+      if (!txt) txt = cleanText($('.event-date').first().text());
+      const m = txt.match(/(\d{1,2}):(\d{2})\s*([AP]M)\s*(?:to|-|–)\s*(\d{1,2}):(\d{2})\s*([AP]M)/i);
+      if (m) { e.start = to24(m[1], m[2], m[3]); e.end = to24(m[4], m[5], m[6]); }
+      await sleep(FETCH_DELAY_MS);
+    } catch (err) { console.warn(`  ! event time fetch failed (${e.title}): ${err.message}`); }
+  }
+  return out.sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
+}
+
+/* ----------------------------------------------------------------------- *
  * Date window
  * ----------------------------------------------------------------------- */
 const today = new Date();
@@ -286,6 +360,10 @@ async function main(){
   const news = await fetchNews();
   console.log(`  ${news.length} local news items.`);
 
+  console.log('Fetching community events…');
+  const events = await fetchEvents();
+  console.log(`  ${events.length} community events (next ${EVENTS_DAYS_AHEAD} days).`);
+
   const payload = {
     generatedAt: new Date().toISOString(),
     source: 'City of Palo Alto PrimeGov portal',
@@ -294,6 +372,7 @@ async function main(){
     bodies,
     meetings: out,
     news,
+    events,
   };
 
   mkdirSync(OUT_DIR, { recursive: true });
