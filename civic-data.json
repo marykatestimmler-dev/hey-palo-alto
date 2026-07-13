@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T10:27:01.312Z",
+  "generatedAt": "2026-07-13T21:04:25.647Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
@@ -7367,7 +7367,7 @@
       "title": "Architectural Review Board Regular Meeting",
       "date": "2026-07-16",
       "startTime": "08:30",
-      "videoId": null,
+      "videoId": "uzZ8fckJZv8",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19506",
       "items": [
         {
@@ -7788,5 +7788,6 @@
       ],
       "summary": "Planning and Transportation Commission Chair Bryna Chang is running for a City Council seat in 2026. Courtesy city of Palo Alto Bryna Chang, the chair of Palo Alto’s influential Pl"
     }
-  ]
+  ],
+  "events": []
 }
