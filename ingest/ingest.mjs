@@ -32,7 +32,7 @@
  */
 
 import { load } from 'cheerio';
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, readFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -361,8 +361,24 @@ async function main(){
   console.log(`  ${news.length} local news items.`);
 
   console.log('Fetching community events…');
-  const events = await fetchEvents();
-  console.log(`  ${events.length} community events (next ${EVENTS_DAYS_AHEAD} days).`);
+  let events = await fetchEvents();
+  // The city's Events-Directory (www.paloalto.gov) sits behind Akamai bot
+  // protection that 403-blocks datacenter IPs, so this scraper returns 0 when
+  // run from CI. Rather than wipe the events section, preserve the previously
+  // committed events (seeded from a real browser). Past events fall off below.
+  if (events.length === 0) {
+    const prior = loadPriorEvents();
+    if (prior.length) {
+      console.warn(`  ! events source returned 0 (likely CDN block) — preserving ${prior.length} previously committed events.`);
+      events = prior;
+    }
+  }
+  // Drop anything already past; keep the feed forward-looking in both paths.
+  const todayISO = today.toISOString().slice(0, 10);
+  events = events
+    .filter(e => e && e.date && e.date >= todayISO)
+    .sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
+  console.log(`  ${events.length} community events (upcoming).`);
 
   const payload = {
     generatedAt: new Date().toISOString(),
@@ -379,6 +395,16 @@ async function main(){
   writeFileSync(join(OUT_DIR, 'civic-data.json'), JSON.stringify(payload, null, 2));
   writeFileSync(join(OUT_DIR, 'civic-data.js'), 'window.CIVIC_DATA = ' + JSON.stringify(payload) + ';');
   console.log(`\nWrote civic-data.json and civic-data.js — ${out.length} meetings, ${out.reduce((s,m)=>s+m.items.length,0)} agenda items.`);
+}
+
+// Read events from the previously committed civic-data.js so a CDN block on
+// the events source doesn't erase the section. Returns [] if unreadable.
+function loadPriorEvents(){
+  try {
+    const t = readFileSync(join(OUT_DIR, 'civic-data.js'), 'utf8');
+    const o = JSON.parse(t.slice(t.indexOf('=') + 1).trim().replace(/;\s*$/, ''));
+    return Array.isArray(o.events) ? o.events : [];
+  } catch { return []; }
 }
 
 // "17:30" -> "5:30 PM"
