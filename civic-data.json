@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-12T09:58:04.478Z",
+  "generatedAt": "2026-07-13T10:27:01.312Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-12",
-    "to": "2027-01-12"
+    "from": "2026-01-13",
+    "to": "2027-01-13"
   },
   "bodies": [
     {
@@ -16,11 +16,6 @@
       "name": "City Council",
       "slug": "city-council",
       "email": "city.council@PaloAlto.gov"
-    },
-    {
-      "name": "City Council & Public Improvement Corporation",
-      "slug": "city-council-and-public-improvement-corporation",
-      "email": "city.clerk@PaloAlto.gov"
     },
     {
       "name": "City Schools Liaison Committee",
@@ -119,215 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3027,
-      "body": "Planning and Development Services Director's Hearing",
-      "bodySlug": "planning-and-development-services-director-s-hearing",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning and Development Services Director's Hearing",
-      "date": "2026-01-12",
-      "startTime": "15:30",
-      "videoId": null,
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19997",
-      "items": [
-        {
-          "num": "1",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 530 Barron Avenue [25PLN-00021]: Request for Director’s Review of a Tentative Approval of an Individual Review Application to Allow Partial Deconstruction of an Existing 924-Square-Foot Single-Story Residence and to Allow the Construction of a New 2,528-Square-Foot Two-Story Single-Family Residence with Attached One-Car Garage, 303-Square-Foot Junior Accessory Dwelling Unit, and 497-Square-Foot of Existing House Converted to Detached Accessory Dwelling Unit. CEQA Status: Exempt from the Provisions of CEQA in Accordance with CEQA Guidelines Section 15303. Zoning District: R-1 (Single-Family Residential).",
-          "topics": [
-            "Housing",
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2802,
-      "body": "City Council & Public Improvement Corporation",
-      "bodySlug": "city-council-and-public-improvement-corporation",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "City Council & Public Improvement Corporation Special Meeting",
-      "date": "2026-01-12",
-      "startTime": "17:30",
-      "videoId": "fGtryj2gX9A",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18508",
-      "items": [
-        {
-          "num": "1",
-          "title": "CONFERENCE WITH CITY ATTORNEY-POTENTIAL LITIGATION Subject: Initiation of litigation in one case Authority: Potential Exposure to Litigation Under Government Code Section 54956.9(d) (4) Number of potential cases: 1, as Plaintiff",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:35 PM",
-          "elapsedSec": 300
-        },
-        {
-          "num": "2",
-          "title": "Review and Discuss 2025 Q4 Council Priorities & Objectives and format of the 2026 City Council Annual Retreat. CEQA Status – Not a project. Supplemental Report Added, Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
-        },
-        {
-          "num": "3",
-          "title": "Approval of Minutes from December 8, December 10, and December 15, 2025 Meetings",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "4",
-          "title": "Adoption of Memorandum of Agreement with Service Employees International Union Hourly Unit effective upon adoption through December 31, 2027; and Adoption of Compensation Plan for Unrepresented Limited Hourly Employee effective upon adoption through June 30, 2028; CEQA Status - Not a project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "5",
-          "title": "Approval of Professional Services Contract Number C26195486 with Baron Contracting in an Amount Not-to-Exceed $514,528 for Gas Leak Survey Services for a Period of Three Years. CEQA Status – Exempt Under CEQA Guidelines Sections 15301(c) and 15308 (Existing Facilities).",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "6",
-          "title": "Approval of a Contract with the Media Center for Cable Casting Services of Public Meetings for a Term of Three Years and a Not to Exceed Amount of $540,000 with Two One-Year Options to Extend for a Potential Not to Exceed amount of $900,000 over a five-year term, for cablecasting, production, and streaming services; CEQA Status – Not a Project.",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "7",
-          "title": "Approve the City Manager or Designee to Execute Purchase Order C26196045 with Insight Public Sector, Utilizing a County of Riverside Cooperative Contract ITARC-00930, to Procure Microsoft Enterprise Software Licensing, Cloud Services, and Server/Data Center Licensing for a 3-Year Term with a maximum Total Not-To-Exceed Amount of $2,506,936, inclusive of a Contingency in the Amount of $50,000 Annually.",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "8",
-          "title": "FIRST READING: Adoption of an ordinance to Amend Chapters 4.54 and 4.56 of the Palo Alto Municipal Code to Amend the Regulation of Massage Establishments and Hot Tub/Sauna Establishments as Recommended by the Policy & Services Committee; and Adoption of a Resolution to Amend the Administrative Penalty Schedule to Amend Related Penalties; CEQA status - not a project.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "9",
-          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Renewing the Military Equipment Use Policy in Compliance with Govt. Code Section 7070 et seq. (2025-2026) (FIRST READING: December 8, 2025; PASSED 7-0)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "10",
-          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Prohibiting Parking of Detached Trailers and Other Non-Motorized Vehicles on Public Streets (FIRST READING: December 8, 2025; PASSED 6-1, Lythcott-Haims no)",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "11",
-          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Prohibiting Rental of Vehicles for Human Habitation (FIRST READING: December 8, 2025; PASSED 6-1, Lythcott-Haims no) Public Comment",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "12",
-          "title": "SECOND READING: Interim Ordinance of the Council of the City of Palo Alto Temporarily Extending Interim Ordinance 5645, Amending Various Chapters of Title 16 (Building Regulations) and Title 18 (Zoning) and Title 21 (Subdivisions and Other Divisions of Land) of the Palo Alto Municipal Code to Implement Recent State Housing Laws (FIRST READING: December 8, 2025, PASSED 7-0)",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": "8:05 PM",
-          "elapsedSec": 9300
-        },
-        {
-          "num": "13",
-          "title": "Study and Assessment of Palo Alto Turf Systems and Direct Staff to Proceed with El Camino Park Synthetic Turf Replacement and Natural Grass Pilot; CEQA Status – Categorically and Statutorily Exempt Presentation, Public Comment",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "14",
-          "title": "Approval of Fiscal Year 2025 Palo Alto Public Improvement Corporation's Annual Financial Report. CEQA Status - Not a Project Public Comment",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "9:40 PM",
-          "elapsedSec": 15000
-        },
-        {
-          "num": "15",
-          "title": "Review and Approval of Suggested Changes to the City Council Procedures and Protocols Handbook as Recommended by the Policy and Services Committee. CEQA Status – Not a project.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "10:00 PM",
-          "elapsedSec": 16200
-        },
-        {
-          "num": "A",
-          "title": "Monthly Investment Report - November 2025 (Unaudited)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:10 PM",
-          "elapsedSec": 9600
-        },
-        {
-          "num": "B",
-          "title": "Property Agreements Entered into by City Manager Under Palo Alto Municipal Code Section 2.30.210(h) and Reported Per Section Code 2.30.710(b) for Fiscal Year 2025",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:10 PM",
-          "elapsedSec": 9600
-        },
-        {
-          "num": "C",
-          "title": "Boards, Commissions, and Committees 2025 Year-End Attendance Report; CEQA Status - Not a Project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:10 PM",
-          "elapsedSec": 9600
-        },
-        {
-          "num": "D",
-          "title": "Surplus Property Donated by the City to Nonprofit Agencies; CEQA Status: Not a Project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:10 PM",
-          "elapsedSec": 9600
-        }
-      ]
-    },
     {
       "id": 2776,
       "body": "Policy & Services Committee",
