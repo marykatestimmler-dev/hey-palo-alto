@@ -577,6 +577,19 @@
     body:not(.inner) .logo img, body:not(.inner) .logo svg{height:118px}
     body:not(.inner) .brandtext h1{font-size:24px}
     body:not(.inner) header.app{padding:16px 0 8px}
+    /* Phones hid the header art entirely (old rule) — bring it back as the video's
+       poster still, cream-faded like desktop. MK's Android report, 2026-07-10. */
+    body:not(.inner) header.app::before{content:"";position:absolute;right:0;top:0;bottom:0;width:78%;
+      background:url('hero-poster.jpg') center right/cover no-repeat;opacity:.85;pointer-events:none;
+      -webkit-mask-image:linear-gradient(to right,transparent 0%,#000 45%);
+      mask-image:linear-gradient(to right,transparent 0%,#000 45%)}
+    /* Topic chips: back to wrapping, but compact — everything visible, nothing cut off */
+    .tp-chips{flex-wrap:wrap;overflow-x:visible;padding-bottom:0;gap:8px}
+    .tp-chip{font-size:12.5px;padding:7px 11px;gap:5px}
+    .tp-chip svg{width:14px;height:14px}
+    .tp-q{font-size:24px}
+    /* poster count badge overlapped HAPPENING NOW on narrow screens */
+    .po-count{position:static;display:block;margin:0 0 8px;text-align:left}
     .area-hero h2{font-size:24px}
     .footprint{padding:14px 16px}
   }
