@@ -40,8 +40,8 @@ import { fileURLToPath } from 'node:url';
 const CONFIG = {
   MODE: 'live',                 // 'live' = app displays passing lines; 'shadow' = generate + log only
   MODEL: 'claude-haiku-4-5',    // cheapest current Claude model; update if Anthropic renames it
-  MAX_NEW_PER_RUN: 80,          // safety cap per night
-  MAX_LINE_CHARS: 110,
+  MAX_NEW_PER_RUN: 600,         // raised from 80 for a one-time full backfill (2026-07-13); cache keeps future nightly runs cheap
+  MAX_LINE_CHARS: 110,          // raised from 90 after first-batch review (2026-07-10): 17 good drafts died on length; display clamps at 2 lines anyway
   API_URL: 'https://api.anthropic.com/v1/messages',
 };
 
