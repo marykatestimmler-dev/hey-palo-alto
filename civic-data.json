@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-13T21:04:25.647Z",
+  "generatedAt": "2026-07-14T02:19:18.502Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-13",
-    "to": "2027-01-13"
+    "from": "2026-01-14",
+    "to": "2027-01-14"
   },
   "bodies": [
     {
@@ -7789,5 +7789,477 @@
       "summary": "Planning and Transportation Commission Chair Bryna Chang is running for a City Council seat in 2026. Courtesy city of Palo Alto Bryna Chang, the chair of Palo Alto’s influential Pl"
     }
   ],
-  "events": []
+  "events": [
+    {
+      "title": "Wheels on the Bus - The Musical",
+      "date": "2026-07-15",
+      "desc": "The second Summer Hot Dog show with a delightful story: Wheels on the Bus - The Musical.",
+      "where": "Palo Alto Children's Theatre, 1305 Middlefield Rd",
+      "moreDates": 14,
+      "start": "18:30",
+      "end": "19:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Wheels-on-the-Bus-The-Musical-Hot-Dog-Show"
+    },
+    {
+      "title": "Whispers Through the Trees",
+      "date": "2026-07-16",
+      "desc": "Join artist Sophia Lee for hands-on public workshops connected to her ArtLift project, Whispers Through the Trees.",
+      "where": "",
+      "moreDates": 4,
+      "start": "12:30",
+      "end": "14:30",
+      "tags": [
+        "City Sponsored Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Whispers-Through-the-Trees-Community-Workshops"
+    },
+    {
+      "title": "World Snake Day",
+      "date": "2026-07-16",
+      "desc": "Celebrate World Snake Day at the JMZ with fun activities and snake encounters!",
+      "where": "Palo Alto Junior Museum and Zoo, 1451 Middlefield Road",
+      "moreDates": 0,
+      "tags": [
+        "Zoo Events"
+      ],
+      "url": "https://www.paloaltozoo.org/Visit/Events/World-Snake-Day"
+    },
+    {
+      "title": "Family Movie Night Series 2026",
+      "date": "2026-07-17",
+      "desc": "Join the Community Services Department for Family Movie Night on the Mitchell Park Southeast Athletic Field!",
+      "where": "Mitchell Park Athletic Field, 600 East Meadow Drive",
+      "moreDates": 2,
+      "start": "19:30",
+      "end": "22:30",
+      "tags": [
+        "Activities & Classes",
+        "City Sponsored Events",
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Family-Movie-Night-Series-2026"
+    },
+    {
+      "title": "Household Hazardous Waste Station Open",
+      "date": "2026-07-18",
+      "desc": "Dispose unwanted hazardous household products such as used or expired medication, paints, solvents, fuels…",
+      "where": "Household Hazardous Waste Station, 2501 Embarcadero Way",
+      "moreDates": 47,
+      "start": "09:00",
+      "end": "11:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Public-Works/Household-Hazardous-Waste-Station-Open"
+    },
+    {
+      "title": "The Rhinoceros Project: Community Sewing Circles",
+      "date": "2026-07-18",
+      "desc": "Led by artist duo Michelle Wilson and Anne Beck at multiple locations.",
+      "where": "",
+      "moreDates": 4,
+      "start": "10:00",
+      "end": "14:00",
+      "tags": [
+        "City Sponsored Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/The-Rhinoceros-Project-Community-Sewing-Circles"
+    },
+    {
+      "title": "Tour the Regional Water Quality Control Plant",
+      "date": "2026-07-18",
+      "desc": "Take a free walking tour of the City's wastewater treatment plant. See how operators, scientists, and engineers…",
+      "where": "Regional Water Quality Control Plant, 2501 Embarcadero Way",
+      "moreDates": 1,
+      "start": "10:00",
+      "end": "11:15",
+      "tags": [
+        "City Sponsored Events",
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Public-Works/Tour-the-RWQCP"
+    },
+    {
+      "title": "Twilight Concert Series 2026",
+      "date": "2026-07-18",
+      "desc": "We've got three great shows lined up for you this summer! Can't wait to see you there!",
+      "where": "Mitchell Park, 600 E Meadow Dr",
+      "moreDates": 1,
+      "start": "17:00",
+      "end": "20:00",
+      "tags": [
+        "Activities & Classes",
+        "City Sponsored Events",
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Twilight-Concert-Series-2026"
+    },
+    {
+      "title": "Charm Bar & Teen Library Advisory Board",
+      "date": "2026-07-19",
+      "desc": "Create your own custom keychains and bag charms while helping shape future teen events at the library!",
+      "where": "Mitchell Park Library, 3700 Middlefield Rd.",
+      "moreDates": 0,
+      "start": "16:00",
+      "end": "17:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/TLAB-Charm-Bar"
+    },
+    {
+      "title": "Common Threads: A Creative Gathering with Chandrika Marla",
+      "date": "2026-07-19",
+      "desc": "Join Cubberley Artist-in-Residence Chandrika Marla for Common Threads, an informal gathering for artists…",
+      "where": "Cubberley Community Center, 4000 Middlefield Road",
+      "moreDates": 0,
+      "start": "16:00",
+      "end": "18:00",
+      "tags": [
+        "City Sponsored Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Common-Threads-A-Creative-Gathering-with-Chandrika-Marla"
+    },
+    {
+      "title": "Master Gardeners Workshop",
+      "date": "2026-07-19",
+      "desc": "Join us for an informative workshop presented by UC Master Gardeners of Santa Clara County!",
+      "where": "Rinconada Library, 1213 Newell Rd.",
+      "moreDates": 2,
+      "start": "13:30",
+      "end": "14:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/Master-Gardeners"
+    },
+    {
+      "title": "Middle School Bike Skills",
+      "date": "2026-07-19",
+      "desc": "Wheel Kids, in partnership with the City of Palo Alto Safe Routes to School (SRTS) Program…",
+      "where": "Mitchell Park Community Center, 3700 Middlefield Rd",
+      "moreDates": 1,
+      "start": "08:30",
+      "end": "12:30",
+      "tags": [
+        "Activities & Classes"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Office-of-Transportation/Middle-School-Bike-Safety-Skills-Class"
+    },
+    {
+      "title": "Explore Possibilities with Nature Journaling",
+      "date": "2026-07-23",
+      "desc": "Slow down, unplug, and awaken your curiosity at this nature journaling workshop.",
+      "where": "",
+      "moreDates": 0,
+      "start": "16:00",
+      "end": "17:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/Explore-Possibilities-with-Nature-Journaling"
+    },
+    {
+      "title": "Photography Meetup",
+      "date": "2026-07-26",
+      "desc": "Join us for a monthly meetup designed for intermediate and advanced photographers where we'll discuss techniques…",
+      "where": "Mitchell Park Library, 3700 Middlefield Rd.",
+      "moreDates": 5,
+      "start": "10:00",
+      "end": "11:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/Photography-Meetup"
+    },
+    {
+      "title": "Thursday Live on Cal Ave.",
+      "date": "2026-07-30",
+      "desc": "Thursday Live on Cal Ave. will transform car-free Cal Ave. into a lively gathering space with popular, local musicians…",
+      "where": "Cal Ave. between El Camino Real and Birch Street",
+      "moreDates": 0,
+      "start": "17:00",
+      "end": "20:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/City-Manager/Thursday-Live-on-Cal-Ave.-July-30"
+    },
+    {
+      "title": "Chair Yoga with Patricia Becker",
+      "date": "2026-08-01",
+      "desc": "Join local yoga teacher Patricia Becker to loosen joints, improve cognition, and increase strength.",
+      "where": "Rinconada Library, 1213 Newell Rd.",
+      "moreDates": 1,
+      "start": "11:00",
+      "end": "12:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/Chair-Yoga-with-Patricia-Becker"
+    },
+    {
+      "title": "Chill Out with Mindfulness Meditation",
+      "date": "2026-08-01",
+      "desc": "Center yourself and increase your focus with mindfulness meditation for all ages and experience levels.",
+      "where": "Mitchell Park Library, 3700 Middlefield Rd.",
+      "moreDates": 4,
+      "start": "11:00",
+      "end": "11:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/Chill-Out-with-Mindfulness-Meditation"
+    },
+    {
+      "title": "Document Shredding Events",
+      "date": "2026-08-01",
+      "desc": "Safely destroy and recycle your confidential and personal paperwork at the Document Shredding Events.",
+      "where": "Baylands Athletic Center (Parking Lot), 1900 Geng Rd",
+      "moreDates": 0,
+      "start": "09:00",
+      "end": "12:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Public-Works/Document-Shredding-Events"
+    },
+    {
+      "title": "Make a Video About Almost Anything!",
+      "date": "2026-08-01",
+      "desc": "Join award-winning filmmaker Ala Mohseni for a hands-on workshop exploring documentary storytelling…",
+      "where": "Cubberley Community Center, 4000 Middlefield Road",
+      "moreDates": 0,
+      "start": "11:00",
+      "end": "12:00",
+      "tags": [
+        "City Sponsored Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Make-a-Video-About-Almost-Anything"
+    },
+    {
+      "title": "Wild Color: Community Mural Workshops at Cubberley",
+      "date": "2026-08-01",
+      "desc": "Everyone of all ages and experiences are welcomed to help paint and bring a large-scale mural to life.",
+      "where": "Cubberley Community Center, 4000 Middlefield Road",
+      "moreDates": 3,
+      "start": "11:00",
+      "end": "14:00",
+      "tags": [
+        "City Sponsored Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Community-Mural-Workshop-Series-with-Zoe-Caron"
+    },
+    {
+      "title": "Repair Café Palo Alto",
+      "date": "2026-08-02",
+      "desc": "The Repair Café Palo Alto is a volunteer-run community service dedicated to encouraging the repair and reuse…",
+      "where": "Museum of American Heritage, 351 Homer Ave",
+      "moreDates": 0,
+      "start": "11:00",
+      "end": "15:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Public-Works/Repair-Café-Palo-Alto"
+    },
+    {
+      "title": "National Night Out 2026",
+      "date": "2026-08-04",
+      "desc": "The Palo Alto Police Department invites the community to National Night Out! Each year, we host a block party…",
+      "where": "",
+      "moreDates": 0,
+      "start": "17:00",
+      "end": "20:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Police-Department/National-Night-Out-2026"
+    },
+    {
+      "title": "Quilting Basics",
+      "date": "2026-08-05",
+      "desc": "Join local artists and Cubberley Artists-in-Residence Mik and May Gaspay for a hands-on quilting workshop…",
+      "where": "Mitchell Park Library, 3700 Middlefield Road",
+      "moreDates": 1,
+      "start": "17:00",
+      "end": "19:00",
+      "tags": [
+        "City Sponsored Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Quilting-Basics-with-Local-Artists-Mik-and-May-Gaspay"
+    },
+    {
+      "title": "Year of Letters",
+      "date": "2026-08-05",
+      "desc": "Drop in to decorate cards or write letters at the library!",
+      "where": "Rinconada Library, 1213 Newell Rd.",
+      "moreDates": 4,
+      "start": "16:30",
+      "end": "17:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/Year-of-Letters"
+    },
+    {
+      "title": "It's OK to Say Suicide Workshop",
+      "date": "2026-08-12",
+      "desc": "Suicide prevention starts with awareness and action. In this session, participants will gain a foundational understanding…",
+      "where": "Rinconada Library - Embarcadero Room, 1213 Newell Road",
+      "moreDates": 0,
+      "start": "18:00",
+      "end": "19:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/City-Manager/Its-OK-to-Say-Suicide-Workshop"
+    },
+    {
+      "title": "Self-Care Social + Teen Library Advisory Board",
+      "date": "2026-08-12",
+      "desc": "Join us at the library for a relaxing teen spa evening featuring DIY self-care activities, calming crafts, snacks…",
+      "where": "Mitchell Park Library, 3700 Middlefield Rd.",
+      "moreDates": 0,
+      "start": "17:00",
+      "end": "18:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/TLAB-Self-care-Social"
+    },
+    {
+      "title": "Artist Ashwini Bhat in conversation with Dr. Padma Dorje Maitland",
+      "date": "2026-08-15",
+      "desc": "Artist Ashwini Bhat in conversation with Dr. Padma Dorje Maitland.",
+      "where": "",
+      "moreDates": 0,
+      "start": "15:00",
+      "end": "16:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Artist-Ashwini-Bhat-in-conversation-with-Dr.-Padma-Dorje-Maitland"
+    },
+    {
+      "title": "Transforming Nature: A Hands-On Photographic Sculpture Workshop",
+      "date": "2026-08-15",
+      "desc": "Join Cubberley Artist-in-Residence Charlotta Hauksdottir for a two-part hands-on workshop exploring how photography…",
+      "where": "Cubberley Community Center, 4000 Middlefield Road",
+      "moreDates": 1,
+      "start": "14:00",
+      "end": "16:00",
+      "tags": [
+        "City Sponsored Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Transforming-Nature-A-Hands-On-Photographic-Sculpture-Workshop-with-Charlotta-Hauksdottir"
+    },
+    {
+      "title": "Weaving with Found Objects",
+      "date": "2026-08-23",
+      "desc": "Join mixed-media artist Jasmine Valandani for a free hands-on workshop exploring the basics of weaving…",
+      "where": "Rinconada Library, 1213 Newell Road",
+      "moreDates": 0,
+      "start": "14:00",
+      "end": "15:30",
+      "tags": [
+        "City Sponsored Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Weaving-with-Found-Objects"
+    },
+    {
+      "title": "Bike/Ped Rail Crossings Workshop",
+      "date": "2026-08-27",
+      "desc": "Ask questions and share your feedback on possible bike and pedestrian rail crossing design alternatives in south Palo Alto.",
+      "where": "Rinconada Library in the Embarcadero Room, 1213 Newell Rd",
+      "moreDates": 0,
+      "start": "18:00",
+      "end": "19:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Office-of-Transportation/BikePed-Rail-Crossings-Workshop-2"
+    },
+    {
+      "title": "Thursday Live on Cal Ave.",
+      "date": "2026-08-27",
+      "desc": "Thursday Live on Cal Ave. will transform car-free Cal Ave. into a lively gathering space with popular, local musicians…",
+      "where": "Cal Ave. between El Camino Real and Birch Street",
+      "moreDates": 0,
+      "start": "17:00",
+      "end": "20:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/City-Manager/Thursday-Live-on-Cal-Ave.-August-27"
+    },
+    {
+      "title": "Meet First Responders & Resource Fair",
+      "date": "2026-08-29",
+      "desc": "Join us for a Meet First Responders & Resource Fair for individuals with disabilities and their families.",
+      "where": "Mitchell Park, 600 East Meadow Drive",
+      "moreDates": 0,
+      "start": "10:00",
+      "end": "12:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Meet-First-Responders-Resource-Fair"
+    },
+    {
+      "title": "Community Emergency Response Team Training",
+      "date": "2026-09-01",
+      "desc": "Join us for a Community Emergency Response Team Basic Training Course. Learn how to become a resource in your neighborhood…",
+      "where": "Mitchell Park Community Center, Adobe Room, 3700 Middlefield Rd",
+      "moreDates": 0,
+      "start": "18:30",
+      "end": "21:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Office-of-Emergency-Services/CERT-Training-September-2026"
+    },
+    {
+      "title": "Art Studios Open House at the Palo Alto Art Center",
+      "date": "2026-09-02",
+      "desc": "Explore the art studios, meet our instructors, discover classes and workshops, and learn about volunteering…",
+      "where": "Palo Alto Art Center, 1313 Newell Road",
+      "moreDates": 0,
+      "start": "16:00",
+      "end": "19:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Art-Studios-Open-House-at-the-Palo-Alto-Art-Center"
+    },
+    {
+      "title": "CATS - The Musical Hot Dog Show",
+      "date": "2026-09-09",
+      "desc": "The third Summer Hot Dog show with a delightful story: CATS - The Musical.",
+      "where": "Palo Alto Children's Theatre, 1305 Middlefield Rd",
+      "moreDates": 14,
+      "start": "18:00",
+      "end": "19:00",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/CATS-The-Musical-Hot-Dog-Show"
+    },
+    {
+      "title": "San Francisco Opera Guild Preview",
+      "date": "2026-09-09",
+      "desc": "Catch a preview of the San Francisco Opera's upcoming performances at the library!",
+      "where": "Rinconada Library, 1213 Newell Rd.",
+      "moreDates": 3,
+      "start": "14:00",
+      "end": "15:30",
+      "tags": [
+        "Community Events"
+      ],
+      "url": "https://www.paloalto.gov/Events-Directory/Library/San-Francisco-Opera-Guild-Preview"
+    }
+  ]
 }
