@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-14T09:57:13.319Z",
+  "generatedAt": "2026-07-15T09:57:38.493Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-14",
-    "to": "2027-01-14"
+    "from": "2026-01-15",
+    "to": "2027-01-15"
   },
   "bodies": [
     {
@@ -114,86 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2776,
-      "body": "Policy & Services Committee",
-      "bodySlug": "policy-and-services-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Policy & Services Committee Special Meeting",
-      "date": "2026-01-14",
-      "startTime": "18:00",
-      "videoId": "05pSXKBa9sU",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18352",
-      "items": [
-        {
-          "num": "1",
-          "title": "Referral: Consideration of the Frequency for Joint City Council Meetings or Policy & Services Meetings with Boards and Commissions, Youth Council, and Meetings with Boards and Commissions Chairs. CEQA Status – Not a project.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Discuss and Approve Nonprofit Partnership Workplan Phase I Process Improvements Late Packet Report Added, Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2919,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting",
-      "date": "2026-01-14",
-      "startTime": "18:00",
-      "videoId": "KWZke8gl7dg",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19267",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Recommendation to the City Council on an Ordinance Adding a New Section 18.70.105 (Noncomplying facility - De minimis exceptions) to Chapter 18.70 (Nonconforming Uses and Noncomplying Facilities) of Title 18 (Zoning) of the Palo Alto Municipal Code; CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3) (Common Sense Exemption).",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of October 29, 2025",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2941,
       "body": "Architectural Review Board",
@@ -7441,6 +7361,72 @@
   ],
   "news": [
     {
+      "title": "Seventh project proposed before window for tall building plans close",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-15",
+      "url": "https://padailypost.com/2026/07/14/seventh-project-proposed-before-window-for-tall-building-plans-close/",
+      "topics": [
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A developer wants to build apartments in a single-family neighborhood north of downtown Palo Alto, taking advantage of a two-week window"
+    },
+    {
+      "title": "Downtown North condo proposal is 7th to use new state housing law",
+      "source": "Palo Alto Online",
+      "date": "2026-07-14",
+      "url": "https://www.paloaltoonline.com/housing/2026/07/14/downtown-north-condo-proposal-is-7th-to-use-new-state-housing-law/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space",
+        "Downtown & Business"
+      ],
+      "summary": "The single-family home at 340 Palo Alto Ave. could turn into six for-sale condominiums under a new state law. Courtesy Google Street View The latest housing proposal in Palo Alto t"
+    },
+    {
+      "title": "It is Time to Selectively Pursue New Office Developments",
+      "source": "Palo Alto Online",
+      "date": "2026-07-14",
+      "url": "https://www.paloaltoonline.com/blogs/invest-innovate/2026/07/14/it-is-time-to-selectively-pursue-new-office-developments/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "Employees from Stanford Research Park companies and Stanford University officials mingle at the opening ceremony for The Hub on May 11, 2022. Photo by Gennady Sheyner. Prior to the"
+    },
+    {
+      "title": "Mother-daughter duo roasts Southeast Asian coffee, crafts specialty drinks at this Peninsula farmers market",
+      "source": "Palo Alto Online",
+      "date": "2026-07-14",
+      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/07/14/river-phin-coffee-roasters-foster-city-farmers-market/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "Cà Phê Salted Cream ($7) from River Phin Coffee Roasters the Foster City Farmers Market. Photo by Tessa Berney. On Saturdays, an empty parking lot comes to life as a bustling farme"
+    },
+    {
+      "title": "A wine bar and a Coastside brewery’s expansion are bringing new life to downtown Half Moon Bay",
+      "source": "Palo Alto Online",
+      "date": "2026-07-14",
+      "url": "https://www.paloaltoonline.com/food/feature-food/2026/07/14/a-half-moon-bay-revival-new-watering-holes-come-to-main-street/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Kara Baker, owner of Lab and Hound Wine Bar and Tasting Room, stands for a portrait outside her soon-to-open business in Half Moon Bay. Photo by Seeger Gray. For many Peninsula res"
+    },
+    {
+      "title": "2 council members say they want report on planning commissioner released",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-14",
+      "url": "https://padailypost.com/2026/07/14/2-council-members-say-they-want-report-on-planning-commissioner-released/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Two Palo Alto City Council members want their colleagues to vote on releasing an investigation into a planning commissioner who allegedl"
+    },
+    {
       "title": "Planning Commissioner accused of throwing his weight around with tow yard owner",
       "source": "Palo Alto Daily Post",
       "date": "2026-07-11",
@@ -7516,29 +7502,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer More developers in Palo Alto are taking advantage of a two-week window when taller and denser buildings are allowed near Caltrain statio"
-    },
-    {
-      "title": "Three developers have taken advantage of two-week gap in housing law",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-07",
-      "url": "https://padailypost.com/2026/07/07/three-developers-have-taken-advantage-of-two-week-gap-in-housing-law/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Three developers have taken advantage of a two-week window in Palo Alto to propose taller and denser buildings near Caltrain stations us"
-    },
-    {
-      "title": "City stymied in reducing RV parking",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-07",
-      "url": "https://padailypost.com/2026/07/07/city-stymied-in-reducing-rv-parking/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "BY ELAINE GOODMANDaily Post Correspondent Despite city efforts to reduce the number of RV dwellers parking on Palo Alto streets, the vehicle count has been holding steady or even t"
     },
     {
       "title": "Builder looks to demolish El Camino Real motel, replace it with housing",
@@ -7617,16 +7580,6 @@
       "summary": "California has launched what state officials describe as the nation s first public dashboard to track potential job losses linked to artificial intelligence, part of an effort to m"
     },
     {
-      "title": "Palo Alto rewrites retail rules as it battles downtown vacancies",
-      "source": "Palo Alto Online",
-      "date": "2026-06-24",
-      "url": "https://www.paloaltoonline.com/business/2026/06/24/palo-alto-rewrites-retail-rules-as-it-battles-downtown-vacancies/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Local music group Majorly Minor performs outside Enoteca Venetia as people walk past on University Ave. in downtown Palo Alto on March 11, 2025. Photo by Anna Hoch-Kenney. At first"
-    },
-    {
       "title": "Parks commissioner Yudy Deng to run for City Council",
       "source": "Palo Alto Online",
       "date": "2026-06-23",
@@ -7635,16 +7588,6 @@
         "Parks & Open Space"
       ],
       "summary": "Yudy Deng. a member of the Parks and Recreation Commission, is running for Palo Alto City Council. Courtesy Yudy Deng. Palo Alto parks commissioner Yudy Deng is now the second pers"
-    },
-    {
-      "title": "This new craft coffee shop is located in a Redwood City church",
-      "source": "Palo Alto Online",
-      "date": "2026-06-23",
-      "url": "https://www.paloaltoonline.com/redwood-city/2026/06/23/luma-coffee-lounge-opens-at-rise-city-church-in-redwood-city/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "LUMA Coffee Lounge in Redwood City uses Nami Matcha for its matcha lattes. Courtesy LUMA Coffee Lounge. Walk into Rise City Church, and you’ll be met with more than prayer and serm"
     },
     {
       "title": "Builder revises plans for contentious Esther Clark Park housing project",
@@ -7656,30 +7599,6 @@
         "Parks & Open Space"
       ],
       "summary": "A revised proposal for 4103 Old Trace Road features 13 townhomes, two accessory dwelling units and one junior accessory dwelling unit. Rendering courtesy Ponderosa Architecture/cit"
-    },
-    {
-      "title": "Palo Alto nixes ‘urgency’ measure to limit impact of housing law",
-      "source": "Palo Alto Online",
-      "date": "2026-06-16",
-      "url": "https://www.paloaltoonline.com/housing/2026/06/16/palo-alto-nixes-urgency-measure-to-limit-impact-of-housing-law/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "Oak Court Apartments complex, which was developed by Alta Housing, offers one-, two- and three-bedroom units. Photo by Veronica Weber. Senate Bill 79, a contentious state bill that"
-    },
-    {
-      "title": "Change of plans: Research campus to leave Menlo Park, make way for more housing",
-      "source": "Palo Alto Online",
-      "date": "2026-06-13",
-      "url": "https://www.paloaltoonline.com/menlo-park/2026/06/12/change-of-plans-research-campus-to-leave-menlo-park-make-way-for-more-housing/",
-      "topics": [
-        "Housing",
-        "Parks & Open Space",
-        "Arts & Culture",
-        "Downtown & Business"
-      ],
-      "summary": "Lane Partners is amending its plans for Parkline to include more housing and retail at 333 Ravenswood Ave. in Menlo Park, the longtime home of SRI International. Rendering courtesy"
     },
     {
       "title": "UC Berkeley’s plans for massive Moffett space center raise housing concerns",
@@ -7755,16 +7674,6 @@
         "Downtown & Business"
       ],
       "summary": "A an alternative proposal from Redco calls for three towers, one 14-stories tall and two 12-stories tall, at 156 California Ave. Rendering by Current Studio/city of Palo Alto Setti"
-    },
-    {
-      "title": "Council advances Cubberley measure toward November ballot",
-      "source": "Palo Alto Online",
-      "date": "2026-05-19",
-      "url": "https://www.paloaltoonline.com/community/2026/05/18/council-sends-cubberley-measure-to-november-ballot/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "The city hopes to redevelop the Cubberley Community Center with a sales tax ballot measure this fall. File photo by Veronica Weber. The Council Chambers at City Hall erupted in che"
     },
     {
       "title": "Fewer crossing guards? Less park irrigation? City faces tough budget choices",
