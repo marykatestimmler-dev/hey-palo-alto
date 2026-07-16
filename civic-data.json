@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-15T09:57:38.493Z",
+  "generatedAt": "2026-07-16T09:58:29.979Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-15",
-    "to": "2027-01-15"
+    "from": "2026-01-16",
+    "to": "2027-01-16"
   },
   "bodies": [
     {
@@ -114,138 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2941,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting",
-      "date": "2026-01-15",
-      "startTime": "08:30",
-      "videoId": "jqk8IE8XMFQ",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19422",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 2100-2400 Geng Road [24PLN-00356]: Recommendation on Site and Design to Demolish Four Existing Commercial Buildings and Construct 65 Three-Story Buildings Containing 145 For Sale Townhome Units. Thirteen Percent (19) of the Units Would Be Deed Restricted to Low Income Households. The Project Also Includes a Conditional Use Permit for the Residential Use and a Vesting Tentative Map to Merge Two Parcels and Re-Subdivide For Condominium Purposes Which Council will Consider In Conjunction with the Site and Design Application. The Project is Proposed in Accordance with Builder’s Remedy (California Government Code Section 65589.5(d)(5)). A Senate Bill 330 Pre-Application was Filed on July 8, 2024. CEQA Status: Exempt from CEQA in Accordance with CEQA Guidelines Section 15183 (Comprehensive Plan Consistency). Zoning District: ROLM (E)(D)(AD) -Research, Office and Limited Manufacturing (Embarcadero) with Site and Design and Automobile Dealership Combining Districts.",
-          "topics": [
-            "Housing",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 3781 El Camino Real [24PLN-00161]: Recommendation on a Major Architectural Review Application to Demolish Commercial and Residential Buildings Located at 3727-3737 & 3773-3783 El Camino Real, 378-400 Madeline Court, and 388 Curtner Avenue, and to Construct a Seven-Story, Multi-Family Residential Housing Development Project with 183 Units, 13 Percent of Which Would be Provided at a Rate Affordable to Low Income. The Project is Proposed in Accordance with Builder’s Remedy (California Government Code Section 65589.5(d)(5)). A Senate Bill 330 Pre-Application was Filed on February 15, 2024. CEQA Status: Exempt Under AB 130 (Public Resources Code section 21080.66). Zoning Districts: CN (Commercial Neighborhood) and RM-30 (Multi-Family Residential).",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2981,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting",
-      "date": "2026-01-15",
-      "startTime": "17:30",
-      "videoId": "Cxe-Alij4UE",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19699",
-      "items": [
-        {
-          "num": "1",
-          "title": "Public Employee Appointment Title: City Attorney Authority: Gov. Code Section 54957(b)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Conference with Labor Negotiators Authority: Gov. Code section 54957.6; Agency representative: Sandra Blanch and Nicholas Raisch, Teri Black, Teri Black & Co. Unrepresented Employee: City Attorney",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2738,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Regular Meeting",
-      "date": "2026-01-15",
-      "startTime": "19:00",
-      "videoId": "wGZo0i3pptI",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18101",
-      "items": [
-        {
-          "num": "1",
-          "title": "December 18, 2025 PAC Regular Meeting Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Election of Officers - The Commission election for the PAC Chair and Vice Chair roles.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Deaccession of Artwork – Staff recommends approval of deaccession of Conversation, a digital media artwork by Susan Narduli.",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "PAC Annual Retreat and Workplan Discussion – Commissioners and staff discuss the upcoming Annual Retreat, timeline, and ad-hoc committee for the PAC workplan.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2803,
       "body": "City Council",
@@ -7357,9 +7225,31 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3078,
+      "body": "Planning & Transportation Commission",
+      "bodySlug": "planning-and-transportation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Planning & Transportation Commission Regular Meeting - CANCELED",
+      "date": "2026-07-29",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
     }
   ],
   "news": [
+    {
+      "title": "City finds pests and plumbing issues at Opportunity Center",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-15",
+      "url": "https://padailypost.com/2026/07/15/city-finds-pests-and-urine-odor-at-opportunity-center/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Apartments for the homeless in Palo Alto have cockroaches, fruit flies and plumbing issues, according to a city inspection. Abode Housin"
+    },
     {
       "title": "Seventh project proposed before window for tall building plans close",
       "source": "Palo Alto Daily Post",
@@ -7385,7 +7275,7 @@
       "summary": "The single-family home at 340 Palo Alto Ave. could turn into six for-sale condominiums under a new state law. Courtesy Google Street View The latest housing proposal in Palo Alto t"
     },
     {
-      "title": "It is Time to Selectively Pursue New Office Developments",
+      "title": "Opinion: It is time to selectively pursue new office developments",
       "source": "Palo Alto Online",
       "date": "2026-07-14",
       "url": "https://www.paloaltoonline.com/blogs/invest-innovate/2026/07/14/it-is-time-to-selectively-pursue-new-office-developments/",
@@ -7490,18 +7380,6 @@
         "Downtown & Business"
       ],
       "summary": "Developers filed for a housing project at 127 Lytton Ave. in downtown Palo Alto under Senate Bill 79, a new state law. Rendering courtesy SC Design Group/city of Palo Alto In just "
-    },
-    {
-      "title": "Seven-story development proposed for Lytton Avenue under new housing law",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-08",
-      "url": "https://padailypost.com/2026/07/08/seven-story-development-proposed-for-lytton-avenue-under-new-housing-law/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer More developers in Palo Alto are taking advantage of a two-week window when taller and denser buildings are allowed near Caltrain statio"
     },
     {
       "title": "Builder looks to demolish El Camino Real motel, replace it with housing",
@@ -7699,19 +7577,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Wheels on the Bus - The Musical",
-      "date": "2026-07-15",
-      "desc": "The second Summer Hot Dog show with a delightful story: Wheels on the Bus - The Musical.",
-      "where": "Palo Alto Children's Theatre, 1305 Middlefield Rd",
-      "moreDates": 14,
-      "start": "18:30",
-      "end": "19:30",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Wheels-on-the-Bus-The-Musical-Hot-Dog-Show"
-    },
     {
       "title": "Whispers Through the Trees",
       "date": "2026-07-16",
