@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-16T09:58:29.979Z",
+  "generatedAt": "2026-07-17T09:57:14.195Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-16",
-    "to": "2027-01-16"
+    "from": "2026-01-17",
+    "to": "2027-01-17"
   },
   "bodies": [
     {
@@ -7241,6 +7241,27 @@
   ],
   "news": [
     {
+      "title": "Former bank on Cal Ave. illegally used for gym, gaming, complaint alleges",
+      "source": "Palo Alto Online",
+      "date": "2026-07-16",
+      "url": "https://www.paloaltoonline.com/business/2026/07/16/former-bank-on-cal-ave-illegally-used-for-gym-gaming-complaint-alleges/",
+      "topics": [
+        "Housing",
+        "Downtown & Business"
+      ],
+      "summary": "The vacant building at 414 California Ave., pictured here on July 14, 2026, is slated to make way for a mixed-use development with 39 dwelling units. Photo by Gennady Sheyner On th"
+    },
+    {
+      "title": "Palo Alto mayor to seek re-election",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-16",
+      "url": "https://padailypost.com/2026/07/16/palo-alto-mayor-to-seek-re-election/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "Palo Alto Mayor Vicki Veenker has pulled papers to run for a second term on council. She’s the fourth potential candidate, joining Councilman Ed Lauing, Parks Commissioner Yudy Den"
+    },
+    {
       "title": "City finds pests and plumbing issues at Opportunity Center",
       "source": "Palo Alto Daily Post",
       "date": "2026-07-15",
@@ -7315,17 +7336,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Two Palo Alto City Council members want their colleagues to vote on releasing an investigation into a planning commissioner who allegedl"
-    },
-    {
-      "title": "Planning Commissioner accused of throwing his weight around with tow yard owner",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-11",
-      "url": "https://padailypost.com/2026/07/10/planning-commissioner-accused-of-throwing-his-weight-around-with-tow-yard-owner/",
-      "topics": [
-        "Transportation",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A member of Palo Alto s Planning and Transportation Commission has been accused of using his city position to ask for special treatment "
     },
     {
       "title": "Downtown housing proposal becomes the sixth to lean on new state law",
@@ -7448,16 +7458,6 @@
       "summary": "Customers lounge at the outdoor dining area at Coupa Cafe on Ramona Street on July 16, 2025. Photo by Gennady Sheyner A downtown developer who sued Palo Alto over its recently adop"
     },
     {
-      "title": "California launches AI job-loss tracker to monitor workforce impacts",
-      "source": "Palo Alto Online",
-      "date": "2026-06-29",
-      "url": "https://www.paloaltoonline.com/technology/2026/06/29/california-launches-ai-job-loss-tracker-to-monitor-workforce-impacts/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "California has launched what state officials describe as the nation s first public dashboard to track potential job losses linked to artificial intelligence, part of an effort to m"
-    },
-    {
       "title": "Parks commissioner Yudy Deng to run for City Council",
       "source": "Palo Alto Online",
       "date": "2026-06-23",
@@ -7577,30 +7577,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Whispers Through the Trees",
-      "date": "2026-07-16",
-      "desc": "Join artist Sophia Lee for hands-on public workshops connected to her ArtLift project, Whispers Through the Trees.",
-      "where": "",
-      "moreDates": 4,
-      "start": "12:30",
-      "end": "14:30",
-      "tags": [
-        "City Sponsored Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Whispers-Through-the-Trees-Community-Workshops"
-    },
-    {
-      "title": "World Snake Day",
-      "date": "2026-07-16",
-      "desc": "Celebrate World Snake Day at the JMZ with fun activities and snake encounters!",
-      "where": "Palo Alto Junior Museum and Zoo, 1451 Middlefield Road",
-      "moreDates": 0,
-      "tags": [
-        "Zoo Events"
-      ],
-      "url": "https://www.paloaltozoo.org/Visit/Events/World-Snake-Day"
-    },
     {
       "title": "Family Movie Night Series 2026",
       "date": "2026-07-17",
