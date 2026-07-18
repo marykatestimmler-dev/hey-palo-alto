@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-17T09:57:14.195Z",
+  "generatedAt": "2026-07-18T09:48:01.072Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-17",
-    "to": "2027-01-17"
+    "from": "2026-01-18",
+    "to": "2027-01-18"
   },
   "bodies": [
     {
@@ -7241,6 +7241,16 @@
   ],
   "news": [
     {
+      "title": "Opinion: Council should release the Peterson report",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-17",
+      "url": "https://padailypost.com/2026/07/17/opinion-council-should-release-the-peterson-report/",
+      "topics": [
+        "Transportation"
+      ],
+      "summary": "BY DAVE PRICEDaily Post Editor The city of Palo Alto paid a law firm to investigate a complaint from a tow yard owner who said that Planning and Transportation Commissioner [...]"
+    },
+    {
       "title": "Former bank on Cal Ave. illegally used for gym, gaming, complaint alleges",
       "source": "Palo Alto Online",
       "date": "2026-07-16",
@@ -7326,16 +7336,6 @@
         "Downtown & Business"
       ],
       "summary": "Kara Baker, owner of Lab and Hound Wine Bar and Tasting Room, stands for a portrait outside her soon-to-open business in Half Moon Bay. Photo by Seeger Gray. For many Peninsula res"
-    },
-    {
-      "title": "2 council members say they want report on planning commissioner released",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-14",
-      "url": "https://padailypost.com/2026/07/14/2-council-members-say-they-want-report-on-planning-commissioner-released/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Two Palo Alto City Council members want their colleagues to vote on releasing an investigation into a planning commissioner who allegedl"
     },
     {
       "title": "Downtown housing proposal becomes the sixth to lean on new state law",
@@ -7577,21 +7577,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Family Movie Night Series 2026",
-      "date": "2026-07-17",
-      "desc": "Join the Community Services Department for Family Movie Night on the Mitchell Park Southeast Athletic Field!",
-      "where": "Mitchell Park Athletic Field, 600 East Meadow Drive",
-      "moreDates": 2,
-      "start": "19:30",
-      "end": "22:30",
-      "tags": [
-        "Activities & Classes",
-        "City Sponsored Events",
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Family-Movie-Night-Series-2026"
-    },
     {
       "title": "Household Hazardous Waste Station Open",
       "date": "2026-07-18",
