@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-18T09:48:01.072Z",
+  "generatedAt": "2026-07-19T09:55:57.054Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-18",
-    "to": "2027-01-18"
+    "from": "2026-01-19",
+    "to": "2027-01-19"
   },
   "bodies": [
     {
@@ -7241,6 +7241,28 @@
   ],
   "news": [
     {
+      "title": "City won’t release appraisal of Cubberley property before voters decide whether to buy that property",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-19",
+      "url": "https://padailypost.com/2026/07/18/city-wont-release-appraisal-of-cubberley-property-before-voters-decide-whether-to-buy-that-property/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHT Daily Post Staff Writer The city of Palo Alto is refusing to release an appraisal for the Cubberley Community Center before voters consider approving a sales t"
+    },
+    {
+      "title": "Planning commissioner who is accused of throwing his weight around is now focused on parking issues",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-18",
+      "url": "https://padailypost.com/2026/07/18/planning-commissioner-who-is-accused-of-throwing-his-weight-around-is-now-focused-on-parking-issues/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A planning commissioner who allegedly tried to get special treatment after his daughter’s car was towed says that parking has become his"
+    },
+    {
       "title": "Opinion: Council should release the Peterson report",
       "source": "Palo Alto Daily Post",
       "date": "2026-07-17",
@@ -7270,27 +7292,6 @@
         "Parks & Open Space"
       ],
       "summary": "Palo Alto Mayor Vicki Veenker has pulled papers to run for a second term on council. She’s the fourth potential candidate, joining Councilman Ed Lauing, Parks Commissioner Yudy Den"
-    },
-    {
-      "title": "City finds pests and plumbing issues at Opportunity Center",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-15",
-      "url": "https://padailypost.com/2026/07/15/city-finds-pests-and-urine-odor-at-opportunity-center/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Apartments for the homeless in Palo Alto have cockroaches, fruit flies and plumbing issues, according to a city inspection. Abode Housin"
-    },
-    {
-      "title": "Seventh project proposed before window for tall building plans close",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-15",
-      "url": "https://padailypost.com/2026/07/14/seventh-project-proposed-before-window-for-tall-building-plans-close/",
-      "topics": [
-        "Arts & Culture",
-        "Downtown & Business"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A developer wants to build apartments in a single-family neighborhood north of downtown Palo Alto, taking advantage of a two-week window"
     },
     {
       "title": "Downtown North condo proposal is 7th to use new state housing law",
@@ -7577,61 +7578,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Household Hazardous Waste Station Open",
-      "date": "2026-07-18",
-      "desc": "Dispose unwanted hazardous household products such as used or expired medication, paints, solvents, fuels…",
-      "where": "Household Hazardous Waste Station, 2501 Embarcadero Way",
-      "moreDates": 47,
-      "start": "09:00",
-      "end": "11:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Public-Works/Household-Hazardous-Waste-Station-Open"
-    },
-    {
-      "title": "The Rhinoceros Project: Community Sewing Circles",
-      "date": "2026-07-18",
-      "desc": "Led by artist duo Michelle Wilson and Anne Beck at multiple locations.",
-      "where": "",
-      "moreDates": 4,
-      "start": "10:00",
-      "end": "14:00",
-      "tags": [
-        "City Sponsored Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/The-Rhinoceros-Project-Community-Sewing-Circles"
-    },
-    {
-      "title": "Tour the Regional Water Quality Control Plant",
-      "date": "2026-07-18",
-      "desc": "Take a free walking tour of the City's wastewater treatment plant. See how operators, scientists, and engineers…",
-      "where": "Regional Water Quality Control Plant, 2501 Embarcadero Way",
-      "moreDates": 1,
-      "start": "10:00",
-      "end": "11:15",
-      "tags": [
-        "City Sponsored Events",
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Public-Works/Tour-the-RWQCP"
-    },
-    {
-      "title": "Twilight Concert Series 2026",
-      "date": "2026-07-18",
-      "desc": "We've got three great shows lined up for you this summer! Can't wait to see you there!",
-      "where": "Mitchell Park, 600 E Meadow Dr",
-      "moreDates": 1,
-      "start": "17:00",
-      "end": "20:00",
-      "tags": [
-        "Activities & Classes",
-        "City Sponsored Events",
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Twilight-Concert-Series-2026"
-    },
     {
       "title": "Charm Bar & Teen Library Advisory Board",
       "date": "2026-07-19",
