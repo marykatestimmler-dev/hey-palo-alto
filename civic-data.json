@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-19T09:55:57.054Z",
+  "generatedAt": "2026-07-20T10:21:10.967Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-19",
-    "to": "2027-01-19"
+    "from": "2026-01-20",
+    "to": "2027-01-20"
   },
   "bodies": [
     {
@@ -7273,17 +7273,6 @@
       "summary": "BY DAVE PRICEDaily Post Editor The city of Palo Alto paid a law firm to investigate a complaint from a tow yard owner who said that Planning and Transportation Commissioner [...]"
     },
     {
-      "title": "Former bank on Cal Ave. illegally used for gym, gaming, complaint alleges",
-      "source": "Palo Alto Online",
-      "date": "2026-07-16",
-      "url": "https://www.paloaltoonline.com/business/2026/07/16/former-bank-on-cal-ave-illegally-used-for-gym-gaming-complaint-alleges/",
-      "topics": [
-        "Housing",
-        "Downtown & Business"
-      ],
-      "summary": "The vacant building at 414 California Ave., pictured here on July 14, 2026, is slated to make way for a mixed-use development with 39 dwelling units. Photo by Gennady Sheyner On th"
-    },
-    {
       "title": "Palo Alto mayor to seek re-election",
       "source": "Palo Alto Daily Post",
       "date": "2026-07-16",
@@ -7317,28 +7306,6 @@
       "summary": "Employees from Stanford Research Park companies and Stanford University officials mingle at the opening ceremony for The Hub on May 11, 2022. Photo by Gennady Sheyner. Prior to the"
     },
     {
-      "title": "Mother-daughter duo roasts Southeast Asian coffee, crafts specialty drinks at this Peninsula farmers market",
-      "source": "Palo Alto Online",
-      "date": "2026-07-14",
-      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/07/14/river-phin-coffee-roasters-foster-city-farmers-market/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "Cà Phê Salted Cream ($7) from River Phin Coffee Roasters the Foster City Farmers Market. Photo by Tessa Berney. On Saturdays, an empty parking lot comes to life as a bustling farme"
-    },
-    {
-      "title": "A wine bar and a Coastside brewery’s expansion are bringing new life to downtown Half Moon Bay",
-      "source": "Palo Alto Online",
-      "date": "2026-07-14",
-      "url": "https://www.paloaltoonline.com/food/feature-food/2026/07/14/a-half-moon-bay-revival-new-watering-holes-come-to-main-street/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Kara Baker, owner of Lab and Hound Wine Bar and Tasting Room, stands for a portrait outside her soon-to-open business in Half Moon Bay. Photo by Seeger Gray. For many Peninsula res"
-    },
-    {
       "title": "Downtown housing proposal becomes the sixth to lean on new state law",
       "source": "Palo Alto Online",
       "date": "2026-07-10",
@@ -7348,16 +7315,6 @@
         "Downtown & Business"
       ],
       "summary": "The project at 135 University Ave. would add five stories of housing to an existing commercial building. SC Design Group/city of Palo Alto The Minority Television Project, a nonpro"
-    },
-    {
-      "title": "Palo Alto sees growth in property assessments despite homeowner appeals",
-      "source": "Palo Alto Online",
-      "date": "2026-07-10",
-      "url": "https://www.paloaltoonline.com/palo-alto/2026/07/09/palo-alto-sees-growth-in-property-assessments-despite-homeowner-appeals/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "University Ave. in downtown Palo Alto on March 11, 2025. Photo by Anna Hoch-Kenney. Assessed property values in Palo Alto grew 5.47% in 2025, exceeding both last year s 4.62% incre"
     },
     {
       "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
@@ -7413,17 +7370,6 @@
         "Downtown & Business"
       ],
       "summary": "A cyclist bikes on California Avenue in Palo Alto on May 19, 2026. Photo by Seeger Gray. For the next two weeks, a new state law that incentivizes more housing near public transit "
-    },
-    {
-      "title": "Stanford Shopping Center cafe faces eviction, lawsuit over unpaid rent",
-      "source": "Palo Alto Online",
-      "date": "2026-07-02",
-      "url": "https://www.paloaltoonline.com/business/2026/07/01/stanford-shopping-center-cafe-faces-eviction-lawsuit-over-unpaid-rent/",
-      "topics": [
-        "Housing",
-        "Budget & Taxes"
-      ],
-      "summary": "Gregory Zamfotis founded Gregorys Coffee in Manhattan in 2006. Courtesy Gregorys Coffee. Gregorys Coffee, a relatively new cafe in Stanford Shopping Center, is facing a potential e"
     },
     {
       "title": "Demolition begins at controversial Permanente cement plant",
@@ -7578,58 +7524,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Charm Bar & Teen Library Advisory Board",
-      "date": "2026-07-19",
-      "desc": "Create your own custom keychains and bag charms while helping shape future teen events at the library!",
-      "where": "Mitchell Park Library, 3700 Middlefield Rd.",
-      "moreDates": 0,
-      "start": "16:00",
-      "end": "17:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/TLAB-Charm-Bar"
-    },
-    {
-      "title": "Common Threads: A Creative Gathering with Chandrika Marla",
-      "date": "2026-07-19",
-      "desc": "Join Cubberley Artist-in-Residence Chandrika Marla for Common Threads, an informal gathering for artists…",
-      "where": "Cubberley Community Center, 4000 Middlefield Road",
-      "moreDates": 0,
-      "start": "16:00",
-      "end": "18:00",
-      "tags": [
-        "City Sponsored Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Common-Threads-A-Creative-Gathering-with-Chandrika-Marla"
-    },
-    {
-      "title": "Master Gardeners Workshop",
-      "date": "2026-07-19",
-      "desc": "Join us for an informative workshop presented by UC Master Gardeners of Santa Clara County!",
-      "where": "Rinconada Library, 1213 Newell Rd.",
-      "moreDates": 2,
-      "start": "13:30",
-      "end": "14:30",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/Master-Gardeners"
-    },
-    {
-      "title": "Middle School Bike Skills",
-      "date": "2026-07-19",
-      "desc": "Wheel Kids, in partnership with the City of Palo Alto Safe Routes to School (SRTS) Program…",
-      "where": "Mitchell Park Community Center, 3700 Middlefield Rd",
-      "moreDates": 1,
-      "start": "08:30",
-      "end": "12:30",
-      "tags": [
-        "Activities & Classes"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Office-of-Transportation/Middle-School-Bike-Safety-Skills-Class"
-    },
     {
       "title": "Explore Possibilities with Nature Journaling",
       "date": "2026-07-23",
