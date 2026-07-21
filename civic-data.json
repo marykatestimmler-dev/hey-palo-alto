@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-20T10:21:10.967Z",
+  "generatedAt": "2026-07-21T10:07:43.016Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-20",
-    "to": "2027-01-20"
+    "from": "2026-01-21",
+    "to": "2027-01-21"
   },
   "bodies": [
     {
@@ -114,128 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2803,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting",
-      "date": "2026-01-20",
-      "startTime": "17:30",
-      "videoId": "d9r05229ank",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18514",
-      "items": [
-        {
-          "num": "1",
-          "title": "Proclamation honoring Aaron (Bunk) Miller for 34 Years of Service to the Palo Alto Regional Water Quality Control Plant and its partner agencies.",
-          "topics": [
-            "Climate & Utilities",
-            "Arts & Culture"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "Presentation of the 2025 Annual Community Survey Results. CEQA Status -- Not a project. Public Comment, Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:25 PM",
-          "elapsedSec": 3300
-        },
-        {
-          "num": "3",
-          "title": "Approval of Minutes from January 5, 2026 Meeting",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "4",
-          "title": "Accept CalPERS Pension Annual Valuation Report as of June 30, 2024; CEQA Status – Not a project.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "5",
-          "title": "Approval of the Advisory Report: Contract Solicitation & Authority Levels and Subsequent Management Response as recommended by the Policy & Services Committee. CEQA Status – Not a Project.",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "6",
-          "title": "Approval of the City of Palo Alto’s Updated 2026 Water, Gas, and Wastewater Utility Standards (Design and Construction); CEQA Status- Not a Project.",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "7",
-          "title": "Adopt a Resolution to Allow Consumption of Alcohol under PAMC section 9.04.010 on Certain Days and Times through May 31, 2026, on California Avenue.",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "8",
-          "title": "Approve Recommended Changes that will Align Increased General Liability Insurance Costs in the General Liability Fund to be Included in the Mid-Year Budget Report as Recommended by the Finance Committee. CEQA Status—Not a project.",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "9",
-          "title": "Approval of Contract Amendment Number 3 to Contract C23183770 with Townsend Public Affairs, Inc. in the amount of $186,000 to Revise the Not-to-Exceed Total to $744,000 and to Extend the Term for an Additional Year of Service (the third of four one-year options to renew) for State and Federal Legislative Advocacy and Grant Consulting and Compliance Services; CEQA Status - Not a Project",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "10",
-          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Repealing and Replacing Section 18.40.250 (Lighting) of Chapter 18.40 (General Standards and Exceptions) and Amending Chapters 18.10, 18.12, 18.28 and Section 18.40.230 of Title 18 (Zoning) of the Palo Alto Municipal Code to Adopt New Outdoor Lighting Regulations (REINTRODUCED FIRST READING: December 8, 2025; PASSED:6-1, Lythcott-Haims, no)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "11",
-          "title": "Policy and Services Committee Recommendation to Adopt the 2026 State and Federal State Legislative Guidelines and 2026 Utility Policy Guidelines, and Receive an Update on State and Federal Legislative Advocacy; CEQA Status – Not a Project Presentation",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": "8:00 PM",
-          "elapsedSec": 9000
-        },
-        {
-          "num": "12",
-          "title": "Review the FY 2027-FY 2036 Long Range Financial Forecast (LRFF) and FY 2027 Budget Development Guidelines using the LRFF as the Baseline for Developing the FY 2027 Budget as Recommended by the Finance Committee, CEQA Status – Not a Project Presentation",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "9:00 PM",
-          "elapsedSec": 12600
-        }
-      ]
-    },
     {
       "id": 2978,
       "body": "Retail Committee",
@@ -7241,6 +7119,27 @@
   ],
   "news": [
     {
+      "title": "Team behind Redwood Grill opens adjacent coffee shop Buzz & Brew",
+      "source": "Palo Alto Online",
+      "date": "2026-07-20",
+      "url": "https://www.paloaltoonline.com/redwood-city/2026/07/20/team-behind-redwood-grill-opens-adjacent-coffee-shop-buzz-brew/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "Buzz Brew, a new coffee shop in Redwood City, offers a variety of coffee, tea and lemonade-based drinks. Courtesy Buzz Brew. Local orange blossom honey sweetens the menu at Buzz Br"
+    },
+    {
+      "title": "Man arrested after locking himself in couple’s bathroom",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-20",
+      "url": "https://padailypost.com/2026/07/20/man-arrested-after-locking-himself-in-couples-bathroom/",
+      "topics": [
+        "Crime, Policing, and Public Safety",
+        "Parks & Open Space"
+      ],
+      "summary": "A man has been arrested for burglary after locking himself in a Barron Park home s bathroom, Palo Alto Police said today (July 20). A couple in their 50s were disturbed [...]"
+    },
+    {
       "title": "City won’t release appraisal of Cubberley property before voters decide whether to buy that property",
       "source": "Palo Alto Daily Post",
       "date": "2026-07-19",
@@ -7273,14 +7172,15 @@
       "summary": "BY DAVE PRICEDaily Post Editor The city of Palo Alto paid a law firm to investigate a complaint from a tow yard owner who said that Planning and Transportation Commissioner [...]"
     },
     {
-      "title": "Palo Alto mayor to seek re-election",
-      "source": "Palo Alto Daily Post",
+      "title": "Former bank on Cal Ave. illegally used for gym, gaming, complaint alleges",
+      "source": "Palo Alto Online",
       "date": "2026-07-16",
-      "url": "https://padailypost.com/2026/07/16/palo-alto-mayor-to-seek-re-election/",
+      "url": "https://www.paloaltoonline.com/business/2026/07/16/former-bank-on-cal-ave-illegally-used-for-gym-gaming-complaint-alleges/",
       "topics": [
-        "Parks & Open Space"
+        "Housing",
+        "Downtown & Business"
       ],
-      "summary": "Palo Alto Mayor Vicki Veenker has pulled papers to run for a second term on council. She’s the fourth potential candidate, joining Councilman Ed Lauing, Parks Commissioner Yudy Den"
+      "summary": "The vacant building at 414 California Ave., pictured here on July 14, 2026, is slated to make way for a mixed-use development with 39 dwelling units. Photo by Gennady Sheyner On th"
     },
     {
       "title": "Downtown North condo proposal is 7th to use new state housing law",
@@ -7306,6 +7206,28 @@
       "summary": "Employees from Stanford Research Park companies and Stanford University officials mingle at the opening ceremony for The Hub on May 11, 2022. Photo by Gennady Sheyner. Prior to the"
     },
     {
+      "title": "Mother-daughter duo roasts Southeast Asian coffee, crafts specialty drinks at this Peninsula farmers market",
+      "source": "Palo Alto Online",
+      "date": "2026-07-14",
+      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/07/14/river-phin-coffee-roasters-foster-city-farmers-market/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "Cà Phê Salted Cream ($7) from River Phin Coffee Roasters the Foster City Farmers Market. Photo by Tessa Berney. On Saturdays, an empty parking lot comes to life as a bustling farme"
+    },
+    {
+      "title": "A wine bar and a Coastside brewery’s expansion are bringing new life to downtown Half Moon Bay",
+      "source": "Palo Alto Online",
+      "date": "2026-07-14",
+      "url": "https://www.paloaltoonline.com/food/feature-food/2026/07/14/a-half-moon-bay-revival-new-watering-holes-come-to-main-street/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Kara Baker, owner of Lab and Hound Wine Bar and Tasting Room, stands for a portrait outside her soon-to-open business in Half Moon Bay. Photo by Seeger Gray. For many Peninsula res"
+    },
+    {
       "title": "Downtown housing proposal becomes the sixth to lean on new state law",
       "source": "Palo Alto Online",
       "date": "2026-07-10",
@@ -7315,6 +7237,16 @@
         "Downtown & Business"
       ],
       "summary": "The project at 135 University Ave. would add five stories of housing to an existing commercial building. SC Design Group/city of Palo Alto The Minority Television Project, a nonpro"
+    },
+    {
+      "title": "Palo Alto sees growth in property assessments despite homeowner appeals",
+      "source": "Palo Alto Online",
+      "date": "2026-07-10",
+      "url": "https://www.paloaltoonline.com/palo-alto/2026/07/09/palo-alto-sees-growth-in-property-assessments-despite-homeowner-appeals/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "University Ave. in downtown Palo Alto on March 11, 2025. Photo by Anna Hoch-Kenney. Assessed property values in Palo Alto grew 5.47% in 2025, exceeding both last year s 4.62% incre"
     },
     {
       "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
@@ -7370,6 +7302,17 @@
         "Downtown & Business"
       ],
       "summary": "A cyclist bikes on California Avenue in Palo Alto on May 19, 2026. Photo by Seeger Gray. For the next two weeks, a new state law that incentivizes more housing near public transit "
+    },
+    {
+      "title": "Stanford Shopping Center cafe faces eviction, lawsuit over unpaid rent",
+      "source": "Palo Alto Online",
+      "date": "2026-07-02",
+      "url": "https://www.paloaltoonline.com/business/2026/07/01/stanford-shopping-center-cafe-faces-eviction-lawsuit-over-unpaid-rent/",
+      "topics": [
+        "Housing",
+        "Budget & Taxes"
+      ],
+      "summary": "Gregory Zamfotis founded Gregorys Coffee in Manhattan in 2006. Courtesy Gregorys Coffee. Gregorys Coffee, a relatively new cafe in Stanford Shopping Center, is facing a potential e"
     },
     {
       "title": "Demolition begins at controversial Permanente cement plant",
