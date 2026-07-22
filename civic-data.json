@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-21T10:07:43.016Z",
+  "generatedAt": "2026-07-22T10:06:43.659Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-21",
-    "to": "2027-01-21"
+    "from": "2026-01-22",
+    "to": "2027-01-22"
   },
   "bodies": [
     {
@@ -7105,6 +7105,74 @@
       "items": []
     },
     {
+      "id": 3094,
+      "body": "Parks and Recreation Commission",
+      "bodySlug": "parks-and-recreation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Parks and Recreation Commission Regular Meeting",
+      "date": "2026-07-28",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20457",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of Minutes from June 23, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Department Report – 20 minutes",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Ad Hoc Committees and Liaison Updates (Discussion) – 15 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Park Improvement Ordinance for the Improvements for the Arastradero Creek Stabilization and Utility Line Relocation and Repair project and Consideration of the CEQA Initial Study Mitigated Negative Declaration (IS/MND).- 60 minutes",
+          "topics": [
+            "Climate & Utilities",
+            "Parks & Open Space"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Informational Update on Ad Hoc Nature Connectivity Efforts – 45 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 3078,
       "body": "Planning & Transportation Commission",
       "bodySlug": "planning-and-transportation-commission",
@@ -7118,6 +7186,28 @@
     }
   ],
   "news": [
+    {
+      "title": "Palo Alto developer sues Menlo Park over $127K subdivision fee",
+      "source": "Palo Alto Online",
+      "date": "2026-07-21",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/07/21/palo-alto-developer-sues-menlo-park-over-127k-subdivision-fee/",
+      "topics": [
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "Palo Alto Developer Mircea Voskerician is suing the city of Menlo Park after it charged him over $100,000 to subdivide a home he purchased at 12 Maywood Lane in Menlo Park. Courtes"
+    },
+    {
+      "title": "After 6 decades, Midtown Realty remains a Foy family business under new leadership",
+      "source": "Palo Alto Online",
+      "date": "2026-07-21",
+      "url": "https://www.paloaltoonline.com/real-estate/2026/07/21/after-6-decades-midtown-realty-remains-a-foy-family-business-under-new-leadership/",
+      "topics": [
+        "Climate & Utilities",
+        "Downtown & Business"
+      ],
+      "summary": "Patrick Foy, left, and Ryan Eltherington are the new owners of Midtown Reality, which has been operated by generations of the Foy family since the 1960s. Photo courtesy Midtown Rea"
+    },
     {
       "title": "Team behind Redwood Grill opens adjacent coffee shop Buzz & Brew",
       "source": "Palo Alto Online",
@@ -7358,17 +7448,6 @@
       "summary": "Yudy Deng. a member of the Parks and Recreation Commission, is running for Palo Alto City Council. Courtesy Yudy Deng. Palo Alto parks commissioner Yudy Deng is now the second pers"
     },
     {
-      "title": "Builder revises plans for contentious Esther Clark Park housing project",
-      "source": "Palo Alto Online",
-      "date": "2026-06-19",
-      "url": "https://www.paloaltoonline.com/housing/2026/06/19/builder-revises-plans-for-contentious-esther-clark-park-housing-project/",
-      "topics": [
-        "Housing",
-        "Parks & Open Space"
-      ],
-      "summary": "A revised proposal for 4103 Old Trace Road features 13 townhomes, two accessory dwelling units and one junior accessory dwelling unit. Rendering courtesy Ponderosa Architecture/cit"
-    },
-    {
       "title": "UC Berkeley’s plans for massive Moffett space center raise housing concerns",
       "source": "Palo Alto Online",
       "date": "2026-06-12",
@@ -7431,17 +7510,6 @@
         "Historic Preservation"
       ],
       "summary": "Palo Alto, which has historically fallen short on its affordable-housing goals, is seeking a pro-housing state designation. Weekly file photo. Palo Alto is seeking to earn a pro-ho"
-    },
-    {
-      "title": "Divided council signals support for 14-story tower project",
-      "source": "Palo Alto Online",
-      "date": "2026-05-19",
-      "url": "https://www.paloaltoonline.com/housing/2026/05/19/divided-council-signals-support-for-14-story-tower-project/",
-      "topics": [
-        "Housing",
-        "Downtown & Business"
-      ],
-      "summary": "A an alternative proposal from Redco calls for three towers, one 14-stories tall and two 12-stories tall, at 156 California Ave. Rendering by Current Studio/city of Palo Alto Setti"
     },
     {
       "title": "Fewer crossing guards? Less park irrigation? City faces tough budget choices",
