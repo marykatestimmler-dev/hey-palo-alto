@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-22T10:06:43.659Z",
+  "generatedAt": "2026-07-23T10:05:46.491Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-22",
-    "to": "2027-01-22"
+    "from": "2026-01-23",
+    "to": "2027-01-23"
   },
   "bodies": [
     {
@@ -98,11 +98,6 @@
       "email": "city.clerk@PaloAlto.gov"
     },
     {
-      "name": "Retail Committee",
-      "slug": "retail-committee",
-      "email": "city.clerk@PaloAlto.gov"
-    },
-    {
       "name": "Stormwater Management Oversight Committee",
       "slug": "stormwater-management-oversight-committee",
       "email": "city.clerk@PaloAlto.gov"
@@ -114,57 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2978,
-      "body": "Retail Committee",
-      "bodySlug": "retail-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Retail Committee Special Meeting",
-      "date": "2026-01-22",
-      "startTime": "09:00",
-      "videoId": "ZVVGuiV0mmw",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19681",
-      "items": [
-        {
-          "num": "1",
-          "title": "Consider and Provide Feedback on Retail Revitalization Measures and Initiatives Related to the City Council's Economic Development and Retail Vibrancy Priority. CEQA Status: Not a Project Presentation",
-          "topics": [
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Recommendation to the City Council on a Resolution Amending the El Camino Real Retail Node Map for Purposes of Palo Alto Municipal Code Section 18.40.180: Retail Preservation. CEQA Status: Addendum to the Comprehensive Plan Environmental Impact Report (EIR), adopted November 17, 2023 (SCH #2014052101) Presentation",
-          "topics": [
-            "Historic Preservation",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Development Services Permitting Operations Update Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Economic Development Activity Report January 2026 Presentation",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2804,
       "body": "City Council",
@@ -7187,6 +7131,57 @@
   ],
   "news": [
     {
+      "title": "Absent appeal process, city reissues code violations at Opportunity Center",
+      "source": "Palo Alto Online",
+      "date": "2026-07-22",
+      "url": "https://www.paloaltoonline.com/city-government/2026/07/22/absent-appeal-process-city-reissues-code-violations-at-opportunity-center/",
+      "topics": [
+        "Climate & Utilities"
+      ],
+      "summary": "The Opportunity Center in Palo Alto on July 13, 2026. Photo by Seeger Gray. In April, city inspectors reported mold and water intrusion issues in more than a dozen units at the Opp"
+    },
+    {
+      "title": "Final 2 housing projects round out Palo Alto’s SB 79 window",
+      "source": "Palo Alto Online",
+      "date": "2026-07-22",
+      "url": "https://www.paloaltoonline.com/housing/2026/07/22/final-2-housing-projects-round-out-palo-altos-sb-79-window/",
+      "topics": [
+        "Housing",
+        "Arts & Culture"
+      ],
+      "summary": "A rendering for a 69-unit apartment project proposal at 332 and 350 Forest Ave. Courtesy Steinberg Hart/city of Palo Alto As the deadline approached, two additional housing proposa"
+    },
+    {
+      "title": "At eleventh hour, East Palo Alto kills ordinance that would have lowered affordable housing standards",
+      "source": "Palo Alto Online",
+      "date": "2026-07-22",
+      "url": "https://www.paloaltoonline.com/east-palo-alto/2026/07/22/at-eleventh-hour-east-palo-alto-kills-ordinance-to-lower-affordable-housing-standards/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "An earlier East Palo Alto City Council meeting at the San Mateo County East Palo Alto Government Center on March 17, 2026. Photo by Seeger Gray. The East Palo Alto City Council maj"
+    },
+    {
+      "title": "Makkee Dessert draws long lines for traditional Chinese dessert in downtown Mountain View",
+      "source": "Palo Alto Online",
+      "date": "2026-07-22",
+      "url": "https://www.paloaltoonline.com/mountain-view/2026/07/22/makkee-dessert-draws-long-lines-for-traditional-chinese-dessert-in-downtown-mountain-view/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Makkee Deluxe with chewy taro balls, red beans, grass jelly, peach gum, lotus seeds and choice of regular or oat milk ($12). Courtesy Makkee Dessert. From ice cream to patisserie, "
+    },
+    {
+      "title": "Controversial planning commissioner’s employee signed a letter endorsing him for city post",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-22",
+      "url": "https://padailypost.com/2026/07/22/controversial-planning-commissioners-employee-signed-a-letter-endorsing-him-for-city-post/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer When Forest Peterson applied to Palo Alto City Council to reappoint him to the planning commission earlier this year, he had one of his "
+    },
+    {
       "title": "Palo Alto developer sues Menlo Park over $127K subdivision fee",
       "source": "Palo Alto Online",
       "date": "2026-07-21",
@@ -7238,28 +7233,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHT Daily Post Staff Writer The city of Palo Alto is refusing to release an appraisal for the Cubberley Community Center before voters consider approving a sales t"
-    },
-    {
-      "title": "Planning commissioner who is accused of throwing his weight around is now focused on parking issues",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-18",
-      "url": "https://padailypost.com/2026/07/18/planning-commissioner-who-is-accused-of-throwing-his-weight-around-is-now-focused-on-parking-issues/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A planning commissioner who allegedly tried to get special treatment after his daughter’s car was towed says that parking has become his"
-    },
-    {
-      "title": "Opinion: Council should release the Peterson report",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-17",
-      "url": "https://padailypost.com/2026/07/17/opinion-council-should-release-the-peterson-report/",
-      "topics": [
-        "Transportation"
-      ],
-      "summary": "BY DAVE PRICEDaily Post Editor The city of Palo Alto paid a law firm to investigate a complaint from a tow yard owner who said that Planning and Transportation Commissioner [...]"
     },
     {
       "title": "Former bank on Cal Ave. illegally used for gym, gaming, complaint alleges",
@@ -7370,28 +7343,6 @@
         "Downtown & Business"
       ],
       "summary": "Developers filed for a housing project at 127 Lytton Ave. in downtown Palo Alto under Senate Bill 79, a new state law. Rendering courtesy SC Design Group/city of Palo Alto In just "
-    },
-    {
-      "title": "Builder looks to demolish El Camino Real motel, replace it with housing",
-      "source": "Palo Alto Online",
-      "date": "2026-07-06",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/06/builder-prepares-to-demolish-el-camino-real-motel-replace-it-with-housing/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "Coronet Motel at 2455 El Camino Real would be demolished to make way for a 76-unit housing project under a new proposal. Photo by Gennady Sheyner Taking advantage of a new housing "
-    },
-    {
-      "title": "Housing advocates don’t expect onrush of projects as SB 79 kicks in",
-      "source": "Palo Alto Online",
-      "date": "2026-07-02",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/02/housing-advocates-dont-expect-onrush-of-projects-as-sb-79-kicks-in/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Downtown & Business"
-      ],
-      "summary": "A cyclist bikes on California Avenue in Palo Alto on May 19, 2026. Photo by Seeger Gray. For the next two weeks, a new state law that incentivizes more housing near public transit "
     },
     {
       "title": "Stanford Shopping Center cafe faces eviction, lawsuit over unpaid rent",
