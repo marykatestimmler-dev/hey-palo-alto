@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-23T10:05:46.491Z",
+  "generatedAt": "2026-07-24T10:01:59.293Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-23",
-    "to": "2027-01-23"
+    "from": "2026-01-24",
+    "to": "2027-01-24"
   },
   "bodies": [
     {
@@ -7127,9 +7127,161 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3101,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting - CANCELED",
+      "date": "2026-08-03",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
+      "id": 2817,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting - CANCELED",
+      "date": "2026-08-04",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
+      "id": 3045,
+      "body": "Utilities Advisory Commission",
+      "bodySlug": "utilities-advisory-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Utilities Advisory Commission Regular Meeting ",
+      "date": "2026-08-05",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20116",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on June 3, 2026",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Calendar Year 2025 Reliability Metric Update and Annual System Reliability Goal Setting; CEQA status: Not A Project, CEQA Guidelines section 15378(b)(5). (ACTION: 6:35PM – 7:35PM) Staff Presentation",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "12 Month Rolling Calendar",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "C",
+          "title": "Informational Report: Utilities Quarterly Report for FY2026-Q3",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3015,
+      "body": "Climate Action and Sustainability Committee",
+      "bodySlug": "climate-action-and-sustainability-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Climate Action and Sustainability Committee Regular Meeting",
+      "date": "2026-08-07",
+      "startTime": "14:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19925",
+      "items": [
+        {
+          "num": "A",
+          "title": "Staff Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Committee Member Comments and Announcements",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1",
+          "title": "Youth Climate Advisory Board Annual Report; CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Recommendation to Accept the RWQCP Biosolids Facility Plan Update as Part of the Long Range Facilities Plan Update and Adopt a Park Dedication Ordinance for a Portion of the Measure E Site; CEQA Status – Not a Project",
+          "topics": [
+            "Parks & Open Space",
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "How developers exploited a delay in Palo Alto housing regulations",
+      "source": "Palo Alto Online",
+      "date": "2026-07-23",
+      "url": "https://www.paloaltoonline.com/housing/2026/07/23/how-developers-exploited-a-delay-in-palo-alto-housing-regulations/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "City Hall in Palo Alto on Nov. 25, 2025. Photo by Seeger Gray. In the span of two fateful weeks, Palo Altans saw an unprecedented wave of housing proposals totaling nearly 400 unit"
+    },
     {
       "title": "Absent appeal process, city reissues code violations at Opportunity Center",
       "source": "Palo Alto Online",
@@ -7486,19 +7638,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Explore Possibilities with Nature Journaling",
-      "date": "2026-07-23",
-      "desc": "Slow down, unplug, and awaken your curiosity at this nature journaling workshop.",
-      "where": "",
-      "moreDates": 0,
-      "start": "16:00",
-      "end": "17:30",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/Explore-Possibilities-with-Nature-Journaling"
-    },
     {
       "title": "Photography Meetup",
       "date": "2026-07-26",
