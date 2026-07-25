@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-24T10:01:59.293Z",
+  "generatedAt": "2026-07-25T09:55:45.355Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-24",
-    "to": "2027-01-24"
+    "from": "2026-01-25",
+    "to": "2027-01-25"
   },
   "bodies": [
     {
@@ -109,64 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2804,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting - Retreat",
-      "date": "2026-01-24",
-      "startTime": "09:00",
-      "videoId": "mHX6TaFLoY8",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18520",
-      "items": [
-        {
-          "num": "1",
-          "title": "Overview and orientation to retreat focus City Council Retreat: Discussion and Selection of the 2026 City Council Priorities and Ad Hoc Committees. CEQA Status -- Not a Project. Title Updated, Late Packet Report added, Public Comments, Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment Members of the public may speak to any item NOT on the agenda or any item on the 2026 Council Retreat Program. 1-3 minutes depending on number of speakers. Public Comment is limited to 30 minutes. Additional public comments, if any, will be heard at the end of the agenda.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Discussion and selection of Priorities and methods to prioritize and ensure progress Key inputs, including Council values, 2025 priorities, and staff draft 2026 objectives Discussion of terminology and process for selecting priorities Selection of 2026 priorities Title Updated, At-Places Memos",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "C",
-          "title": "Discussion of Council ad hoc committees and other strategies to achieve goals",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "D",
-          "title": "Next Steps",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2985,
       "body": "Parks and Recreation Commission",
