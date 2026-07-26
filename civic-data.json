@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-25T09:55:45.355Z",
+  "generatedAt": "2026-07-26T09:57:17.050Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-25",
-    "to": "2027-01-25"
+    "from": "2026-01-26",
+    "to": "2027-01-26"
   },
   "bodies": [
     {
@@ -7317,16 +7317,6 @@
         "Parks & Open Space"
       ],
       "summary": "A man has been arrested for burglary after locking himself in a Barron Park home s bathroom, Palo Alto Police said today (July 20). A couple in their 50s were disturbed [...]"
-    },
-    {
-      "title": "City won’t release appraisal of Cubberley property before voters decide whether to buy that property",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-19",
-      "url": "https://padailypost.com/2026/07/18/city-wont-release-appraisal-of-cubberley-property-before-voters-decide-whether-to-buy-that-property/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHT Daily Post Staff Writer The city of Palo Alto is refusing to release an appraisal for the Cubberley Community Center before voters consider approving a sales t"
     },
     {
       "title": "Former bank on Cal Ave. illegally used for gym, gaming, complaint alleges",
