@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-26T09:57:17.050Z",
+  "generatedAt": "2026-07-27T10:30:52.247Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-26",
-    "to": "2027-01-26"
+    "from": "2026-01-27",
+    "to": "2027-01-27"
   },
   "bodies": [
     {
@@ -7570,19 +7570,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Photography Meetup",
-      "date": "2026-07-26",
-      "desc": "Join us for a monthly meetup designed for intermediate and advanced photographers where we'll discuss techniques…",
-      "where": "Mitchell Park Library, 3700 Middlefield Rd.",
-      "moreDates": 5,
-      "start": "10:00",
-      "end": "11:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/Photography-Meetup"
-    },
     {
       "title": "Thursday Live on Cal Ave.",
       "date": "2026-07-30",
