@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-27T10:30:52.247Z",
+  "generatedAt": "2026-07-28T10:11:05.547Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-27",
-    "to": "2027-01-27"
+    "from": "2026-01-28",
+    "to": "2027-01-28"
   },
   "bodies": [
     {
@@ -109,73 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2985,
-      "body": "Parks and Recreation Commission",
-      "bodySlug": "parks-and-recreation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Parks and Recreation Commission Regular Meeting",
-      "date": "2026-01-27",
-      "startTime": "19:00",
-      "videoId": "BES2YrFWfy0",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19724",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of Minutes from November 25, 2025, and December 16, 2025",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Department Report – 20 minutes – Staff Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Ad Hoc Committees and Liaison Updates (Discussion) – 15 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Fiscal Year 2025 Annual Report on Urban Forestry Section and Discussion of Great Oak Count Study and Upcoming Tree and Landscape Technical Manual – 45 minutes – Staff Presentation",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Review of projects to be proposed in the Fiscal Year 2027-2031 Capital Improvement Program Plan – 90 Minutes – Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2920,
       "body": "Planning & Transportation Commission",
@@ -6998,7 +6931,7 @@
       "title": " Parks and Recreation Commission Regular Meeting",
       "date": "2026-07-28",
       "startTime": "19:00",
-      "videoId": null,
+      "videoId": "HWHVJUXLUDs",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20457",
       "items": [
         {
@@ -7215,6 +7148,39 @@
   ],
   "news": [
     {
+      "title": "Former Chez TJ chef lands at new modern cocktail bar and restaurant TRIAL|ERROR in downtown Campbell",
+      "source": "Palo Alto Online",
+      "date": "2026-07-27",
+      "url": "https://www.paloaltoonline.com/food/2026/07/27/modern-cocktail-bar-and-restaurant-trial-error-coming-to-downtown-campbell/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "A rendering of the bar area at TRIAL|ERROR, expected to open in Campbell in October. Courtesy TRIAL|ERROR. Posted on the shuttered door of short-lived restaurant Lira in downtown C"
+    },
+    {
+      "title": "School board candidate wants to pay teachers more, hopes to bring back parcel tax",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-27",
+      "url": "https://padailypost.com/2026/07/27/school-board-candidate-wants-to-pay-teachers-more-hopes-to-bring-back-parcel-tax/",
+      "topics": [
+        "Housing",
+        "Budget & Taxes"
+      ],
+      "summary": "BY STEPHANIE LAMDaily Post Correspondent A parent and long-time school volunteer who wants to push for increasing pay for teachers and bring back a failed parcel tax is running for"
+    },
+    {
+      "title": "Man says he was attacked and robbed at the Baylands; it may be a hate crime",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-27",
+      "url": "https://padailypost.com/2026/07/27/man-says-he-was-attacked-and-robbed-at-the-baylands-it-may-be-a-hate-crime/",
+      "topics": [
+        "Crime, Policing, and Public Safety",
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "Police in Palo Alto are investigating a report of an assault and robbery at Baylands Nature Preserve as a possible hate crime. The attack occurred Thursday afternoon, when a man [."
+    },
+    {
       "title": "How developers exploited a delay in Palo Alto housing regulations",
       "source": "Palo Alto Online",
       "date": "2026-07-23",
@@ -7266,16 +7232,6 @@
       "summary": "Makkee Deluxe with chewy taro balls, red beans, grass jelly, peach gum, lotus seeds and choice of regular or oat milk ($12). Courtesy Makkee Dessert. From ice cream to patisserie, "
     },
     {
-      "title": "Controversial planning commissioner’s employee signed a letter endorsing him for city post",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-22",
-      "url": "https://padailypost.com/2026/07/22/controversial-planning-commissioners-employee-signed-a-letter-endorsing-him-for-city-post/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer When Forest Peterson applied to Palo Alto City Council to reappoint him to the planning commission earlier this year, he had one of his "
-    },
-    {
       "title": "Palo Alto developer sues Menlo Park over $127K subdivision fee",
       "source": "Palo Alto Online",
       "date": "2026-07-21",
@@ -7306,17 +7262,6 @@
         "Budget & Taxes"
       ],
       "summary": "Buzz Brew, a new coffee shop in Redwood City, offers a variety of coffee, tea and lemonade-based drinks. Courtesy Buzz Brew. Local orange blossom honey sweetens the menu at Buzz Br"
-    },
-    {
-      "title": "Man arrested after locking himself in couple’s bathroom",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-20",
-      "url": "https://padailypost.com/2026/07/20/man-arrested-after-locking-himself-in-couples-bathroom/",
-      "topics": [
-        "Crime, Policing, and Public Safety",
-        "Parks & Open Space"
-      ],
-      "summary": "A man has been arrested for burglary after locking himself in a Barron Park home s bathroom, Palo Alto Police said today (July 20). A couple in their 50s were disturbed [...]"
     },
     {
       "title": "Former bank on Cal Ave. illegally used for gym, gaming, complaint alleges",
@@ -7427,17 +7372,6 @@
         "Downtown & Business"
       ],
       "summary": "Developers filed for a housing project at 127 Lytton Ave. in downtown Palo Alto under Senate Bill 79, a new state law. Rendering courtesy SC Design Group/city of Palo Alto In just "
-    },
-    {
-      "title": "Stanford Shopping Center cafe faces eviction, lawsuit over unpaid rent",
-      "source": "Palo Alto Online",
-      "date": "2026-07-02",
-      "url": "https://www.paloaltoonline.com/business/2026/07/01/stanford-shopping-center-cafe-faces-eviction-lawsuit-over-unpaid-rent/",
-      "topics": [
-        "Housing",
-        "Budget & Taxes"
-      ],
-      "summary": "Gregory Zamfotis founded Gregorys Coffee in Manhattan in 2006. Courtesy Gregorys Coffee. Gregorys Coffee, a relatively new cafe in Stanford Shopping Center, is facing a potential e"
     },
     {
       "title": "Demolition begins at controversial Permanente cement plant",
