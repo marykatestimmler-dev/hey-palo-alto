@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-28T10:11:05.547Z",
+  "generatedAt": "2026-07-29T10:11:11.955Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-28",
-    "to": "2027-01-28"
+    "from": "2026-01-29",
+    "to": "2027-01-29"
   },
   "bodies": [
     {
@@ -109,18 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2920,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting - CANCELED",
-      "date": "2026-01-28",
-      "startTime": "18:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2979,
       "body": "City Council",
@@ -6945,7 +6933,7 @@
         },
         {
           "num": "2",
-          "title": "Department Report – 20 minutes",
+          "title": "Department Report – 20 minutes – Staff Presentation",
           "topics": [
             "Arts & Culture"
           ],
@@ -6963,7 +6951,7 @@
         },
         {
           "num": "4",
-          "title": "Park Improvement Ordinance for the Improvements for the Arastradero Creek Stabilization and Utility Line Relocation and Repair project and Consideration of the CEQA Initial Study Mitigated Negative Declaration (IS/MND).- 60 minutes",
+          "title": "Park Improvement Ordinance for the Improvements for the Arastradero Creek Stabilization and Utility Line Relocation and Repair project and Consideration of the CEQA Initial Study Mitigated Negative Declaration (IS/MND).- 60 minutes – Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Parks & Open Space"
@@ -6973,7 +6961,7 @@
         },
         {
           "num": "5",
-          "title": "Informational Update on Ad Hoc Nature Connectivity Efforts – 45 minutes",
+          "title": "Informational Update on Ad Hoc Nature Connectivity Efforts – 45 minutes – Presentation",
           "topics": [
             "Other"
           ],
