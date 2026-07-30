@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-29T10:11:11.955Z",
+  "generatedAt": "2026-07-30T10:05:18.118Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-29",
-    "to": "2027-01-29"
+    "from": "2026-01-30",
+    "to": "2027-01-30"
   },
   "bodies": [
     {
@@ -2636,7 +2636,7 @@
         },
         {
           "num": "2",
-          "title": "Department Report – 20 minutes",
+          "title": "Department Report – 20 minutes – Staff Presentation",
           "topics": [
             "Arts & Culture"
           ],
@@ -7136,6 +7136,27 @@
   ],
   "news": [
     {
+      "title": "Housing project with 98 units proposed for Park Boulevard office site",
+      "source": "Palo Alto Online",
+      "date": "2026-07-30",
+      "url": "https://www.paloaltoonline.com/housing/2026/07/29/housing-project-with-98-units-proposed-for-park-boulevard-office-site/",
+      "topics": [
+        "Housing",
+        "Parks & Open Space"
+      ],
+      "summary": "The proposal for 2181 Park Boulevard calls for 98 units. Courtesy city of Palo Alto While Palo Alto’s local development restrictions took effect on July 16, that fact has not stopp"
+    },
+    {
+      "title": "City Council urged to shut down Flock cameras",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-29",
+      "url": "https://padailypost.com/2026/07/29/city-council-urged-to-remove-flock-cameras/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "BY STEPHANIE LAMDaily Post Correspondent Redwood City residents are urging the city to remove controversial automatic license plate readers that they say violate the privacy of cit"
+    },
+    {
       "title": "Former Chez TJ chef lands at new modern cocktail bar and restaurant TRIAL|ERROR in downtown Campbell",
       "source": "Palo Alto Online",
       "date": "2026-07-27",
@@ -7155,18 +7176,6 @@
         "Budget & Taxes"
       ],
       "summary": "BY STEPHANIE LAMDaily Post Correspondent A parent and long-time school volunteer who wants to push for increasing pay for teachers and bring back a failed parcel tax is running for"
-    },
-    {
-      "title": "Man says he was attacked and robbed at the Baylands; it may be a hate crime",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-27",
-      "url": "https://padailypost.com/2026/07/27/man-says-he-was-attacked-and-robbed-at-the-baylands-it-may-be-a-hate-crime/",
-      "topics": [
-        "Crime, Policing, and Public Safety",
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "Police in Palo Alto are investigating a report of an assault and robbery at Baylands Nature Preserve as a possible hate crime. The attack occurred Thursday afternoon, when a man [."
     },
     {
       "title": "How developers exploited a delay in Palo Alto housing regulations",
@@ -7349,17 +7358,6 @@
         "Parks & Open Space"
       ],
       "summary": "An aerial view of E O Keefe Street in East Palo Alto s Woodland Park neighborhood on April 8, 2026. Photo by Seeger Gray. The East Palo Alto City Council approved on Tuesday an ord"
-    },
-    {
-      "title": "Palo Alto sees wave of housing projects as state law kicks in",
-      "source": "Palo Alto Online",
-      "date": "2026-07-08",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/08/palo-alto-sees-wave-of-housing-projects-as-state-law-kicks-in/",
-      "topics": [
-        "Housing",
-        "Downtown & Business"
-      ],
-      "summary": "Developers filed for a housing project at 127 Lytton Ave. in downtown Palo Alto under Senate Bill 79, a new state law. Rendering courtesy SC Design Group/city of Palo Alto In just "
     },
     {
       "title": "Demolition begins at controversial Permanente cement plant",
