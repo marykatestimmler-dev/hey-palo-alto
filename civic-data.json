@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-30T10:05:18.118Z",
+  "generatedAt": "2026-07-31T10:10:08.117Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-30",
-    "to": "2027-01-30"
+    "from": "2026-01-31",
+    "to": "2027-01-31"
   },
   "bodies": [
     {
@@ -7075,6 +7075,46 @@
       ]
     },
     {
+      "id": 3055,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board Regular Meeting",
+      "date": "2026-08-06",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20186",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Recommendation on Process and Design Standards for Tier 2 and Tier 3 Wireless Communication Facilities in the Public Right-of-Way. CEQA Status: Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 3015,
       "body": "Climate Action and Sustainability Committee",
       "bodySlug": "climate-action-and-sustainability-committee",
@@ -7105,7 +7145,7 @@
         },
         {
           "num": "1",
-          "title": "Youth Climate Advisory Board Annual Report; CEQA Status – Not a Project",
+          "title": "Youth Climate Advisory Board Annual Report; CEQA Status – Not a Project Late Packet Report Added",
           "topics": [
             "Climate & Utilities"
           ],
@@ -7114,7 +7154,7 @@
         },
         {
           "num": "2",
-          "title": "Recommendation to Accept the RWQCP Biosolids Facility Plan Update as Part of the Long Range Facilities Plan Update and Adopt a Park Dedication Ordinance for a Portion of the Measure E Site; CEQA Status – Not a Project",
+          "title": "Recommendation to City Council to Accept the RWQCP Biosolids Facility Plan Update as Part of the Long Range Facilities Plan Update and Adopt a Park Dedication Ordinance for a Portion of the Measure E Site; CEQA Status – Not a Project Title Updated, Late Packet Report Added",
           "topics": [
             "Parks & Open Space",
             "Arts & Culture"
@@ -7124,9 +7164,324 @@
         },
         {
           "num": "3",
-          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project",
+          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project Late Packet Report Added",
           "topics": [
             "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2845,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting",
+      "date": "2026-08-10",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18773",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of Minutes from June 8 and June 15, 2026 Meetings",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "2",
+          "title": "Recommend City Council Approval to Extend Certain FY 2026 City Auditor Task Orders with No Impact to Task Order Budgets",
+          "topics": [
+            "Crime, Policing, and Public Safety",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "3",
+          "title": "Recommend City Council Approval of the City Auditor Annual Risk Assessment and FY 2027 Audit Plan and Corresponding Task Orders. CEQA Status: Not a Project.",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "4",
+          "title": "Approve Program Guidelines for a Public Agency Electric Vehicle Charging Hub Grant Program; CEQA Status - Under CEQA Guidelines Section 15183, Projects Consistent with an Existing General or Comprehensive Plan do not Require Additional CEQA Review",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "5",
+          "title": "Adoption of a Resolution Establishing the FY 2027 Property Tax Levy for City of Palo Alto General Obligation Bonds (2008 Measure N Library Projects); CEQA Status: Not a Project",
+          "topics": [
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "6",
+          "title": "Adopt a Resolution Making Required Findings in Support of Acceptance of Funding from Vehicle Registration Fee-Intelligent Transportation Systems (VRF-ITS) Cycle 5 Grant Program; and amendment of the FY 2027 Budget in the Capital Improvement Fund. CEQA Status – Categorically Exempt (CEQA Guidelines section 15301b Existing Facilities).",
+          "topics": [
+            "Transportation",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "7",
+          "title": "Adoption of a Resolution Approving a NAESB Base Contract for Sale and Purchase of Natural Gas with JPMorgan Chase Bank, N.A. and Authorizing the City Manager or Their Designee to Transact Under the Contract for a Portion of the City’s Natural Gas Requirements; CEQA Status: Not a Project, CEQA Guidelines 15378(b)(5)",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "8",
+          "title": "Adoption of an Ordinance Amending Section 2.38.240 [Settlement of Claims and Actions] and Chapter 2.30 [Contracts and Purchasing Procedures] of the Palo Alto Municipal Code, as accepted by the Policy and Services Committee, to increase the thresholds for solicitation of goods and services, increase contract approval and settlement authority, and to make other technical changes.",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "9",
+          "title": "Approval of Purchase Order with JAM Services, Inc. for the purchase of Traffic Signal Network Switches for a Total Not-To-Exceed Amount of $714,639 for 2 years; and amendment of the FY 2027 Budget in the Capital Improvement Fund. CEQA Status – Categorically Exempt (CEQA Guidelines section 15301).",
+          "topics": [
+            "Transportation",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "10",
+          "title": "Approval of Contract C27197195 with High Point Power Systems in the Amount of $286,660 for the Repair and Refurbishment of a Load Tap Changer Located at Adobe Creek Substation; and Authorization for the City Manager or Their Designee to Execute Change Orders in an Amount Not-to-Exceed $28,666, for a Total Contract Not-to-Exceed Amount of $315,326. CEQA Status –Categorically Exempt Under CEQA Guidelines Sections 15301 and 51302.",
+          "topics": [
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "11",
+          "title": "Approval of Contract No. C27196740 with Blackhawk Painting Inc. in the Amount of $735,500 Over a Period of 18 Months for Electric Substations Equipment and Mechanical Structures Painting Services; Authorization for the City Manager or Their Designee to Execute Change Orders in an Amount Not-to-Exceed of $73,550, for a Total Not-to-Exceed Contract Amount of $809,050; and Approval of a Budget Amendment in the Electric Fund; CEQA Status: Categorically Exempt Under CEQA Guidelines Section 15301.",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "12",
+          "title": "Authorization to Execute Amendment to Legal Services Contract S25194587 with Atkinson Andelson Loya Ruud & Romo to Increase Amount by $100,000 for Total Not-to-Exceed Amount of $285,000; CEQA Status – Not a Project.",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "13",
+          "title": "Approval of Amendment No. 1 to Contract No. C24189086 with Carollo Engineers, Inc., to Increase the Contract Amount by $551,755 for a Revised Total Not-to-Exceed Amount of $3,294,529, and to Extend the Contract Term by Six Months through December 2027, for the Long Range Facilities Plan Update for the Regional Water Quality Control Plant (WQ-19002); CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "14",
+          "title": "Approval of Contract Amendment No. 1 to Contract No. C25191297 with Kittelson & Associates to Extend the Term through September 9, 2028, and Update the Scope of Services and Schedule of Rates for the South Palo Alto Bike/Ped Connectivity Project (Southern Palo Alto Bicycle and Pedestrian Railroad Crossing Study), with No Increase to the Previously Approved Not-to-Exceed Compensation; CEQA Status – Categorically Exempt",
+          "topics": [
+            "Transportation",
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "15",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Section 18.18.120 of Title 18 (Zoning) of the Palo Alto Municipal Code to Allow Greater Flexibility for Noncomplying Facilities in the Commercial Downtown District (FIRST READING: June 15, 2026; PASSED: 7-0)",
+          "topics": [
+            "Downtown & Business"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "16",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Various Chapters of Title 18 (Zoning) and Chapter 16.59 (Citywide Transportation Impact Fee of the Palo Alto Municipal Code, and the Zoning Map, to Implement Retail Vitality Measures (FIRST READING: June 15, 2026; PASSED: 7-0)",
+          "topics": [
+            "Transportation",
+            "Budget & Taxes",
+            "Downtown & Business"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "17",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Chapter 12.32 (Water Use Regulations) of the Palo Alto Municipal Code to Incorporate Additional Water Use Regulations (FIRST READING: June 8, 2026; PASSED: 7-0)",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "18",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending the College Terrace Residential Parking Program (RPP) at PAMC Section 10.46.060 to Remove Fixed Permit Terms, Sale and Grace Periods (FIRST READING: June 15, 2026; PASSED: 7-0)",
+          "topics": [
+            "Housing",
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "19",
+          "title": "PUBLIC HEARING: Consideration of Objections for Weed Abatement Assessments; and Adoption of Resolution Confirming the Weed Abatement Report and Ordering Abatement Costs to be a Special Assessment on the Properties Specified in the Report; CEQA status – categorically exempt.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:40 PM",
+          "elapsedSec": 4200
+        },
+        {
+          "num": "20",
+          "title": "Approval to Proceed with Final Design for the Permanent Installation of the Crescent Park Traffic Calming Project including a Bulb-out on Southwood Drive and East Crescent Drive; CEQA status – categorically exempt.",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
+        },
+        {
+          "num": "21",
+          "title": "Adoption of a Resolution Authorizing the Borrowing of Funds on an Interim Basis for Improvements to the City's Regional Water Quality Control Plant and Authorizing the Execution and Delivery of a Revolving Credit Agreement, Fee Letter and Related Note; CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 10500
+        },
+        {
+          "num": "22",
+          "title": "​Adoption of a Resolution to Reduce the Membership of the Stormwater Management Oversight Committee and Direction Related to an Amendment to the Palo Alto Municipal Code to Streamline the Functions of the Historic Resources Board; CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Historic Preservation"
+          ],
+          "schedTime": "9:25 PM",
+          "elapsedSec": 14100
+        },
+        {
+          "num": "A",
+          "title": "Monthly Investment Report - May 2026 (Unaudited)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:15 PM",
+          "elapsedSec": 2700
+        },
+        {
+          "num": "B",
+          "title": "Monthly Investment Report - June 2026 (Unaudited)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:15 PM",
+          "elapsedSec": 2700
+        },
+        {
+          "num": "C",
+          "title": "Sales Tax Digest Summary for Q1 2026 (January - March). CEQA Status - Not a project.",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:15 PM",
+          "elapsedSec": 2700
+        },
+        {
+          "num": "D",
+          "title": "City Council Summer Recess Report",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:15 PM",
+          "elapsedSec": 2700
+        }
+      ]
+    },
+    {
+      "id": 2782,
+      "body": "Policy & Services Committee",
+      "bodySlug": "policy-and-services-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Policy & Services Committee Regular Meeting",
+      "date": "2026-08-11",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18388",
+      "items": [
+        {
+          "num": "1",
+          "title": "Office of the City Auditor Presentation of the Junior Museum & Zoo Audit. CEQA Status – Not a project.",
+          "topics": [
+            "Crime, Policing, and Public Safety",
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Recommend that City Council approve the HSRAP Grant Program expansion",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Discuss and Provide Feedback on Housing Element Program 6.5: Alternative Housing Program, Objective B. CEQA Status: Exempt Under CEQA Guidelines Section 15262.",
+          "topics": [
+            "Housing",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Discuss and Recommend Approval of Scope of Work for State and Federal Legislative Advocacy and Grant Consulting and Compliance Services",
+          "topics": [
+            "Other"
           ],
           "schedTime": null,
           "elapsedSec": null
@@ -7145,16 +7500,6 @@
         "Parks & Open Space"
       ],
       "summary": "The proposal for 2181 Park Boulevard calls for 98 units. Courtesy city of Palo Alto While Palo Alto’s local development restrictions took effect on July 16, that fact has not stopp"
-    },
-    {
-      "title": "City Council urged to shut down Flock cameras",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-29",
-      "url": "https://padailypost.com/2026/07/29/city-council-urged-to-remove-flock-cameras/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "BY STEPHANIE LAMDaily Post Correspondent Redwood City residents are urging the city to remove controversial automatic license plate readers that they say violate the privacy of cit"
     },
     {
       "title": "Former Chez TJ chef lands at new modern cocktail bar and restaurant TRIAL|ERROR in downtown Campbell",
@@ -7176,6 +7521,18 @@
         "Budget & Taxes"
       ],
       "summary": "BY STEPHANIE LAMDaily Post Correspondent A parent and long-time school volunteer who wants to push for increasing pay for teachers and bring back a failed parcel tax is running for"
+    },
+    {
+      "title": "Man says he was attacked and robbed at the Baylands; it may be a hate crime",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-07-27",
+      "url": "https://padailypost.com/2026/07/27/man-says-he-was-attacked-and-robbed-at-the-baylands-it-may-be-a-hate-crime/",
+      "topics": [
+        "Crime, Policing, and Public Safety",
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "Police in Palo Alto are investigating a report of an assault and robbery at Baylands Nature Preserve as a possible hate crime. The attack occurred Thursday afternoon, when a man [."
     },
     {
       "title": "How developers exploited a delay in Palo Alto housing regulations",
@@ -7326,16 +7683,6 @@
         "Downtown & Business"
       ],
       "summary": "The project at 135 University Ave. would add five stories of housing to an existing commercial building. SC Design Group/city of Palo Alto The Minority Television Project, a nonpro"
-    },
-    {
-      "title": "Palo Alto sees growth in property assessments despite homeowner appeals",
-      "source": "Palo Alto Online",
-      "date": "2026-07-10",
-      "url": "https://www.paloaltoonline.com/palo-alto/2026/07/09/palo-alto-sees-growth-in-property-assessments-despite-homeowner-appeals/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "University Ave. in downtown Palo Alto on March 11, 2025. Photo by Anna Hoch-Kenney. Assessed property values in Palo Alto grew 5.47% in 2025, exceeding both last year s 4.62% incre"
     },
     {
       "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
@@ -7490,19 +7837,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Thursday Live on Cal Ave.",
-      "date": "2026-07-30",
-      "desc": "Thursday Live on Cal Ave. will transform car-free Cal Ave. into a lively gathering space with popular, local musicians…",
-      "where": "Cal Ave. between El Camino Real and Birch Street",
-      "moreDates": 0,
-      "start": "17:00",
-      "end": "20:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/City-Manager/Thursday-Live-on-Cal-Ave.-July-30"
-    },
     {
       "title": "Chair Yoga with Patricia Becker",
       "date": "2026-08-01",
