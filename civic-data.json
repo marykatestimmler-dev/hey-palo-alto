@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-31T10:10:08.117Z",
+  "generatedAt": "2026-08-01T09:56:59.695Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-01-31",
-    "to": "2027-01-31"
+    "from": "2026-02-01",
+    "to": "2027-02-01"
   },
   "bodies": [
     {
@@ -109,37 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2979,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting",
-      "date": "2026-01-31",
-      "startTime": "12:30",
-      "videoId": "4Cr4r0kgDGE",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19687",
-      "items": [
-        {
-          "num": "1",
-          "title": "Public Employee Appointment Title: City Attorney Authority: Gov. Code Section 54957(b)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Conference with Labor Negotiators Authority: Gov. Code section 54957.6; Agency representative: Sandra Blanch and Nicholas Raisch, Teri Black, Teri Black & Co. Unrepresented Employee: City Attorney",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2980,
       "body": "City Council",
@@ -7521,18 +7490,6 @@
         "Budget & Taxes"
       ],
       "summary": "BY STEPHANIE LAMDaily Post Correspondent A parent and long-time school volunteer who wants to push for increasing pay for teachers and bring back a failed parcel tax is running for"
-    },
-    {
-      "title": "Man says he was attacked and robbed at the Baylands; it may be a hate crime",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-27",
-      "url": "https://padailypost.com/2026/07/27/man-says-he-was-attacked-and-robbed-at-the-baylands-it-may-be-a-hate-crime/",
-      "topics": [
-        "Crime, Policing, and Public Safety",
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "Police in Palo Alto are investigating a report of an assault and robbery at Baylands Nature Preserve as a possible hate crime. The attack occurred Thursday afternoon, when a man [."
     },
     {
       "title": "How developers exploited a delay in Palo Alto housing regulations",
