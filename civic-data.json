@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-01T09:56:59.695Z",
+  "generatedAt": "2026-08-02T09:56:42.433Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-01",
-    "to": "2027-02-01"
+    "from": "2026-02-02",
+    "to": "2027-02-02"
   },
   "bodies": [
     {
@@ -109,37 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2980,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting",
-      "date": "2026-02-01",
-      "startTime": "12:30",
-      "videoId": "9T0VBda8XdM",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19693",
-      "items": [
-        {
-          "num": "1",
-          "title": "Public Employee Appointment Title: City Attorney Authority: Gov. Code Section 54957(b)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Conference with Labor Negotiators Authority: Gov. Code section 54957.6; Agency representative: Sandra Blanch and Nicholas Raisch, Teri Black, Teri Black & Co. Unrepresented Employee: City Attorney",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2898,
       "body": "City Council",
@@ -7794,71 +7763,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Chair Yoga with Patricia Becker",
-      "date": "2026-08-01",
-      "desc": "Join local yoga teacher Patricia Becker to loosen joints, improve cognition, and increase strength.",
-      "where": "Rinconada Library, 1213 Newell Rd.",
-      "moreDates": 1,
-      "start": "11:00",
-      "end": "12:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/Chair-Yoga-with-Patricia-Becker"
-    },
-    {
-      "title": "Chill Out with Mindfulness Meditation",
-      "date": "2026-08-01",
-      "desc": "Center yourself and increase your focus with mindfulness meditation for all ages and experience levels.",
-      "where": "Mitchell Park Library, 3700 Middlefield Rd.",
-      "moreDates": 4,
-      "start": "11:00",
-      "end": "11:30",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/Chill-Out-with-Mindfulness-Meditation"
-    },
-    {
-      "title": "Document Shredding Events",
-      "date": "2026-08-01",
-      "desc": "Safely destroy and recycle your confidential and personal paperwork at the Document Shredding Events.",
-      "where": "Baylands Athletic Center (Parking Lot), 1900 Geng Rd",
-      "moreDates": 0,
-      "start": "09:00",
-      "end": "12:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Public-Works/Document-Shredding-Events"
-    },
-    {
-      "title": "Make a Video About Almost Anything!",
-      "date": "2026-08-01",
-      "desc": "Join award-winning filmmaker Ala Mohseni for a hands-on workshop exploring documentary storytelling…",
-      "where": "Cubberley Community Center, 4000 Middlefield Road",
-      "moreDates": 0,
-      "start": "11:00",
-      "end": "12:00",
-      "tags": [
-        "City Sponsored Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Make-a-Video-About-Almost-Anything"
-    },
-    {
-      "title": "Wild Color: Community Mural Workshops at Cubberley",
-      "date": "2026-08-01",
-      "desc": "Everyone of all ages and experiences are welcomed to help paint and bring a large-scale mural to life.",
-      "where": "Cubberley Community Center, 4000 Middlefield Road",
-      "moreDates": 3,
-      "start": "11:00",
-      "end": "14:00",
-      "tags": [
-        "City Sponsored Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Community-Mural-Workshop-Series-with-Zoe-Caron"
-    },
     {
       "title": "Repair Café Palo Alto",
       "date": "2026-08-02",
