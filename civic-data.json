@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-02T09:56:42.433Z",
+  "generatedAt": "2026-08-03T10:31:00.895Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-02",
-    "to": "2027-02-02"
+    "from": "2026-02-03",
+    "to": "2027-02-03"
   },
   "bodies": [
     {
@@ -109,115 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2898,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Regular Meeting",
-      "date": "2026-02-02",
-      "startTime": "17:30",
-      "videoId": "s05xOX0vG9s",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19132",
-      "items": [
-        {
-          "num": "1",
-          "title": "Proclamation Honoring Christopher Fujimoto for 25 Years of Service to the City of Palo Alto",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "CONFERENCE WITH LEGAL COUNSEL—EXISTING LITIGATION Subject: Sami Gerges vs Yolanda Franco Clausen, City of Palo Alto, Santa Clara County Superior Court Case No. 25CV473428 Authority: Government Code Section 54956.9(d)(1)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 600
-        },
-        {
-          "num": "3",
-          "title": "44 and 88 Encina Avenue [25PLN-00308]. Request for Council Prescreening to Rezone the Subject Properties from Community Commercial (CC) to Planned Community/Planned Home Zoning (PC/PHZ) and to Allow Construction of 158 Units and 315 Parking Spaces in Two Seven-Story Structures. The Formal Application Will be Subject to California Environmental Quality Act (CEQA) Review. Zoning District: CC (Community Commercial). Staff Presentation, Applicant Presentation",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Parks & Open Space",
-            "Downtown & Business"
-          ],
-          "schedTime": "6:55 PM",
-          "elapsedSec": 5100
-        },
-        {
-          "num": "4",
-          "title": "Approval of Minutes from January 12, January 15, and January 20, 2026 Meetings",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "5",
-          "title": "Approve and Authorize the City Manager to Execute an MOU Between the City of Palo Alto and the County of Santa Clara to Support the City's Psychiatric Emergency Response Team (PERT) Program for a Term of Five Years and a Not-To-Exceed Amount of $1.4 Million and Approval of a Budget Amendment in the General Fund and Stanford University Medical Center Fund; CEQA status - not a project.",
-          "topics": [
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "6",
-          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Chapter 4.54 (“Massage Establishments”) and Chapter 4.56 (Hot Tub/Sauna Establishments) of Title 4 (Business Licenses and Regulations) (FIRST READING: January 12, 2025, PASSED 7-0)",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "7",
-          "title": "Approval of FY 2026 Architectural Review Board, Historic Resources Board, Planning and Transportation Commission, and Utilities Advisory Commission Work Plans; CEQA status– not a project Staff Presentation",
-          "topics": [
-            "Transportation",
-            "Climate & Utilities",
-            "Historic Preservation"
-          ],
-          "schedTime": "8:30 PM",
-          "elapsedSec": 10800
-        },
-        {
-          "num": "8",
-          "title": "Review the 2024 Greenhouse Gas Inventory and S/CAP Key Performance Indicators Annual Progress Report, and Approve the 2026-2027 S/CAP Work Plan and Receive Six S/CAP Studies Recommended by the Climate Action and Sustainability Committee; CEQA Status: Review GHG Inventory and Key Performance Indicators: Not a Project; Potential Environmental Impacts of the S/CAP Work Plan were Studied in the June 5, 2023 S/CAP Addendum to the 2017-2031 Comprehensive Plan EIR; this Project is also Exempt Pursuant to CEQA Guidelines Section 15183 Supplemental Report added",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": "9:30 PM",
-          "elapsedSec": 14400
-        },
-        {
-          "num": "A",
-          "title": "Monthly Investment Report - December 2025 (Unaudited)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:00 PM",
-          "elapsedSec": 9000
-        },
-        {
-          "num": "B",
-          "title": "Informational Report on Calendar Year 2024 Annual Update for the Cap-and-Trade Program",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:00 PM",
-          "elapsedSec": 9000
-        }
-      ]
-    },
     {
       "id": 2806,
       "body": "Finance Committee",
@@ -7763,19 +7654,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Repair Café Palo Alto",
-      "date": "2026-08-02",
-      "desc": "The Repair Café Palo Alto is a volunteer-run community service dedicated to encouraging the repair and reuse…",
-      "where": "Museum of American Heritage, 351 Homer Ave",
-      "moreDates": 0,
-      "start": "11:00",
-      "end": "15:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Public-Works/Repair-Café-Palo-Alto"
-    },
     {
       "title": "National Night Out 2026",
       "date": "2026-08-04",
