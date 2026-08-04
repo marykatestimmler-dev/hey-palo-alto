@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-03T10:31:00.895Z",
+  "generatedAt": "2026-08-04T10:11:44.316Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-03",
-    "to": "2027-02-03"
+    "from": "2026-02-04",
+    "to": "2027-02-04"
   },
   "bodies": [
     {
@@ -109,18 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2806,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Regular Meeting - CANCELED",
-      "date": "2026-02-03",
-      "startTime": "17:30",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2880,
       "body": "Utilities Advisory Commission",
@@ -6852,7 +6840,7 @@
       "title": "Utilities Advisory Commission Regular Meeting ",
       "date": "2026-08-05",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "bCAjGI5XIes",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20116",
       "items": [
         {
@@ -6911,7 +6899,7 @@
       "title": "Architectural Review Board Regular Meeting",
       "date": "2026-08-06",
       "startTime": "08:30",
-      "videoId": null,
+      "videoId": "c8Yse2iC8MY",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20186",
       "items": [
         {
@@ -6951,7 +6939,7 @@
       "title": "Climate Action and Sustainability Committee Regular Meeting",
       "date": "2026-08-07",
       "startTime": "14:00",
-      "videoId": null,
+      "videoId": "yMuYIJ881FU",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19925",
       "items": [
         {
@@ -7320,6 +7308,36 @@
   ],
   "news": [
     {
+      "title": "Opinion: Bill would prevent cities from removing bike lanes",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-04",
+      "url": "https://padailypost.com/2026/08/03/opinion-bill-would-prevent-cities-from-removing-bike-lanes/",
+      "topics": [
+        "Transportation"
+      ],
+      "summary": "BY DAVE PRICEDaily Post Editor You know those new bike lanes on El Camino Real that nobody uses? They were forced on Palo Alto and other cities by Caltrans. Now [...]"
+    },
+    {
+      "title": "PAUSD has no plan for how it would spend the $65 million it would get from the city for Cubberley",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-04",
+      "url": "https://padailypost.com/2026/08/03/pausd-has-no-plan-for-how-it-would-spend-the-65-million-it-would-get-from-the-city-for-cubberley/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto Unified School District doesn’t have a plan for spending $65.5 million from selling seven acres at the Cubberley Community"
+    },
+    {
+      "title": "Grill your own A5 wagyu at this new downtown Mountain View restaurant",
+      "source": "Palo Alto Online",
+      "date": "2026-08-03",
+      "url": "https://www.paloaltoonline.com/mountain-view/2026/08/03/yakiniku-ginza-opens-in-mountain-view-japanese-a5-wagyu/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Japanese A5 wagyu short rib at Yakiniku Ginza in Mountain View ($56.89). Photo by Adrienne Mitchel. Richly marbled and melt-in-your-mouth tender, A5 wagyu beef is having a moment a"
+    },
+    {
       "title": "Housing project with 98 units proposed for Park Boulevard office site",
       "source": "Palo Alto Online",
       "date": "2026-07-30",
@@ -7339,17 +7357,6 @@
         "Downtown & Business"
       ],
       "summary": "A rendering of the bar area at TRIAL|ERROR, expected to open in Campbell in October. Courtesy TRIAL|ERROR. Posted on the shuttered door of short-lived restaurant Lira in downtown C"
-    },
-    {
-      "title": "School board candidate wants to pay teachers more, hopes to bring back parcel tax",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-07-27",
-      "url": "https://padailypost.com/2026/07/27/school-board-candidate-wants-to-pay-teachers-more-hopes-to-bring-back-parcel-tax/",
-      "topics": [
-        "Housing",
-        "Budget & Taxes"
-      ],
-      "summary": "BY STEPHANIE LAMDaily Post Correspondent A parent and long-time school volunteer who wants to push for increasing pay for teachers and bring back a failed parcel tax is running for"
     },
     {
       "title": "How developers exploited a delay in Palo Alto housing regulations",
@@ -7512,18 +7519,6 @@
       "summary": "The development proposed for 414 California Ave. would include 39 units. Rendering courtesy SPF Architects/city of Palo Alto Rather than petitioning Palo Alto leaders to make excep"
     },
     {
-      "title": "East Palo Alto reduces affordable housing requirements for small projects",
-      "source": "Palo Alto Online",
-      "date": "2026-07-08",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/08/east-palo-alto-reduces-affordable-housing-requirements-for-small-projects/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "An aerial view of E O Keefe Street in East Palo Alto s Woodland Park neighborhood on April 8, 2026. Photo by Seeger Gray. The East Palo Alto City Council approved on Tuesday an ord"
-    },
-    {
       "title": "Demolition begins at controversial Permanente cement plant",
       "source": "Palo Alto Online",
       "date": "2026-07-01",
@@ -7618,17 +7613,6 @@
         "Parks & Open Space"
       ],
       "summary": "A protester holds a sign at an anti-ICE protest on the sidewalk of El Camino Real by Gateway Park in Mountain View on Oct. 24, 2025. Photo by Seeger Gray. Taking a cue from neighbo"
-    },
-    {
-      "title": "Once known for resisting growth, Palo Alto now seeks ‘pro-housing’ designation",
-      "source": "Palo Alto Online",
-      "date": "2026-05-29",
-      "url": "https://www.paloaltoonline.com/housing/2026/05/29/once-known-for-resisting-growth-palo-alto-now-seeks-pro-housing-designation/",
-      "topics": [
-        "Housing",
-        "Historic Preservation"
-      ],
-      "summary": "Palo Alto, which has historically fallen short on its affordable-housing goals, is seeking a pro-housing state designation. Weekly file photo. Palo Alto is seeking to earn a pro-ho"
     },
     {
       "title": "Fewer crossing guards? Less park irrigation? City faces tough budget choices",
