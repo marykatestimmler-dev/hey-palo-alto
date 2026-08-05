@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-04T10:11:44.316Z",
+  "generatedAt": "2026-08-05T10:10:31.446Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-04",
-    "to": "2027-02-04"
+    "from": "2026-02-05",
+    "to": "2027-02-05"
   },
   "bodies": [
     {
@@ -109,65 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2880,
-      "body": "Utilities Advisory Commission",
-      "bodySlug": "utilities-advisory-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": " Utilities Advisory Commission Regular Meeting",
-      "date": "2026-02-04",
-      "startTime": "18:00",
-      "videoId": "obPvF_P3w2Q",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19010",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on January 7, 2026",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Background and Discussion on Data Centers in Palo Alto (DISCUSSION 6:50PM – 7:50PM) Staff: Kathryn Fortenberry, Management Fellow Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Discussion of the Residential Electric and Water Utility Customer Satisfaction Survey Results (DISCUSSION 7:50PM – 8:30PM) Staff: Catherine Elvert, Utilities Communications Manager Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "12 Month Rolling Calendar",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2942,
       "body": "Architectural Review Board",
@@ -7308,6 +7249,28 @@
   ],
   "news": [
     {
+      "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-05",
+      "url": "https://www.paloaltoonline.com/news/2026/08/04/state-backs-controversial-skyscraper-proposal-at-old-sunset-magazine-campus-in-menlo-park/",
+      "topics": [
+        "Housing",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "The office complex at 80 Willow Road in Menlo Park was designed for Sunset Magazine and served as its headquarters from 1951 to 2015. Photo by Andrea Gemmet. A residential skyscrap"
+    },
+    {
+      "title": "Deng takes big fundraising lead in Palo Alto council race",
+      "source": "Palo Alto Online",
+      "date": "2026-08-04",
+      "url": "https://www.paloaltoonline.com/election/2026/08/04/yudy-deng-takes-big-lead-in-campaign-cash-in-palo-alto-council-race/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "The Palo Alto City Council meets on Oct. 20, 2025. Photo by Seeger Gray As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged "
+    },
+    {
       "title": "Opinion: Bill would prevent cities from removing bike lanes",
       "source": "Palo Alto Daily Post",
       "date": "2026-08-04",
@@ -7336,6 +7299,17 @@
         "Downtown & Business"
       ],
       "summary": "Japanese A5 wagyu short rib at Yakiniku Ginza in Mountain View ($56.89). Photo by Adrienne Mitchel. Richly marbled and melt-in-your-mouth tender, A5 wagyu beef is having a moment a"
+    },
+    {
+      "title": "Sobrato fast-tracks 316 apartments in a larger project in Menlo Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-01",
+      "url": "https://www.paloaltoonline.com/news/2026/08/01/sobrato-eyes-advancing-on-316-apartments-of-a-larger-project-in-menlo-park/",
+      "topics": [
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "A rendering of the Sobrato Organization s development plans for 123 Independence Dr. in Menlo Park. Courtesy city of Menlo Park. The Sobrato Organization is aiming to break ground "
     },
     {
       "title": "Housing project with 98 units proposed for Park Boulevard office site",
@@ -7498,17 +7472,6 @@
       "summary": "Kara Baker, owner of Lab and Hound Wine Bar and Tasting Room, stands for a portrait outside her soon-to-open business in Half Moon Bay. Photo by Seeger Gray. For many Peninsula res"
     },
     {
-      "title": "Downtown housing proposal becomes the sixth to lean on new state law",
-      "source": "Palo Alto Online",
-      "date": "2026-07-10",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/10/downtown-housing-proposal-becomes-the-sixth-to-lean-on-new-state-law/",
-      "topics": [
-        "Housing",
-        "Downtown & Business"
-      ],
-      "summary": "The project at 135 University Ave. would add five stories of housing to an existing commercial building. SC Design Group/city of Palo Alto The Minority Television Project, a nonpro"
-    },
-    {
       "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
       "source": "Palo Alto Online",
       "date": "2026-07-08",
@@ -7594,27 +7557,6 @@
       "summary": "The city hopes to redevelop the Cubberley Community Center with a sales tax ballot measure this fall. File photo by Veronica Weber. Fresh off the failure of a parcel tax that would"
     },
     {
-      "title": "Planned office complex near San Antonio Road sparks debate",
-      "source": "Palo Alto Online",
-      "date": "2026-06-09",
-      "url": "https://www.paloaltoonline.com/land-use/2026/06/09/planned-office-complex-near-san-antonio-road-sparks-debate/",
-      "topics": [
-        "Housing",
-        "Parks & Open Space"
-      ],
-      "summary": "San Antonio Road in Palo Alto on March 13, 2024. Photo by Devin Roberts. As Palo Alto prepares to create a new residential community along San Antonio Road, city leaders are confro"
-    },
-    {
-      "title": "Mountain View pursues policy to keep ICE off city property",
-      "source": "Palo Alto Online",
-      "date": "2026-06-01",
-      "url": "https://www.paloaltoonline.com/land-use/2026/06/01/mountain-view-pursues-policy-to-keep-ice-off-city-property/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "A protester holds a sign at an anti-ICE protest on the sidewalk of El Camino Real by Gateway Park in Mountain View on Oct. 24, 2025. Photo by Seeger Gray. Taking a cue from neighbo"
-    },
-    {
       "title": "Fewer crossing guards? Less park irrigation? City faces tough budget choices",
       "source": "Palo Alto Online",
       "date": "2026-05-08",
@@ -7638,19 +7580,6 @@
     }
   ],
   "events": [
-    {
-      "title": "National Night Out 2026",
-      "date": "2026-08-04",
-      "desc": "The Palo Alto Police Department invites the community to National Night Out! Each year, we host a block party…",
-      "where": "",
-      "moreDates": 0,
-      "start": "17:00",
-      "end": "20:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Police-Department/National-Night-Out-2026"
-    },
     {
       "title": "Quilting Basics",
       "date": "2026-08-05",
