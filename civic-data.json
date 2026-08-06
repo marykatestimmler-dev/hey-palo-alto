@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-05T10:10:31.446Z",
+  "generatedAt": "2026-08-06T11:33:38.865Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-05",
-    "to": "2027-02-05"
+    "from": "2026-02-06",
+    "to": "2027-02-06"
   },
   "bodies": [
     {
@@ -109,18 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2942,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting - CANCELED",
-      "date": "2026-02-05",
-      "startTime": "08:30",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2899,
       "body": "City Council",
@@ -7245,6 +7233,73 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3079,
+      "body": "Planning & Transportation Commission",
+      "bodySlug": "planning-and-transportation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Planning & Transportation Commission Regular Meeting",
+      "date": "2026-08-12",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20353",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Assignments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "PUBLIC HEARING/QUASI-JUDICIAL: 332 Forest Avenue [26PLN-00043]: Recommendation to forward a Planned Home Zone (PHZ) Application to the Architectural Review Board to Redevelop the Site with an Eight-Story, 82-Unit Multi-Family Residential Development. CEQA Status: An Exemption under CEQA Guidelines Section 15183 (Comprehensive Plan Consistency) is Currently Being Prepared. Zone District: Multiple Family (RM-40).",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Review and Submit the Planning and Transportation Commission 2026-27 Work Plan to the City Council for Approval",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Approval of Planning & Transportation Commission Draft Summary Minutes of June 10, 2026",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Approval of Planning & Transportation Commission Draft Summary Minutes of July 8, 2026",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comment",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
@@ -7254,11 +7309,9 @@
       "date": "2026-08-05",
       "url": "https://www.paloaltoonline.com/news/2026/08/04/state-backs-controversial-skyscraper-proposal-at-old-sunset-magazine-campus-in-menlo-park/",
       "topics": [
-        "Housing",
-        "Parks & Open Space",
-        "Arts & Culture"
+        "Parks & Open Space"
       ],
-      "summary": "The office complex at 80 Willow Road in Menlo Park was designed for Sunset Magazine and served as its headquarters from 1951 to 2015. Photo by Andrea Gemmet. A residential skyscrap"
+      "summary": "California Attorney General Rob Bonta accused the city of Menlo Park of violating state law by delaying a development at 80 Willow Road. Rendering courtesy N17. A multi-use skyscra"
     },
     {
       "title": "Deng takes big fundraising lead in Palo Alto council race",
@@ -7279,16 +7332,6 @@
         "Transportation"
       ],
       "summary": "BY DAVE PRICEDaily Post Editor You know those new bike lanes on El Camino Real that nobody uses? They were forced on Palo Alto and other cities by Caltrans. Now [...]"
-    },
-    {
-      "title": "PAUSD has no plan for how it would spend the $65 million it would get from the city for Cubberley",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-04",
-      "url": "https://padailypost.com/2026/08/03/pausd-has-no-plan-for-how-it-would-spend-the-65-million-it-would-get-from-the-city-for-cubberley/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto Unified School District doesn’t have a plan for spending $65.5 million from selling seven acres at the Cubberley Community"
     },
     {
       "title": "Grill your own A5 wagyu at this new downtown Mountain View restaurant",
@@ -7462,16 +7505,6 @@
       "summary": "Cà Phê Salted Cream ($7) from River Phin Coffee Roasters the Foster City Farmers Market. Photo by Tessa Berney. On Saturdays, an empty parking lot comes to life as a bustling farme"
     },
     {
-      "title": "A wine bar and a Coastside brewery’s expansion are bringing new life to downtown Half Moon Bay",
-      "source": "Palo Alto Online",
-      "date": "2026-07-14",
-      "url": "https://www.paloaltoonline.com/food/feature-food/2026/07/14/a-half-moon-bay-revival-new-watering-holes-come-to-main-street/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Kara Baker, owner of Lab and Hound Wine Bar and Tasting Room, stands for a portrait outside her soon-to-open business in Half Moon Bay. Photo by Seeger Gray. For many Peninsula res"
-    },
-    {
       "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
       "source": "Palo Alto Online",
       "date": "2026-07-08",
@@ -7580,32 +7613,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Quilting Basics",
-      "date": "2026-08-05",
-      "desc": "Join local artists and Cubberley Artists-in-Residence Mik and May Gaspay for a hands-on quilting workshop…",
-      "where": "Mitchell Park Library, 3700 Middlefield Road",
-      "moreDates": 1,
-      "start": "17:00",
-      "end": "19:00",
-      "tags": [
-        "City Sponsored Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Quilting-Basics-with-Local-Artists-Mik-and-May-Gaspay"
-    },
-    {
-      "title": "Year of Letters",
-      "date": "2026-08-05",
-      "desc": "Drop in to decorate cards or write letters at the library!",
-      "where": "Rinconada Library, 1213 Newell Rd.",
-      "moreDates": 4,
-      "start": "16:30",
-      "end": "17:30",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/Year-of-Letters"
-    },
     {
       "title": "It's OK to Say Suicide Workshop",
       "date": "2026-08-12",
