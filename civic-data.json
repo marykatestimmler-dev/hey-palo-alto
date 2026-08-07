@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-06T11:33:38.865Z",
+  "generatedAt": "2026-08-07T10:13:23.234Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-06",
-    "to": "2027-02-06"
+    "from": "2026-02-07",
+    "to": "2027-02-07"
   },
   "bodies": [
     {
@@ -1136,132 +1136,7 @@
       "startTime": "17:30",
       "videoId": "P26S0WrCNoM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18673",
-      "items": [
-        {
-          "num": "1",
-          "title": "Santa Clara County Science and Engineering Fair Association 2026 Science Fair Winners from Palo Alto",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:35 PM",
-          "elapsedSec": 300
-        },
-        {
-          "num": "2",
-          "title": "Review Applications and Select Candidates to Interview for the Historic Resources Board (HRB), Human Relations Commission (HRC), Planning & Transportation Commission (PTC), Stormwater Management Oversight Committee (SWMOC), and Utilities Advisory Commission (UAC) Vacancies; CEQA Status - Not a Project At-Places Memo added, Presentation",
-          "topics": [
-            "Transportation",
-            "Climate & Utilities",
-            "Historic Preservation"
-          ],
-          "schedTime": "5:50 PM",
-          "elapsedSec": 1200
-        },
-        {
-          "num": "3",
-          "title": "Palo Alto Link Program & Transit Futures Review; CEQA status – not a project. Staff Presentation",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": "6:50 PM",
-          "elapsedSec": 4800
-        },
-        {
-          "num": "4",
-          "title": "Endorsement of the Connect Bay Area Transit Initiative Public Comment",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": "7:50 PM",
-          "elapsedSec": 8400
-        },
-        {
-          "num": "5",
-          "title": "Authorize Transmittal of the 2025 Comprehensive Plan Annual Progress Report to the Governor’s Office of Land Use and Climate Innovation and the 2025 Housing Element Annual Progress Report to the Department of Housing and Community Development. CEQA Status: Not a Project.",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Arts & Culture"
-          ],
-          "schedTime": "7:50 PM",
-          "elapsedSec": 8400
-        },
-        {
-          "num": "6",
-          "title": "Approval of General Service Contract No. C26195719 with Clean Harbors Environmental Services, Inc. in an Amount Not-to-Exceed $1,914,000 to Provide Household Hazardous Waste Management and Emergency Response Services for a Period of Five Years, and Approval of a Budget Amendment in the Refuse Fund; CEQA Status – Negative Declarations Previously Approved",
-          "topics": [
-            "Climate & Utilities",
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:50 PM",
-          "elapsedSec": 8400
-        },
-        {
-          "num": "7",
-          "title": "Approval of Professional Services Contract Number C26195818 With BKF Engineers in an Amount Not to Exceed of $900,000 Over a 3-year Term for On-Call Surveying and Design Support Services; CEQA Status – Not a Project",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:50 PM",
-          "elapsedSec": 8400
-        },
-        {
-          "num": "8",
-          "title": "Approval of Amendment No. 1 to the Multi-Agency Staffing Agreement for Fire Station 8. CEQA Status – Not a Project.",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": "7:50 PM",
-          "elapsedSec": 8400
-        },
-        {
-          "num": "9",
-          "title": "Review the 2024 Greenhouse Gas Inventory and S/CAP Key Performance Indicators Annual Progress Report, and Approve the 2026-2027 S/CAP Work Plan and Receive Six S/CAP Studies Recommended by the Climate Action and Sustainability Committee; CEQA Status: Review GHG Inventory and Key Performance Indicators: Not a Project; Potential Environmental Impacts of the S/CAP Work Plan were Studied in the June 5, 2023 S/CAP Addendum to the 2017-2031 Comprehensive Plan EIR; this Project is also Exempt Pursuant to CEQA Guidelines Section 15183 Public Comment, Staff Presentation",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "10",
-          "title": "Status Update on Implementation of the Reliability and Resiliency Strategic Plan; Accept 1) Palo Alto’s Electric System Reliability Indices and Recommended Goals and Reporting, 2) the “Evaluation of Local Energy Resources to Lower Costs and Improve Reliability and Resiliency” Report (as recommended by Climate Action and Sustainability Committee and Utilities Advisory Commission) to Complete Reliability and Resiliency Strategic Plan Strategy Four and Strategy Five; and Provide Direction to Pursue Various Activities Related to Flexible Energy Resource and Efficient Electrification to Improve Reliability and Resiliency; CEQA Status - Not a Project Public Comment, Staff Presentation",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": "9:55 PM",
-          "elapsedSec": 15900
-        },
-        {
-          "num": "A",
-          "title": "Informational Report for Council: League of California Cities Annual Report 2025",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "B",
-          "title": "Sales Tax Digest Q3 2025 (Jul-Sept)",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "C",
-          "title": "Informational Report on Residential Electric and Water Utility Customer Satisfaction Survey Results",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        }
-      ]
+      "items": []
     },
     {
       "id": 2808,
@@ -6769,7 +6644,7 @@
       "title": "Utilities Advisory Commission Regular Meeting ",
       "date": "2026-08-05",
       "startTime": "18:00",
-      "videoId": "bCAjGI5XIes",
+      "videoId": "oRWM0cu2g1o",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20116",
       "items": [
         {
@@ -6842,7 +6717,7 @@
         },
         {
           "num": "2",
-          "title": "Recommendation on Process and Design Standards for Tier 2 and Tier 3 Wireless Communication Facilities in the Public Right-of-Way. CEQA Status: Not a Project",
+          "title": "Recommendation on Process and Design Standards for Tier 2 and Tier 3 Wireless Communication Facilities in the Public Right-of-Way. CEQA Status: Not a Project Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -6891,7 +6766,7 @@
         },
         {
           "num": "1",
-          "title": "Youth Climate Advisory Board Annual Report; CEQA Status – Not a Project Late Packet Report Added",
+          "title": "Youth Climate Advisory Board Annual Report; CEQA Status – Not a Project Late Packet Report Added, Staff Presentation",
           "topics": [
             "Climate & Utilities"
           ],
@@ -6900,7 +6775,7 @@
         },
         {
           "num": "2",
-          "title": "Recommendation to City Council to Accept the RWQCP Biosolids Facility Plan Update as Part of the Long Range Facilities Plan Update and Adopt a Park Dedication Ordinance for a Portion of the Measure E Site; CEQA Status – Not a Project Title Updated, Late Packet Report Added",
+          "title": "Recommendation to City Council to Accept the RWQCP Biosolids Facility Plan Update as Part of the Long Range Facilities Plan Update and Adopt a Park Dedication Ordinance for a Portion of the Measure E Site; CEQA Status – Not a Project Title Updated, Late Packet Report Added, Staff Presentation",
           "topics": [
             "Parks & Open Space",
             "Arts & Culture"
@@ -6910,7 +6785,7 @@
         },
         {
           "num": "3",
-          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project Late Packet Report Added",
+          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project Late Packet Report Added, Staff Presentation",
           "topics": [
             "Climate & Utilities"
           ],
@@ -7146,6 +7021,15 @@
           "elapsedSec": 14100
         },
         {
+          "num": "AA1",
+          "title": "Removal of Planning and Transportation Commissioner Forest Olaf Peterson New Item Added",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "6:15 PM",
+          "elapsedSec": 2700
+        },
+        {
           "num": "A",
           "title": "Monthly Investment Report - May 2026 (Unaudited)",
           "topics": [
@@ -7196,7 +7080,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Office of the City Auditor Presentation of the Junior Museum & Zoo Audit. CEQA Status – Not a project.",
+          "title": "Office of the City Auditor Presentation of the Junior Museum & Zoo Audit. CEQA Status – Not a project. Supplemental Report Added",
           "topics": [
             "Crime, Policing, and Public Safety",
             "Arts & Culture"
@@ -7300,9 +7184,311 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3056,
+      "body": "Historic Resources Board",
+      "bodySlug": "historic-resources-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Historic Resources Board Regular Meeting",
+      "date": "2026-08-13",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20193",
+      "items": [
+        {
+          "num": "1",
+          "title": "Historic Resources Board Schedule of Meetings and Assignments",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 1431 Waverley Street [25PLN-00064]: Request for a Major Historic Review and Minor-Staff Level Architectural Review for the Demolition of an Existing Greenhouse and Accessory Structures on an Existing Category 2 Historic Resource. Rehabilitation Work Includes Construction of a New Greenhouse, and New One-Story Horticultural Complex with a Workshop, Offices, Nursery, and a Community Room for Educational Programs. CEQA Status: Exempt under CEQA Guidelines Section 15303 (New Construction or Conversion of Small Structures) and 15302 (Replacement or Reconstruction). Zoning District: (PF) Public Facility.",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space",
+            "Historic Preservation",
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Review and Submit the Historic Resources Board’s (HRB) Draft Annual Report and Work Plan to the City Council for Approval. CEQA Status: Not a Project.",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Approval of Historic Resources Board Draft Minutes of June 11, 2026",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comment",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3088,
+      "body": "Human Relations Commission",
+      "bodySlug": "human-relations-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Human Relations Commission Regular Meeting ",
+      "date": "2026-08-13",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20416",
+      "items": [
+        {
+          "num": "1",
+          "title": "Affordable Senior Housing: Local and Regional Projects, Needs, and Challenges: Presentations from Alta Housing, Eden Housing, and MidPen Housing – Discussion – 45 min",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Barriers to Senior Services: Perspectives from Seniors including Clients of Avenidas and Alta Housing - Discussion - 45 minutes",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "County Policies and Regional Legislation Affecting Seniors: Presentation from a County policy analyst –Discussion — 15 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Property-Tax Qualifications for Affordable Senior Housing Projects: Presentation from the California State Board of Equalization – Discussion — 15 minutes",
+          "topics": [
+            "Housing",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Senior Housing, Renter Protections, and Access to Human Services",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2846,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting",
+      "date": "2026-08-17",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18779",
+      "items": [
+        {
+          "num": "1",
+          "title": "CONFERENCE WITH CITY ATTORNEY-EXISTING LITIGATION Subject: Swinerton v. City of Palo Alto (JAMS Reference # 5100003409) Authority: Government Code Section 54956.9(d)(1) One Case, as Defendant",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "CONFERENCE WITH REAL PROPERTY NEGOTIATORS Authority: Government Code Section 54956.8 Property: 4000 Middlefield Road, Palo Alto (Informally known as the Cubberley Site) Negotiating Party: Palo Alto Unified School District City Negotiators: Ed Shikada, Kristen O'Kane, Sunny Tong Subject of Negotiations: Purchase, Exchange, and/or Lease Price and Terms of Payment",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "3",
+          "title": "Adoption of a Resolution Authorizing the City Manager or Their Designee to Transact for Electric Supplies to Meet the City’s Electrical Needs under Electric Master Agreements; CEQA Status: Not a project, CEQA Guidelines 15378(b)(5)",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "7:40 PM",
+          "elapsedSec": 7800
+        },
+        {
+          "num": "4",
+          "title": "Approve Expansion of the City’s Overnight Warming/Cooling Location Program, Approve an Operating Framework for Emergency Inclement Weather Response; CEQA status.",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": "7:40 PM",
+          "elapsedSec": 7800
+        },
+        {
+          "num": "5",
+          "title": "Approval of Contract Number C27196410 with Salas O’Brien Engineers, Inc. for an Amount Not-to-Exceed $298,716 to Provide Professional Design Services for the Electrification of City Facilities Capital Improvement Program Project PE-24001, for a Contract Term through August 24, 2029; CEQA Status – Exempt under CEQA Guidelines Section 15301",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:40 PM",
+          "elapsedSec": 7800
+        },
+        {
+          "num": "6",
+          "title": "Adoption of an Ordinance Amending Various Palo Alto Municipal Code Chapters in Titles 16 and 18 to Address Changes in State Law and Direction from City Council Regarding Accessory and Junior Accessory Dwelling Units. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3).",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "8:10 PM",
+          "elapsedSec": 9600
+        },
+        {
+          "num": "7",
+          "title": "PUBLIC HEARING/QUASI-JUDICIAL. 762 San Antonio Road [24PLN‐00120]: Request for Approval of a Major Architectural Review Application to Demolish Three Existing Commercial Buildings and Construct an Eight-Story Multi-Family Residential Building Containing 228 Rental Apartments. The Project is Proposed in Accordance with California Government Code Section 65589.5(d)(5) “Builders Remedy\". CEQA Status: An Addendum to the Previously Certified Environmental Impact Report for the Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project (SCH # 2019090070) has Been Prepared. Zoning District: CS (AD); Service Commercial (Automobile Dealership).",
+          "topics": [
+            "Housing",
+            "Arts & Culture",
+            "Downtown & Business"
+          ],
+          "schedTime": "9:10 PM",
+          "elapsedSec": 13200
+        },
+        {
+          "num": "A",
+          "title": "2100 Geng Road [24PLN-00356 & 24PLN-00357]: Determination of Impact Fees Following Fee Protest",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:45 PM",
+          "elapsedSec": 8100
+        },
+        {
+          "num": "B",
+          "title": "Boards, Commissions, and Committees 2026 Mid-Year Attendance Report; CEQA Status - Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:45 PM",
+          "elapsedSec": 8100
+        },
+        {
+          "num": "C",
+          "title": "Investment Activity Report for the Fourth Quarter (April – June), Fiscal Year 2026. CEQA Status – Not a Project.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "7:45 PM",
+          "elapsedSec": 8100
+        }
+      ]
+    },
+    {
+      "id": 2818,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting",
+      "date": "2026-08-18",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18604",
+      "items": [
+        {
+          "num": "1",
+          "title": "Refinancing of the 2009A Water Revenue Bonds, Series A; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Water Revenue Refunding Bonds in a Principal Amount Not-to-Exceed $20,000,000, Approval of the Official Notice of Sale, Indenture of Trust, Official Statement, Irrevocable Refunding Instructions, and Other Related Documents, and Authorizing and Directing Certain Related Actions; CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3024,
+      "body": "Economic Development Committee",
+      "bodySlug": "economic-development-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Economic Development Committee Regular Meeting- CANCELED ",
+      "date": "2026-08-19",
+      "startTime": "16:15",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
+      "id": 3095,
+      "body": "Parks and Recreation Commission",
+      "bodySlug": "parks-and-recreation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Parks and Recreation Commission Regular Meeting - CANCELED",
+      "date": "2026-08-25",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
     }
   ],
   "news": [
+    {
+      "title": "‘Not Manhattan’: Palo Alto neighbors fight high-rise transit developments",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-06",
+      "url": "https://padailypost.com/2026/08/06/not-manhattan-palo-alto-neighbors-fight-high-rise-transit-developments/",
+      "topics": [
+        "Transportation",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Neighbors are trying to stop two developments in Palo Alto that are using a new state law that allow taller apartment buildings near Cal"
+    },
+    {
+      "title": "2 councilmen ask colleagues to release report about incident involving planning commissioner Forest Peterson",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-06",
+      "url": "https://padailypost.com/2026/08/06/2-councilmen-ask-colleagues-to-release-report-about-incident-involving-planning-commissioner-forest-peterson/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Two Palo Alto councilmen are pushing their colleagues to release a report on a planning commissioner who was accused of trying to get sp"
+    },
     {
       "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
       "source": "Palo Alto Online",
@@ -7322,16 +7508,6 @@
         "Budget & Taxes"
       ],
       "summary": "The Palo Alto City Council meets on Oct. 20, 2025. Photo by Seeger Gray As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged "
-    },
-    {
-      "title": "Opinion: Bill would prevent cities from removing bike lanes",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-04",
-      "url": "https://padailypost.com/2026/08/03/opinion-bill-would-prevent-cities-from-removing-bike-lanes/",
-      "topics": [
-        "Transportation"
-      ],
-      "summary": "BY DAVE PRICEDaily Post Editor You know those new bike lanes on El Camino Real that nobody uses? They were forced on Palo Alto and other cities by Caltrans. Now [...]"
     },
     {
       "title": "Grill your own A5 wagyu at this new downtown Mountain View restaurant",
