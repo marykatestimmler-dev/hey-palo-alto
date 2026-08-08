@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-07T10:13:23.234Z",
+  "generatedAt": "2026-08-08T09:54:40.816Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-07",
-    "to": "2027-02-07"
+    "from": "2026-02-08",
+    "to": "2027-02-08"
   },
   "bodies": [
     {
@@ -1136,7 +1136,132 @@
       "startTime": "17:30",
       "videoId": "P26S0WrCNoM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18673",
-      "items": []
+      "items": [
+        {
+          "num": "1",
+          "title": "Santa Clara County Science and Engineering Fair Association 2026 Science Fair Winners from Palo Alto",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:35 PM",
+          "elapsedSec": 300
+        },
+        {
+          "num": "2",
+          "title": "Review Applications and Select Candidates to Interview for the Historic Resources Board (HRB), Human Relations Commission (HRC), Planning & Transportation Commission (PTC), Stormwater Management Oversight Committee (SWMOC), and Utilities Advisory Commission (UAC) Vacancies; CEQA Status - Not a Project At-Places Memo added, Presentation",
+          "topics": [
+            "Transportation",
+            "Climate & Utilities",
+            "Historic Preservation"
+          ],
+          "schedTime": "5:50 PM",
+          "elapsedSec": 1200
+        },
+        {
+          "num": "3",
+          "title": "Palo Alto Link Program & Transit Futures Review; CEQA status – not a project. Staff Presentation",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "6:50 PM",
+          "elapsedSec": 4800
+        },
+        {
+          "num": "4",
+          "title": "Endorsement of the Connect Bay Area Transit Initiative Public Comment",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "5",
+          "title": "Authorize Transmittal of the 2025 Comprehensive Plan Annual Progress Report to the Governor’s Office of Land Use and Climate Innovation and the 2025 Housing Element Annual Progress Report to the Department of Housing and Community Development. CEQA Status: Not a Project.",
+          "topics": [
+            "Housing",
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "6",
+          "title": "Approval of General Service Contract No. C26195719 with Clean Harbors Environmental Services, Inc. in an Amount Not-to-Exceed $1,914,000 to Provide Household Hazardous Waste Management and Emergency Response Services for a Period of Five Years, and Approval of a Budget Amendment in the Refuse Fund; CEQA Status – Negative Declarations Previously Approved",
+          "topics": [
+            "Climate & Utilities",
+            "Crime, Policing, and Public Safety",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "7",
+          "title": "Approval of Professional Services Contract Number C26195818 With BKF Engineers in an Amount Not to Exceed of $900,000 Over a 3-year Term for On-Call Surveying and Design Support Services; CEQA Status – Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "8",
+          "title": "Approval of Amendment No. 1 to the Multi-Agency Staffing Agreement for Fire Station 8. CEQA Status – Not a Project.",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "9",
+          "title": "Review the 2024 Greenhouse Gas Inventory and S/CAP Key Performance Indicators Annual Progress Report, and Approve the 2026-2027 S/CAP Work Plan and Receive Six S/CAP Studies Recommended by the Climate Action and Sustainability Committee; CEQA Status: Review GHG Inventory and Key Performance Indicators: Not a Project; Potential Environmental Impacts of the S/CAP Work Plan were Studied in the June 5, 2023 S/CAP Addendum to the 2017-2031 Comprehensive Plan EIR; this Project is also Exempt Pursuant to CEQA Guidelines Section 15183 Public Comment, Staff Presentation",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 10500
+        },
+        {
+          "num": "10",
+          "title": "Status Update on Implementation of the Reliability and Resiliency Strategic Plan; Accept 1) Palo Alto’s Electric System Reliability Indices and Recommended Goals and Reporting, 2) the “Evaluation of Local Energy Resources to Lower Costs and Improve Reliability and Resiliency” Report (as recommended by Climate Action and Sustainability Committee and Utilities Advisory Commission) to Complete Reliability and Resiliency Strategic Plan Strategy Four and Strategy Five; and Provide Direction to Pursue Various Activities Related to Flexible Energy Resource and Efficient Electrification to Improve Reliability and Resiliency; CEQA Status - Not a Project Public Comment, Staff Presentation",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "9:55 PM",
+          "elapsedSec": 15900
+        },
+        {
+          "num": "A",
+          "title": "Informational Report for Council: League of California Cities Annual Report 2025",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "B",
+          "title": "Sales Tax Digest Q3 2025 (Jul-Sept)",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "C",
+          "title": "Informational Report on Residential Electric and Water Utility Customer Satisfaction Survey Results",
+          "topics": [
+            "Housing",
+            "Climate & Utilities"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        }
+      ]
     },
     {
       "id": 2808,
@@ -7478,16 +7603,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Neighbors are trying to stop two developments in Palo Alto that are using a new state law that allow taller apartment buildings near Cal"
-    },
-    {
-      "title": "2 councilmen ask colleagues to release report about incident involving planning commissioner Forest Peterson",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-06",
-      "url": "https://padailypost.com/2026/08/06/2-councilmen-ask-colleagues-to-release-report-about-incident-involving-planning-commissioner-forest-peterson/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Two Palo Alto councilmen are pushing their colleagues to release a report on a planning commissioner who was accused of trying to get sp"
     },
     {
       "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
