@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-09T09:56:39.232Z",
+  "generatedAt": "2026-08-10T10:36:44.748Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-09",
-    "to": "2027-02-09"
+    "from": "2026-02-10",
+    "to": "2027-02-10"
   },
   "bodies": [
     {
@@ -109,154 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2899,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Regular Meeting ",
-      "date": "2026-02-09",
-      "startTime": "17:30",
-      "videoId": "yotJQdLGJGg",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19138",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of Minutes from January 20 and January 24, 2026 Meeting",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "2",
-          "title": "Adoption of a Resolution Amending the El Camino Real Retail Node Map for Purposes of Palo Alto Municipal Code Section 18.40.180: Retail Preservation. CEQA Status: Addendum to the Comprehensive Plan Environmental Impact Report (EIR), adopted November 17, 2023 (SCH #2014052101)",
-          "topics": [
-            "Historic Preservation",
-            "Downtown & Business"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "3",
-          "title": "Adoption of Revisions to the Investment Policy as Recommended by the Finance Committee. CEQA Status – Not a Project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "4",
-          "title": "Adoption of a Resolution Authorizing the City Manager to Negotiate and Execute Purchase Orders with To-Be-Determined Vendor(s) to Procure Nine Vehicle/Equipment Purchases for a Total Not-to-Exceed Amount of $1,430,000; Approval of a Fourth Amended and Restated Purchase Order Number 4521000199 with Altec Industries, Inc., to Increase the Purchase Order Amount by $94,911 to a New Not-to Exceed Amount of $1,167,986 for Two Vehicle/Equipment Purchases; and Amend the FY 2026 Budget in the Vehicle Replacement and Maintenance Fund and Electric Funds; CEQA Status – Not a Project",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "5",
-          "title": "Approval of an Increase of Construction Contingency for Contract No. C24189237 with SAK Construction, LLC in the Amount of $800,000 and Amend the FY 2026 Budget in the Wastewater Treatment Fund for the Joint Intercepting Sewer Rehabilitation (Phase 1) Project (WQ-24000); CEQA Status - Exempt under CEQA Guidelines Section 15301 (Repairs to Existing Facilities)",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "6",
-          "title": "Approval of Amendment No. 1. of the Future Talent of Silicon Valley dba First Tee - Silicon Valley (Contract S25192927) Facility Use Agreement to Extend the Term for Three Years to February 2029; CEQA status – not a project. Public Comment",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "7",
-          "title": "Approval of Amendment No. 3 to Contract No. S23187281 with Urban Planning Partners, Inc. in the Amount of $52,409, Increasing the Not-to-Exceed Amount to $137,409 and Extending the Contract Term Through December 31, 2027 to Create Standalone Pre-Approved Parklet Plans as Part of the California Avenue Streetscape Update PL-23000; CEQA Status – Categorically Exempt under CEQA Guidelines Section 15301 and 15304(e)",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Arts & Culture",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "8",
-          "title": "Approval of Four Professional Services Contracts C26194180A-D, with Interwest Consulting Group, Inc, TRB and Associates, Inc., Atlas Environmental and West Coast Code Consultants, Inc. in the Aggregate Total Not-to-Exceed amount of $1,438,800 for On-Call Fire Code, and Hazardous Material Related Services, Inspection, Plan Review and Environmental Consultation over a three-year term; CEQA status: not a project.",
-          "topics": [
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "9",
-          "title": "Approve a resolution for an exception to the CalPERS 180-day waiting period to appoint retired annuitant Aaron Miller; CEQA Status - Not a Project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:55 PM",
-          "elapsedSec": 5100
-        },
-        {
-          "num": "10",
-          "title": "PUBLIC HEARING: Objections to Weed Abatement at Affected Properties and Approval of Affected Property List for Commencing Weed Abatement in 2026; CEQA Status - exempt",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
-        },
-        {
-          "num": "11",
-          "title": "Cubberley Project: Receive update on Third Round Polling Results, Approve a Letter of Intent with TheatreWorks Silicon Valley, and Direct Staff on Next Steps Late Packet Report added, Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:20 PM",
-          "elapsedSec": 6600
-        },
-        {
-          "num": "12",
-          "title": "Review and Approval of Suggested Changes to the City Council Procedures and Protocols Handbook as Recommended by the Policy and Services Committee. CEQA Status – Not a project. Supplemental Report added",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:50 PM",
-          "elapsedSec": 12000
-        },
-        {
-          "num": "AA1",
-          "title": "Conference with Labor Negotiators Authority: Gov. Code section 54957.6; Agency representative: Sandra Blanch and Nicholas Raisch, Teri Black, Teri Black & Co. Unrepresented Employee: City Attorney New Item added",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "10:00 PM",
-          "elapsedSec": 16200
-        },
-        {
-          "num": "A",
-          "title": "Rental Residential Vacancy Rate Determination for Properties Containing Three or More Dwelling Units for the Second Half of 2025. CEQA: Not a Project, Pursuant to CEQA Guidelines Section 15378(b).",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": "10:00 PM",
-          "elapsedSec": 16200
-        }
-      ]
-    },
     {
       "id": 3004,
       "body": "Public Art Commission",
