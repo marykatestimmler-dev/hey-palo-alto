@@ -1,0 +1,28 @@
+name: Weekly digest
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # Monday 00:00 UTC = Sunday 5pm PDT (4pm PST)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (log matches, send nothing)"
+        default: "0"
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Send weekly digest
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          FUNCTIONS_BASE_URL: ${{ secrets.FUNCTIONS_BASE_URL }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          POSTAL_ADDRESS: "Hey Palo Alto, Palo Alto, CA"
+        run: node ingest/digest.mjs
