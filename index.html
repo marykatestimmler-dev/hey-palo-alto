@@ -1212,21 +1212,28 @@
         </svg></span>
         <span class="ah-img" aria-hidden="true"><img src="img/area-settings.png" alt="" loading="lazy" onerror="this.parentElement.remove()"></span>
       </div>
-      <div class="panel-box">
-        <label for="emailInput">Your email address</label>
-        <input type="email" id="emailInput" placeholder="you@example.com" />
-        <label style="display:flex;align-items:center;gap:10px;margin-top:18px;font-weight:500">
-          <input type="checkbox" id="optUpcoming" checked style="width:18px;height:18px"> Email me when a followed issue is added to an upcoming agenda
-        </label>
-        <label style="display:flex;align-items:center;gap:10px;margin-top:10px;font-weight:500">
-          <input type="checkbox" id="optDiscussed" checked style="width:18px;height:18px"> Email me after a followed issue is discussed at a meeting
-        </label>
-        <div style="margin-top:18px">
-          <button class="btn" id="saveSettings">Save preferences</button>
-          <button class="btn ghost" id="previewDigest">Preview my email digest</button>
+      <div class="panel-box" id="digestPanel" style="max-width:720px">
+        <div id="digestForm">
+          <h3 style="margin:0 0 4px">Your free weekly digest</h3>
+          <p style="margin:0 0 14px;color:var(--muted);font-size:14px">One email, Sunday evenings — what's coming up (and what just happened) on the things you care about. We read your follows on this device to suggest a starting point; edit freely.</p>
+          <div style="font-weight:600;font-size:13.5px;margin:14px 0 6px">Your digest covers:</div>
+          <div id="dgChips" style="display:flex;flex-wrap:wrap;gap:7px"></div>
+          <div style="font-weight:600;font-size:13.5px;margin:16px 0 6px">Add topics or your own watch-words:</div>
+          <div id="dgSuggest" style="display:flex;flex-wrap:wrap;gap:7px"></div>
+          <input type="text" id="dgCustom" maxlength="40" placeholder="Type a watch-word (e.g. Cubberley) and press Enter" style="width:100%;margin-top:10px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font:inherit;font-size:13.5px">
+          <label for="emailInput" style="margin-top:18px">Your email address</label>
+          <input type="email" id="emailInput" placeholder="you@example.com" />
+          <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+            <button class="btn" id="dgSubscribe">📬 Get my weekly digest</button>
+            <button class="btn ghost" id="previewDigest">Preview a digest now</button>
+          </div>
+          <div class="note" id="dgNote">
+            <b>How it works:</b> You'll get one confirmation email first — nothing is sent until you click it. Quiet week on your topics? No email at all. Unsubscribe is one click, your address is never shared, and the digest is as non-partisan as the rest of this site.
+          </div>
         </div>
-        <div class="note">
-          <b>How alerts work:</b> This prototype saves your follows in this browser. <i>Preview my email digest</i> opens a ready-to-send summary in your own mail app, so you can see what a notification looks like. Automated emails to every resident are the next build step.
+        <div id="digestDone" style="display:none">
+          <h3 style="margin:0 0 6px">📮 Check your inbox</h3>
+          <p style="margin:0;line-height:1.55">We sent a confirmation to <b id="dgSentTo"></b>. Click the button in that email and your Sunday digest is on. (Nothing arrives until you confirm — that's on purpose.)</p>
         </div>
       </div>
     </section>
@@ -2541,16 +2548,70 @@ document.addEventListener("click",ev=>{
 /* ============================================================
    SETTINGS / DIGEST
    ============================================================ */
+/* ===== Weekly digest signup (blended: follows → editable criteria chips) =====
+   DIGEST_API stays "" until the Supabase functions are deployed; the live
+   subscribe button is hidden while it's empty, so this ships safely dark. */
+const DIGEST_API="https://uhysycdgwehjopbnvfkp.supabase.co/functions/v1";
+const KNOWN_KEYWORDS=["Cubberley","Castilleja","Flock","Caltrain","grade separation","El Camino","University Avenue","California Avenue","Foothills","Baylands","Eichler","SB 79","ADU","Ventura","Airport","Animal Shelter","Junior Museum","Rail","Fiber","Crossing Guard","Bike","Pedestrian","Minimum Wage"];
+let dgSel=new Set(), dgSug=new Set();
+function digestSeed(){
+  dgSel=new Set(); dgSug=new Set();
+  const followed=[...follows].map(id=>ISSUES.find(i=>i.id===id)).filter(Boolean);
+  followed.forEach(i=>(i.topics||[]).forEach(t=>dgSel.add(t)));
+  const hay=followed.map(i=>((i.summary||"")+" "+(i.title||"")).toLowerCase()).join(" | ");
+  KNOWN_KEYWORDS.forEach(k=>{if(hay.includes(k.toLowerCase()))dgSel.add(k);});
+  if(!dgSel.size && typeof profile!=="undefined" && profile.done)(profile.topics||[]).forEach(t=>dgSel.add(t));
+  TOPICS.forEach(t=>{if(!dgSel.has(t))dgSug.add(t);});
+  KNOWN_KEYWORDS.slice(0,8).forEach(k=>{if(!dgSel.has(k))dgSug.add(k);});
+}
+function dgChip(label,on){
+  const b=el("button","tp-chip"+(on?" sel":""));
+  b.type="button";b.style.cssText="padding:7px 14px;font-size:13px;border-radius:999px";
+  b.textContent=(on?"✓ ":"+ ")+label;
+  b.setAttribute("aria-pressed",on?"true":"false");
+  b.onclick=()=>{ if(on){dgSel.delete(label);dgSug.add(label);} else {if(dgSel.size>=12){toast("12 is plenty — remove one first");return;} dgSug.delete(label);dgSel.add(label);} renderDigestChips(); };
+  return b;
+}
+function renderDigestChips(){
+  const c=$("#dgChips"),g=$("#dgSuggest"); if(!c)return;
+  c.innerHTML="";g.innerHTML="";
+  if(!dgSel.size)c.innerHTML='<span style="font-size:13px;color:var(--muted)">Nothing yet — tap suggestions below or add your own.</span>';
+  [...dgSel].forEach(l=>c.appendChild(dgChip(l,true)));
+  [...dgSug].slice(0,14).forEach(l=>g.appendChild(dgChip(l,false)));
+}
 function loadSettings(){
   $("#emailInput").value=localStorage.getItem(LS_EMAIL)||"";
-  const opts=JSON.parse(localStorage.getItem(LS_OPTS)||'{"up":true,"di":true}');
-  $("#optUpcoming").checked=opts.up;$("#optDiscussed").checked=opts.di;
+  if(!DIGEST_API){ const b=$("#dgSubscribe"); if(b){b.style.display="none";}
+    const n=$("#dgNote"); if(n)n.innerHTML="<b>Almost live:</b> weekly digest sign-ups open shortly — the mail service is being connected. Meanwhile, <i>Preview a digest now</i> shows you exactly what it will look like, from your own mail app.";
+  }
+  digestSeed(); renderDigestChips();
+  const cu=$("#dgCustom"); if(cu)cu.onkeydown=e=>{ if(e.key==="Enter"){e.preventDefault(); const v=cu.value.trim().slice(0,40); if(!v)return;
+    if(dgSel.size>=12){toast("12 is plenty — remove one first");return;} dgSel.add(v);cu.value="";renderDigestChips(); } };
+  const sub=$("#dgSubscribe"); if(sub)sub.onclick=async()=>{
+    const email=$("#emailInput").value.trim().toLowerCase();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){toast("That email doesn't look right");$("#emailInput").focus();return;}
+    if(!dgSel.size){toast("Pick at least one topic or watch-word");return;}
+    localStorage.setItem(LS_EMAIL,email);
+    const topics=[...dgSel].filter(t=>TOPICS.includes(t)), keywords=[...dgSel].filter(t=>!TOPICS.includes(t));
+    sub.disabled=true;sub.textContent="Sending…";
+    try{
+      const r=await fetch(DIGEST_API+"/subscribe",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email,topics,keywords})});
+      const j=await r.json();
+      if(!r.ok)throw new Error(j.error||"subscribe failed");
+      if(j.state==="updated"){toast("Your digest topics were updated ✓");sub.disabled=false;sub.textContent="📬 Get my weekly digest";}
+      else{$("#dgSentTo").textContent=email;$("#digestForm").style.display="none";$("#digestDone").style.display="";}
+    }catch(e){toast("Hmm, that didn't go through — try again in a minute");sub.disabled=false;sub.textContent="📬 Get my weekly digest";}
+  };
 }
-$("#saveSettings").onclick=()=>{
-  localStorage.setItem(LS_EMAIL,$("#emailInput").value.trim());
-  localStorage.setItem(LS_OPTS,JSON.stringify({up:$("#optUpcoming").checked,di:$("#optDiscussed").checked}));
-  toast("Preferences saved");
-};
+/* return-from-email states (?digest=confirmed|unsubscribed|invalid) */
+(function(){
+  const st=new URLSearchParams(location.search).get("digest"); if(!st)return;
+  history.replaceState(null,"",location.pathname);
+  if(st==="confirmed"){toast("🎉 You're in — first digest arrives Sunday evening");}
+  else if(st==="unsubscribed"){toast("Unsubscribed — no more emails. You're welcome back anytime.");}
+  else toast("That link didn't work — it may have expired. Sign up again below.");
+  setTimeout(()=>{try{showView("settings");}catch(e){}},400);
+})();
 $("#previewDigest").onclick=()=>{
   const email=$("#emailInput").value.trim();
   if(!follows.size){toast("Follow some issues first to see a digest");return;}
