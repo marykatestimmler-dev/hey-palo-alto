@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-10T10:36:44.748Z",
+  "generatedAt": "2026-08-11T10:11:10.273Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-10",
-    "to": "2027-02-10"
+    "from": "2026-02-11",
+    "to": "2027-02-11"
   },
   "bodies": [
     {
@@ -109,142 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3004,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Annual Retreat ",
-      "date": "2026-02-10",
-      "startTime": "17:00",
-      "videoId": null,
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19857",
-      "items": [
-        {
-          "num": "1",
-          "title": "Ice Breaker",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Setting the context for the formulation of a work plan: 1) Budgets Overview - Public Art Maintenance, CIP and PAF funds; 2) Overview of existing and upcoming projects",
-          "topics": [
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Code:ART 2027 expanded programming",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Break",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "King Artist-in-Residency Program",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "6",
-          "title": "Public Art Fund",
-          "topics": [
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "7",
-          "title": "Public Art Plan: Short- and Long-term goals, and update",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "8",
-          "title": "PAC 2026 priorities review and prioritization of projects for two-year work plan",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "9",
-          "title": "Process Questions/ Wrap up/ Next Steps",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2777,
-      "body": "Policy & Services Committee",
-      "bodySlug": "policy-and-services-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Policy & Services Committee Regular Meeting",
-      "date": "2026-02-10",
-      "startTime": "18:00",
-      "videoId": "0t3OLR3XAyo",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18358",
-      "items": [
-        {
-          "num": "1",
-          "title": "Update and Feedback to Staff Regarding Progress and Direction for the Seismic Hazards Identification and Risk Mitigation Ordinance Update. CEQA Determination: Not a Project. Presentation",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Receive an update on changes to the Brown Act and provide recommendations on the implementation of provisions related to teleconferencing, remote public participation, translation and interpretation assistance, and expanded outreach; CEQA Status – Not a Project. Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "City Council Referral: Review and Recommend Updates to the City Council Values Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2921,
       "body": "Planning & Transportation Commission",
@@ -6779,7 +6643,7 @@
       "title": "City Council Regular Meeting",
       "date": "2026-08-10",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "-12hHY34G_8",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18773",
       "items": [
         {
@@ -6831,7 +6695,7 @@
         },
         {
           "num": "6",
-          "title": "Adopt a Resolution Making Required Findings in Support of Acceptance of Funding from Vehicle Registration Fee-Intelligent Transportation Systems (VRF-ITS) Cycle 5 Grant Program; and amendment of the FY 2027 Budget in the Capital Improvement Fund. CEQA Status – Categorically Exempt (CEQA Guidelines section 15301b Existing Facilities).",
+          "title": "Adopt a Resolution Making Required Findings in Support of Acceptance of Funding from Vehicle Registration Fee-Intelligent Transportation Systems (VRF-ITS) Cycle 5 Grant Program; and amendment of the FY 2027 Budget in the Capital Improvement Fund. CEQA Status – Categorically Exempt (CEQA Guidelines section 15301b Existing Facilities). Public Comment",
           "topics": [
             "Transportation",
             "Budget & Taxes"
@@ -6969,7 +6833,7 @@
         },
         {
           "num": "20",
-          "title": "Approval to Proceed with Final Design for the Permanent Installation of the Crescent Park Traffic Calming Project including a Bulb-out on Southwood Drive and East Crescent Drive; CEQA status – categorically exempt.",
+          "title": "Approval to Proceed with Final Design for the Permanent Installation of the Crescent Park Traffic Calming Project including a Bulb-out on Southwood Drive and East Crescent Drive; CEQA status – categorically exempt. Staff Presentation, Public Comment",
           "topics": [
             "Transportation",
             "Parks & Open Space"
@@ -6979,7 +6843,7 @@
         },
         {
           "num": "21",
-          "title": "Adoption of a Resolution Authorizing the Borrowing of Funds on an Interim Basis for Improvements to the City's Regional Water Quality Control Plant and Authorizing the Execution and Delivery of a Revolving Credit Agreement, Fee Letter and Related Note; CEQA Status - Not a Project",
+          "title": "Adoption of a Resolution Authorizing the Borrowing of Funds on an Interim Basis for Improvements to the City's Regional Water Quality Control Plant and Authorizing the Execution and Delivery of a Revolving Credit Agreement, Fee Letter and Related Note; CEQA Status - Not a Project Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -6999,7 +6863,7 @@
         },
         {
           "num": "AA1",
-          "title": "Removal of Planning and Transportation Commissioner Forest Olaf Peterson New Item Added",
+          "title": "Removal of Planning and Transportation Commissioner Forest Olaf Peterson New Item Added. Public Comment",
           "topics": [
             "Transportation"
           ],
@@ -7052,7 +6916,7 @@
       "title": "Policy & Services Committee Regular Meeting",
       "date": "2026-08-11",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "sDZiw8P5W5Q",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18388",
       "items": [
         {
@@ -7103,7 +6967,7 @@
       "title": "Planning & Transportation Commission Regular Meeting",
       "date": "2026-08-12",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "7mh3oTEA4sE",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20353",
       "items": [
         {
@@ -7170,7 +7034,7 @@
       "title": "Historic Resources Board Regular Meeting",
       "date": "2026-08-13",
       "startTime": "08:30",
-      "videoId": null,
+      "videoId": "VxLkNlgCk28",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20193",
       "items": [
         {
@@ -7231,7 +7095,7 @@
       "title": "Human Relations Commission Regular Meeting ",
       "date": "2026-08-13",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "6FSf4A5NGfg",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20416",
       "items": [
         {
@@ -7446,15 +7310,36 @@
   ],
   "news": [
     {
-      "title": "‘Not Manhattan’: Palo Alto neighbors fight high-rise transit developments",
+      "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
+      "source": "Palo Alto Online",
+      "date": "2026-08-11",
+      "url": "https://www.paloaltoonline.com/election/2026/08/10/emergency-doctor-gary-gechlik-to-run-for-palo-alto-council/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "Gary Gechlik Screenshot Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates wit"
+    },
+    {
+      "title": "Council debates keeping curb extension some dub ‘overkill’",
       "source": "Palo Alto Daily Post",
-      "date": "2026-08-06",
-      "url": "https://padailypost.com/2026/08/06/not-manhattan-palo-alto-neighbors-fight-high-rise-transit-developments/",
+      "date": "2026-08-11",
+      "url": "https://padailypost.com/2026/08/10/council-debates-keeping-curb-extension-some-dub-overkill/",
       "topics": [
         "Transportation",
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Neighbors are trying to stop two developments in Palo Alto that are using a new state law that allow taller apartment buildings near Cal"
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council was caught tonight (Aug. 10) between residents trying to slow down traffic and a man who says a curb extension [."
+    },
+    {
+      "title": "Gunn students become business mentors at Cubberley workshop",
+      "source": "Palo Alto Online",
+      "date": "2026-08-10",
+      "url": "https://www.paloaltoonline.com/youth/2026/08/10/gunn-students-offer-business-mentorship-at-cubberley-workshop/",
+      "topics": [
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "A team of middle school girls showcase their imagined product SmartEats on Aug. 7, developed during the week-long Impact for ALL entrepreneurship workshop at the Cubberley Communit"
     },
     {
       "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
@@ -7636,18 +7521,6 @@
       "summary": "Employees from Stanford Research Park companies and Stanford University officials mingle at the opening ceremony for The Hub on May 11, 2022. Photo by Gennady Sheyner. Prior to the"
     },
     {
-      "title": "Mother-daughter duo roasts Southeast Asian coffee, crafts specialty drinks at this Peninsula farmers market",
-      "source": "Palo Alto Online",
-      "date": "2026-07-14",
-      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/07/14/river-phin-coffee-roasters-foster-city-farmers-market/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "Cà Phê Salted Cream ($7) from River Phin Coffee Roasters the Foster City Farmers Market. Photo by Tessa Berney. On Saturdays, an empty parking lot comes to life as a bustling farme"
-    },
-    {
       "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
       "source": "Palo Alto Online",
       "date": "2026-07-08",
@@ -7743,16 +7616,6 @@
         "Budget & Taxes"
       ],
       "summary": "School crossing guard Hayun Cho helps students navigate the intersection of Escondido Road and Stanford Avenue, adjacent to Escondido Elementary School in Palo Alto, Oct. 3, 2023. "
-    },
-    {
-      "title": "Planning commission Chair Bryna Chang is running for City Council",
-      "source": "Palo Alto Online",
-      "date": "2026-05-06",
-      "url": "https://www.paloaltoonline.com/city-politics/2026/05/06/planning-commission-chair-bryna-chang-is-running-for-city-council/",
-      "topics": [
-        "Transportation"
-      ],
-      "summary": "Planning and Transportation Commission Chair Bryna Chang is running for a City Council seat in 2026. Courtesy city of Palo Alto Bryna Chang, the chair of Palo Alto’s influential Pl"
     }
   ],
   "events": [
