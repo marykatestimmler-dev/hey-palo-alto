@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-11T10:11:10.273Z",
+  "generatedAt": "2026-08-12T10:21:29.421Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-11",
-    "to": "2027-02-11"
+    "from": "2026-02-12",
+    "to": "2027-02-12"
   },
   "bodies": [
     {
@@ -109,73 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2921,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting",
-      "date": "2026-02-11",
-      "startTime": "18:00",
-      "videoId": "rwTjwX6Nz1Y",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19281",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 3606 El Camino Real [25PLN-00243]: Recommendation on Applicant’s Request for Approval of a Vesting Tentative Map to Merge Seven Parcels to Create One Resulting 113,907-Square-Foot Parcel. The Subdivision Map Would Facilitate Construction of 321 New Residential Units in One Building (24PLN-00162). CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code section 21080.66). Zoning District: CN, CS, RM-30, and RM-40.",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 929 Laurel Glen Drive [25PLN-00005]: Recommendation to the City Council on a Major Site and Design Application for the Construction of a New 6,581-Square-Foot Single-Family Residence and Associated Site Improvements on a Vacant 4.23-Acre Site. CEQA Status: Exempt Per CEQA Guidelines Section 15303. Zoning District: Open Space (OS).",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of November 12, 2025",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of December 10, 2025",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2964,
       "body": "Historic Resources Board",
@@ -6921,7 +6854,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Office of the City Auditor Presentation of the Junior Museum & Zoo Audit. CEQA Status – Not a project. Supplemental Report Added",
+          "title": "Office of the City Auditor Presentation of the Junior Museum & Zoo Audit. CEQA Status – Not a project. Supplemental Report Added, Staff Presentation",
           "topics": [
             "Crime, Policing, and Public Safety",
             "Arts & Culture"
@@ -6931,7 +6864,7 @@
         },
         {
           "num": "2",
-          "title": "Recommend that City Council approve the HSRAP Grant Program expansion",
+          "title": "Recommend that City Council approve the HSRAP Grant Program expansion, Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -6940,7 +6873,7 @@
         },
         {
           "num": "3",
-          "title": "Discuss and Provide Feedback on Housing Element Program 6.5: Alternative Housing Program, Objective B. CEQA Status: Exempt Under CEQA Guidelines Section 15262.",
+          "title": "Discuss and Provide Feedback on Housing Element Program 6.5: Alternative Housing Program, Objective B. CEQA Status: Exempt Under CEQA Guidelines Section 15262. Staff Presentation",
           "topics": [
             "Housing",
             "Budget & Taxes"
@@ -7310,6 +7243,16 @@
   ],
   "news": [
     {
+      "title": "Palo Alto breaks ground on large housing project at former Fish Market site",
+      "source": "Palo Alto Online",
+      "date": "2026-08-12",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/11/palo-alto-breaks-ground-on-large-housing-project-at-former-fish-market-site/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "The development proposal at 3150 El Camino Real would bring 386 new housing units to Palo Alto. Rendering courtesy Acclaim Companies When it comes to fulfilling state and regional "
+    },
+    {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
       "source": "Palo Alto Online",
       "date": "2026-08-11",
@@ -7340,6 +7283,18 @@
         "Downtown & Business"
       ],
       "summary": "A team of middle school girls showcase their imagined product SmartEats on Aug. 7, developed during the week-long Impact for ALL entrepreneurship workshop at the Cubberley Communit"
+    },
+    {
+      "title": "Palo Alto police add more EVs to fleet",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-10",
+      "url": "https://padailypost.com/2026/08/10/palo-alto-police-add-more-evs-to-fleet/",
+      "topics": [
+        "Climate & Utilities",
+        "Crime, Policing, and Public Safety",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto Police Department is adding two more Rivians to its fleet, including the first electric vehicle that will be used for patr"
     },
     {
       "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
@@ -7477,27 +7432,6 @@
       "summary": "Patrick Foy, left, and Ryan Eltherington are the new owners of Midtown Reality, which has been operated by generations of the Foy family since the 1960s. Photo courtesy Midtown Rea"
     },
     {
-      "title": "Team behind Redwood Grill opens adjacent coffee shop Buzz & Brew",
-      "source": "Palo Alto Online",
-      "date": "2026-07-20",
-      "url": "https://www.paloaltoonline.com/redwood-city/2026/07/20/team-behind-redwood-grill-opens-adjacent-coffee-shop-buzz-brew/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "Buzz Brew, a new coffee shop in Redwood City, offers a variety of coffee, tea and lemonade-based drinks. Courtesy Buzz Brew. Local orange blossom honey sweetens the menu at Buzz Br"
-    },
-    {
-      "title": "Former bank on Cal Ave. illegally used for gym, gaming, complaint alleges",
-      "source": "Palo Alto Online",
-      "date": "2026-07-16",
-      "url": "https://www.paloaltoonline.com/business/2026/07/16/former-bank-on-cal-ave-illegally-used-for-gym-gaming-complaint-alleges/",
-      "topics": [
-        "Housing",
-        "Downtown & Business"
-      ],
-      "summary": "The vacant building at 414 California Ave., pictured here on July 14, 2026, is slated to make way for a mixed-use development with 39 dwelling units. Photo by Gennady Sheyner On th"
-    },
-    {
       "title": "Downtown North condo proposal is 7th to use new state housing law",
       "source": "Palo Alto Online",
       "date": "2026-07-14",
@@ -7509,16 +7443,6 @@
         "Downtown & Business"
       ],
       "summary": "The single-family home at 340 Palo Alto Ave. could turn into six for-sale condominiums under a new state law. Courtesy Google Street View The latest housing proposal in Palo Alto t"
-    },
-    {
-      "title": "Opinion: It is time to selectively pursue new office developments",
-      "source": "Palo Alto Online",
-      "date": "2026-07-14",
-      "url": "https://www.paloaltoonline.com/blogs/invest-innovate/2026/07/14/it-is-time-to-selectively-pursue-new-office-developments/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "Employees from Stanford Research Park companies and Stanford University officials mingle at the opening ceremony for The Hub on May 11, 2022. Photo by Gennady Sheyner. Prior to the"
     },
     {
       "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
