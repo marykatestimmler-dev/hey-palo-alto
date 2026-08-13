@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-12T10:21:29.421Z",
+  "generatedAt": "2026-08-13T10:22:11.876Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-12",
-    "to": "2027-02-12"
+    "from": "2026-02-13",
+    "to": "2027-02-13"
   },
   "bodies": [
     {
@@ -109,184 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2964,
-      "body": "Historic Resources Board",
-      "bodySlug": "historic-resources-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Historic Resources Board Regular Meeting",
-      "date": "2026-02-12",
-      "startTime": "08:30",
-      "videoId": "k8s7wQjVaYo",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19583",
-      "items": [
-        {
-          "num": "1",
-          "title": "Historic Resources Board Schedule of Meetings and Assignments",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Select Award Categories and Recipients for Historic Resources Board Awards. CEQA Status: Not a Project.",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Approval of Historic Resources Board Draft Minutes of January 8, 2026",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2865,
-      "body": "Human Relations Commission",
-      "bodySlug": "human-relations-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Human Relations Commission Regular Meeting",
-      "date": "2026-02-12",
-      "startTime": "18:00",
-      "videoId": "FY36TO_ie6k",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18904",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of the January 8, 2026 Human Relations Commission Draft Action Minutes. – Chair – Action – 5 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Presentations on existing LGBTQ+ events in Palo Alto that are led by the City of Palo Alto Library and Community Service Departments. – Staff – Discussion – 30 minutes",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Review and approval of the 2026 Human Relations Commission Draft Workplan. – Chair – Action – 60 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments Posted 2/9/26",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 3005,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Special Meeting",
-      "date": "2026-02-12",
-      "startTime": "19:00",
-      "videoId": "MPitVGoLQIc",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19864",
-      "items": [
-        {
-          "num": "1",
-          "title": "January 15, 2026 PAC Regular Meeting Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "February 10, 2026 PAC Annual Retreat Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "King Artist-In-Residency (AIR) Program – Presentation by King Artist-in-Residence Kiana Honarmand regarding her ongoing residency project, including their community engagement, findings and emerging themes, and approval of Honarmand’s conceptual design of King AIR temporary artwork.",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "PAC 2026 Priories and Workplan – Final review and approval of the PAC 2026 Priorities and Workplan.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Downtown Murals – Approval of conceptual design of mural by artist Harumo Sato to be painted in downtown Palo Alto.",
-          "topics": [
-            "Arts & Culture",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "6",
-          "title": "Sherman Avenue Parking Garage Temporary Mural – Approval of funds in the amount up to $35,000 for installation of hardware and artwork on the Sherman Avenue Garage.",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3003,
       "body": "Parks and Recreation Commission",
@@ -7260,7 +7082,7 @@
       "topics": [
         "Crime, Policing, and Public Safety"
       ],
-      "summary": "Gary Gechlik Screenshot Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates wit"
+      "summary": "Courtesy Gary Gichlik Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with "
     },
     {
       "title": "Council debates keeping curb extension some dub ‘overkill’",
@@ -7543,32 +7365,6 @@
     }
   ],
   "events": [
-    {
-      "title": "It's OK to Say Suicide Workshop",
-      "date": "2026-08-12",
-      "desc": "Suicide prevention starts with awareness and action. In this session, participants will gain a foundational understanding…",
-      "where": "Rinconada Library - Embarcadero Room, 1213 Newell Road",
-      "moreDates": 0,
-      "start": "18:00",
-      "end": "19:30",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/City-Manager/Its-OK-to-Say-Suicide-Workshop"
-    },
-    {
-      "title": "Self-Care Social + Teen Library Advisory Board",
-      "date": "2026-08-12",
-      "desc": "Join us at the library for a relaxing teen spa evening featuring DIY self-care activities, calming crafts, snacks…",
-      "where": "Mitchell Park Library, 3700 Middlefield Rd.",
-      "moreDates": 0,
-      "start": "17:00",
-      "end": "18:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/TLAB-Self-care-Social"
-    },
     {
       "title": "Artist Ashwini Bhat in conversation with Dr. Padma Dorje Maitland",
       "date": "2026-08-15",
