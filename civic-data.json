@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-13T10:22:11.876Z",
+  "generatedAt": "2026-08-14T10:17:10.461Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-13",
-    "to": "2027-02-13"
+    "from": "2026-02-14",
+    "to": "2027-02-14"
   },
   "bodies": [
     {
@@ -110,109 +110,6 @@
   ],
   "meetings": [
     {
-      "id": 3003,
-      "body": "Parks and Recreation Commission",
-      "bodySlug": "parks-and-recreation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Parks and Recreation Commission Special Meeting - Retreat",
-      "date": "2026-02-13",
-      "startTime": "09:00",
-      "videoId": "zG_wMG_th3s",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19850",
-      "items": [
-        {
-          "num": "0",
-          "title": "Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "1",
-          "title": "Introductory Remarks– 10 Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Follow Up Discussion of Partnering Norms for Commission/Staff Effectiveness – 30 Minutes",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Brown Act Refresher – 20 Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Annual ​Review of 2025 Parks and Recreation Commission Accomplishments – 15 Minutes",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Review and Update Current Priorities – 30 Minutes",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "6",
-          "title": "Break – 10 Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "7",
-          "title": "Review and Update FY27 Workplan – 45 Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "8",
-          "title": "Review, Update, and Assign Ad Hoc and Liaison Roles – 15 Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
       "id": 2807,
       "body": "Finance Committee",
       "bodySlug": "finance-committee",
@@ -237,11 +134,11 @@
       "items": []
     },
     {
-      "id": 2790,
-      "body": "City Schools Liaison Committee",
-      "bodySlug": "city-schools-liaison-committee",
+      "id": 2976,
+      "body": "Public Art Commission",
+      "bodySlug": "public-art-commission",
       "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "City Schools Liaison Committee Regular Meeting - CANCELED",
+      "title": "Public Art Commission Regular Meeting - CANCELED",
       "date": "2026-02-19",
       "startTime": "19:00",
       "videoId": null,
@@ -249,11 +146,11 @@
       "items": []
     },
     {
-      "id": 2976,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
+      "id": 2790,
+      "body": "City Schools Liaison Committee",
+      "bodySlug": "city-schools-liaison-committee",
       "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Regular Meeting - CANCELED",
+      "title": "City Schools Liaison Committee Regular Meeting - CANCELED",
       "date": "2026-02-19",
       "startTime": "19:00",
       "videoId": null,
@@ -7051,6 +6948,290 @@
       "items": []
     },
     {
+      "id": 3136,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting - State of the City 2026",
+      "date": "2026-08-19",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20733",
+      "items": [
+        {
+          "num": "1",
+          "title": "2026 Palo Alto State of the City",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3057,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board Regular Meeting",
+      "date": "2026-08-20",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20200",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "1185 Skyline Boulevard [26PLN-00157]: Request for Preliminary Architectural Review of a New Skyline Field Office That Includes Approximately 36,480 Square Feet of Buildings and Structures and Associated Facilities for the Midpeninsula Regional Open Space District. Zoning District: OS (Open Space). CEQA Status: Preliminary Review Only, Not A Project.",
+          "topics": [
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "3997 Fabian Way [24PLN-00280]: Request for Streamlined Housing Development Review to Construct a New Seven Story Multi-Family Residential Development Containing 273 Rental Units The Project is Proposed in Accordance with State Density Bonus Law. Environmental Assessment: The Project is Being Processed as a Streamlined CEQA Review Under Section 15183. Zoning District: General Manufacturing (GM) within GM/ROLM Focus Area.",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Draft Architectural Review Board Meeting Minutes for July 16, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3048,
+      "body": "Public Art Commission",
+      "bodySlug": "public-art-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Public Art Commission Regular Meeting",
+      "date": "2026-08-20",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20137",
+      "items": [
+        {
+          "num": "1",
+          "title": "June 18, 2026 PAC Regular Meeting Minutes.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Final Review and approval of the public art in private development plan at 3150 El Camino Real. Presentation by the project art consultant Danielle Wohl Art Consulting, artist Giles Miller, and members of the development team from Acclaim Companies.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Code:ART 2027 – Allocation of funds in the amount of up to $70,000 from the Art in Public Places CIP for temporary Code:ART 2027 interactive media installations.",
+          "topics": [
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Acceptance of Donations of Artworks - Acceptance of artworks to the City’s public art collection by CASP artists Adrienne Defendi and Eric Fei Guan.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Public Art in Private Development - 3415-3431 Hillview Avenue and 900 – 910 Arastradero Road Initial Review for public art in private development. Presentation by Danielle Fox of SLATE Art Consulting and the project team at Harvest Properties.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Letters",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2847,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting",
+      "date": "2026-08-24",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18785",
+      "items": [
+        {
+          "num": "1",
+          "title": "Review Applications and Select Candidates to Interview for Vacancies on the Historic Resources Board (HRB); CEQA Status – Not a Project",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Semi-Annual City Council Discussion with the Independent Police Auditor (IPA)",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": "6:25 PM",
+          "elapsedSec": 3300
+        },
+        {
+          "num": "3",
+          "title": "Approval of Minutes from August 10, 2026 Meeting",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "4",
+          "title": "Approval of Response to Civil Grand Jury Report “Pothole Damage: Improving Claims Processes within Santa Clara County”",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "5",
+          "title": "Approval of Five-year Memorandum of Agreement with Stanford University to Provide Traffic Control Services during Stanford Stadium Events; CEQA status – not a project.",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "6",
+          "title": "Approval of a Purchase Order with Pivot Interiors Inc. in the Amount of $441,056 for Furniture for the New Laboratory and Environmental Services Building Project (WQ-14002); CEQA Status – Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "7",
+          "title": "Approval of Amendment No. 2 to Contract No. C22182372 with CSWST2 to Add $170,450, Increasing the Not-to-Exceed Amount to $360,302 and Extending the Contract Term to December 31, 2028 for Preliminary Design Services to Support Assessment District Planning and Stakeholder Engagement for the University Avenue Streetscape Capital Improvement Program Project, PE-21004; CEQA Status – Not a Project",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space",
+            "Budget & Taxes",
+            "Downtown & Business"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "8",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Section 2.28.240 [Settlement of Claims and Actions] and Chapter 2.30 [Contracts and Purchasing Procedures] of the Palo Alto Municipal Code to increase the thresholds for solicitation of goods and services, increase contract approval and settlement authority, and to make other technical changes. (FIRST READING: August 10, 2026; PASSED: 7-0)",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "9",
+          "title": "Authorization for the City Manager to Execute New and Amended Regulatory Agreements for the Buena Vista Mobilehome Park Redevelopment/3980 El Camino Real. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3).",
+          "topics": [
+            "Parks & Open Space"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "10",
+          "title": "Recommendation from the Oversized Vehicles (OSV) Ad Hoc Committee to Launch Two Pilot OSV Parking Programs, Including Adoption of an Ordinance Establishing an OSV Parking Permit Program, an Ordinance Amending the Municipal Fee Schedule to Add an OSV Parking Permit Fee, Resolutions Establishing OSV Parking Permit Districts on Embarcadero Road and Coyote Hill Road, a Resolution Prohibiting OSV Parking on Numerous Streets in Palo Alto; a Resolution Adding Related Penalties to the Administrative Penalty Schedule; and Related Amendments to the FY 2027 Operating and Capital Budget; CEQA status – categorically and statutorily exempt.",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:40 PM",
+          "elapsedSec": 11400
+        },
+        {
+          "num": "A",
+          "title": "Monthly Investment Report - July 2026 (Unaudited)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:30 PM",
+          "elapsedSec": 7200
+        },
+        {
+          "num": "B",
+          "title": "Semi-annual Reports of Contracts Awarded by the City Manager, Procurement Officer or Other Designated Employees for the period of January 1, 2026, through June 30,2026; CEQA Status- Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:30 PM",
+          "elapsedSec": 7200
+        },
+        {
+          "num": "C",
+          "title": "Surveillance Technology Report for Fiscal Year 2026; CEQA Status- Not a project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:30 PM",
+          "elapsedSec": 7200
+        }
+      ]
+    },
+    {
       "id": 3095,
       "body": "Parks and Recreation Commission",
       "bodySlug": "parks-and-recreation-commission",
@@ -7061,9 +7242,73 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3131,
+      "body": "Economic Development Committee",
+      "bodySlug": "economic-development-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Economic Development Committee Special Meeting",
+      "date": "2026-08-26",
+      "startTime": "16:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20703",
+      "items": [
+        {
+          "num": "1",
+          "title": "Business Retention, Expansion, and Attraction (BRE/A) Strategy",
+          "topics": [
+            "Climate & Utilities",
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Economic Development Activity Report August 2026",
+          "topics": [
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Shop sustainably at this curated secondhand fashion pop-up on the Peninsula",
+      "source": "Palo Alto Online",
+      "date": "2026-08-14",
+      "url": "https://www.paloaltoonline.com/business/2026/08/13/shop-sustainably-at-this-curated-secondhand-fashion-pop-up-on-the-peninsula/",
+      "topics": [
+        "Climate & Utilities",
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "Lisa Janny, left, and Rachelle Egan of Friends with Denim pose for a portrait in front of Fireside Books More in Redwood City on July 24, 2026. Photo by Michael Molcsan. The ethos "
+    },
+    {
+      "title": "Families of Paly students sue over field trip to mosque, gifts of Qurans",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-13",
+      "url": "https://padailypost.com/2026/08/13/families-of-paly-students-sue-over-field-trip-to-mosque-gifts-of-qurans/",
+      "topics": [
+        "Housing",
+        "Arts & Culture"
+      ],
+      "summary": "(Read the federal lawsuit.) BY BRADEN CARTWRIGHTDaily Post Staff Writer A group of Jewish parents and students are suing the Palo Alto Unified School District for taking a class on"
+    },
+    {
+      "title": "City manager says potential candidate’s supporters got into a heated confrontation at city hall",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-13",
+      "url": "https://padailypost.com/2026/08/13/city-manager-says-potential-candidates-supporters-got-into-a-heated-confrontation-at-city-hall/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "Correction: Pacifica resident Dan Stegink was not a part of the group Roger Heyder supporters who interacted with the Los Altos city clerk on Aug. 7. City Manager Gabriel Engeland "
+    },
     {
       "title": "Palo Alto breaks ground on large housing project at former Fish Market site",
       "source": "Palo Alto Online",
@@ -7105,18 +7350,6 @@
         "Downtown & Business"
       ],
       "summary": "A team of middle school girls showcase their imagined product SmartEats on Aug. 7, developed during the week-long Impact for ALL entrepreneurship workshop at the Cubberley Communit"
-    },
-    {
-      "title": "Palo Alto police add more EVs to fleet",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-10",
-      "url": "https://padailypost.com/2026/08/10/palo-alto-police-add-more-evs-to-fleet/",
-      "topics": [
-        "Climate & Utilities",
-        "Crime, Policing, and Public Safety",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto Police Department is adding two more Rivians to its fleet, including the first electric vehicle that will be used for patr"
     },
     {
       "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
@@ -7243,17 +7476,6 @@
       "summary": "Palo Alto Developer Mircea Voskerician is suing the city of Menlo Park after it charged him over $100,000 to subdivide a home he purchased at 12 Maywood Lane in Menlo Park. Courtes"
     },
     {
-      "title": "After 6 decades, Midtown Realty remains a Foy family business under new leadership",
-      "source": "Palo Alto Online",
-      "date": "2026-07-21",
-      "url": "https://www.paloaltoonline.com/real-estate/2026/07/21/after-6-decades-midtown-realty-remains-a-foy-family-business-under-new-leadership/",
-      "topics": [
-        "Climate & Utilities",
-        "Downtown & Business"
-      ],
-      "summary": "Patrick Foy, left, and Ryan Eltherington are the new owners of Midtown Reality, which has been operated by generations of the Foy family since the 1960s. Photo courtesy Midtown Rea"
-    },
-    {
       "title": "Downtown North condo proposal is 7th to use new state housing law",
       "source": "Palo Alto Online",
       "date": "2026-07-14",
@@ -7350,18 +7572,6 @@
         "Budget & Taxes"
       ],
       "summary": "The city hopes to redevelop the Cubberley Community Center with a sales tax ballot measure this fall. File photo by Veronica Weber. Fresh off the failure of a parcel tax that would"
-    },
-    {
-      "title": "Fewer crossing guards? Less park irrigation? City faces tough budget choices",
-      "source": "Palo Alto Online",
-      "date": "2026-05-08",
-      "url": "https://www.paloaltoonline.com/city-government/2026/05/08/fewer-crossing-guards-less-park-irrigation-city-faces-tough-budget-choices/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "School crossing guard Hayun Cho helps students navigate the intersection of Escondido Road and Stanford Avenue, adjacent to Escondido Elementary School in Palo Alto, Oct. 3, 2023. "
     }
   ],
   "events": [
