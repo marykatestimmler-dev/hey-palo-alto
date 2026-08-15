@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-14T10:17:10.461Z",
+  "generatedAt": "2026-08-15T09:40:27.394Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-14",
-    "to": "2027-02-14"
+    "from": "2026-02-15",
+    "to": "2027-02-15"
   },
   "bodies": [
     {
@@ -134,11 +134,11 @@
       "items": []
     },
     {
-      "id": 2976,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
+      "id": 2790,
+      "body": "City Schools Liaison Committee",
+      "bodySlug": "city-schools-liaison-committee",
       "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Regular Meeting - CANCELED",
+      "title": "City Schools Liaison Committee Regular Meeting - CANCELED",
       "date": "2026-02-19",
       "startTime": "19:00",
       "videoId": null,
@@ -146,11 +146,11 @@
       "items": []
     },
     {
-      "id": 2790,
-      "body": "City Schools Liaison Committee",
-      "bodySlug": "city-schools-liaison-committee",
+      "id": 2976,
+      "body": "Public Art Commission",
+      "bodySlug": "public-art-commission",
       "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "City Schools Liaison Committee Regular Meeting - CANCELED",
+      "title": "Public Art Commission Regular Meeting - CANCELED",
       "date": "2026-02-19",
       "startTime": "19:00",
       "videoId": null,
@@ -7289,6 +7289,18 @@
       "summary": "Lisa Janny, left, and Rachelle Egan of Friends with Denim pose for a portrait in front of Fireside Books More in Redwood City on July 24, 2026. Photo by Michael Molcsan. The ethos "
     },
     {
+      "title": "Council members unveil RV plans, including permits, parking bans",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-14",
+      "url": "https://padailypost.com/2026/08/14/council-members-unveil-rv-plans-including-permits-parking-bans/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "This article appeared in this morning s (Aug. 14) Daily Post. Want to read all of the new when it s fresh? Pick up a copy or check our online archive. BY [...]"
+    },
+    {
       "title": "Families of Paly students sue over field trip to mosque, gifts of Qurans",
       "source": "Palo Alto Daily Post",
       "date": "2026-08-13",
@@ -7320,6 +7332,16 @@
       "summary": "The development proposal at 3150 El Camino Real would bring 386 new housing units to Palo Alto. Rendering courtesy Acclaim Companies When it comes to fulfilling state and regional "
     },
     {
+      "title": "Mayor explains why she voted against Peterson after voting to reappoint him",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-12",
+      "url": "https://padailypost.com/2026/08/12/mayor-explains-why-she-voted-against-peterson-after-voting-to-reappoint-him/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto Mayor Vicki Veenker says the public s reaction to a planning commissioner allegedly trying to get special treatment at a tow y"
+    },
+    {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
       "source": "Palo Alto Online",
       "date": "2026-08-11",
@@ -7328,17 +7350,6 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "Courtesy Gary Gichlik Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with "
-    },
-    {
-      "title": "Council debates keeping curb extension some dub ‘overkill’",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-11",
-      "url": "https://padailypost.com/2026/08/10/council-debates-keeping-curb-extension-some-dub-overkill/",
-      "topics": [
-        "Transportation",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council was caught tonight (Aug. 10) between residents trying to slow down traffic and a man who says a curb extension [."
     },
     {
       "title": "Gunn students become business mentors at Cubberley workshop",
