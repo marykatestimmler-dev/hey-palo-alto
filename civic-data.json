@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-15T09:40:27.394Z",
+  "generatedAt": "2026-08-16T09:41:46.913Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-15",
-    "to": "2027-02-15"
+    "from": "2026-02-16",
+    "to": "2027-02-16"
   },
   "bodies": [
     {
@@ -7278,6 +7278,18 @@
   ],
   "news": [
     {
+      "title": "With new leverage, builder pitches two plans for downtown housing project",
+      "source": "Palo Alto Online",
+      "date": "2026-08-15",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/15/with-new-leverage-builder-pitches-two-plans-for-downtown-housing-project/",
+      "topics": [
+        "Housing",
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "The development at 332 Forest Ave. would bring 82 apartments to a site near Palo Alto City Hall. Rendering by Steinberg Hart/city of Palo Alto Upon first glance, the two applicatio"
+    },
+    {
       "title": "Shop sustainably at this curated secondhand fashion pop-up on the Peninsula",
       "source": "Palo Alto Online",
       "date": "2026-08-14",
@@ -7298,7 +7310,17 @@
         "Parks & Open Space",
         "Arts & Culture"
       ],
-      "summary": "This article appeared in this morning s (Aug. 14) Daily Post. Want to read all of the new when it s fresh? Pick up a copy or check our online archive. BY [...]"
+      "summary": "This article first appeared in this morning s (Aug. 14) Daily Post. Want to read all of the new when it s fresh? Pick up a copy at 1,000 Mid-Peninsula locations. BY [...]"
+    },
+    {
+      "title": "City pays Jr. Museum and Zoo director to resign",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-14",
+      "url": "https://padailypost.com/2026/08/14/city-pays-jr-zoo-director-to-resign/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The longtime head of Palo Alto s Junior Museum Zoo was paid to resign without suing the city, according to a settlement agreement obtain"
     },
     {
       "title": "Families of Paly students sue over field trip to mosque, gifts of Qurans",
@@ -7330,16 +7352,6 @@
         "Housing"
       ],
       "summary": "The development proposal at 3150 El Camino Real would bring 386 new housing units to Palo Alto. Rendering courtesy Acclaim Companies When it comes to fulfilling state and regional "
-    },
-    {
-      "title": "Mayor explains why she voted against Peterson after voting to reappoint him",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-12",
-      "url": "https://padailypost.com/2026/08/12/mayor-explains-why-she-voted-against-peterson-after-voting-to-reappoint-him/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto Mayor Vicki Veenker says the public s reaction to a planning commissioner allegedly trying to get special treatment at a tow y"
     },
     {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
@@ -7586,32 +7598,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Artist Ashwini Bhat in conversation with Dr. Padma Dorje Maitland",
-      "date": "2026-08-15",
-      "desc": "Artist Ashwini Bhat in conversation with Dr. Padma Dorje Maitland.",
-      "where": "",
-      "moreDates": 0,
-      "start": "15:00",
-      "end": "16:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Artist-Ashwini-Bhat-in-conversation-with-Dr.-Padma-Dorje-Maitland"
-    },
-    {
-      "title": "Transforming Nature: A Hands-On Photographic Sculpture Workshop",
-      "date": "2026-08-15",
-      "desc": "Join Cubberley Artist-in-Residence Charlotta Hauksdottir for a two-part hands-on workshop exploring how photography…",
-      "where": "Cubberley Community Center, 4000 Middlefield Road",
-      "moreDates": 1,
-      "start": "14:00",
-      "end": "16:00",
-      "tags": [
-        "City Sponsored Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Transforming-Nature-A-Hands-On-Photographic-Sculpture-Workshop-with-Charlotta-Hauksdottir"
-    },
     {
       "title": "Weaving with Found Objects",
       "date": "2026-08-23",
