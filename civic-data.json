@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-16T09:41:46.913Z",
+  "generatedAt": "2026-08-17T09:57:49.253Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-16",
-    "to": "2027-02-16"
+    "from": "2026-02-17",
+    "to": "2027-02-17"
   },
   "bodies": [
     {
@@ -7278,6 +7278,16 @@
   ],
   "news": [
     {
+      "title": "New school superintendent wants to cut administrative jobs",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-16",
+      "url": "https://padailypost.com/2026/08/16/new-school-superintendent-wants-to-cut-administrative-jobs/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto s new school superintendent wants to get rid of administrative positions and bring back an in-house attorney to the Palo Alto "
+    },
+    {
       "title": "With new leverage, builder pitches two plans for downtown housing project",
       "source": "Palo Alto Online",
       "date": "2026-08-15",
@@ -7332,16 +7342,6 @@
         "Arts & Culture"
       ],
       "summary": "(Read the federal lawsuit.) BY BRADEN CARTWRIGHTDaily Post Staff Writer A group of Jewish parents and students are suing the Palo Alto Unified School District for taking a class on"
-    },
-    {
-      "title": "City manager says potential candidate’s supporters got into a heated confrontation at city hall",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-13",
-      "url": "https://padailypost.com/2026/08/13/city-manager-says-potential-candidates-supporters-got-into-a-heated-confrontation-at-city-hall/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "Correction: Pacifica resident Dan Stegink was not a part of the group Roger Heyder supporters who interacted with the Los Altos city clerk on Aug. 7. City Manager Gabriel Engeland "
     },
     {
       "title": "Palo Alto breaks ground on large housing project at former Fish Market site",
