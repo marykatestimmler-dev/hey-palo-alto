@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-17T09:57:49.253Z",
+  "generatedAt": "2026-08-18T09:49:07.566Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-17",
-    "to": "2027-02-17"
+    "from": "2026-02-18",
+    "to": "2027-02-18"
   },
   "bodies": [
     {
@@ -109,18 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2807,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Regular Meeting - CANCELED",
-      "date": "2026-02-17",
-      "startTime": "17:30",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2943,
       "body": "Architectural Review Board",
@@ -6815,7 +6803,7 @@
       "title": "City Council Regular Meeting",
       "date": "2026-08-17",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "ZyoXmQYCV4o",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18779",
       "items": [
         {
@@ -6865,7 +6853,7 @@
         },
         {
           "num": "6",
-          "title": "Adoption of an Ordinance Amending Various Palo Alto Municipal Code Chapters in Titles 16 and 18 to Address Changes in State Law and Direction from City Council Regarding Accessory and Junior Accessory Dwelling Units. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3).",
+          "title": "Adoption of an Ordinance Amending Various Palo Alto Municipal Code Chapters in Titles 16 and 18 to Address Changes in State Law and Direction from City Council Regarding Accessory and Junior Accessory Dwelling Units. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3). Public Comment, At-Places Memo Added, Staff Presentation",
           "topics": [
             "Housing"
           ],
@@ -6874,7 +6862,7 @@
         },
         {
           "num": "7",
-          "title": "PUBLIC HEARING/QUASI-JUDICIAL. 762 San Antonio Road [24PLN‐00120]: Request for Approval of a Major Architectural Review Application to Demolish Three Existing Commercial Buildings and Construct an Eight-Story Multi-Family Residential Building Containing 228 Rental Apartments. The Project is Proposed in Accordance with California Government Code Section 65589.5(d)(5) “Builders Remedy\". CEQA Status: An Addendum to the Previously Certified Environmental Impact Report for the Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project (SCH # 2019090070) has Been Prepared. Zoning District: CS (AD); Service Commercial (Automobile Dealership).",
+          "title": "PUBLIC HEARING/QUASI-JUDICIAL. 762 San Antonio Road [24PLN‐00120]: Request for Approval of a Major Architectural Review Application to Demolish Three Existing Commercial Buildings and Construct an Eight-Story Multi-Family Residential Building Containing 228 Rental Apartments. The Project is Proposed in Accordance with California Government Code Section 65589.5(d)(5) “Builders Remedy\". CEQA Status: An Addendum to the Previously Certified Environmental Impact Report for the Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project (SCH # 2019090070) has Been Prepared. Zoning District: CS (AD); Service Commercial (Automobile Dealership). Public Comment, Staff Presentation, Applicant Presentation",
           "topics": [
             "Housing",
             "Arts & Culture",
@@ -6920,7 +6908,7 @@
       "title": "Finance Committee Regular Meeting",
       "date": "2026-08-18",
       "startTime": "16:00",
-      "videoId": null,
+      "videoId": "2eqt9X93XcM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18604",
       "items": [
         {
@@ -6955,7 +6943,7 @@
       "title": "City Council Special Meeting - State of the City 2026",
       "date": "2026-08-19",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "SYK9XdP5eq8",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20733",
       "items": [
         {
@@ -6977,7 +6965,7 @@
       "title": "Architectural Review Board Regular Meeting",
       "date": "2026-08-20",
       "startTime": "08:30",
-      "videoId": null,
+      "videoId": "X3nCjxZFIu4",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20200",
       "items": [
         {
@@ -7036,7 +7024,7 @@
       "title": "Public Art Commission Regular Meeting",
       "date": "2026-08-20",
       "startTime": "19:00",
-      "videoId": null,
+      "videoId": "qnQ5SBw_7EY",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20137",
       "items": [
         {
@@ -7278,14 +7266,34 @@
   ],
   "news": [
     {
-      "title": "New school superintendent wants to cut administrative jobs",
+      "title": "Council OKs 8-story apartment building",
       "source": "Palo Alto Daily Post",
-      "date": "2026-08-16",
-      "url": "https://padailypost.com/2026/08/16/new-school-superintendent-wants-to-cut-administrative-jobs/",
+      "date": "2026-08-18",
+      "url": "https://padailypost.com/2026/08/18/council-oks-8-story-apartment-building/",
       "topics": [
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto s new school superintendent wants to get rid of administrative positions and bring back an in-house attorney to the Palo Alto "
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Aug. 17) unanimously approved an eight-story, 228-apartment building on San Antonio Road, despite concer"
+    },
+    {
+      "title": "Council split over letting homeowners sell backyard cottages",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-18",
+      "url": "https://padailypost.com/2026/08/17/council-split-over-letting-homeowners-sell-backyard-cottages/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council was split tonight (Aug. 17) over allowing homeowners to build and sell larger backyard cottages. Backyard cottage"
+    },
+    {
+      "title": "Driver dies after he collides into concrete wall of overpass",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-17",
+      "url": "https://padailypost.com/2026/08/17/driver-dies-after-he-crashes-into-concrete-wall-of-overpass/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "Palo Alto police are investigating a fatal one-car collision on the Oregon Expressway. On Sunday (Aug. 16) at 11:49 p.m., police dispatchers received a call about a major collision"
     },
     {
       "title": "With new leverage, builder pitches two plans for downtown housing project",
@@ -7309,39 +7317,6 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "Lisa Janny, left, and Rachelle Egan of Friends with Denim pose for a portrait in front of Fireside Books More in Redwood City on July 24, 2026. Photo by Michael Molcsan. The ethos "
-    },
-    {
-      "title": "Council members unveil RV plans, including permits, parking bans",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-14",
-      "url": "https://padailypost.com/2026/08/14/council-members-unveil-rv-plans-including-permits-parking-bans/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "This article first appeared in this morning s (Aug. 14) Daily Post. Want to read all of the new when it s fresh? Pick up a copy at 1,000 Mid-Peninsula locations. BY [...]"
-    },
-    {
-      "title": "City pays Jr. Museum and Zoo director to resign",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-14",
-      "url": "https://padailypost.com/2026/08/14/city-pays-jr-zoo-director-to-resign/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The longtime head of Palo Alto s Junior Museum Zoo was paid to resign without suing the city, according to a settlement agreement obtain"
-    },
-    {
-      "title": "Families of Paly students sue over field trip to mosque, gifts of Qurans",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-13",
-      "url": "https://padailypost.com/2026/08/13/families-of-paly-students-sue-over-field-trip-to-mosque-gifts-of-qurans/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "(Read the federal lawsuit.) BY BRADEN CARTWRIGHTDaily Post Staff Writer A group of Jewish parents and students are suing the Palo Alto Unified School District for taking a class on"
     },
     {
       "title": "Palo Alto breaks ground on large housing project at former Fish Market site",
