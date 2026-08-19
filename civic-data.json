@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-18T09:49:07.566Z",
+  "generatedAt": "2026-08-19T09:49:54.170Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-18",
-    "to": "2027-02-18"
+    "from": "2026-02-19",
+    "to": "2027-02-19"
   },
   "bodies": [
     {
@@ -6913,7 +6913,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Refinancing of the 2009A Water Revenue Bonds, Series A; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Water Revenue Refunding Bonds in a Principal Amount Not-to-Exceed $20,000,000, Approval of the Official Notice of Sale, Indenture of Trust, Official Statement, Irrevocable Refunding Instructions, and Other Related Documents, and Authorizing and Directing Certain Related Actions; CEQA Status - Not a Project",
+          "title": "Refinancing of the 2009A Water Revenue Bonds, Series A; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Water Revenue Refunding Bonds in a Principal Amount Not-to-Exceed $20,000,000, Approval of the Official Notice of Sale, Indenture of Trust, Official Statement, Irrevocable Refunding Instructions, and Other Related Documents, and Authorizing and Directing Certain Related Actions; CEQA Status - Not a Project Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -7266,6 +7266,29 @@
   ],
   "news": [
     {
+      "title": "Feds to scrutinize foreign funding Stanford receives",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-18",
+      "url": "https://padailypost.com/2026/08/18/feds-to-scrutinize-foreign-funding-stanford-receives/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "Assistant Attorney General for Civil Rights Harmeet Dhillon says the U.S. Justice Department is preparing to investigate Stanford over the funding it gets from China and other fore"
+    },
+    {
+      "title": "Valley Water wants to take over flood control efforts on San Francisquito Creek",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-18",
+      "url": "https://padailypost.com/2026/08/18/valley-water-wants-to-take-over-flood-control-efforts-on-san-francisquito-creek/",
+      "topics": [
+        "Climate & Utilities",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Santa Clara County’s flood control agency, Valley Water, wants to take the lead on addressing floods from the San Francisquito Creek, as"
+    },
+    {
       "title": "Council OKs 8-story apartment building",
       "source": "Palo Alto Daily Post",
       "date": "2026-08-18",
@@ -7286,49 +7309,6 @@
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council was split tonight (Aug. 17) over allowing homeowners to build and sell larger backyard cottages. Backyard cottage"
     },
     {
-      "title": "Driver dies after he collides into concrete wall of overpass",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-17",
-      "url": "https://padailypost.com/2026/08/17/driver-dies-after-he-crashes-into-concrete-wall-of-overpass/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "Palo Alto police are investigating a fatal one-car collision on the Oregon Expressway. On Sunday (Aug. 16) at 11:49 p.m., police dispatchers received a call about a major collision"
-    },
-    {
-      "title": "With new leverage, builder pitches two plans for downtown housing project",
-      "source": "Palo Alto Online",
-      "date": "2026-08-15",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/15/with-new-leverage-builder-pitches-two-plans-for-downtown-housing-project/",
-      "topics": [
-        "Housing",
-        "Arts & Culture",
-        "Downtown & Business"
-      ],
-      "summary": "The development at 332 Forest Ave. would bring 82 apartments to a site near Palo Alto City Hall. Rendering by Steinberg Hart/city of Palo Alto Upon first glance, the two applicatio"
-    },
-    {
-      "title": "Shop sustainably at this curated secondhand fashion pop-up on the Peninsula",
-      "source": "Palo Alto Online",
-      "date": "2026-08-14",
-      "url": "https://www.paloaltoonline.com/business/2026/08/13/shop-sustainably-at-this-curated-secondhand-fashion-pop-up-on-the-peninsula/",
-      "topics": [
-        "Climate & Utilities",
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "Lisa Janny, left, and Rachelle Egan of Friends with Denim pose for a portrait in front of Fireside Books More in Redwood City on July 24, 2026. Photo by Michael Molcsan. The ethos "
-    },
-    {
-      "title": "Palo Alto breaks ground on large housing project at former Fish Market site",
-      "source": "Palo Alto Online",
-      "date": "2026-08-12",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/11/palo-alto-breaks-ground-on-large-housing-project-at-former-fish-market-site/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "The development proposal at 3150 El Camino Real would bring 386 new housing units to Palo Alto. Rendering courtesy Acclaim Companies When it comes to fulfilling state and regional "
-    },
-    {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
       "source": "Palo Alto Online",
       "date": "2026-08-11",
@@ -7337,27 +7317,6 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "Courtesy Gary Gichlik Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with "
-    },
-    {
-      "title": "Gunn students become business mentors at Cubberley workshop",
-      "source": "Palo Alto Online",
-      "date": "2026-08-10",
-      "url": "https://www.paloaltoonline.com/youth/2026/08/10/gunn-students-offer-business-mentorship-at-cubberley-workshop/",
-      "topics": [
-        "Arts & Culture",
-        "Downtown & Business"
-      ],
-      "summary": "A team of middle school girls showcase their imagined product SmartEats on Aug. 7, developed during the week-long Impact for ALL entrepreneurship workshop at the Cubberley Communit"
-    },
-    {
-      "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
-      "source": "Palo Alto Online",
-      "date": "2026-08-05",
-      "url": "https://www.paloaltoonline.com/news/2026/08/04/state-backs-controversial-skyscraper-proposal-at-old-sunset-magazine-campus-in-menlo-park/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "California Attorney General Rob Bonta accused the city of Menlo Park of violating state law by delaying a development at 80 Willow Road. Rendering courtesy N17. A multi-use skyscra"
     },
     {
       "title": "Deng takes big fundraising lead in Palo Alto council race",
@@ -7370,166 +7329,6 @@
       "summary": "The Palo Alto City Council meets on Oct. 20, 2025. Photo by Seeger Gray As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged "
     },
     {
-      "title": "Grill your own A5 wagyu at this new downtown Mountain View restaurant",
-      "source": "Palo Alto Online",
-      "date": "2026-08-03",
-      "url": "https://www.paloaltoonline.com/mountain-view/2026/08/03/yakiniku-ginza-opens-in-mountain-view-japanese-a5-wagyu/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Japanese A5 wagyu short rib at Yakiniku Ginza in Mountain View ($56.89). Photo by Adrienne Mitchel. Richly marbled and melt-in-your-mouth tender, A5 wagyu beef is having a moment a"
-    },
-    {
-      "title": "Sobrato fast-tracks 316 apartments in a larger project in Menlo Park",
-      "source": "Palo Alto Online",
-      "date": "2026-08-01",
-      "url": "https://www.paloaltoonline.com/news/2026/08/01/sobrato-eyes-advancing-on-316-apartments-of-a-larger-project-in-menlo-park/",
-      "topics": [
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "A rendering of the Sobrato Organization s development plans for 123 Independence Dr. in Menlo Park. Courtesy city of Menlo Park. The Sobrato Organization is aiming to break ground "
-    },
-    {
-      "title": "Housing project with 98 units proposed for Park Boulevard office site",
-      "source": "Palo Alto Online",
-      "date": "2026-07-30",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/29/housing-project-with-98-units-proposed-for-park-boulevard-office-site/",
-      "topics": [
-        "Housing",
-        "Parks & Open Space"
-      ],
-      "summary": "The proposal for 2181 Park Boulevard calls for 98 units. Courtesy city of Palo Alto While Palo Alto’s local development restrictions took effect on July 16, that fact has not stopp"
-    },
-    {
-      "title": "Former Chez TJ chef lands at new modern cocktail bar and restaurant TRIAL|ERROR in downtown Campbell",
-      "source": "Palo Alto Online",
-      "date": "2026-07-27",
-      "url": "https://www.paloaltoonline.com/food/2026/07/27/modern-cocktail-bar-and-restaurant-trial-error-coming-to-downtown-campbell/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "A rendering of the bar area at TRIAL|ERROR, expected to open in Campbell in October. Courtesy TRIAL|ERROR. Posted on the shuttered door of short-lived restaurant Lira in downtown C"
-    },
-    {
-      "title": "How developers exploited a delay in Palo Alto housing regulations",
-      "source": "Palo Alto Online",
-      "date": "2026-07-23",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/23/how-developers-exploited-a-delay-in-palo-alto-housing-regulations/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "City Hall in Palo Alto on Nov. 25, 2025. Photo by Seeger Gray. In the span of two fateful weeks, Palo Altans saw an unprecedented wave of housing proposals totaling nearly 400 unit"
-    },
-    {
-      "title": "Absent appeal process, city reissues code violations at Opportunity Center",
-      "source": "Palo Alto Online",
-      "date": "2026-07-22",
-      "url": "https://www.paloaltoonline.com/city-government/2026/07/22/absent-appeal-process-city-reissues-code-violations-at-opportunity-center/",
-      "topics": [
-        "Climate & Utilities"
-      ],
-      "summary": "The Opportunity Center in Palo Alto on July 13, 2026. Photo by Seeger Gray. In April, city inspectors reported mold and water intrusion issues in more than a dozen units at the Opp"
-    },
-    {
-      "title": "Final 2 housing projects round out Palo Alto’s SB 79 window",
-      "source": "Palo Alto Online",
-      "date": "2026-07-22",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/22/final-2-housing-projects-round-out-palo-altos-sb-79-window/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "A rendering for a 69-unit apartment project proposal at 332 and 350 Forest Ave. Courtesy Steinberg Hart/city of Palo Alto As the deadline approached, two additional housing proposa"
-    },
-    {
-      "title": "At eleventh hour, East Palo Alto kills ordinance that would have lowered affordable housing standards",
-      "source": "Palo Alto Online",
-      "date": "2026-07-22",
-      "url": "https://www.paloaltoonline.com/east-palo-alto/2026/07/22/at-eleventh-hour-east-palo-alto-kills-ordinance-to-lower-affordable-housing-standards/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "An earlier East Palo Alto City Council meeting at the San Mateo County East Palo Alto Government Center on March 17, 2026. Photo by Seeger Gray. The East Palo Alto City Council maj"
-    },
-    {
-      "title": "Makkee Dessert draws long lines for traditional Chinese dessert in downtown Mountain View",
-      "source": "Palo Alto Online",
-      "date": "2026-07-22",
-      "url": "https://www.paloaltoonline.com/mountain-view/2026/07/22/makkee-dessert-draws-long-lines-for-traditional-chinese-dessert-in-downtown-mountain-view/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Makkee Deluxe with chewy taro balls, red beans, grass jelly, peach gum, lotus seeds and choice of regular or oat milk ($12). Courtesy Makkee Dessert. From ice cream to patisserie, "
-    },
-    {
-      "title": "Palo Alto developer sues Menlo Park over $127K subdivision fee",
-      "source": "Palo Alto Online",
-      "date": "2026-07-21",
-      "url": "https://www.paloaltoonline.com/menlo-park/2026/07/21/palo-alto-developer-sues-menlo-park-over-127k-subdivision-fee/",
-      "topics": [
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "Palo Alto Developer Mircea Voskerician is suing the city of Menlo Park after it charged him over $100,000 to subdivide a home he purchased at 12 Maywood Lane in Menlo Park. Courtes"
-    },
-    {
-      "title": "Downtown North condo proposal is 7th to use new state housing law",
-      "source": "Palo Alto Online",
-      "date": "2026-07-14",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/14/downtown-north-condo-proposal-is-7th-to-use-new-state-housing-law/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space",
-        "Downtown & Business"
-      ],
-      "summary": "The single-family home at 340 Palo Alto Ave. could turn into six for-sale condominiums under a new state law. Courtesy Google Street View The latest housing proposal in Palo Alto t"
-    },
-    {
-      "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
-      "source": "Palo Alto Online",
-      "date": "2026-07-08",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/07/basket-inspired-project-on-cal-ave-returns-invokes-new-state-law/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "The development proposed for 414 California Ave. would include 39 units. Rendering courtesy SPF Architects/city of Palo Alto Rather than petitioning Palo Alto leaders to make excep"
-    },
-    {
-      "title": "Demolition begins at controversial Permanente cement plant",
-      "source": "Palo Alto Online",
-      "date": "2026-07-01",
-      "url": "https://www.paloaltoonline.com/environment/2026/07/01/demolition-begins-at-controversial-permanente-cement-plant/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "This aerial photo shows the Permanente Cement Plant quarry pit in Santa Clara County. Courtesy Jitze Couperus. Demolition has started at the Permanente Cement Plant near Cupertino,"
-    },
-    {
-      "title": "Special Report: How Palo Alto learned to stop worrying and love the Mollie Stone’s housing project",
-      "source": "Palo Alto Online",
-      "date": "2026-06-30",
-      "url": "https://www.paloaltoonline.com/housing/2026/06/30/special-report-how-palo-alto-learned-to-stop-worrying-and-love-the-mollie-stones-housing-project/",
-      "topics": [
-        "Housing",
-        "Downtown & Business"
-      ],
-      "summary": "The alternative proposal from Redco calls for three towers, one 14-stories tall and two 12-stories tall, at 156 California Ave. Rendering by Studio Current/city of Palo Alto Palo A"
-    },
-    {
-      "title": "Downtown property owner drops suit against city over disputed parklet",
-      "source": "Palo Alto Online",
-      "date": "2026-06-29",
-      "url": "https://www.paloaltoonline.com/business/2026/06/29/downtown-property-owner-drops-suit-against-city-over-disputed-parklet/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Downtown & Business"
-      ],
-      "summary": "Customers lounge at the outdoor dining area at Coupa Cafe on Ramona Street on July 16, 2025. Photo by Gennady Sheyner A downtown developer who sued Palo Alto over its recently adop"
-    },
-    {
       "title": "Parks commissioner Yudy Deng to run for City Council",
       "source": "Palo Alto Online",
       "date": "2026-06-23",
@@ -7538,17 +7337,6 @@
         "Parks & Open Space"
       ],
       "summary": "Yudy Deng. a member of the Parks and Recreation Commission, is running for Palo Alto City Council. Courtesy Yudy Deng. Palo Alto parks commissioner Yudy Deng is now the second pers"
-    },
-    {
-      "title": "UC Berkeley’s plans for massive Moffett space center raise housing concerns",
-      "source": "Palo Alto Online",
-      "date": "2026-06-12",
-      "url": "https://www.paloaltoonline.com/land-use/2026/06/12/uc-berkeleys-plans-for-massive-moffett-space-center-raise-housing-concerns/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "For the better part of a decade, NASA Ames and UC Berkeley have been planning to build a $2 billion space center at Moffett Field, but few details about the massive project on Moun"
     },
     {
       "title": "Palo Alto sees wave of business openings as workers return to the office",
