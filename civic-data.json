@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-19T09:49:54.170Z",
+  "generatedAt": "2026-08-20T09:50:23.037Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-19",
-    "to": "2027-02-19"
+    "from": "2026-02-20",
+    "to": "2027-02-20"
   },
   "bodies": [
     {
@@ -109,42 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2943,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting - CANCELED",
-      "date": "2026-02-19",
-      "startTime": "08:30",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
-    {
-      "id": 2790,
-      "body": "City Schools Liaison Committee",
-      "bodySlug": "city-schools-liaison-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "City Schools Liaison Committee Regular Meeting - CANCELED",
-      "date": "2026-02-19",
-      "startTime": "19:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
-    {
-      "id": 2976,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Regular Meeting - CANCELED",
-      "date": "2026-02-19",
-      "startTime": "19:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2900,
       "body": "City Council",
@@ -7266,6 +7230,16 @@
   ],
   "news": [
     {
+      "title": "Fire shuts down Palo Alto Trader Joe’s",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-19",
+      "url": "https://padailypost.com/2026/08/19/unspecified-emergency-shuts-down-palo-alto-trader-joes/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "Trader Joe’s at the Town and Country Village in Palo Alto is closed today after a late-night fire. A police officer reported the fire at 2:53 a.m. today (Aug. 19), [...]"
+    },
+    {
       "title": "Feds to scrutinize foreign funding Stanford receives",
       "source": "Palo Alto Daily Post",
       "date": "2026-08-18",
@@ -7287,77 +7261,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Santa Clara County’s flood control agency, Valley Water, wants to take the lead on addressing floods from the San Francisquito Creek, as"
-    },
-    {
-      "title": "Council OKs 8-story apartment building",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-18",
-      "url": "https://padailypost.com/2026/08/18/council-oks-8-story-apartment-building/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Aug. 17) unanimously approved an eight-story, 228-apartment building on San Antonio Road, despite concer"
-    },
-    {
-      "title": "Council split over letting homeowners sell backyard cottages",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-18",
-      "url": "https://padailypost.com/2026/08/17/council-split-over-letting-homeowners-sell-backyard-cottages/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council was split tonight (Aug. 17) over allowing homeowners to build and sell larger backyard cottages. Backyard cottage"
-    },
-    {
-      "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
-      "source": "Palo Alto Online",
-      "date": "2026-08-11",
-      "url": "https://www.paloaltoonline.com/election/2026/08/10/emergency-doctor-gary-gechlik-to-run-for-palo-alto-council/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "Courtesy Gary Gichlik Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with "
-    },
-    {
-      "title": "Deng takes big fundraising lead in Palo Alto council race",
-      "source": "Palo Alto Online",
-      "date": "2026-08-04",
-      "url": "https://www.paloaltoonline.com/election/2026/08/04/yudy-deng-takes-big-lead-in-campaign-cash-in-palo-alto-council-race/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "The Palo Alto City Council meets on Oct. 20, 2025. Photo by Seeger Gray As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged "
-    },
-    {
-      "title": "Parks commissioner Yudy Deng to run for City Council",
-      "source": "Palo Alto Online",
-      "date": "2026-06-23",
-      "url": "https://www.paloaltoonline.com/city-politics/2026/06/23/parks-commissioner-yudy-deng-to-run-for-city-council/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "Yudy Deng. a member of the Parks and Recreation Commission, is running for Palo Alto City Council. Courtesy Yudy Deng. Palo Alto parks commissioner Yudy Deng is now the second pers"
-    },
-    {
-      "title": "Palo Alto sees wave of business openings as workers return to the office",
-      "source": "Palo Alto Online",
-      "date": "2026-06-09",
-      "url": "https://www.paloaltoonline.com/business/2026/06/09/palo-alto-sees-wave-of-business-openings-as-workers-return-to-the-office/",
-      "topics": [
-        "Transportation",
-        "Downtown & Business"
-      ],
-      "summary": "Pedestrians walk down University Avenue on June 9, 2026. Photo by Gennady Sheyner Palo Alto’s office workers are back, and they’re hungry. Six new businesses have either opened or "
-    },
-    {
-      "title": "Despite headwinds, city leaders place Cubberley sales tax onto ballot",
-      "source": "Palo Alto Online",
-      "date": "2026-06-09",
-      "url": "https://www.paloaltoonline.com/city-government/2026/06/08/despite-headwinds-city-leaders-place-cubberley-sales-tax-onto-ballot/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "The city hopes to redevelop the Cubberley Community Center with a sales tax ballot measure this fall. File photo by Veronica Weber. Fresh off the failure of a parcel tax that would"
     }
   ],
   "events": [
