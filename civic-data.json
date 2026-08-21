@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-20T09:50:23.037Z",
+  "generatedAt": "2026-08-21T09:52:38.160Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-20",
-    "to": "2027-02-20"
+    "from": "2026-02-21",
+    "to": "2027-02-21"
   },
   "bodies": [
     {
@@ -7097,7 +7097,7 @@
         },
         {
           "num": "5",
-          "title": "Approval of Five-year Memorandum of Agreement with Stanford University to Provide Traffic Control Services during Stanford Stadium Events; CEQA status – not a project.",
+          "title": "Approval of Five-year Memorandum of Agreement with Stanford University to Provide Traffic Control Services during Stanford Stadium Events; CEQA status – not a project. Item Removed Off Agenda",
           "topics": [
             "Transportation"
           ],
@@ -7226,9 +7226,206 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3080,
+      "body": "Planning & Transportation Commission",
+      "bodySlug": "planning-and-transportation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Planning & Transportation Commission Regular Meeting",
+      "date": "2026-08-26",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20360",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Assignments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Recommendation to the City Council on an Ordinance Amending Chapter 18.20 (Office, Research, and Manufacturing (MOR, ROLM, RP and GM) Districts) of Title 18 (Zoning) of the Palo Alto Municipal Code to Clarify that Multiple-Family Residential Uses in the ROLM(E) Zone District May Be Conditionally Permitted; CEQA Status: Exempt pursuant to CEQA Guidelines Section 15061(b)(3). 6:15 PM – 6:45 PM",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Study Session on South of Forest Area (SOFA) Coordinated Area Plan Objective Design Standard Approach 6:45 PM – 7:45 PM",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comment",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2887,
+      "body": "Utilities Advisory Commission",
+      "bodySlug": "utilities-advisory-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Utilities Advisory Commission Regular Meeting",
+      "date": "2026-09-02",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19059",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on August 5, 2026",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Special Presentation and Discussion on Partnering Norms for Staff and Commissioners Effectiveness. CEQA – Not a Project (DISCUSSION: 6:30PM – 7:00PM)",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Discussion of Baker Tilly Reserves Advisory Report and Recommendation to the City Council of Proposed Policy Updates to the Utilities Reserve Management Policies (ACTION: 7:00PM – 8:30PM)",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Update on Electric System Long Duration Resiliency; CEQA Status – Not a Project (DISCUSSION: 8:30PM – 8:50PM) Staff Presentation",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "City of Palo Alto Utilities Wildfire Mitigation Plan (WMP) 2026 Update: CEQA – Not a Project (ACTION: 8:50PM – 9:00PM) Staff Presentation",
+          "topics": [
+            "Climate & Utilities",
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "12 Month Rolling Calendar",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3016,
+      "body": "Climate Action and Sustainability Committee",
+      "bodySlug": "climate-action-and-sustainability-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Climate Action and Sustainability Committee Regular Meeting",
+      "date": "2026-09-04",
+      "startTime": "14:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19931",
+      "items": [
+        {
+          "num": "A",
+          "title": "Staff Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Committee Member Comments and Announcements",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1",
+          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Overview of Approaches to Achieving the City's Carbon Neutrality Goal and Committee Feedback on Areas for Further Staff Analysis; CEQA Status - Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Motorcyclist dies after crash near Stanford Shopping Center",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-20",
+      "url": "https://padailypost.com/2026/08/20/motorcyclist-dies-after-crash-near-stanford-shopping-center/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "A motorcyclist has succumbed to his injuries following a crash at the Stanford Shopping Center yesterday, police said. Police were called to the 100 block of El Camino Real at [..."
+    },
+    {
+      "title": "School board faces deep budget cuts",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-20",
+      "url": "https://padailypost.com/2026/08/20/school-board-faces-deep-cuts-to-budget/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Layoffs are on the table as the Palo Alto Unified School District faces $33 million in budget cuts for the next school year. “We’re [..."
+    },
     {
       "title": "Fire shuts down Palo Alto Trader Joe’s",
       "source": "Palo Alto Daily Post",
@@ -7238,29 +7435,6 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "Trader Joe’s at the Town and Country Village in Palo Alto is closed today after a late-night fire. A police officer reported the fire at 2:53 a.m. today (Aug. 19), [...]"
-    },
-    {
-      "title": "Feds to scrutinize foreign funding Stanford receives",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-18",
-      "url": "https://padailypost.com/2026/08/18/feds-to-scrutinize-foreign-funding-stanford-receives/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "Assistant Attorney General for Civil Rights Harmeet Dhillon says the U.S. Justice Department is preparing to investigate Stanford over the funding it gets from China and other fore"
-    },
-    {
-      "title": "Valley Water wants to take over flood control efforts on San Francisquito Creek",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-18",
-      "url": "https://padailypost.com/2026/08/18/valley-water-wants-to-take-over-flood-control-efforts-on-san-francisquito-creek/",
-      "topics": [
-        "Climate & Utilities",
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Santa Clara County’s flood control agency, Valley Water, wants to take the lead on addressing floods from the San Francisquito Creek, as"
     }
   ],
   "events": [
