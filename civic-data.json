@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-22T09:42:18.943Z",
+  "generatedAt": "2026-08-23T09:43:12.172Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-22",
-    "to": "2027-02-22"
+    "from": "2026-02-23",
+    "to": "2027-02-23"
   },
   "bodies": [
     {
@@ -7406,6 +7406,16 @@
   ],
   "news": [
     {
+      "title": "License plate that fell off car leads CHP to suspect in fatal hit-and-run",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-22",
+      "url": "https://padailypost.com/2026/08/21/license-plate-that-fell-off-car-leads-chp-to-hit-and-run-suspect/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "The CHP was able to solve a hit-and-run fatal accident on Highway 101 in East Palo Alto because the driver’s license plate fell off during the crash. Irma Elizabeth Oxlaj [...]"
+    },
+    {
       "title": "Motorcyclist dies after crash near Stanford Shopping Center",
       "source": "Palo Alto Daily Post",
       "date": "2026-08-20",
@@ -7425,16 +7435,6 @@
         "Budget & Taxes"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Layoffs are on the table as the Palo Alto Unified School District faces $33 million in budget cuts for the next school year. “We’re [..."
-    },
-    {
-      "title": "Fire shuts down Palo Alto Trader Joe’s",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-19",
-      "url": "https://padailypost.com/2026/08/19/unspecified-emergency-shuts-down-palo-alto-trader-joes/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "Trader Joe’s at the Town and Country Village in Palo Alto is closed today after a late-night fire. A police officer reported the fire at 2:53 a.m. today (Aug. 19), [...]"
     }
   ],
   "events": [
