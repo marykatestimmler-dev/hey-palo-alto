@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-23T09:43:12.172Z",
+  "generatedAt": "2026-08-24T10:04:28.129Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-23",
-    "to": "2027-02-23"
+    "from": "2026-02-24",
+    "to": "2027-02-24"
   },
   "bodies": [
     {
@@ -109,122 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2900,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting ",
-      "date": "2026-02-23",
-      "startTime": "17:30",
-      "videoId": "wLg5yZTr6vg",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19144",
-      "items": [
-        {
-          "num": "1",
-          "title": "CONFERENCE WITH CITY ATTORNEY-POTENTIAL LITIGATION Subject: Potential litigation regarding 156 North California Avenue, as set forth in letter(s) from Holland & Knight LLP dated September 3, 2025 Authority: Government Code Section 54956.9(d)(2) Number of potential cases: 1, as Defendant",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": "5:35 PM",
-          "elapsedSec": 300
-        },
-        {
-          "num": "2",
-          "title": "Status Report from the Oversized Vehicles (OSV) Ad Hoc Committee CEQA Status: Not a Project. Title Updated, Late Packet Report added. Public Comment, Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:20 PM",
-          "elapsedSec": 6600
-        },
-        {
-          "num": "3",
-          "title": "Approval of Minutes from January 31, February 1, February 2, and February 9, 2026 Meeting",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:20 PM",
-          "elapsedSec": 10200
-        },
-        {
-          "num": "4",
-          "title": "Approval of a Purchase Order with ABB Inc. for a Not-to-Exceed Amount of $389,862 to Procure Equipment and Services to Retrofit Ten (10) Existing VHK, Circuit Breakers for the Maybell Electric Substation. CEQA Status: Exempt Under CEQA Guideline 15302(c), Reconstruction of Existing Utility Facilities.",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:20 PM",
-          "elapsedSec": 10200
-        },
-        {
-          "num": "5",
-          "title": "Approval of Professional Services Contract Number C26194078 with M.E. Simpson Co., Inc. in the Amount Not-to-Exceed $642,609 Water System Leak Detection Survey Services for a Period of Three Years. CEQA Status – Exempt under CEQA Guidelines Sections 15061(b)(2) and (b)(3).",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:20 PM",
-          "elapsedSec": 10200
-        },
-        {
-          "num": "6",
-          "title": "Approval of Amendment No. 2 to Contract No. C25193187 with Universal Security Company for Fire Watch Services at City Hall in the Amount of $80,915 for a New Total Not-to-Exceed Amount of $301,667, and Approval of a Fiscal Year 2026 Operating Budget Amendment in the General Fund; CEQA status - Categorically Exempt under Sections 15301 and 15302",
-          "topics": [
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:20 PM",
-          "elapsedSec": 10200
-        },
-        {
-          "num": "7",
-          "title": "Approval of a Contract to Patrol Four Railroad Grade Crossings (vendor, term, and cost TBD); Approval Cost Sharing Agreement with Palo Alto Unified School District; and Approve Related Budget Amendments; CEQA status – Not a project Approval of Amendment No. 1 to Contract No. S26196996 for One Year with Yosh Enterprises Inc. dba Orion Security for Track Watch Services at Four Grade Crossings in the Amount of $1,623,314 for a New Total Not-to-Exceed Amount of $1,708,314; Authorize the Negotiation and Execution of a Cost Sharing Agreement with Palo Alto Unified School District for $854,157; and Approval of a Fiscal Year 2026 Operating Budget Amendment in the General Fund; CEQA status - Not a project. Title Updated, Late Packet Report added. Public Comment",
-          "topics": [
-            "Transportation",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:20 PM",
-          "elapsedSec": 10200
-        },
-        {
-          "num": "8",
-          "title": "FY 2026 Mid-Year Budget Review and Approve 1) Budget Amendments in Various Funds, and 2) a $10.0 Million Additional Discretionary Payment (ADP) from the PARS Pension Trust Staff Presentation",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:55 PM",
-          "elapsedSec": 12300
-        },
-        {
-          "num": "9",
-          "title": "Approval of City Council Values (as Recommended by Policy & Services Committee), 2026 Objectives, Ad Hoc Purpose Statements, and Committee Workplans Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "9:55 PM",
-          "elapsedSec": 15900
-        },
-        {
-          "num": "A",
-          "title": "Monthly Investment Report - January 2026 (Unaudited)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "B",
-          "title": "Investment Activity Report for the Second Quarter (October - December), Fiscal Year 2026. CEQA Status – Not a Project",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        }
-      ]
-    },
     {
       "id": 2986,
       "body": "Parks and Recreation Commission",
@@ -7438,19 +7322,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Weaving with Found Objects",
-      "date": "2026-08-23",
-      "desc": "Join mixed-media artist Jasmine Valandani for a free hands-on workshop exploring the basics of weaving…",
-      "where": "Rinconada Library, 1213 Newell Road",
-      "moreDates": 0,
-      "start": "14:00",
-      "end": "15:30",
-      "tags": [
-        "City Sponsored Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/Weaving-with-Found-Objects"
-    },
     {
       "title": "Bike/Ped Rail Crossings Workshop",
       "date": "2026-08-27",
