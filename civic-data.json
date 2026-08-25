@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-24T10:04:28.129Z",
+  "generatedAt": "2026-08-25T09:51:25.178Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-24",
-    "to": "2027-02-24"
+    "from": "2026-02-25",
+    "to": "2027-02-25"
   },
   "bodies": [
     {
@@ -109,100 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2986,
-      "body": "Parks and Recreation Commission",
-      "bodySlug": "parks-and-recreation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Parks and Recreation Commission Regular Meeting",
-      "date": "2026-02-24",
-      "startTime": "19:00",
-      "videoId": "Ar2sMAaENKM",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19731",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of Minutes from January 27, 2026",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Council Liaison Report – 5 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Department Report – 20 minutes – Staff Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Ad Hoc Committees and Liaison Updates (Discussion) – 15 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Palo Alto Youth Council Updates – 45 minutes – Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "6",
-          "title": "Open Space Update – 60 minutes – Staff Presentation",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "7",
-          "title": "Review and confirm the Parks and Recreation Commission Fiscal Year 2027 Workplan – 20 minutes",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "8",
-          "title": "Assignment of Commissioners to Ad Hoc Committees and Liaison Roles – 5 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2922,
       "body": "Planning & Transportation Commission",
@@ -6940,7 +6846,7 @@
       "title": "City Council Special Meeting",
       "date": "2026-08-24",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "6mznWPfbEy0",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18785",
       "items": [
         {
@@ -6954,7 +6860,7 @@
         },
         {
           "num": "2",
-          "title": "Semi-Annual City Council Discussion with the Independent Police Auditor (IPA)",
+          "title": "Semi-Annual City Council Discussion with the Independent Police Auditor (IPA) Public Comment, Staff Presentation",
           "topics": [
             "Crime, Policing, and Public Safety"
           ],
@@ -7020,7 +6926,7 @@
         },
         {
           "num": "9",
-          "title": "Authorization for the City Manager to Execute New and Amended Regulatory Agreements for the Buena Vista Mobilehome Park Redevelopment/3980 El Camino Real. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3).",
+          "title": "Authorization for the City Manager to Execute New and Amended Regulatory Agreements for the Buena Vista Mobilehome Park Redevelopment/3980 El Camino Real. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3). Public Comment, Staff Presentation",
           "topics": [
             "Parks & Open Space"
           ],
@@ -7029,7 +6935,7 @@
         },
         {
           "num": "10",
-          "title": "Recommendation from the Oversized Vehicles (OSV) Ad Hoc Committee to Launch Two Pilot OSV Parking Programs, Including Adoption of an Ordinance Establishing an OSV Parking Permit Program, an Ordinance Amending the Municipal Fee Schedule to Add an OSV Parking Permit Fee, Resolutions Establishing OSV Parking Permit Districts on Embarcadero Road and Coyote Hill Road, a Resolution Prohibiting OSV Parking on Numerous Streets in Palo Alto; a Resolution Adding Related Penalties to the Administrative Penalty Schedule; and Related Amendments to the FY 2027 Operating and Capital Budget; CEQA status – categorically and statutorily exempt.",
+          "title": "Recommendation from the Oversized Vehicles (OSV) Ad Hoc Committee to Launch Two Pilot OSV Parking Programs, Including Adoption of an Ordinance Establishing an OSV Parking Permit Program, an Ordinance Amending the Municipal Fee Schedule to Add an OSV Parking Permit Fee, Resolutions Establishing OSV Parking Permit Districts on Embarcadero Road and Coyote Hill Road, a Resolution Prohibiting OSV Parking on Numerous Streets in Palo Alto; a Resolution Adding Related Penalties to the Administrative Penalty Schedule; and Related Amendments to the FY 2027 Operating and Capital Budget; CEQA status – categorically and statutorily exempt. Staff Presentation, Public Comment",
           "topics": [
             "Transportation",
             "Parks & Open Space",
@@ -7087,7 +6993,7 @@
       "title": "Economic Development Committee Special Meeting",
       "date": "2026-08-26",
       "startTime": "16:30",
-      "videoId": null,
+      "videoId": "1GAkDhA4CxM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20703",
       "items": [
         {
@@ -7119,7 +7025,7 @@
       "title": "Planning & Transportation Commission Regular Meeting",
       "date": "2026-08-26",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "vhQXefH2LfQ",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20360",
       "items": [
         {
@@ -7159,6 +7065,18 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 2795,
+      "body": "City Schools Liaison Committee",
+      "bodySlug": "city-schools-liaison-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "City Schools Liaison Committee Regular Meeting - CANCELED ",
+      "date": "2026-08-27",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
     },
     {
       "id": 2887,
@@ -7290,6 +7208,38 @@
   ],
   "news": [
     {
+      "title": "Council votes to restrict RVs to edges of town",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-25",
+      "url": "https://padailypost.com/2026/08/25/council-votes-to-restrict-rvs-to-edges-of-town/",
+      "topics": [
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council voted tonight (Aug. 24) to permit RV dwellers to park on two edges of the city while stopping short of [...]"
+    },
+    {
+      "title": "Council leaning toward dumping Flock cameras",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-25",
+      "url": "https://padailypost.com/2026/08/24/council-leaning-toward-dumping-flock-cameras/",
+      "topics": [
+        "Crime, Policing, and Public Safety",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council will consider taking down removing the city’s license plate-reading cameras because of distrust in Flock Safety, "
+    },
+    {
+      "title": "Murder charges dropped against mother of dead newborn",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-24",
+      "url": "https://padailypost.com/2026/08/24/murder-charges-dropped-against-mother-of-dead-newborn/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Prosecutors have dropped charges against a woman who was accused of murdering her newborn baby in Mountain View. A defense attorney for "
+    },
+    {
       "title": "License plate that fell off car leads CHP to suspect in fatal hit-and-run",
       "source": "Palo Alto Daily Post",
       "date": "2026-08-22",
@@ -7298,27 +7248,6 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "The CHP was able to solve a hit-and-run fatal accident on Highway 101 in East Palo Alto because the driver’s license plate fell off during the crash. Irma Elizabeth Oxlaj [...]"
-    },
-    {
-      "title": "Motorcyclist dies after crash near Stanford Shopping Center",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-20",
-      "url": "https://padailypost.com/2026/08/20/motorcyclist-dies-after-crash-near-stanford-shopping-center/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "A motorcyclist has succumbed to his injuries following a crash at the Stanford Shopping Center yesterday, police said. Police were called to the 100 block of El Camino Real at [..."
-    },
-    {
-      "title": "School board faces deep budget cuts",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-20",
-      "url": "https://padailypost.com/2026/08/20/school-board-faces-deep-cuts-to-budget/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Layoffs are on the table as the Palo Alto Unified School District faces $33 million in budget cuts for the next school year. “We’re [..."
     }
   ],
   "events": [
