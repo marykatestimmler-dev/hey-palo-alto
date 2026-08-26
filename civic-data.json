@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T09:51:25.178Z",
+  "generatedAt": "2026-08-26T09:58:07.944Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-25",
-    "to": "2027-02-25"
+    "from": "2026-02-26",
+    "to": "2027-02-26"
   },
   "bodies": [
     {
@@ -109,66 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2922,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting",
-      "date": "2026-02-25",
-      "startTime": "18:00",
-      "videoId": "MA4XeYvnYCI",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19288",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 800-808/814 San Antonio Road [25PLN-00356]: Recommend That the Planning and Transportation Commission Review the Conceptual Plan to Rezone the Subject Properties From PC 5622 to a New Planned Community/Planned Home Zoning and to Redevelop the Site With an Eight-Story 174-Unit Residential Building with 35 Below Market Rate Units and to Forward the Project to the Architectural Review Board for Review in Accordance With Palo Alto Municipal Code Section 18.38.065. CEQA Status: An Addendum to the Previously Certified Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project EIR (SCH # 2019090070) is Currently Being Prepared. Zoning District: Planned Community (PC-5622). (Item moved to Action)",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Request for a Zoning Text Amendment to Palo Alto Municipal Code Title 18 (Zoning) Section 18.18.120 (Noncomplying Uses and Facilities) to allow existing floor area to be replaced in new buildings without increasing the degree of existing non-compliance. CEQA Status: Exempt from CEQA per Section 15061 (b)(3) (Common Sense).",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of January 14, 2026",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3010,
       "body": "City Schools Liaison Committee",
@@ -6851,7 +6791,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Review Applications and Select Candidates to Interview for Vacancies on the Historic Resources Board (HRB); CEQA Status – Not a Project",
+          "title": "Review Applications and Select Candidates to Interview for Vacancies on the Historic Resources Board (HRB); CEQA Status – Not a Project Staff Presentation",
           "topics": [
             "Historic Preservation"
           ],
@@ -7208,7 +7148,19 @@
   ],
   "news": [
     {
-      "title": "Council votes to restrict RVs to edges of town",
+      "title": "Palo Alto backs away from plan to restrict RVs to certain streets",
+      "source": "Palo Alto Online",
+      "date": "2026-08-25",
+      "url": "https://www.paloaltoonline.com/social-services/2026/08/25/palo-alto-backs-away-from-plan-to-let-rvs-remain-in-neighborhoods/",
+      "topics": [
+        "Transportation",
+        "Climate & Utilities",
+        "Parks & Open Space"
+      ],
+      "summary": "Palo Alto officials deferred a controversial pilot program on Monday night that would have concentrated occupied RVs on certain streets in south Palo Alto, following significant up"
+    },
+    {
+      "title": "Council votes to permit RVs at edges of town",
       "source": "Palo Alto Daily Post",
       "date": "2026-08-25",
       "url": "https://padailypost.com/2026/08/25/council-votes-to-restrict-rvs-to-edges-of-town/",
@@ -7248,6 +7200,315 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "The CHP was able to solve a hit-and-run fatal accident on Highway 101 in East Palo Alto because the driver’s license plate fell off during the crash. Irma Elizabeth Oxlaj [...]"
+    },
+    {
+      "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
+      "source": "Palo Alto Online",
+      "date": "2026-08-21",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/21/a-neighborhood-in-limbo-woodland-park-residents-organize-amid-redevelopment-plans/",
+      "topics": [
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "For decades, Woodland Park apartments in East Palo Alto have remained an island of affordability in a region where real estate prices have escalated to unprecedented heights. With "
+    },
+    {
+      "title": "Sand Hill’s plans for Woodland Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-21",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/21/sand-hills-plans-for-woodland-park/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "O Keefe-Manhattan Improvements Addresses proposed for renovation: Addresses proposed for demolition: West Bayshore-Newell Improvements Addresses proposed for renovation: Addresses "
+    },
+    {
+      "title": "‘Poised for growth’: A brief history of Woodland Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-21",
+      "url": "https://www.paloaltoonline.com/east-palo-alto/2026/08/21/poised-for-growth-a-brief-history-of-woodland-park/",
+      "topics": [
+        "Housing",
+        "Climate & Utilities",
+        "Parks & Open Space"
+      ],
+      "summary": "For decades, residents of Woodland Park have been bracing for redevelopment in their neighborhood, which contains the vast majority of East Palo Alto's below-market-rate housing. T"
+    },
+    {
+      "title": "Court ruling boosts Palo Alto’s efforts to build housing on downtown lot",
+      "source": "Palo Alto Online",
+      "date": "2026-08-21",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/20/court-ruling-boosts-palo-altos-efforts-to-build-housing-on-downtown-lot/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space",
+        "Downtown & Business"
+      ],
+      "summary": "Palo Alto’s effort to build affordable housing on downtown parking lots received a big boost this week, when a Santa Clara County Superior Court judge rejected a challenge from are"
+    },
+    {
+      "title": "‘Stressed and excited’: Mobile home park residents prepare to move",
+      "source": "Palo Alto Online",
+      "date": "2026-08-20",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/20/stressed-and-excited-mobile-home-park-residents-prepare-to-move/",
+      "topics": [
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "María Martínez is packing up her life into boxes — well, most of it. Not all of her plants will fit, and by her conservative count, she has more than 65 of them. She is one of doze"
+    },
+    {
+      "title": "Italian restaurant Roma Antica is coming soon to downtown San Mateo",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/08/19/italian-restaurant-roma-antica-is-coming-soon-to-downtown-san-mateo/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "After nearly a decade of serving cacio e pepe and pinsa in San Francisco, Roma Antica is expanding to the Peninsula. The post Italian restaurant Roma Antica is coming soon to downt"
+    },
+    {
+      "title": "From chocolate-covered crickets to guacamole with grasshoppers, here’s why these Silicon Valley businesses are embracing bugs as food",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/enterprise-story/2026/08/19/from-chocolate-covered-crickets-to-guacamole-with-grasshoppers-heres-why-these-silicon-valley-businesses-are-embracing-bugs-as-food/",
+      "topics": [
+        "Climate & Utilities",
+        "Downtown & Business"
+      ],
+      "summary": "A staple of Oaxacan cooking, insects are a sustainable protein source slowly creeping their way onto Peninsula menus. The post From chocolate-covered crickets to guacamole with gra"
+    },
+    {
+      "title": "Trader Joe’s at Town & Country closed following early morning fire",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/business/2026/08/19/trader-joes-at-town-country-closed-following-early-morning-fire/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "The Trader Joe’s supermarket at Town Country Village was shut down Wednesday morning because of an early-morning fire, according to fire officials. The post Trader Joe’s at Town Co"
+    },
+    {
+      "title": "Eight-story housing complex approved on San Antonio Road",
+      "source": "Palo Alto Online",
+      "date": "2026-08-18",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/18/eight-story-housing-complex-approved-on-san-antonio-road/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "The latest project that aims to fulfill Palo Alto's vision of creating a residential community on the city's southern edge is 762 San Antonio Road, a 228-home project that received"
+    },
+    {
+      "title": "With new leverage, builder pitches two plans for downtown housing project",
+      "source": "Palo Alto Online",
+      "date": "2026-08-15",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/15/with-new-leverage-builder-pitches-two-plans-for-downtown-housing-project/",
+      "topics": [
+        "Housing",
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "Upon first glance, the two applications for new apartments near Palo Alto City Hall are mostly alike. The post With new leverage, builder pitches two plans for downtown housing pro"
+    },
+    {
+      "title": "Shop sustainably at this curated secondhand fashion pop-up on the Peninsula",
+      "source": "Palo Alto Online",
+      "date": "2026-08-14",
+      "url": "https://www.paloaltoonline.com/business/2026/08/13/shop-sustainably-at-this-curated-secondhand-fashion-pop-up-on-the-peninsula/",
+      "topics": [
+        "Climate & Utilities"
+      ],
+      "summary": "Friends with Denim holds public sales in a variety of locations, where shoppers can hunt for fashion treasures at affordable prices and save them from the waste stream. Multiple ve"
+    },
+    {
+      "title": "Palo Alto breaks ground on large housing project at former Fish Market site",
+      "source": "Palo Alto Online",
+      "date": "2026-08-12",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/11/palo-alto-breaks-ground-on-large-housing-project-at-former-fish-market-site/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "When it comes to fulfilling state and regional housing mandates in Palo Alto, no recent changes to state law can compare to the project that will take over the former site of The F"
+    },
+    {
+      "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
+      "source": "Palo Alto Online",
+      "date": "2026-08-11",
+      "url": "https://www.paloaltoonline.com/election/2026/08/10/emergency-doctor-gary-gechlik-to-run-for-palo-alto-council/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with just two days to go be"
+    },
+    {
+      "title": "CardVault by Tom Brady, a sports memorabilia shop, to open in Town & Country",
+      "source": "Palo Alto Online",
+      "date": "2026-08-11",
+      "url": "https://www.paloaltoonline.com/business/2026/08/11/cardvault-by-tom-brady-a-sports-memorabilia-shop-to-open-in-town-country/",
+      "topics": [
+        "Climate & Utilities",
+        "Arts & Culture"
+      ],
+      "summary": "San Mateo native Tom Brady, who is best known for winning seven Super Bowls and becoming one of the most decorated quarterbacks in football history, is about to take on a more visi"
+    },
+    {
+      "title": "Gunn students become business mentors at Cubberley workshop",
+      "source": "Palo Alto Online",
+      "date": "2026-08-10",
+      "url": "https://www.paloaltoonline.com/youth/2026/08/10/gunn-students-offer-business-mentorship-at-cubberley-workshop/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "If you can’t beat the doomscroll, why not make students work for it? That was the thinking beyond Tasktime, a hypothetical product pitched by a group of middle school girls at an e"
+    },
+    {
+      "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-05",
+      "url": "https://www.paloaltoonline.com/news/2026/08/04/state-backs-controversial-skyscraper-proposal-at-old-sunset-magazine-campus-in-menlo-park/",
+      "topics": [
+        "Housing",
+        "Parks & Open Space"
+      ],
+      "summary": "A residential skyscraper proposal in Menlo Park has scored a big boost after California Attorney General Rob Bonta sent a letter to the city alleging that it violated state housing"
+    },
+    {
+      "title": "In Santa Clara’s ‘Donut Wars,’ both sides are proving victorious with long lines at newcomer Randy’s and South Bay institution Stan’s",
+      "source": "Palo Alto Online",
+      "date": "2026-08-05",
+      "url": "https://www.paloaltoonline.com/santa-clara-county/2026/08/05/in-santa-claras-donut-wars-both-sides-are-proving-victorious-with-long-lines-at-newcomer-randys-and-south-bay-institution-stans/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Social media is calling it the “Donut Wars,” but the opening of Randy’s Donuts near Stan’s Donut Shop in Santa Clara has had an unexpectedly positive result – booming business for "
+    },
+    {
+      "title": "Deng takes big fundraising lead in Palo Alto council race",
+      "source": "Palo Alto Online",
+      "date": "2026-08-04",
+      "url": "https://www.paloaltoonline.com/election/2026/08/04/yudy-deng-takes-big-lead-in-campaign-cash-in-palo-alto-council-race/",
+      "topics": [
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged with a far bigger campaign coffer than the rest: Parks and Recreation Co"
+    },
+    {
+      "title": "Grill your own A5 wagyu at this new downtown Mountain View restaurant",
+      "source": "Palo Alto Online",
+      "date": "2026-08-03",
+      "url": "https://www.paloaltoonline.com/mountain-view/2026/08/03/yakiniku-ginza-opens-in-mountain-view-japanese-a5-wagyu/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Yakiniku Ginza is the latest Japanese barbecue spot to open along the Peninsula. The post Grill your own A5 wagyu at this new downtown Mountain View restaurant appeared first on Pa"
+    },
+    {
+      "title": "Sobrato fast-tracks 316 apartments in a larger project in Menlo Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-01",
+      "url": "https://www.paloaltoonline.com/news/2026/08/01/sobrato-eyes-advancing-on-316-apartments-of-a-larger-project-in-menlo-park/",
+      "topics": [
+        "Housing",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "The Sobrato Organization is aiming to break ground on 316 apartment units in Menlo Park sooner rather than later amid improving conditions in the Bay Area rental-housing market. Th"
+    },
+    {
+      "title": "Palo Alto developer sues Menlo Park over $127K subdivision fee",
+      "source": "Palo Alto Online",
+      "date": "2026-07-21",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/07/21/palo-alto-developer-sues-menlo-park-over-127k-subdivision-fee/",
+      "topics": [
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "A Palo Alto developer is suing Menlo Park after the city required a $127,400 in-lieu fee for a single-family home to be subdivided into two parcels. The post Palo Alto developer su"
+    },
+    {
+      "title": "Downtown North condo proposal is 7th to use new state housing law",
+      "source": "Palo Alto Online",
+      "date": "2026-07-14",
+      "url": "https://www.paloaltoonline.com/housing/2026/07/14/downtown-north-condo-proposal-is-7th-to-use-new-state-housing-law/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Downtown & Business"
+      ],
+      "summary": "The latest housing proposal in Palo Alto to take advantage of a new state law that encourages denser projects near public transit envisions six for-sale family condominiums in the "
+    },
+    {
+      "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
+      "source": "Palo Alto Online",
+      "date": "2026-07-08",
+      "url": "https://www.paloaltoonline.com/housing/2026/07/07/basket-inspired-project-on-cal-ave-returns-invokes-new-state-law/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Rather than petitioning Palo Alto leaders to make exceptions to its zoning code, the team behind a mixed-use development proposal on California Ave. are turning to a new state law "
+    },
+    {
+      "title": "Council member Ed Lauing files for reelection",
+      "source": "Palo Alto Online",
+      "date": "2026-07-07",
+      "url": "https://www.paloaltoonline.com/express-newsletter-content/2026/07/07/council-member-ed-lauing-files-for-reelection/",
+      "topics": [
+        "Climate & Utilities"
+      ],
+      "summary": "Ed Lauing, a member of the Palo Alto City Council who is known among his peers for maintaining a moderate and measured approach even in the most controversial discussions, has file"
+    },
+    {
+      "title": "Demolition begins at controversial Permanente cement plant",
+      "source": "Palo Alto Online",
+      "date": "2026-07-01",
+      "url": "https://www.paloaltoonline.com/environment/2026/07/01/demolition-begins-at-controversial-permanente-cement-plant/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "Demolition has started at the Permanente Cement Plant near Cupertino, a massive manufacturing site that repeatedly ran afoul of environmental regulations before it officially close"
+    },
+    {
+      "title": "Special Report: How Palo Alto learned to stop worrying and love the Mollie Stone’s housing project",
+      "source": "Palo Alto Online",
+      "date": "2026-06-30",
+      "url": "https://www.paloaltoonline.com/housing/2026/06/30/special-report-how-palo-alto-learned-to-stop-worrying-and-love-the-mollie-stones-housing-project/",
+      "topics": [
+        "Housing",
+        "Downtown & Business"
+      ],
+      "summary": "Palo Alto officials took a victory lap in May when they announced a compromise with the developer behind a contentious, then-17-story housing proposal on California Avenue. But pub"
+    },
+    {
+      "title": "Parks commissioner Yudy Deng to run for City Council",
+      "source": "Palo Alto Online",
+      "date": "2026-06-23",
+      "url": "https://www.paloaltoonline.com/city-politics/2026/06/23/parks-commissioner-yudy-deng-to-run-for-city-council/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "Palo Alto parks commissioner Yudy Deng is now the second person to indicate a run for City Council this year, according to campaign filings, following a long tradition of city comm"
+    },
+    {
+      "title": "Palo Alto sees wave of business openings as workers return to the office",
+      "source": "Palo Alto Online",
+      "date": "2026-06-09",
+      "url": "https://www.paloaltoonline.com/business/2026/06/09/palo-alto-sees-wave-of-business-openings-as-workers-return-to-the-office/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Palo Alto’s office workers are back, and they’re hungry. Six new businesses have either opened or are about to open in the city's commercial corridors and the timing may not be acc"
+    },
+    {
+      "title": "Despite headwinds, city leaders place Cubberley sales tax onto ballot",
+      "source": "Palo Alto Online",
+      "date": "2026-06-09",
+      "url": "https://www.paloaltoonline.com/city-government/2026/06/08/despite-headwinds-city-leaders-place-cubberley-sales-tax-onto-ballot/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "Fresh off the failure of a parcel tax that would have funded local schools, Palo Alto voters will soon be asked to approve another tax come November to purchase land at the Cubberl"
     }
   ],
   "events": [
