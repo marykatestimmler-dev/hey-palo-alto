@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-26T09:58:07.944Z",
+  "generatedAt": "2026-08-27T19:51:40.167Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-26",
-    "to": "2027-02-26"
+    "from": "2026-02-27",
+    "to": "2027-02-27"
   },
   "bodies": [
     {
@@ -109,73 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3010,
-      "body": "City Schools Liaison Committee",
-      "bodySlug": "city-schools-liaison-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "City Schools Liaison Committee Special Meeting",
-      "date": "2026-02-26",
-      "startTime": "19:00",
-      "videoId": "81LKiHb0f5U",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19895",
-      "items": [
-        {
-          "num": "A",
-          "title": "Selection of a Chairperson",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Open Forum/Public Communications",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "C",
-          "title": "Review of Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "D",
-          "title": "City and School District Reports",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "E",
-          "title": "Postvention Engagement",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "F",
-          "title": "Future Business",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2829,
       "body": "City Council",
@@ -6642,7 +6575,7 @@
       "items": [
         {
           "num": "1",
-          "title": "2026 Palo Alto State of the City",
+          "title": "2026 Palo Alto State of the City Presentation",
           "topics": [
             "Other"
           ],
@@ -6938,7 +6871,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Business Retention, Expansion, and Attraction (BRE/A) Strategy",
+          "title": "Business Retention, Expansion, and Attraction (BRE/A) Strategy Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Downtown & Business"
@@ -6948,7 +6881,7 @@
         },
         {
           "num": "2",
-          "title": "Economic Development Activity Report August 2026",
+          "title": "Economic Development Activity Report August 2026 Staff Presentation",
           "topics": [
             "Downtown & Business"
           ],
@@ -7014,6 +6947,18 @@
       "title": "City Schools Liaison Committee Regular Meeting - CANCELED ",
       "date": "2026-08-27",
       "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
+      "id": 3109,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting - CANCELED",
+      "date": "2026-09-01",
+      "startTime": "16:00",
       "videoId": null,
       "agendaUrl": null,
       "items": []
@@ -7136,9 +7081,58 @@
         },
         {
           "num": "2",
-          "title": "Overview of Approaches to Achieving the City's Carbon Neutrality Goal and Committee Feedback on Areas for Further Staff Analysis; CEQA Status - Not a Project",
+          "title": "Overview of Approaches to Achieving the City's Carbon Neutrality Goal and Committee Feedback on Areas for Further Staff Analysis; CEQA Status - Not a Project Late Packet Report Added",
           "topics": [
             "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3031,
+      "body": "Rail Committee",
+      "bodySlug": "rail-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Rail Committee Regular Meeting",
+      "date": "2026-09-08",
+      "startTime": "14:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20022",
+      "items": [
+        {
+          "num": "A",
+          "title": "Caltrain",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "VTA",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "C",
+          "title": "City Staff",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1",
+          "title": "Review Locally Preferred Alternatives for Grade Separation at Churchill Avenue, Meadow Drive, and Charleston Road Crossings to Advance into 35% Design and Environmental Review.",
+          "topics": [
+            "Transportation"
           ],
           "schedTime": null,
           "elapsedSec": null
@@ -7148,7 +7142,37 @@
   ],
   "news": [
     {
-      "title": "Palo Alto backs away from plan to restrict RVs to certain streets",
+      "title": "Housing project near JCC faces community pushback",
+      "source": "Palo Alto Online",
+      "date": "2026-08-27",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/26/housing-project-near-jcc-faces-community-pushback/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "Seniors and members of the Oshman Family Jewish Community Center turned out in full force last week to protest a multifamily housing development in south Palo Alto that would run u"
+    },
+    {
+      "title": "Lawsuit claims school board candidate is lying on ballot",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-27",
+      "url": "https://padailypost.com/2026/08/27/lawsuit-claims-school-board-candidate-is-lying-on-ballot/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A Palo Alto school board candidate has been accused of lying about her credentials on the ballot. Classroom aide Linda Henigin isn t qua"
+    },
+    {
+      "title": "With just one unit filled, Mountain View Whisman sells stake in Palo Alto educator housing complex",
+      "source": "Palo Alto Online",
+      "date": "2026-08-26",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/26/with-just-one-unit-filled-mountain-view-whisman-sells-stake-in-palo-alto-educator-housing-complex/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "The Mountain View Whisman School District is relinquishing its investment in a Palo Alto employee housing project due to low occupancy, with all but one of the district's dozen uni"
+    },
+    {
+      "title": "Palo Alto backs away from plan to restrict RVs to one side on certain streets",
       "source": "Palo Alto Online",
       "date": "2026-08-25",
       "url": "https://www.paloaltoonline.com/social-services/2026/08/25/palo-alto-backs-away-from-plan-to-let-rvs-remain-in-neighborhoods/",
@@ -7190,16 +7214,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Prosecutors have dropped charges against a woman who was accused of murdering her newborn baby in Mountain View. A defense attorney for "
-    },
-    {
-      "title": "License plate that fell off car leads CHP to suspect in fatal hit-and-run",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-22",
-      "url": "https://padailypost.com/2026/08/21/license-plate-that-fell-off-car-leads-chp-to-hit-and-run-suspect/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "The CHP was able to solve a hit-and-run fatal accident on Highway 101 in East Palo Alto because the driver’s license plate fell off during the crash. Irma Elizabeth Oxlaj [...]"
     },
     {
       "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
@@ -7322,16 +7336,6 @@
       "summary": "Friends with Denim holds public sales in a variety of locations, where shoppers can hunt for fashion treasures at affordable prices and save them from the waste stream. Multiple ve"
     },
     {
-      "title": "Palo Alto breaks ground on large housing project at former Fish Market site",
-      "source": "Palo Alto Online",
-      "date": "2026-08-12",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/11/palo-alto-breaks-ground-on-large-housing-project-at-former-fish-market-site/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "When it comes to fulfilling state and regional housing mandates in Palo Alto, no recent changes to state law can compare to the project that will take over the former site of The F"
-    },
-    {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
       "source": "Palo Alto Online",
       "date": "2026-08-11",
@@ -7374,16 +7378,6 @@
       "summary": "A residential skyscraper proposal in Menlo Park has scored a big boost after California Attorney General Rob Bonta sent a letter to the city alleging that it violated state housing"
     },
     {
-      "title": "In Santa Clara’s ‘Donut Wars,’ both sides are proving victorious with long lines at newcomer Randy’s and South Bay institution Stan’s",
-      "source": "Palo Alto Online",
-      "date": "2026-08-05",
-      "url": "https://www.paloaltoonline.com/santa-clara-county/2026/08/05/in-santa-claras-donut-wars-both-sides-are-proving-victorious-with-long-lines-at-newcomer-randys-and-south-bay-institution-stans/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Social media is calling it the “Donut Wars,” but the opening of Randy’s Donuts near Stan’s Donut Shop in Santa Clara has had an unexpectedly positive result – booming business for "
-    },
-    {
       "title": "Deng takes big fundraising lead in Palo Alto council race",
       "source": "Palo Alto Online",
       "date": "2026-08-04",
@@ -7393,16 +7387,6 @@
         "Budget & Taxes"
       ],
       "summary": "As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged with a far bigger campaign coffer than the rest: Parks and Recreation Co"
-    },
-    {
-      "title": "Grill your own A5 wagyu at this new downtown Mountain View restaurant",
-      "source": "Palo Alto Online",
-      "date": "2026-08-03",
-      "url": "https://www.paloaltoonline.com/mountain-view/2026/08/03/yakiniku-ginza-opens-in-mountain-view-japanese-a5-wagyu/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Yakiniku Ginza is the latest Japanese barbecue spot to open along the Peninsula. The post Grill your own A5 wagyu at this new downtown Mountain View restaurant appeared first on Pa"
     },
     {
       "title": "Sobrato fast-tracks 316 apartments in a larger project in Menlo Park",
