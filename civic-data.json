@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-27T19:51:40.167Z",
+  "generatedAt": "2026-08-28T20:51:24.554Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-27",
-    "to": "2027-02-27"
+    "from": "2026-02-28",
+    "to": "2027-02-28"
   },
   "bodies": [
     {
@@ -80,6 +80,11 @@
     {
       "name": "Policy & Services Committee",
       "slug": "policy-and-services-committee",
+      "email": "city.clerk@PaloAlto.gov"
+    },
+    {
+      "name": "Policy & Services Committee & Human Relations Commission Joint",
+      "slug": "policy-and-services-committee-and-human-relations-commission-joint",
       "email": "city.clerk@PaloAlto.gov"
     },
     {
@@ -6994,7 +6999,7 @@
         },
         {
           "num": "3",
-          "title": "Discussion of Baker Tilly Reserves Advisory Report and Recommendation to the City Council of Proposed Policy Updates to the Utilities Reserve Management Policies (ACTION: 7:00PM – 8:30PM)",
+          "title": "Discussion of Baker Tilly Reserves Advisory Report and Recommendation to the City Council of Proposed Policy Updates to the Utilities Reserve Management Policies (ACTION: 7:00PM – 8:30PM) Late Packet Report Added, Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -7035,6 +7040,65 @@
           "title": "Public Comments",
           "topics": [
             "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3058,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board Regular Meeting",
+      "date": "2026-09-03",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20207",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 180 El Camino Real [26PLN-00186]: Recommendation on Applicant’s Request for a Minor Board-Level Architectural Review to Allow Storefront Modifications Including Refinishing Façade and New Signage for a Relocated Tenant, Victoria’s Secret (Building C, Space #16B), at the Stanford Shopping Center. CEQA Status: Exempt per CEQA Section 15301 (Existing Facilities). Zoning District: CC (Community Commercial)",
+          "topics": [
+            "Housing",
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Draft Architectural Review Board Meeting Minutes for August 6, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "3200 Park Boulevard [22PLN-00287]: Ad Hoc Committee Review of the Paseo Width and End Unit Design. Environmental Assessment: A Revised Final EIR was Certified on September 12, 2023. Zoning District: RM-30.",
+          "topics": [
+            "Parks & Open Space"
           ],
           "schedTime": null,
           "elapsedSec": null
@@ -7138,9 +7202,202 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 2783,
+      "body": "Policy & Services Committee & Human Relations Commission Joint",
+      "bodySlug": "policy-and-services-committee-and-human-relations-commission-joint",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Policy & Services Committee & Human Relations Commission Joint Special Meeting",
+      "date": "2026-09-08",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18394",
+      "items": [
+        {
+          "num": "1",
+          "title": "Recommend that City Council approve the HSRAP Grant Program expansion",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2901,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting ",
+      "date": "2026-09-09",
+      "startTime": "17:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19150",
+      "items": [
+        {
+          "num": "1",
+          "title": "Interview Candidates for Vacancies on the Historic Resources Board (HRB); CEQA Status - Not a Project",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": "5:00 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Proclamation Honoring the 25th Anniversary of September 11, 2001",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:00 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "3",
+          "title": "PUBLIC EMPLOYEE PERFORMANCE EVALUATIONS Authority: Cal. Gov. Code section 54957(b)(1) Titles: City Manager, City Attorney and City Clerk",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:45 PM",
+          "elapsedSec": 2700
+        },
+        {
+          "num": "4",
+          "title": "Approval of Minutes from August 17 and August 24, 2026 Meetings",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "5",
+          "title": "Approval of Response to Civil Grand Jury Report “VTA‘s Management and Oversight of BART Silicon Valley Phase II”; CEQA Status: Not a Project",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "6",
+          "title": "Approval of Five-year Memorandum of Agreement with Stanford University to Provide and be Reimbursed for Traffic Control Services during Stanford Stadium Events; CEQA status – not a project.",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "7",
+          "title": "Approval of Amendment No. 1 to Contract No. S25186778 with Municipal Resources Group, LLC to increase the Contract Amount by $85,000 to a Total Not-to-Exceed of $340,000 for Organizational Development Services and Extend the Contract Term by One Year through September 4, 2027; CEQA Status – Not a Project.",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "8",
+          "title": "Approval of Amendment No. 1 to the Cost-Sharing Agreement with the County of Santa Clara for Continued Operation of the Safe Parking Program at 2000 Geng Road to Extend the Term Through June 30, 2027 and Not-to-Exceed $196,032; Approval of Amendment No. 3 to Contract No. 1557819, the Lease Agreement with the County of Santa Clara, Extending the County’s Temporary Use of the Site Through June 30, 2027; Approval of FY 2027 Budget Amendment in the Permanent Local Housing Allocation (PLHA) Fund; and Authorization to Use PLHA Activity 6 Funds Accordingly; CEQA status – statutorily exempt.",
+          "topics": [
+            "Housing",
+            "Transportation",
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "9",
+          "title": "Approval of Amendment No. 2 to Contract C23187298C with Hinderliter, de Llamas & Associates (HdL) to Add Sales Tax and Transactions Tax Analysis, Reporting, Forecasting, and Audit Recovery Services and Increase Compensation by $165,000 for a New Total Not-to-Exceed Amount of $3,035,000 over Two Years and Adoption of a Resolution Authorizing HdL and Designated City Staff to Examine Sales or Transactions and Use Taxes from the California Department of Tax and Fee Administration (CDTFA); CEQA Status - Not a Project",
+          "topics": [
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "10",
+          "title": "Adoption of Side Letter Between the City of Palo Alto and Utilities Management and Professional Association of Palo Alto for a Hiring Incentive; CEQA Status - Not a Project.",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "11",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions) of the Palo Alto Municipal Code to Amend Requirements Relating to Accessory Dwelling Units and Junior Accessory Dwelling Units (FIRST READING: August 17, 2026; PASSED: 4-3, Stone, Veenker, Lythcott-Haims no)",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "12",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 470 Olive Avenue [25PLN-00228]: Recommend City Council Adopt an Ordinance Amending the Zoning Map to Change the Zoning District for 470 Olive Avenue from NV-R1 (Single-Family Residential) to NV-MXM (Medium Density Mixed Use) and Adopt a Resolution Changing the North Ventura Coordinated Area Plan (NVCAP) Land Use Designation from Low Density Residential to Medium Density Mixed Use to Align it With the NVMXM Zoning of the Adjacent and Connected Parcel at 2951 El Camino Real. This Action Supports a Staff Determination to Add 470 Olive Avenue as a Housing Inventory Site to Address No Net Loss Requirements. CEQA Status: Statutorily Exempt per Public Resources Code Section 21080.085.",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "8:55 PM",
+          "elapsedSec": 14100
+        },
+        {
+          "num": "13",
+          "title": "Designation of Voting Delegate and Alternate for the League of California Cities 2026 Annual Conference, to be held September 23-25, 2026 in Anaheim, California; CEQA Status – Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "9:55 PM",
+          "elapsedSec": 17700
+        },
+        {
+          "num": "14",
+          "title": "Colleagues’ Memo: Council Discussion and Public Release of the Investigation Report Regarding Forest Peterson",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "10:15 PM",
+          "elapsedSec": 18900
+        },
+        {
+          "num": "A",
+          "title": "Notification of 2023-2031 Housing Element Site Inventory Modifications for State Law Compliance. CEQA Status: The City Council approved a Revised Addendum to the Comprehensive Plan Environmental Impact Report on December 23, 2023 that fully analyzed the impacts of the 2023-2031 Housing Element, including maintenance of the site inventory.",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "8:30 PM",
+          "elapsedSec": 12600
+        },
+        {
+          "num": "B",
+          "title": "2026 City Council Priorities Q2 Update",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:30 PM",
+          "elapsedSec": 12600
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Palo Alto mulls releasing report on towing dispute that sparked resignation",
+      "source": "Palo Alto Online",
+      "date": "2026-08-28",
+      "url": "https://www.paloaltoonline.com/city-politics/2026/08/28/palo-alto-mulls-releasing-report-on-towing-dispute-that-sparked-resignation/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "Palo Alto will debate next week a proposal from two City Council members to release a confidential report that looked into misconduct allegations against a planning commissioner wh"
+    },
     {
       "title": "Housing project near JCC faces community pushback",
       "source": "Palo Alto Online",
@@ -7273,37 +7530,6 @@
       "summary": "María Martínez is packing up her life into boxes — well, most of it. Not all of her plants will fit, and by her conservative count, she has more than 65 of them. She is one of doze"
     },
     {
-      "title": "Italian restaurant Roma Antica is coming soon to downtown San Mateo",
-      "source": "Palo Alto Online",
-      "date": "2026-08-19",
-      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/08/19/italian-restaurant-roma-antica-is-coming-soon-to-downtown-san-mateo/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "After nearly a decade of serving cacio e pepe and pinsa in San Francisco, Roma Antica is expanding to the Peninsula. The post Italian restaurant Roma Antica is coming soon to downt"
-    },
-    {
-      "title": "From chocolate-covered crickets to guacamole with grasshoppers, here’s why these Silicon Valley businesses are embracing bugs as food",
-      "source": "Palo Alto Online",
-      "date": "2026-08-19",
-      "url": "https://www.paloaltoonline.com/enterprise-story/2026/08/19/from-chocolate-covered-crickets-to-guacamole-with-grasshoppers-heres-why-these-silicon-valley-businesses-are-embracing-bugs-as-food/",
-      "topics": [
-        "Climate & Utilities",
-        "Downtown & Business"
-      ],
-      "summary": "A staple of Oaxacan cooking, insects are a sustainable protein source slowly creeping their way onto Peninsula menus. The post From chocolate-covered crickets to guacamole with gra"
-    },
-    {
-      "title": "Trader Joe’s at Town & Country closed following early morning fire",
-      "source": "Palo Alto Online",
-      "date": "2026-08-19",
-      "url": "https://www.paloaltoonline.com/business/2026/08/19/trader-joes-at-town-country-closed-following-early-morning-fire/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "The Trader Joe’s supermarket at Town Country Village was shut down Wednesday morning because of an early-morning fire, according to fire officials. The post Trader Joe’s at Town Co"
-    },
-    {
       "title": "Eight-story housing complex approved on San Antonio Road",
       "source": "Palo Alto Online",
       "date": "2026-08-18",
@@ -7326,16 +7552,6 @@
       "summary": "Upon first glance, the two applications for new apartments near Palo Alto City Hall are mostly alike. The post With new leverage, builder pitches two plans for downtown housing pro"
     },
     {
-      "title": "Shop sustainably at this curated secondhand fashion pop-up on the Peninsula",
-      "source": "Palo Alto Online",
-      "date": "2026-08-14",
-      "url": "https://www.paloaltoonline.com/business/2026/08/13/shop-sustainably-at-this-curated-secondhand-fashion-pop-up-on-the-peninsula/",
-      "topics": [
-        "Climate & Utilities"
-      ],
-      "summary": "Friends with Denim holds public sales in a variety of locations, where shoppers can hunt for fashion treasures at affordable prices and save them from the waste stream. Multiple ve"
-    },
-    {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
       "source": "Palo Alto Online",
       "date": "2026-08-11",
@@ -7344,27 +7560,6 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with just two days to go be"
-    },
-    {
-      "title": "CardVault by Tom Brady, a sports memorabilia shop, to open in Town & Country",
-      "source": "Palo Alto Online",
-      "date": "2026-08-11",
-      "url": "https://www.paloaltoonline.com/business/2026/08/11/cardvault-by-tom-brady-a-sports-memorabilia-shop-to-open-in-town-country/",
-      "topics": [
-        "Climate & Utilities",
-        "Arts & Culture"
-      ],
-      "summary": "San Mateo native Tom Brady, who is best known for winning seven Super Bowls and becoming one of the most decorated quarterbacks in football history, is about to take on a more visi"
-    },
-    {
-      "title": "Gunn students become business mentors at Cubberley workshop",
-      "source": "Palo Alto Online",
-      "date": "2026-08-10",
-      "url": "https://www.paloaltoonline.com/youth/2026/08/10/gunn-students-offer-business-mentorship-at-cubberley-workshop/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "If you can’t beat the doomscroll, why not make students work for it? That was the thinking beyond Tasktime, a hypothetical product pitched by a group of middle school girls at an e"
     },
     {
       "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
@@ -7483,45 +7678,9 @@
         "Downtown & Business"
       ],
       "summary": "Palo Alto’s office workers are back, and they’re hungry. Six new businesses have either opened or are about to open in the city's commercial corridors and the timing may not be acc"
-    },
-    {
-      "title": "Despite headwinds, city leaders place Cubberley sales tax onto ballot",
-      "source": "Palo Alto Online",
-      "date": "2026-06-09",
-      "url": "https://www.paloaltoonline.com/city-government/2026/06/08/despite-headwinds-city-leaders-place-cubberley-sales-tax-onto-ballot/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "Fresh off the failure of a parcel tax that would have funded local schools, Palo Alto voters will soon be asked to approve another tax come November to purchase land at the Cubberl"
     }
   ],
   "events": [
-    {
-      "title": "Bike/Ped Rail Crossings Workshop",
-      "date": "2026-08-27",
-      "desc": "Ask questions and share your feedback on possible bike and pedestrian rail crossing design alternatives in south Palo Alto.",
-      "where": "Rinconada Library in the Embarcadero Room, 1213 Newell Rd",
-      "moreDates": 0,
-      "start": "18:00",
-      "end": "19:30",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Office-of-Transportation/BikePed-Rail-Crossings-Workshop-2"
-    },
-    {
-      "title": "Thursday Live on Cal Ave.",
-      "date": "2026-08-27",
-      "desc": "Thursday Live on Cal Ave. will transform car-free Cal Ave. into a lively gathering space with popular, local musicians…",
-      "where": "Cal Ave. between El Camino Real and Birch Street",
-      "moreDates": 0,
-      "start": "17:00",
-      "end": "20:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/City-Manager/Thursday-Live-on-Cal-Ave.-August-27"
-    },
     {
       "title": "Meet First Responders & Resource Fair",
       "date": "2026-08-29",
