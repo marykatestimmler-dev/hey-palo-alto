@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-28T20:51:24.554Z",
+  "generatedAt": "2026-08-29T14:29:08.179Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-02-28",
-    "to": "2027-02-28"
+    "from": "2026-03-01",
+    "to": "2027-03-01"
   },
   "bodies": [
     {
@@ -6969,6 +6969,18 @@
       "items": []
     },
     {
+      "id": 3138,
+      "body": "City Schools Liaison Committee",
+      "bodySlug": "city-schools-liaison-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "City Schools Liaison Committee Special Meeting ",
+      "date": "2026-09-01",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
       "id": 2887,
       "body": "Utilities Advisory Commission",
       "bodySlug": "utilities-advisory-commission",
@@ -7399,6 +7411,26 @@
       "summary": "Palo Alto will debate next week a proposal from two City Council members to release a confidential report that looked into misconduct allegations against a planning commissioner wh"
     },
     {
+      "title": "Townhomes proposed for vacant lot in Barron Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-28",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/28/townhomes-proposed-for-vacant-lot-in-barron-park/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "A new proposal for an 18-townhome project in Barron Park intends to use state law to seek more height than what would otherwise be allowed by Palo Alto standards. The post Townhome"
+    },
+    {
+      "title": "Judge delays lawsuit on school board candidate’s title until after deadline to print ballots",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-28",
+      "url": "https://padailypost.com/2026/08/28/judge-delays-lawsuit-on-school-board-candidates-title-until-after-deadline-to-print-ballots/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A judge said Thursday that she will weigh in on a challenge to a Palo Alto school board candidate s qualifications as a math teacher [.."
+    },
+    {
       "title": "Housing project near JCC faces community pushback",
       "source": "Palo Alto Online",
       "date": "2026-08-27",
@@ -7463,16 +7495,6 @@
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council will consider taking down removing the city’s license plate-reading cameras because of distrust in Flock Safety, "
     },
     {
-      "title": "Murder charges dropped against mother of dead newborn",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-24",
-      "url": "https://padailypost.com/2026/08/24/murder-charges-dropped-against-mother-of-dead-newborn/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Prosecutors have dropped charges against a woman who was accused of murdering her newborn baby in Mountain View. A defense attorney for "
-    },
-    {
       "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
       "source": "Palo Alto Online",
       "date": "2026-08-21",
@@ -7530,6 +7552,37 @@
       "summary": "María Martínez is packing up her life into boxes — well, most of it. Not all of her plants will fit, and by her conservative count, she has more than 65 of them. She is one of doze"
     },
     {
+      "title": "Italian restaurant Roma Antica is coming soon to downtown San Mateo",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/08/19/italian-restaurant-roma-antica-is-coming-soon-to-downtown-san-mateo/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "After nearly a decade of serving cacio e pepe and pinsa in San Francisco, Roma Antica is expanding to the Peninsula. The post Italian restaurant Roma Antica is coming soon to downt"
+    },
+    {
+      "title": "From chocolate-covered crickets to guacamole with grasshoppers, here’s why these Silicon Valley businesses are embracing bugs as food",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/enterprise-story/2026/08/19/from-chocolate-covered-crickets-to-guacamole-with-grasshoppers-heres-why-these-silicon-valley-businesses-are-embracing-bugs-as-food/",
+      "topics": [
+        "Climate & Utilities",
+        "Downtown & Business"
+      ],
+      "summary": "A staple of Oaxacan cooking, insects are a sustainable protein source slowly creeping their way onto Peninsula menus. The post From chocolate-covered crickets to guacamole with gra"
+    },
+    {
+      "title": "Trader Joe’s at Town & Country closed following early morning fire",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/business/2026/08/19/trader-joes-at-town-country-closed-following-early-morning-fire/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "The Trader Joe’s supermarket at Town Country Village was shut down Wednesday morning because of an early-morning fire, according to fire officials. The post Trader Joe’s at Town Co"
+    },
+    {
       "title": "Eight-story housing complex approved on San Antonio Road",
       "source": "Palo Alto Online",
       "date": "2026-08-18",
@@ -7540,16 +7593,14 @@
       "summary": "The latest project that aims to fulfill Palo Alto's vision of creating a residential community on the city's southern edge is 762 San Antonio Road, a 228-home project that received"
     },
     {
-      "title": "With new leverage, builder pitches two plans for downtown housing project",
+      "title": "Shop sustainably at this curated secondhand fashion pop-up on the Peninsula",
       "source": "Palo Alto Online",
-      "date": "2026-08-15",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/15/with-new-leverage-builder-pitches-two-plans-for-downtown-housing-project/",
+      "date": "2026-08-14",
+      "url": "https://www.paloaltoonline.com/business/2026/08/13/shop-sustainably-at-this-curated-secondhand-fashion-pop-up-on-the-peninsula/",
       "topics": [
-        "Housing",
-        "Arts & Culture",
-        "Downtown & Business"
+        "Climate & Utilities"
       ],
-      "summary": "Upon first glance, the two applications for new apartments near Palo Alto City Hall are mostly alike. The post With new leverage, builder pitches two plans for downtown housing pro"
+      "summary": "Friends with Denim holds public sales in a variety of locations, where shoppers can hunt for fashion treasures at affordable prices and save them from the waste stream. Multiple ve"
     },
     {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
@@ -7560,6 +7611,27 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with just two days to go be"
+    },
+    {
+      "title": "CardVault by Tom Brady, a sports memorabilia shop, to open in Town & Country",
+      "source": "Palo Alto Online",
+      "date": "2026-08-11",
+      "url": "https://www.paloaltoonline.com/business/2026/08/11/cardvault-by-tom-brady-a-sports-memorabilia-shop-to-open-in-town-country/",
+      "topics": [
+        "Climate & Utilities",
+        "Arts & Culture"
+      ],
+      "summary": "San Mateo native Tom Brady, who is best known for winning seven Super Bowls and becoming one of the most decorated quarterbacks in football history, is about to take on a more visi"
+    },
+    {
+      "title": "Gunn students become business mentors at Cubberley workshop",
+      "source": "Palo Alto Online",
+      "date": "2026-08-10",
+      "url": "https://www.paloaltoonline.com/youth/2026/08/10/gunn-students-offer-business-mentorship-at-cubberley-workshop/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "If you can’t beat the doomscroll, why not make students work for it? That was the thinking beyond Tasktime, a hypothetical product pitched by a group of middle school girls at an e"
     },
     {
       "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
