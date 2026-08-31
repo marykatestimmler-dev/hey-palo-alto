@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-30T14:25:54.278Z",
+  "generatedAt": "2026-08-31T17:04:48.034Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-02",
-    "to": "2027-03-02"
+    "from": "2026-03-03",
+    "to": "2027-03-03"
   },
   "bodies": [
     {
@@ -114,18 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2808,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Regular Meeting - CANCELED",
-      "date": "2026-03-03",
-      "startTime": "17:30",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2881,
       "body": "Utilities Advisory Commission",
@@ -7264,6 +7252,16 @@
   ],
   "news": [
     {
+      "title": "Teachers union wants to know how much money is going for administrators and consultants",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-08-30",
+      "url": "https://padailypost.com/2026/08/30/teachers-union-wants-to-know-how-much-money-is-going-for-administrators-and-consultants/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The teachers union wants the Palo Alto school district to audit its spending on administrators and consultants before considering any bu"
+    },
+    {
       "title": "Palo Alto mulls releasing report on towing dispute that sparked resignation",
       "source": "Palo Alto Online",
       "date": "2026-08-28",
@@ -7345,17 +7343,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council voted tonight (Aug. 24) to permit RV dwellers to park on two edges of the city while stopping short of [...]"
-    },
-    {
-      "title": "Council leaning toward dumping Flock cameras",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-08-25",
-      "url": "https://padailypost.com/2026/08/24/council-leaning-toward-dumping-flock-cameras/",
-      "topics": [
-        "Crime, Policing, and Public Safety",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council will consider taking down removing the city’s license plate-reading cameras because of distrust in Flock Safety, "
     },
     {
       "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
