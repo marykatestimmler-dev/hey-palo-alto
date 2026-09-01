@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-31T17:04:48.034Z",
+  "generatedAt": "2026-09-01T14:10:00.859Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-03",
-    "to": "2027-03-03"
+    "from": "2026-03-01",
+    "to": "2027-03-01"
   },
   "bodies": [
     {
@@ -114,6 +114,155 @@
     }
   ],
   "meetings": [
+    {
+      "id": 2829,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting",
+      "date": "2026-03-02",
+      "startTime": "17:30",
+      "videoId": "P26S0WrCNoM",
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18673",
+      "items": [
+        {
+          "num": "1",
+          "title": "Santa Clara County Science and Engineering Fair Association 2026 Science Fair Winners from Palo Alto",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:35 PM",
+          "elapsedSec": 300
+        },
+        {
+          "num": "2",
+          "title": "Review Applications and Select Candidates to Interview for the Historic Resources Board (HRB), Human Relations Commission (HRC), Planning & Transportation Commission (PTC), Stormwater Management Oversight Committee (SWMOC), and Utilities Advisory Commission (UAC) Vacancies; CEQA Status - Not a Project At-Places Memo added, Presentation",
+          "topics": [
+            "Transportation",
+            "Climate & Utilities",
+            "Historic Preservation"
+          ],
+          "schedTime": "5:50 PM",
+          "elapsedSec": 1200
+        },
+        {
+          "num": "3",
+          "title": "Palo Alto Link Program & Transit Futures Review; CEQA status – not a project. Staff Presentation",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "6:50 PM",
+          "elapsedSec": 4800
+        },
+        {
+          "num": "4",
+          "title": "Endorsement of the Connect Bay Area Transit Initiative Public Comment",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "5",
+          "title": "Authorize Transmittal of the 2025 Comprehensive Plan Annual Progress Report to the Governor’s Office of Land Use and Climate Innovation and the 2025 Housing Element Annual Progress Report to the Department of Housing and Community Development. CEQA Status: Not a Project.",
+          "topics": [
+            "Housing",
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "6",
+          "title": "Approval of General Service Contract No. C26195719 with Clean Harbors Environmental Services, Inc. in an Amount Not-to-Exceed $1,914,000 to Provide Household Hazardous Waste Management and Emergency Response Services for a Period of Five Years, and Approval of a Budget Amendment in the Refuse Fund; CEQA Status – Negative Declarations Previously Approved",
+          "topics": [
+            "Climate & Utilities",
+            "Crime, Policing, and Public Safety",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "7",
+          "title": "Approval of Professional Services Contract Number C26195818 With BKF Engineers in an Amount Not to Exceed of $900,000 Over a 3-year Term for On-Call Surveying and Design Support Services; CEQA Status – Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "8",
+          "title": "Approval of Amendment No. 1 to the Multi-Agency Staffing Agreement for Fire Station 8. CEQA Status – Not a Project.",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": "7:50 PM",
+          "elapsedSec": 8400
+        },
+        {
+          "num": "9",
+          "title": "Review the 2024 Greenhouse Gas Inventory and S/CAP Key Performance Indicators Annual Progress Report, and Approve the 2026-2027 S/CAP Work Plan and Receive Six S/CAP Studies Recommended by the Climate Action and Sustainability Committee; CEQA Status: Review GHG Inventory and Key Performance Indicators: Not a Project; Potential Environmental Impacts of the S/CAP Work Plan were Studied in the June 5, 2023 S/CAP Addendum to the 2017-2031 Comprehensive Plan EIR; this Project is also Exempt Pursuant to CEQA Guidelines Section 15183 Public Comment, Staff Presentation",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 10500
+        },
+        {
+          "num": "10",
+          "title": "Status Update on Implementation of the Reliability and Resiliency Strategic Plan; Accept 1) Palo Alto’s Electric System Reliability Indices and Recommended Goals and Reporting, 2) the “Evaluation of Local Energy Resources to Lower Costs and Improve Reliability and Resiliency” Report (as recommended by Climate Action and Sustainability Committee and Utilities Advisory Commission) to Complete Reliability and Resiliency Strategic Plan Strategy Four and Strategy Five; and Provide Direction to Pursue Various Activities Related to Flexible Energy Resource and Efficient Electrification to Improve Reliability and Resiliency; CEQA Status - Not a Project Public Comment, Staff Presentation",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "9:55 PM",
+          "elapsedSec": 15900
+        },
+        {
+          "num": "A",
+          "title": "Informational Report for Council: League of California Cities Annual Report 2025",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "B",
+          "title": "Sales Tax Digest Q3 2025 (Jul-Sept)",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "C",
+          "title": "Informational Report on Residential Electric and Water Utility Customer Satisfaction Survey Results",
+          "topics": [
+            "Housing",
+            "Climate & Utilities"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        }
+      ]
+    },
+    {
+      "id": 2808,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting - CANCELED",
+      "date": "2026-03-03",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
     {
       "id": 2881,
       "body": "Utilities Advisory Commission",
@@ -6839,7 +6988,7 @@
       "title": " Utilities Advisory Commission Regular Meeting",
       "date": "2026-09-02",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "F83LsTsSag4",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19059",
       "items": [
         {
@@ -6917,7 +7066,7 @@
       "title": "Architectural Review Board Regular Meeting",
       "date": "2026-09-03",
       "startTime": "08:30",
-      "videoId": null,
+      "videoId": "_BxroW7k6nE",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20207",
       "items": [
         {
@@ -6976,7 +7125,7 @@
       "title": "Climate Action and Sustainability Committee Regular Meeting",
       "date": "2026-09-04",
       "startTime": "14:00",
-      "videoId": null,
+      "videoId": "RJBmZGj765I",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19931",
       "items": [
         {
@@ -7252,6 +7401,27 @@
   ],
   "news": [
     {
+      "title": "Council weighs divisive rezoning plan in Ventura",
+      "source": "Palo Alto Online",
+      "date": "2026-09-01",
+      "url": "https://www.paloaltoonline.com/land-use/2026/08/31/council-weighs-divisive-rezoning-plan-in-ventura/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "Residents in the Ventura neighborhood are by now well accustomed to being on the cusp of transformation. But for some, the latest attempt to rezone a Ventura property to accommodat"
+    },
+    {
+      "title": "Gregorys Coffee fights eviction attempt from Stanford Shopping Center",
+      "source": "Palo Alto Online",
+      "date": "2026-09-01",
+      "url": "https://www.paloaltoonline.com/business/2026/08/31/gregorys-coffee-fights-eviction-attempt-from-stanford-shopping-center/",
+      "topics": [
+        "Housing",
+        "Budget & Taxes"
+      ],
+      "summary": "Gregorys Coffee in Stanford Shopping Center is fighting the property managers’ eviction efforts, arguing in new court documents that the unpaid rent was due more than a year ago an"
+    },
+    {
       "title": "Teachers union wants to know how much money is going for administrators and consultants",
       "source": "Palo Alto Daily Post",
       "date": "2026-08-30",
@@ -7474,16 +7644,6 @@
       "summary": "San Mateo native Tom Brady, who is best known for winning seven Super Bowls and becoming one of the most decorated quarterbacks in football history, is about to take on a more visi"
     },
     {
-      "title": "Gunn students become business mentors at Cubberley workshop",
-      "source": "Palo Alto Online",
-      "date": "2026-08-10",
-      "url": "https://www.paloaltoonline.com/youth/2026/08/10/gunn-students-offer-business-mentorship-at-cubberley-workshop/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "If you can’t beat the doomscroll, why not make students work for it? That was the thinking beyond Tasktime, a hypothetical product pitched by a group of middle school girls at an e"
-    },
-    {
       "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
       "source": "Palo Alto Online",
       "date": "2026-08-05",
@@ -7569,17 +7729,6 @@
         "Arts & Culture"
       ],
       "summary": "Demolition has started at the Permanente Cement Plant near Cupertino, a massive manufacturing site that repeatedly ran afoul of environmental regulations before it officially close"
-    },
-    {
-      "title": "Special Report: How Palo Alto learned to stop worrying and love the Mollie Stone’s housing project",
-      "source": "Palo Alto Online",
-      "date": "2026-06-30",
-      "url": "https://www.paloaltoonline.com/housing/2026/06/30/special-report-how-palo-alto-learned-to-stop-worrying-and-love-the-mollie-stones-housing-project/",
-      "topics": [
-        "Housing",
-        "Downtown & Business"
-      ],
-      "summary": "Palo Alto officials took a victory lap in May when they announced a compromise with the developer behind a contentious, then-17-story housing proposal on California Avenue. But pub"
     },
     {
       "title": "Parks commissioner Yudy Deng to run for City Council",
