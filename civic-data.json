@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-03T13:36:01.052Z",
+  "generatedAt": "2026-09-04T13:33:13.597Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-03",
-    "to": "2027-03-03"
+    "from": "2026-03-04",
+    "to": "2027-03-04"
   },
   "bodies": [
     {
@@ -114,98 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2881,
-      "body": "Utilities Advisory Commission",
-      "bodySlug": "utilities-advisory-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": " Utilities Advisory Commission Regular Meeting",
-      "date": "2026-03-04",
-      "startTime": "18:00",
-      "videoId": "Q5DzUIY2A2Y",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19017",
-      "items": [
-        {
-          "num": "1",
-          "title": "Re-Approval of the Minutes of the Utilities Advisory Commission Meeting Held on December 3, 2025 Supplemental Report Added",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on February 4, 2026",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Staff Recommends the Utilities Advisory Commission Recommend that the City Council Adopt a Resolution Approving the Fiscal Year 2027 Water Utility Financial Forecast and Reserve Transfers, and Amending Rate Schedules W-1 (General Residential Water Service), W-2 (Water Service From Fire Hydrants), W-3 (Fire Service Connections), W-4 (Residential Master-Metered and General Non-Residential Water Service), and W-7 (Non-Residential Irrigation Water Service). CEQA Status: Not a project. Staff Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Staff Recommends the Utilities Advisory Commission Recommend that the City Council Adopt a Resolution Approving the Fiscal Year 2027 Wastewater Collection Utility Financial Forecast, and Amending Rate Schedules S-1 (Residential Wastewater Collection and Disposal), S-2 (Commercial Wastewater Collection and Disposal), S-6 (Restaurant Wastewater Collection and Disposal), and S-7 (Commercial Wastewater Collection and Disposal – Industrial Discharger); CEQA Status: Not a project under CEQA Guidelines Section 15378(b)(5) Staff Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "12 Month Rolling Calendar",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "C",
-          "title": "Informational Report on Residential Electric and Water Utility Customer Satisfaction Surveys",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "D",
-          "title": "Informational Report: Water Quality Update - Regional Sampling of Microplastics",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2944,
       "body": "Architectural Review Board",
@@ -6999,7 +6907,7 @@
         },
         {
           "num": "1",
-          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project",
+          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project Staff Presentation",
           "topics": [
             "Climate & Utilities"
           ],
@@ -7008,7 +6916,7 @@
         },
         {
           "num": "2",
-          "title": "Overview of Approaches to Achieving the City's Carbon Neutrality Goal and Committee Feedback on Areas for Further Staff Analysis; CEQA Status - Not a Project Late Packet Report Added",
+          "title": "Overview of Approaches to Achieving the City's Carbon Neutrality Goal and Committee Feedback on Areas for Further Staff Analysis; CEQA Status - Not a Project Late Packet Report Added, Staff Presentation",
           "topics": [
             "Budget & Taxes"
           ],
@@ -7057,7 +6965,7 @@
         },
         {
           "num": "1",
-          "title": "Review Locally Preferred Alternatives for Grade Separation at Churchill Avenue, Meadow Drive, and Charleston Road Crossings to Advance into 35% Design and Environmental Review.",
+          "title": "Review Locally Preferred Alternatives for Grade Separation at Churchill Avenue, Meadow Drive, and Charleston Road Crossings to Advance into 35% Design and Environmental Review. Staff Presentation",
           "topics": [
             "Transportation"
           ],
@@ -7240,7 +7148,7 @@
         },
         {
           "num": "B",
-          "title": "2026 City Council Priorities Q2 Update",
+          "title": "2026 City Council Priorities Q2 Update Supplemental Report",
           "topics": [
             "Other"
           ],
@@ -7271,7 +7179,7 @@
         },
         {
           "num": "2",
-          "title": "Recommendation on an Ordinance Amending Palo Alto Municipal Code Titles 18 and 21 to Address Direction from City Council Regarding Separate Sale of Accessory Dwelling Units. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3). 6:15 PM – 7:00 PM",
+          "title": "Recommendation on an Ordinance Amending Palo Alto Municipal Code Titles 18 and 21 to Address Direction from City Council Regarding Separate Sale of Accessory Dwelling Units. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3). Supplemental Report Added 6:15 PM – 7:00 PM",
           "topics": [
             "Housing",
             "Climate & Utilities"
@@ -7310,18 +7218,302 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3089,
+      "body": "Human Relations Commission",
+      "bodySlug": "human-relations-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Human Relations Commission Meeting Regular Meeting ",
+      "date": "2026-09-10",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20423",
+      "items": [
+        {
+          "num": "1",
+          "title": "CEDAW Subcommittee 2026 Findings and Recommendations",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Presentation of the Jed Foundation Findings Report",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "PUBLIC HEARING: Summary of Fiscal Year 2025-2026 (HUD CDBG Program Year 2025) Community Development Block Grant (CDBG) Program Accomplishments — Review of the Draft Consolidated Annual Performance and Evaluation Report (CAPER)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2902,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting ",
+      "date": "2026-09-14",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19156",
+      "items": [
+        {
+          "num": "1",
+          "title": "Northern California Power Agency General Manager Tony Zimmer",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Review Applications and Select Candidates to Interview for the Human Relations Commission (HRC), Parks and Recreation Commission (PRC), Planning and Transportation Commission (PTC), Public Art Commission (PAC), and Stormwater Management Oversight Committee (SWMOC) Vacancies; CEQA Status – Not a Project",
+          "topics": [
+            "Transportation",
+            "Climate & Utilities",
+            "Parks & Open Space",
+            "Arts & Culture"
+          ],
+          "schedTime": "5:45 PM",
+          "elapsedSec": 900
+        },
+        {
+          "num": "3",
+          "title": "Appointment of Candidates to the Historic Resources Board (HRB); CEQA Status – Not a Project",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": "6:00 PM",
+          "elapsedSec": 1800
+        },
+        {
+          "num": "4",
+          "title": "Approval of Contract Number C27197641 with A3 Pipeline in the Amount Not-to-Exceed $2,466,255 for the Sewer Lateral Replacement Project (WC-99013) at various locations across the City; Authorization for the City Manager or Designee to Negotiate and Execute Related Change Orders Not-to-Exceed $246,626 for a Total Not-to-Exceed Amount of $2,712,881 for a Three-Year Term. CEQA Status: Exempt under CEQA Guidelines 15302 (Replacement or Reconstruction of Existing Facilities).",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:50 PM",
+          "elapsedSec": 4800
+        },
+        {
+          "num": "5",
+          "title": "Adopt a Resolution approving the City of Palo Alto Utilities Electric Utility Physical Security Plan Update: CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "6:50 PM",
+          "elapsedSec": 4800
+        },
+        {
+          "num": "6",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Adding Chapter 10.49 (OSV Parking Permit Districts) to the Palo Alto Municipal Code and Amending PAMC Section 10.60.010 (FIRST READING: August 24, 2026; PASSED: 7-0)",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "6:50 PM",
+          "elapsedSec": 4800
+        },
+        {
+          "num": "7",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 375 Hamilton Avenue [26PLN-00050]: Request for Major Architectural Review Approval for the Construction of a New Six-Story Parking Garage with a Total of 265 Parking Spaces on the Existing Surface-Level Parking Lot D. CEQA Status: Prior Environmental Impact Report Certified (Council Resolution No. 9818, February 11, 2019). An Addendum to the Previously Certified Environmental Impact Report (SCH# 2017052040) has Been Prepared in Accordance with CEQA Guidelines Section 15164. Zoning District: PF (Public Facilities).",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "7:20 PM",
+          "elapsedSec": 6600
+        },
+        {
+          "num": "8",
+          "title": "Refinancing of the 2009A Water Revenue Bonds, Series A; Adoption of a Resolution Authorizing the Issuance and Sale of Tax-Exempt Water Revenue Refunding Bonds in a Principal Amount Not-to-Exceed $20,000,000, Approval of the Official Notice of Sale, Indenture of Trust, Official Statement, Irrevocable Refunding Instructions, and Related Documents; CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:20 PM",
+          "elapsedSec": 10200
+        },
+        {
+          "num": "9",
+          "title": "CONFERENCE WITH CITY ATTORNEY-EXISTING LITIGATION Subject: Diego Velasquez v. City of Palo Alto et al. Santa Clara County Superior Court, Case No. 24-CV-450636 Authority: Government Code Section 54956.9(d)(1) One Case, as Defendant",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:40 PM",
+          "elapsedSec": 11400
+        },
+        {
+          "num": "10",
+          "title": "CONFERENCE WITH CITY ATTORNEY – EXISTING LITIGATION Subject: City of Palo Alto v. Gary Wetzel, et al. Santa Clara County Superior Court Case No. 26CV484552 One Case, as Defendant Authority: Government Code Section 54956.9(d)(1)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:40 PM",
+          "elapsedSec": 11400
+        },
+        {
+          "num": "11",
+          "title": "CONFERENCE WITH REAL PROPERTY NEGOTIATORS Authority: Government Code Section 54956.8 Property: 4000 Middlefield Road, Palo Alto (Informally known as the Cubberley Site) Negotiating Party: Palo Alto Unified School District City Negotiators: Ed Shikada, Kristen O'Kane, Sunny Tong Subject of Negotiations: Purchase, Exchange, and/or Lease Price and Terms of Payment",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "8:40 PM",
+          "elapsedSec": 11400
+        },
+        {
+          "num": "A",
+          "title": "Fiscal Year 2026 Significant Gifts and Donations to the City of Palo Alto",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:40 PM",
+          "elapsedSec": 11400
+        },
+        {
+          "num": "B",
+          "title": "Information Report on Sustainability and Climate Action Plan Implementation, Calendar Year 2026 Quarters 1-2; CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": "8:40 PM",
+          "elapsedSec": 11400
+        }
+      ]
+    },
+    {
+      "id": 2820,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting",
+      "date": "2026-09-15",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18616",
+      "items": [
+        {
+          "num": "1",
+          "title": "Accept California Public Employees’ Retirement System (CalPERS) Pension Annual Valuation Reports as of June 30, 2025; CEQA Status—Not a Project.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Discussion of Baker Tilly Reserves Advisory Report and Recommendation to the City Council of Proposed Policy Updates to the Utilities Reserve Management Practices: CEQA – Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
     {
-      "title": "Teachers union wants to know how much money is going for administrators and consultants",
+      "title": "Judge says Henigin can keep “math teacher” ballot description",
       "source": "Palo Alto Daily Post",
-      "date": "2026-08-30",
-      "url": "https://padailypost.com/2026/08/30/teachers-union-wants-to-know-how-much-money-is-going-for-administrators-and-consultants/",
+      "date": "2026-09-03",
+      "url": "https://padailypost.com/2026/09/03/judge-says-henigin-can-keep-math-teacher-ballot-description/",
       "topics": [
+        "Housing",
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The teachers union wants the Palo Alto school district to audit its spending on administrators and consultants before considering any bu"
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A Palo Alto school board candidate will keep her description on the ballot as math teacher after a parent s challenge missed the deadlin"
+    },
+    {
+      "title": "Man acting erratically arrested at Sequoia High",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-03",
+      "url": "https://padailypost.com/2026/09/02/man-acting-erratically-arrested-at-sequoia-high/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "Police in Redwood City say they have arrested a man who entered the Sequoia High School campus and behaved erratically Just before 1 p.m. Wednesday, an officer on the school s [..."
+    },
+    {
+      "title": "How Palo Alto’s newest housing projects are testing the limits of what can be built",
+      "source": "Palo Alto Online",
+      "date": "2026-09-02",
+      "url": "https://www.paloaltoonline.com/housing/2026/09/01/how-palo-altos-newest-housing-projects-are-testing-the-limits-of-what-can-be-built/",
+      "topics": [
+        "Housing",
+        "Arts & Culture"
+      ],
+      "summary": "Palo Alto has long struggled to add enough housing, particularly affordable homes, under some of the region’s most restrictive zoning rules. Six projects now moving through the cit"
+    },
+    {
+      "title": "Palo Alto businesses raise funds for Nepal flood relief",
+      "source": "Palo Alto Online",
+      "date": "2026-09-02",
+      "url": "https://www.paloaltoonline.com/business/2026/09/02/1058591/",
+      "topics": [
+        "Budget & Taxes",
+        "Downtown & Business"
+      ],
+      "summary": "Following last week's devastating flood in Nepal, Palo Alto-based Pakistani restaurant Zareen’s will be among the businesses raising money to support Nepali relief efforts. And it "
+    },
+    {
+      "title": "‘The crumb is crack’: Belmont resident recreates 1969 coffee cake recipe, organizes food market",
+      "source": "Palo Alto Online",
+      "date": "2026-09-02",
+      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/09/02/the-crumb-is-crack-belmont-resident-recreates-1969-coffee-cake-recipe-organizes-food-market/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes",
+        "Downtown & Business"
+      ],
+      "summary": "A monthly Artisan Garden Market at Ladera Garden Gifts brings together various cottage food businesses. The post ‘The crumb is crack’: Belmont resident recreates 1969 coffee cake r"
+    },
+    {
+      "title": "Council weighs divisive rezoning plan in Ventura",
+      "source": "Palo Alto Online",
+      "date": "2026-09-01",
+      "url": "https://www.paloaltoonline.com/land-use/2026/08/31/council-weighs-divisive-rezoning-plan-in-ventura/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "Residents in the Ventura neighborhood are by now well accustomed to being on the cusp of transformation. But for some, the latest attempt to rezone a Ventura property to accommodat"
+    },
+    {
+      "title": "Gregorys Coffee fights eviction attempt from Stanford Shopping Center",
+      "source": "Palo Alto Online",
+      "date": "2026-09-01",
+      "url": "https://www.paloaltoonline.com/business/2026/08/31/gregorys-coffee-fights-eviction-attempt-from-stanford-shopping-center/",
+      "topics": [
+        "Housing",
+        "Budget & Taxes"
+      ],
+      "summary": "Gregorys Coffee in Stanford Shopping Center is fighting the property managers’ eviction efforts, arguing in new court documents that the unpaid rent was due more than a year ago an"
     },
     {
       "title": "Palo Alto mulls releasing report on towing dispute that sparked resignation",
@@ -7334,14 +7526,143 @@
       "summary": "Palo Alto will debate next week a proposal from two City Council members to release a confidential report that looked into misconduct allegations against a planning commissioner wh"
     },
     {
-      "title": "Judge delays lawsuit on school board candidate’s title until after deadline to print ballots",
-      "source": "Palo Alto Daily Post",
+      "title": "Townhomes proposed for vacant lot in Barron Park",
+      "source": "Palo Alto Online",
       "date": "2026-08-28",
-      "url": "https://padailypost.com/2026/08/28/judge-delays-lawsuit-on-school-board-candidates-title-until-after-deadline-to-print-ballots/",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/28/townhomes-proposed-for-vacant-lot-in-barron-park/",
       "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "A new proposal for an 18-townhome project in Barron Park intends to use state law to seek more height than what would otherwise be allowed by Palo Alto standards. The post Townhome"
+    },
+    {
+      "title": "Housing project near JCC faces community pushback",
+      "source": "Palo Alto Online",
+      "date": "2026-08-27",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/26/housing-project-near-jcc-faces-community-pushback/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "Seniors and members of the Oshman Family Jewish Community Center turned out in full force last week to protest a multifamily housing development in south Palo Alto that would run u"
+    },
+    {
+      "title": "With just one unit filled, Mountain View Whisman sells stake in Palo Alto educator housing complex",
+      "source": "Palo Alto Online",
+      "date": "2026-08-26",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/26/with-just-one-unit-filled-mountain-view-whisman-sells-stake-in-palo-alto-educator-housing-complex/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "The Mountain View Whisman School District is relinquishing its investment in a Palo Alto employee housing project due to low occupancy, with all but one of the district's dozen uni"
+    },
+    {
+      "title": "Palo Alto backs away from plan to restrict RVs to one side on certain streets",
+      "source": "Palo Alto Online",
+      "date": "2026-08-25",
+      "url": "https://www.paloaltoonline.com/social-services/2026/08/25/palo-alto-backs-away-from-plan-to-let-rvs-remain-in-neighborhoods/",
+      "topics": [
+        "Transportation",
+        "Climate & Utilities",
+        "Parks & Open Space"
+      ],
+      "summary": "Palo Alto officials deferred a controversial pilot program on Monday night that would have concentrated occupied RVs on certain streets in south Palo Alto, following significant up"
+    },
+    {
+      "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
+      "source": "Palo Alto Online",
+      "date": "2026-08-21",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/21/a-neighborhood-in-limbo-woodland-park-residents-organize-amid-redevelopment-plans/",
+      "topics": [
+        "Parks & Open Space",
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A judge said Thursday that she will weigh in on a challenge to a Palo Alto school board candidate s qualifications as a math teacher [.."
+      "summary": "For decades, Woodland Park apartments in East Palo Alto have remained an island of affordability in a region where real estate prices have escalated to unprecedented heights. With "
+    },
+    {
+      "title": "Sand Hill’s plans for Woodland Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-21",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/21/sand-hills-plans-for-woodland-park/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "O Keefe-Manhattan Improvements Addresses proposed for renovation: Addresses proposed for demolition: West Bayshore-Newell Improvements Addresses proposed for renovation: Addresses "
+    },
+    {
+      "title": "‘Poised for growth’: A brief history of Woodland Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-21",
+      "url": "https://www.paloaltoonline.com/east-palo-alto/2026/08/21/poised-for-growth-a-brief-history-of-woodland-park/",
+      "topics": [
+        "Housing",
+        "Climate & Utilities",
+        "Parks & Open Space"
+      ],
+      "summary": "For decades, residents of Woodland Park have been bracing for redevelopment in their neighborhood, which contains the vast majority of East Palo Alto's below-market-rate housing. T"
+    },
+    {
+      "title": "Court ruling boosts Palo Alto’s efforts to build housing on downtown lot",
+      "source": "Palo Alto Online",
+      "date": "2026-08-21",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/20/court-ruling-boosts-palo-altos-efforts-to-build-housing-on-downtown-lot/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space",
+        "Downtown & Business"
+      ],
+      "summary": "Palo Alto’s effort to build affordable housing on downtown parking lots received a big boost this week, when a Santa Clara County Superior Court judge rejected a challenge from are"
+    },
+    {
+      "title": "Italian restaurant Roma Antica is coming soon to downtown San Mateo",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/08/19/italian-restaurant-roma-antica-is-coming-soon-to-downtown-san-mateo/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "After nearly a decade of serving cacio e pepe and pinsa in San Francisco, Roma Antica is expanding to the Peninsula. The post Italian restaurant Roma Antica is coming soon to downt"
+    },
+    {
+      "title": "From chocolate-covered crickets to guacamole with grasshoppers, here’s why these Silicon Valley businesses are embracing bugs as food",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/enterprise-story/2026/08/19/from-chocolate-covered-crickets-to-guacamole-with-grasshoppers-heres-why-these-silicon-valley-businesses-are-embracing-bugs-as-food/",
+      "topics": [
+        "Climate & Utilities",
+        "Downtown & Business"
+      ],
+      "summary": "A staple of Oaxacan cooking, insects are a sustainable protein source slowly creeping their way onto Peninsula menus. The post From chocolate-covered crickets to guacamole with gra"
+    },
+    {
+      "title": "Trader Joe’s at Town & Country closed following early morning fire",
+      "source": "Palo Alto Online",
+      "date": "2026-08-19",
+      "url": "https://www.paloaltoonline.com/business/2026/08/19/trader-joes-at-town-country-closed-following-early-morning-fire/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "The Trader Joe’s supermarket at Town Country Village was shut down Wednesday morning because of an early-morning fire, according to fire officials. The post Trader Joe’s at Town Co"
+    },
+    {
+      "title": "Eight-story housing complex approved on San Antonio Road",
+      "source": "Palo Alto Online",
+      "date": "2026-08-18",
+      "url": "https://www.paloaltoonline.com/housing/2026/08/18/eight-story-housing-complex-approved-on-san-antonio-road/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "The latest project that aims to fulfill Palo Alto's vision of creating a residential community on the city's southern edge is 762 San Antonio Road, a 228-home project that received"
+    },
+    {
+      "title": "Shop sustainably at this curated secondhand fashion pop-up on the Peninsula",
+      "source": "Palo Alto Online",
+      "date": "2026-08-14",
+      "url": "https://www.paloaltoonline.com/business/2026/08/13/shop-sustainably-at-this-curated-secondhand-fashion-pop-up-on-the-peninsula/",
+      "topics": [
+        "Climate & Utilities"
+      ],
+      "summary": "Friends with Denim holds public sales in a variety of locations, where shoppers can hunt for fashion treasures at affordable prices and save them from the waste stream. Multiple ve"
     },
     {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
@@ -7352,6 +7673,17 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with just two days to go be"
+    },
+    {
+      "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-05",
+      "url": "https://www.paloaltoonline.com/news/2026/08/04/state-backs-controversial-skyscraper-proposal-at-old-sunset-magazine-campus-in-menlo-park/",
+      "topics": [
+        "Housing",
+        "Parks & Open Space"
+      ],
+      "summary": "A residential skyscraper proposal in Menlo Park has scored a big boost after California Attorney General Rob Bonta sent a letter to the city alleging that it violated state housing"
     },
     {
       "title": "Deng takes big fundraising lead in Palo Alto council race",
@@ -7365,6 +7697,51 @@
       "summary": "As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged with a far bigger campaign coffer than the rest: Parks and Recreation Co"
     },
     {
+      "title": "Sobrato fast-tracks 316 apartments in a larger project in Menlo Park",
+      "source": "Palo Alto Online",
+      "date": "2026-08-01",
+      "url": "https://www.paloaltoonline.com/news/2026/08/01/sobrato-eyes-advancing-on-316-apartments-of-a-larger-project-in-menlo-park/",
+      "topics": [
+        "Housing",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "The Sobrato Organization is aiming to break ground on 316 apartment units in Menlo Park sooner rather than later amid improving conditions in the Bay Area rental-housing market. Th"
+    },
+    {
+      "title": "Palo Alto developer sues Menlo Park over $127K subdivision fee",
+      "source": "Palo Alto Online",
+      "date": "2026-07-21",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/07/21/palo-alto-developer-sues-menlo-park-over-127k-subdivision-fee/",
+      "topics": [
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "A Palo Alto developer is suing Menlo Park after the city required a $127,400 in-lieu fee for a single-family home to be subdivided into two parcels. The post Palo Alto developer su"
+    },
+    {
+      "title": "Downtown North condo proposal is 7th to use new state housing law",
+      "source": "Palo Alto Online",
+      "date": "2026-07-14",
+      "url": "https://www.paloaltoonline.com/housing/2026/07/14/downtown-north-condo-proposal-is-7th-to-use-new-state-housing-law/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Downtown & Business"
+      ],
+      "summary": "The latest housing proposal in Palo Alto to take advantage of a new state law that encourages denser projects near public transit envisions six for-sale family condominiums in the "
+    },
+    {
+      "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
+      "source": "Palo Alto Online",
+      "date": "2026-07-08",
+      "url": "https://www.paloaltoonline.com/housing/2026/07/07/basket-inspired-project-on-cal-ave-returns-invokes-new-state-law/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Rather than petitioning Palo Alto leaders to make exceptions to its zoning code, the team behind a mixed-use development proposal on California Ave. are turning to a new state law "
+    },
+    {
       "title": "Council member Ed Lauing files for reelection",
       "source": "Palo Alto Online",
       "date": "2026-07-07",
@@ -7373,6 +7750,16 @@
         "Climate & Utilities"
       ],
       "summary": "Ed Lauing, a member of the Palo Alto City Council who is known among his peers for maintaining a moderate and measured approach even in the most controversial discussions, has file"
+    },
+    {
+      "title": "Demolition begins at controversial Permanente cement plant",
+      "source": "Palo Alto Online",
+      "date": "2026-07-01",
+      "url": "https://www.paloaltoonline.com/environment/2026/07/01/demolition-begins-at-controversial-permanente-cement-plant/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "Demolition has started at the Permanente Cement Plant near Cupertino, a massive manufacturing site that repeatedly ran afoul of environmental regulations before it officially close"
     },
     {
       "title": "Parks commissioner Yudy Deng to run for City Council",
