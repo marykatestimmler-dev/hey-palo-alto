@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T13:33:13.597Z",
+  "generatedAt": "2026-09-05T12:43:01.565Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-04",
-    "to": "2027-03-04"
+    "from": "2026-03-05",
+    "to": "2027-03-05"
   },
   "bodies": [
     {
@@ -114,65 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2944,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting",
-      "date": "2026-03-05",
-      "startTime": "08:30",
-      "videoId": "5htURtYS8Kk",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19443",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "QUASI-JUDICIAL. 4103 Old Trace Road [25PLN-00296]: Request for a Streamlined Housing Development Review to Construct 16 Dwelling Units on Eight Total Lots, Including Eight Single-Family Residences and Eight Junior Accessory Dwelling Units. One Single Family Home and JADU would be Provided at Below Market Rate. A Separate Vesting Tentative Map Application (25PLN-00298) Has Been Filed for the Proposed Subdivision. The Project Requests Concessions and Waivers Pursuant to State Density Bonus Law. A Compliant Senate Bill 330 Pre-Application Was Filed on October 1, 2025. CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code section 21080.66). Zone District: RE (Residential Estate).",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Draft Architectural Review Board Meeting Minutes for December 4, 2025",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Draft Architectural Review Board Meeting Minutes for January 15, 2026",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3011,
       "body": "Climate Action and Sustainability Committee",
@@ -7232,7 +7173,7 @@
       "items": [
         {
           "num": "1",
-          "title": "CEDAW Subcommittee 2026 Findings and Recommendations",
+          "title": "CEDAW Subcommittee 2026 Findings and Recommendations Supplemental Report",
           "topics": [
             "Other"
           ],
