@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-05T12:43:01.565Z",
+  "generatedAt": "2026-09-06T12:54:09.617Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-05",
-    "to": "2027-03-05"
+    "from": "2026-03-06",
+    "to": "2027-03-06"
   },
   "bodies": [
     {
@@ -114,55 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3011,
-      "body": "Climate Action and Sustainability Committee",
-      "bodySlug": "climate-action-and-sustainability-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Climate Action and Sustainability Committee Regular Meeting",
-      "date": "2026-03-06",
-      "startTime": "14:00",
-      "videoId": "iOTuRilBvN8",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19901",
-      "items": [
-        {
-          "num": "A",
-          "title": "Staff Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Committee Member Comments and Announcements",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "1",
-          "title": "Review and Discussion of 2026-2027 Climate Action Program Goals and Work Plan Timelines; CEQA Status - Not a Project Late Packet Report Added, Staff Presentation",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Grid Modernization Update; CEQA Status - Not a Project Late Packet Report Added, Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2830,
       "body": "City Council",
@@ -7380,6 +7331,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Family drops lawsuit that disputed PAUSD’s claims their son cheated by using AI",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-06",
+      "url": "https://padailypost.com/2026/09/05/family-drops-lawsuit-that-challenged-pausd-claims-their-son-cheated-by-using-ai/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "This story was first published in Friday morning s Daily Post. To get local news stories first, pick up the Post in the morning at 1,000 Mid-Peninsula locations. BY BRADEN CARTWRIG"
+    },
     {
       "title": "Judge says Henigin can keep “math teacher” ballot description",
       "source": "Palo Alto Daily Post",
