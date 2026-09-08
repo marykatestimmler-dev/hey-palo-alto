@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-07T15:04:09.074Z",
+  "generatedAt": "2026-09-08T13:38:06.250Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-07",
-    "to": "2027-03-07"
+    "from": "2026-03-08",
+    "to": "2027-03-08"
   },
   "bodies": [
     {
