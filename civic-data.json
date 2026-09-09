@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-08T13:38:06.250Z",
+  "generatedAt": "2026-09-09T13:43:40.226Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-08",
-    "to": "2027-03-08"
+    "from": "2026-03-09",
+    "to": "2027-03-09"
   },
   "bodies": [
     {
@@ -114,168 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2830,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Regular Meeting",
-      "date": "2026-03-09",
-      "startTime": "17:30",
-      "videoId": "usVmqdnwfj4",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18679",
-      "items": [
-        {
-          "num": "AA1",
-          "title": "Public Employee Appointment Title: City Attorney Authority: Gov. Code Section 54957(b) New Item Added, Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "1",
-          "title": "Proclamation Recognizing March 2026 as Youth Arts Month",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": "6:00 PM",
-          "elapsedSec": 1800
-        },
-        {
-          "num": "2",
-          "title": "51 Encina Avenue [25PLN-00312]. Request for Council Prescreening for a Zoning Text Amendment to Palo Alto Municipal Code Title 18 (Zoning) Section 18.18.070 (Floor Area Bonuses) and Section 18.18.080 (Transfer of Development Rights) to Expand Floor Area and Transfer of Development Right Benefits to Category 1 and 2 Buildings on the City's Historic Inventory in the CS Zone District. CEQA Status: Not a Project. Staff Presentation",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": "6:55 PM",
-          "elapsedSec": 5100
-        },
-        {
-          "num": "3",
-          "title": "Approval of Minutes from February 23, 2026 Meeting",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "4",
-          "title": "Appointment of 2026 Emergency Standby Council",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "5",
-          "title": "Adoption of a Resolution Setting the Regular Meeting Times at 4:00pm for the Finance Committee and 6:00pm for the Policy & Services Committee; CEQA status - not a project.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "6",
-          "title": "Stanford University Medical Center (SUMC) Annual Report to Council for Fiscal Year 2025 (FY 2025)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "7",
-          "title": "Approval of Professional Services Contract No. C26194015 with Geosyntec Consultants, Inc. in an Amount Not to Exceed $795,965 for Design and Outreach Services for the City Park-Green Stormwater Infrastructure Project for the period of March 9, 2026 through March 31, 2028; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15306 Item Removed Off Agenda",
-          "topics": [
-            "Climate & Utilities",
-            "Parks & Open Space",
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "8",
-          "title": "Approval of Contract Amendment No. 3 to Contract No. C23185922 with Kittelson & Associates, INC. to Increase Compensation by $17,000 to $350,945 and to Extend the Term for an Additional Six Months Through December 31, 2026, for the City's Bicycle and Pedestrian Transportation Plan Update; CEQA status - exempt under Public Resource Code section 21080.20.",
-          "topics": [
-            "Transportation",
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "9",
-          "title": "FIRST READING: Adoption of an Ordinance Adding a New Section 18.70.105 (Noncomplying facility - De minimis exceptions) to Chapter 18.70 (Nonconforming Uses and Noncomplying Facilities) of Title 18 (Zoning) of the Palo Alto Municipal Code; CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3) (Common Sense Exemption). Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 8700
-        },
-        {
-          "num": "10",
-          "title": "Receive Update and Provide Direction to Staff on the Implementation of Senate Bill 79 (2025) and Work Related to the Downtown Housing Plan. CEQA Status: Exempt Under CEQA Guidelines Section 15262. Item Removed Off Agenda",
-          "topics": [
-            "Housing",
-            "Downtown & Business"
-          ],
-          "schedTime": "8:00 PM",
-          "elapsedSec": 9000
-        },
-        {
-          "num": "11",
-          "title": "Approval of City Council Values (as Recommended by Policy & Services Committee), 2026 Objectives, Ad Hoc Purpose Statements, and Committee Workplans Public Comment, Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:30 PM",
-          "elapsedSec": 10800
-        },
-        {
-          "num": "12",
-          "title": "CONFERENCE WITH LEGAL COUNSEL—POTENTIAL LITIGATION (four cases) Subject: Initiation of litigation in four cases, United States v. Minnesota, US District Court for the District of Minnesota, Case No. 25-CV-3798; United States v. City of Rochester, US District Court for the Western District of New York, Case No. 6:25-cv-06226-FPG-MJP; United States v. City of Newark, et al., US District Court for the District of New Jersey, Case No. 2:25-cv-05081-EP-AME; United States v. City of New York, et al., US District Court for the Eastern District of New York, Case No. 1:25-cv-04084. Authority: Government Code Section 54956.9(d)(4)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "9:45 PM",
-          "elapsedSec": 15300
-        },
-        {
-          "num": "A",
-          "title": "Informational Report: Report from the National Policing Institute Regarding Palo Alto's RIPA Data (Racial and Identity Profiling Act of 2015); CEQA – Not a Project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "9:45 PM",
-          "elapsedSec": 15300
-        },
-        {
-          "num": "B",
-          "title": "Information Report on Sustainability and Climate Action Plan (S/CAP) Implementation, 2025 Quarters 3-4; CEQA Status - Not a Project",
-          "topics": [
-            "Climate & Utilities",
-            "Arts & Culture"
-          ],
-          "schedTime": "9:45 PM",
-          "elapsedSec": 15300
-        },
-        {
-          "num": "C",
-          "title": "Semi-annual Reports of Contracts Awarded by the City Manager, Procurement Officer or Other Designated Employees for the period of July 1, 2025, through December 31, 2025; CEQA Status- Not a Project.",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "9:45 PM",
-          "elapsedSec": 15300
-        }
-      ]
-    },
     {
       "id": 3029,
       "body": "Rail Committee",
@@ -6825,7 +6663,7 @@
       "title": "Rail Committee Regular Meeting",
       "date": "2026-09-08",
       "startTime": "14:30",
-      "videoId": null,
+      "videoId": "wsLge6qZ3dM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20022",
       "items": [
         {
@@ -6874,12 +6712,12 @@
       "title": "Policy & Services Committee & Human Relations Commission Joint Special Meeting",
       "date": "2026-09-08",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "MDQmiMvbnSs",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18394",
       "items": [
         {
           "num": "1",
-          "title": "Recommend that City Council approve the HSRAP Grant Program expansion",
+          "title": "Recommend that City Council approve the HSRAP Grant Program expansion Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -6896,7 +6734,7 @@
       "title": "City Council Special Meeting ",
       "date": "2026-09-09",
       "startTime": "17:00",
-      "videoId": null,
+      "videoId": "ag678vV_olc",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19150",
       "items": [
         {
@@ -7057,7 +6895,7 @@
       "title": "Planning & Transportation Commission Regular Meeting",
       "date": "2026-09-09",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "aYX36VyUsEA",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20367",
       "items": [
         {
@@ -7119,7 +6957,7 @@
       "title": "Human Relations Commission Meeting Regular Meeting ",
       "date": "2026-09-10",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "JTJ-eBh1aWU",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20423",
       "items": [
         {
