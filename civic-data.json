@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-09T13:43:40.226Z",
+  "generatedAt": "2026-09-10T13:37:10.882Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-09",
-    "to": "2027-03-09"
+    "from": "2026-03-10",
+    "to": "2027-03-10"
   },
   "bodies": [
     {
@@ -114,107 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3029,
-      "body": "Rail Committee",
-      "bodySlug": "rail-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Rail Committee Regular Meeting",
-      "date": "2026-03-10",
-      "startTime": "14:30",
-      "videoId": "J-dOdXHip74",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20010",
-      "items": [
-        {
-          "num": "A",
-          "title": "Caltrain, Presentation",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "VTA",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "C",
-          "title": "City Staff, Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "1",
-          "title": "Review structural and design considerations for the Earthen Berm (retaining walls) and long-bridge (Podium) options of the Meadow Drive Grade Separation Hybrid Alternative. Staff Presentation",
-          "topics": [
-            "Transportation",
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2778,
-      "body": "Policy & Services Committee",
-      "bodySlug": "policy-and-services-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Policy & Services Committee Regular Meeting",
-      "date": "2026-03-10",
-      "startTime": "18:00",
-      "videoId": "TzvdFlibWww",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18364",
-      "items": [
-        {
-          "num": "1",
-          "title": "Nonprofit Partnership Workplan: Follow-up Recommendation on Winter Lodge Tennis lease extension and Status of Phase I Grant Funding Process. CEQA Status: Not a Project. Presentation",
-          "topics": [
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Consider Policy Options to Encourage Multi-Family Development in Mixed-Use Districts (2023-2031 Housing Element Program 3.9(A)) and Potential Recommendation for City Council on Next Steps. CEQA Status: The Addendum to the Comprehensive Plan Environmental Impact Report (EIR), approved by the City Council on April 15, 2024, analyzed potential environmental impacts of the 6th Cycle Housing Element including Program 3.9(A). Presentation",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Discussion of the Rental Registry Program First Year Report and Rent Stabilization Analysis, Including Recommendations to the City Council to Not Expand the Rental Registry Program to Properties with Two or Fewer Units and to Defer Further Consideration of a Possible Rent Stabilization Ordinance. CEQA: Exempt pursuant to CEQA Guidelines Section 15061(b)(3). Presentation",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "AA1",
-          "title": "Recommend Approval of New Task Order 4.42 - Flock Safety Assessment for Inclusion in the City Auditor's FY 2026 Audit Plan and Amend FY 2026 Task Order budgets to Support this New Task Order with a Net Zero Financial Impact; CEQA – Not a project New Item Added, At Places Memo Added",
-          "topics": [
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2923,
       "body": "Planning & Transportation Commission",
@@ -6833,7 +6732,7 @@
         },
         {
           "num": "11",
-          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions) of the Palo Alto Municipal Code to Amend Requirements Relating to Accessory Dwelling Units and Junior Accessory Dwelling Units (FIRST READING: August 17, 2026; PASSED: 4-3, Stone, Veenker, Lythcott-Haims no)",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions) of the Palo Alto Municipal Code to Amend Requirements Relating to Accessory Dwelling Units and Junior Accessory Dwelling Units (FIRST READING: August 17, 2026; PASSED: 4-3, Stone, Veenker, Lythcott-Haims no) Public Comment",
           "topics": [
             "Housing"
           ],
@@ -6842,7 +6741,7 @@
         },
         {
           "num": "12",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 470 Olive Avenue [25PLN-00228]: Recommend City Council Adopt an Ordinance Amending the Zoning Map to Change the Zoning District for 470 Olive Avenue from NV-R1 (Single-Family Residential) to NV-MXM (Medium Density Mixed Use) and Adopt a Resolution Changing the North Ventura Coordinated Area Plan (NVCAP) Land Use Designation from Low Density Residential to Medium Density Mixed Use to Align it With the NVMXM Zoning of the Adjacent and Connected Parcel at 2951 El Camino Real. This Action Supports a Staff Determination to Add 470 Olive Avenue as a Housing Inventory Site to Address No Net Loss Requirements. CEQA Status: Statutorily Exempt per Public Resources Code Section 21080.085.",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 470 Olive Avenue [25PLN-00228]: Recommend City Council Adopt an Ordinance Amending the Zoning Map to Change the Zoning District for 470 Olive Avenue from NV-R1 (Single-Family Residential) to NV-MXM (Medium Density Mixed Use) and Adopt a Resolution Changing the North Ventura Coordinated Area Plan (NVCAP) Land Use Designation from Low Density Residential to Medium Density Mixed Use to Align it With the NVMXM Zoning of the Adjacent and Connected Parcel at 2951 El Camino Real. This Action Supports a Staff Determination to Add 470 Olive Avenue as a Housing Inventory Site to Address No Net Loss Requirements. CEQA Status: Statutorily Exempt per Public Resources Code Section 21080.085. Staff Presentation, Applicant Presentation, Public Comment",
           "topics": [
             "Housing"
           ],
@@ -7170,6 +7069,39 @@
   ],
   "news": [
     {
+      "title": "East Palo Alto plants seeds for a future urban forest",
+      "source": "Palo Alto Online",
+      "date": "2026-09-09",
+      "url": "https://www.paloaltoonline.com/environment/2026/09/09/east-palo-alto-plants-seeds-for-a-future-urban-forest/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "For years, East Palo Altans and the non-profit organization Canopy have planted trees to increase the city’s canopy coverage. The post East Palo Alto plants seeds for a future urba"
+    },
+    {
+      "title": "Stanford pitches ambitious new plan for campus growth",
+      "source": "Palo Alto Online",
+      "date": "2026-09-09",
+      "url": "https://www.paloaltoonline.com/news/2026/09/09/stanford-pitches-ambitious-new-plan-for-campus-growth/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "Seeking to accommodate more students and shifting academic needs, Stanford University is preparing to add nearly 2 million square feet of academic space, 2,500 student beds and abo"
+    },
+    {
+      "title": "Stanford releases latest attempt to add to campus",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-09",
+      "url": "https://padailypost.com/2026/09/09/stanford-releases-latest-attempt-to-add-to-campus/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space",
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "Stanford wants to build 500 apartments across the street from the downtown Palo Alto train and bus station as part of its application to increase the campus it released today [...]"
+    },
+    {
       "title": "Family drops lawsuit that disputed PAUSD’s claims their son cheated by using AI",
       "source": "Palo Alto Daily Post",
       "date": "2026-09-06",
@@ -7178,27 +7110,6 @@
         "Arts & Culture"
       ],
       "summary": "This story was first published in Friday morning s Daily Post. To get local news stories first, pick up the Post in the morning at 1,000 Mid-Peninsula locations. BY BRADEN CARTWRIG"
-    },
-    {
-      "title": "Judge says Henigin can keep “math teacher” ballot description",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-03",
-      "url": "https://padailypost.com/2026/09/03/judge-says-henigin-can-keep-math-teacher-ballot-description/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A Palo Alto school board candidate will keep her description on the ballot as math teacher after a parent s challenge missed the deadlin"
-    },
-    {
-      "title": "Man acting erratically arrested at Sequoia High",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-03",
-      "url": "https://padailypost.com/2026/09/02/man-acting-erratically-arrested-at-sequoia-high/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "Police in Redwood City say they have arrested a man who entered the Sequoia High School campus and behaved erratically Just before 1 p.m. Wednesday, an officer on the school s [..."
     },
     {
       "title": "How Palo Alto’s newest housing projects are testing the limits of what can be built",
@@ -7341,19 +7252,6 @@
       "summary": "For decades, residents of Woodland Park have been bracing for redevelopment in their neighborhood, which contains the vast majority of East Palo Alto's below-market-rate housing. T"
     },
     {
-      "title": "Court ruling boosts Palo Alto’s efforts to build housing on downtown lot",
-      "source": "Palo Alto Online",
-      "date": "2026-08-21",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/20/court-ruling-boosts-palo-altos-efforts-to-build-housing-on-downtown-lot/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space",
-        "Downtown & Business"
-      ],
-      "summary": "Palo Alto’s effort to build affordable housing on downtown parking lots received a big boost this week, when a Santa Clara County Superior Court judge rejected a challenge from are"
-    },
-    {
       "title": "Italian restaurant Roma Antica is coming soon to downtown San Mateo",
       "source": "Palo Alto Online",
       "date": "2026-08-19",
@@ -7393,16 +7291,6 @@
         "Housing"
       ],
       "summary": "The latest project that aims to fulfill Palo Alto's vision of creating a residential community on the city's southern edge is 762 San Antonio Road, a 228-home project that received"
-    },
-    {
-      "title": "Shop sustainably at this curated secondhand fashion pop-up on the Peninsula",
-      "source": "Palo Alto Online",
-      "date": "2026-08-14",
-      "url": "https://www.paloaltoonline.com/business/2026/08/13/shop-sustainably-at-this-curated-secondhand-fashion-pop-up-on-the-peninsula/",
-      "topics": [
-        "Climate & Utilities"
-      ],
-      "summary": "Friends with Denim holds public sales in a variety of locations, where shoppers can hunt for fashion treasures at affordable prices and save them from the waste stream. Multiple ve"
     },
     {
       "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
@@ -7492,16 +7380,6 @@
       "summary": "Ed Lauing, a member of the Palo Alto City Council who is known among his peers for maintaining a moderate and measured approach even in the most controversial discussions, has file"
     },
     {
-      "title": "Demolition begins at controversial Permanente cement plant",
-      "source": "Palo Alto Online",
-      "date": "2026-07-01",
-      "url": "https://www.paloaltoonline.com/environment/2026/07/01/demolition-begins-at-controversial-permanente-cement-plant/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "Demolition has started at the Permanente Cement Plant near Cupertino, a massive manufacturing site that repeatedly ran afoul of environmental regulations before it officially close"
-    },
-    {
       "title": "Parks commissioner Yudy Deng to run for City Council",
       "source": "Palo Alto Online",
       "date": "2026-06-23",
@@ -7522,32 +7400,5 @@
       "summary": "Palo Alto’s office workers are back, and they’re hungry. Six new businesses have either opened or are about to open in the city's commercial corridors and the timing may not be acc"
     }
   ],
-  "events": [
-    {
-      "title": "CATS - The Musical Hot Dog Show",
-      "date": "2026-09-09",
-      "desc": "The third Summer Hot Dog show with a delightful story: CATS - The Musical.",
-      "where": "Palo Alto Children's Theatre, 1305 Middlefield Rd",
-      "moreDates": 14,
-      "start": "18:00",
-      "end": "19:00",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Community-Services/CATS-The-Musical-Hot-Dog-Show"
-    },
-    {
-      "title": "San Francisco Opera Guild Preview",
-      "date": "2026-09-09",
-      "desc": "Catch a preview of the San Francisco Opera's upcoming performances at the library!",
-      "where": "Rinconada Library, 1213 Newell Rd.",
-      "moreDates": 3,
-      "start": "14:00",
-      "end": "15:30",
-      "tags": [
-        "Community Events"
-      ],
-      "url": "https://www.paloalto.gov/Events-Directory/Library/San-Francisco-Opera-Guild-Preview"
-    }
-  ]
+  "events": []
 }
