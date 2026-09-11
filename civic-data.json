@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-10T13:37:10.882Z",
+  "generatedAt": "2026-09-11T13:35:07.688Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-10",
-    "to": "2027-03-10"
+    "from": "2026-03-11",
+    "to": "2027-03-11"
   },
   "bodies": [
     {
@@ -114,46 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2923,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Special Meeting",
-      "date": "2026-03-11",
-      "startTime": "18:00",
-      "videoId": "Wx3Ik9NA55s",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19295",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Cubberley Community Center Conceptual Master Plan [Master Plan; 4000 Middlefield Road]: Recommendation to City Council on Adoption of the Cubberley Conceptual Master Plan. CEQA Status: A Draft Initial Study Mitigated Negative Declaration (MND) Report Was Circulated for a 30-day Public Review Beginning on March 2, 2026, and Ending on April 1, 2026. Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2965,
       "body": "Historic Resources Board",
@@ -6919,7 +6879,7 @@
         },
         {
           "num": "2",
-          "title": "Review Applications and Select Candidates to Interview for the Human Relations Commission (HRC), Parks and Recreation Commission (PRC), Planning and Transportation Commission (PTC), Public Art Commission (PAC), and Stormwater Management Oversight Committee (SWMOC) Vacancies; CEQA Status – Not a Project",
+          "title": "Review Applications and Select Candidates to Interview for the Human Relations Commission (HRC), Parks and Recreation Commission (PRC), and Planning and Transportation Commission (PTC), Public Art Commission (PAC), and Stormwater Management Oversight Committee (SWMOC) Vacancies; CEQA Status – Not a Project Title Updated, Supplemental Report Added",
           "topics": [
             "Transportation",
             "Climate & Utilities",
@@ -6962,6 +6922,19 @@
           "topics": [
             "Transportation",
             "Parks & Open Space"
+          ],
+          "schedTime": "6:50 PM",
+          "elapsedSec": 4800
+        },
+        {
+          "num": "AA1",
+          "title": "Approval of Increase of Construction Contingency for Contract No. C211781123B with Swinerton Builders in the Amount Not-to-Exceed $7,374,367 and Amendment to the Fiscal Year 2027 Budget Appropriation for the Capital Improvement Fund for the New Public Safety Building Capital Improvement Program Project (PE-15001), to Support a Settlement Agreement With Swinerton Builders; CEQA Status – Environmental Impact Report for the New Public Safety Building and New California Avenue Area Parking Garage (Resolution No. 9772) New Item Added",
+          "topics": [
+            "Transportation",
+            "Crime, Policing, and Public Safety",
+            "Parks & Open Space",
+            "Budget & Taxes",
+            "Downtown & Business"
           ],
           "schedTime": "6:50 PM",
           "elapsedSec": 4800
@@ -7056,7 +7029,7 @@
         },
         {
           "num": "2",
-          "title": "Discussion of Baker Tilly Reserves Advisory Report and Recommendation to the City Council of Proposed Policy Updates to the Utilities Reserve Management Practices: CEQA – Not a Project",
+          "title": "Discussion of Baker Tilly Reserves Advisory Report and Recommendation to the City Council of Proposed Policy Updates to the Utilities Reserve Management Practices: CEQA – Not a Project Supplemental Report Added",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -7065,9 +7038,92 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3060,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board Regular Meeting",
+      "date": "2026-09-17",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20221",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "PUBLIC HEARING/QUASI-JUDICIAL. 950 Page Mill Road: Request for Recommendation on a Major Architectural Review for a Master Sign Program to Install a Multi-Tenant Monument Sign Incorporating Non-Tenant Property Branding (\"Page Mill Labs\") and Four Tenant Identification Panels. CEQA Status: Exempt from the provisions of the California Environmental Quality Act (CEQA) in accordance with Guidelines Section 15311 (Accessory Structures). Zoning District: RP (Research Park).",
+          "topics": [
+            "Housing",
+            "Parks & Open Space"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3134,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting",
+      "date": "2026-09-22",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20721",
+      "items": [
+        {
+          "num": "1",
+          "title": "Public Employee Performance Evaluations Authority: Cal. Gov. Code section 54957 (b) Title: City Manager",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:00 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Interview Candidates for Vacancies on the Parks & Recreation Commission (PRC) and Public Art Commission (PAC); CEQA Status - Not a Project",
+          "topics": [
+            "Parks & Open Space",
+            "Arts & Culture"
+          ],
+          "schedTime": "6:00 PM",
+          "elapsedSec": 0
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Council majority votes to keep report on Peterson tow truck incident secret",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-10",
+      "url": "https://padailypost.com/2026/09/10/42196/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A majority of Palo Alto City Council voted tonight (Sept. 9) to keep a report secret on a former planning commissioner who was accused ["
+    },
     {
       "title": "East Palo Alto plants seeds for a future urban forest",
       "source": "Palo Alto Online",
@@ -7388,16 +7444,6 @@
         "Parks & Open Space"
       ],
       "summary": "Palo Alto parks commissioner Yudy Deng is now the second person to indicate a run for City Council this year, according to campaign filings, following a long tradition of city comm"
-    },
-    {
-      "title": "Palo Alto sees wave of business openings as workers return to the office",
-      "source": "Palo Alto Online",
-      "date": "2026-06-09",
-      "url": "https://www.paloaltoonline.com/business/2026/06/09/palo-alto-sees-wave-of-business-openings-as-workers-return-to-the-office/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Palo Alto’s office workers are back, and they’re hungry. Six new businesses have either opened or are about to open in the city's commercial corridors and the timing may not be acc"
     }
   ],
   "events": []
