@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-11T13:35:07.688Z",
+  "generatedAt": "2026-09-12T12:51:45.498Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-11",
-    "to": "2027-03-11"
+    "from": "2026-03-12",
+    "to": "2027-03-12"
   },
   "bodies": [
     {
@@ -114,67 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2965,
-      "body": "Historic Resources Board",
-      "bodySlug": "historic-resources-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Historic Resources Board Regular Meeting",
-      "date": "2026-03-12",
-      "startTime": "08:30",
-      "videoId": "2VDgMRLgL3I",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19590",
-      "items": [
-        {
-          "num": "1",
-          "title": "Historic Resources Board Schedule of Meetings and Assignments",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Historic Resources Board Discussion and Review of Certified Local Government (CLG) Annual Report Covering the 2024-2025 Reporting Period",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Approval of Historic Resources Board Draft Minutes of February 12, 2026",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2866,
-      "body": "Human Relations Commission",
-      "bodySlug": "human-relations-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Human Relations Commission Regular Meeting - CANCELED",
-      "date": "2026-03-12",
-      "startTime": "18:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2831,
       "body": "City Council",
@@ -7115,6 +7054,28 @@
   ],
   "news": [
     {
+      "title": "PAUSD, which is facing a multi-million-dollar budget hole, bought two sushi machines for $56,599",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-11",
+      "url": "https://padailypost.com/2026/09/11/pausd-which-is-in-a-multi-million-dollar-budget-hole-bought-two-sushi-machines-for-56599/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "BY BRADEN CARTWRIGHT Daily Post Staff Writer The Palo Alto Unified School District, which is facing an estimated $33 million in budget cuts next year, bought two sushi machines for"
+    },
+    {
+      "title": "9/11 25 Years Later: Local firefighters sent to Ground Zero struggle with aftereffects",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-11",
+      "url": "https://padailypost.com/2026/09/11/9-11-25-years-later-local-firefighters-sent-to-ground-zero-struggle-with-aftereffects/",
+      "topics": [
+        "Crime, Policing, and Public Safety",
+        "Parks & Open Space"
+      ],
+      "summary": "BY NORAH SHEPPARD-HUTCHINS Daily Post Staff Writer During September 2001, members of the Menlo Park Fire Protection District were deployed to Ground Zero in New York City to search"
+    },
+    {
       "title": "Council majority votes to keep report on Peterson tow truck incident secret",
       "source": "Palo Alto Daily Post",
       "date": "2026-09-10",
@@ -7143,29 +7104,6 @@
         "Budget & Taxes"
       ],
       "summary": "Seeking to accommodate more students and shifting academic needs, Stanford University is preparing to add nearly 2 million square feet of academic space, 2,500 student beds and abo"
-    },
-    {
-      "title": "Stanford releases latest attempt to add to campus",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-09",
-      "url": "https://padailypost.com/2026/09/09/stanford-releases-latest-attempt-to-add-to-campus/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Arts & Culture",
-        "Downtown & Business"
-      ],
-      "summary": "Stanford wants to build 500 apartments across the street from the downtown Palo Alto train and bus station as part of its application to increase the campus it released today [...]"
-    },
-    {
-      "title": "Family drops lawsuit that disputed PAUSD’s claims their son cheated by using AI",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-06",
-      "url": "https://padailypost.com/2026/09/05/family-drops-lawsuit-that-challenged-pausd-claims-their-son-cheated-by-using-ai/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "This story was first published in Friday morning s Daily Post. To get local news stories first, pick up the Post in the morning at 1,000 Mid-Peninsula locations. BY BRADEN CARTWRIG"
     },
     {
       "title": "How Palo Alto’s newest housing projects are testing the limits of what can be built",
