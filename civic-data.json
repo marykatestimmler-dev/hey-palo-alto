@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-12T12:51:45.498Z",
+  "generatedAt": "2026-09-13T13:49:07.681Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-12",
-    "to": "2027-03-12"
+    "from": "2026-03-13",
+    "to": "2027-03-13"
   },
   "bodies": [
     {
@@ -7018,6 +7018,18 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3049,
+      "body": "Public Art Commission",
+      "bodySlug": "public-art-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Public Art Commission Regular Meeting",
+      "date": "2026-09-17",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
     },
     {
       "id": 3134,
