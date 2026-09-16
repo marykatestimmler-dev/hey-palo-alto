@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-15T14:20:59.104Z",
+  "generatedAt": "2026-09-16T14:12:58.001Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-15",
-    "to": "2027-03-15"
+    "from": "2026-03-16",
+    "to": "2027-03-16"
   },
   "bodies": [
     {
@@ -114,167 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2831,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting",
-      "date": "2026-03-16",
-      "startTime": "16:30",
-      "videoId": "M1YVNlNNQM4",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18685",
-      "items": [
-        {
-          "num": "1",
-          "title": "Recognition of Sister City Tsuchiura, Japan and Palo Alto Student Exchange Program Participants. Late Packet Report added",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": "4:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "Proclamation Recognizing March 2026 as American Red Cross Month",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "4:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "3",
-          "title": "Approval of Minutes from March 2, 2026 Meeting Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 4200
-        },
-        {
-          "num": "4",
-          "title": "Adoption of a Resolution Making Necessary Findings and Approving a Lease-Purchase Agreement with Motorola Solutions, Inc for Multi-Band Portable and Mobile Radios and Accessories for all City Departments in an amount not to exceed $5,848,220 for a Term of 8.4 Years; CEQA Status – exempt under Regulation section 15601(b)(3).",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 4200
-        },
-        {
-          "num": "5",
-          "title": "Adoption of a Resolution Approving Edison Electric Institute Master Power Purchase and Sale Agreements with NRG Business Marketing LLC, DRW Energy Trading LLC, and Dynasty Power Inc., (collectively the “Master Agreements”), Delegating Authority to the City Manager to Transact Under the Master Agreements for Electricity-Related Commodities and Services, and Updating the City’s Standard Form Edison Electric Institute Master Power Purchase and Sale Agreement; CEQA status: not a project under CEQA Guidelines sections 15378(a)",
-          "topics": [
-            "Climate & Utilities",
-            "Downtown & Business"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 4200
-        },
-        {
-          "num": "6",
-          "title": "Approval of Professional Services Contract Number C26193604 with GOVERNMENTJOBS.COM INC dba NEOGOV in an Amount Not to Exceed $686,277 for Full-cycle Recruitment and Applicant Tracking, Employee Development and Management Human Resource Platform for a Term of Five Years; CEQA Status - Not a Project.",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 4200
-        },
-        {
-          "num": "7",
-          "title": "Approval of Amendment No. 1 to Contract S23184208 with Flynn Resources Inc., in the Amount of $170,000 for a revised Total Not-to-Exceed Amount of $425,000 and Extending Term Two Years to Provide As-Needed Electric Engineering Consulting Services Related to Electric Transmission Line Expansion, Interconnection, Engineering Analysis and Regulatory Issues; CEQA Status: the Grid Modernization Project is Exempt Under CEQA Guidelines Sections 15302, 15303 and 15183",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 4200
-        },
-        {
-          "num": "8",
-          "title": "Authorization to Fully Encumber Legal Services Contract S26195211 with Atkinson Andelson Loya Ruud & Romo For a Total Not- to-Exceed Amount of $255,000; CEQA Status – Not a Project.",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 4200
-        },
-        {
-          "num": "9",
-          "title": "Accept the Single Audit Report audited by Macias Gini & O’Connell for the year ended June 30, 2025, Fiscal Year 2025; CEQA Status – Not a Project.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 4200
-        },
-        {
-          "num": "10",
-          "title": "Approval of Professional Services Contract No. C26194015 with Geosyntec Consultants, Inc. in an Amount Not to Exceed $795,965 for Design and Outreach Services for the City Park-Green Stormwater Infrastructure Project for the period of March 16, 2026 through March 31, 2028; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15306",
-          "topics": [
-            "Climate & Utilities",
-            "Parks & Open Space",
-            "Budget & Taxes"
-          ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 4200
-        },
-        {
-          "num": "11",
-          "title": "Approval of an Employment Agreement and Adoption of a Resolution Appointing Christopher Jensen as City Attorney at an Annual Salary of $380,000. Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:15 PM",
-          "elapsedSec": 6300
-        },
-        {
-          "num": "12",
-          "title": "QUASI-JUDICIAL. 2100-2400 Geng Road [24PLN-00356 & 24PLN-00357]: Request for Approval of Applications for Site and Design, a Conditional Use Permit, and a Vesting Tentative Map to Construct 145 For Sale Townhome Units. Thirteen Percent of the Units Would Be Deed Restricted to Low Income Households. The Project is Proposed in Accordance with Builder’s Remedy (California Government Code Section 65589.5(d)(5)). A Senate Bill 330 Pre-Application was Filed on July 8, 2024. The Project Also Includes Adoption of a Parkland Improvement Ordinance to Authorize Tree Removals in the Baylands Athletic Center, Which Would be Impacted by the Project. CEQA Status: Exempt from CEQA in Accordance with CEQA Guidelines Section 15183 (Comprehensive Plan Consistency). Supplemental Report added, Staff Presentation, Applicant Presentation, Public Comment",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": "6:30 PM",
-          "elapsedSec": 7200
-        },
-        {
-          "num": "13",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 4075 El Camino Way [23PLN-00202]: Adoption of an Amendment to a Planned Community Ordinance (PC-5116) to Allow for Modifications to an Existing 121-Unit Assisted Living and Memory Care Facility. CEQA Status: Exempt from the Provisions of the California Environmental Quality Act (CEQA) in Accordance with CEQA Guidelines Section 15301 (Modifications to Existing Facilities). Staff Presentation, Applicant Presentation, Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:00 PM",
-          "elapsedSec": 12600
-        },
-        {
-          "num": "14",
-          "title": "Adoption of an Ordinance Adding a New Section 18.40.280 (Bird-Friendly Design) to Chapter 18.40 (General Standards and Exceptions) of Title 18 (Zoning) of the Palo Alto Municipal Code; CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15308 (Actions for Protection of the Environment) Public Comment, Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "9:00 PM",
-          "elapsedSec": 16200
-        },
-        {
-          "num": "15",
-          "title": "CONFERENCE WITH CITY ATTORNEY-POTENTIAL LITIGATION Subject: Potential litigation regarding 156 North California Avenue, as set forth in letter(s) from Holland & Knight LLP dated September 3, 2025 Authority: Government Code Section 54956.9(d)(2) Number of potential cases: 1, as Defendant Item Removed Off Agenda",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": "5:45 PM",
-          "elapsedSec": 4500
-        },
-        {
-          "num": "A",
-          "title": "Summary of Fiscal Year 2024-2025 Community Development Block Grant (CDBG) Program Accomplishments — Review of the CDBG Consolidated Annual Performance and Evaluation Report (CAPER). CEQA Status: Not a Project.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:45 PM",
-          "elapsedSec": 4500
-        }
-      ]
-    },
     {
       "id": 2809,
       "body": "Finance Committee",
@@ -6959,7 +6798,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Accept California Public Employees’ Retirement System (CalPERS) Pension Annual Valuation Reports as of June 30, 2025; CEQA Status—Not a Project.",
+          "title": "Accept California Public Employees’ Retirement System (CalPERS) Pension Annual Valuation Reports as of June 30, 2025; CEQA Status—Not a Project. Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -6968,7 +6807,7 @@
         },
         {
           "num": "2",
-          "title": "Discussion of Baker Tilly Reserves Advisory Report and Recommendation to the City Council of Proposed Policy Updates to the Utilities Reserve Management Practices: CEQA – Not a Project Supplemental Report Added",
+          "title": "Discussion of Baker Tilly Reserves Advisory Report and Recommendation to the City Council of Proposed Policy Updates to the Utilities Reserve Management Practices: CEQA – Not a Project Supplemental Report Added, Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -7062,9 +6901,106 @@
           "elapsedSec": 0
         }
       ]
+    },
+    {
+      "id": 3096,
+      "body": "Parks and Recreation Commission",
+      "bodySlug": "parks-and-recreation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Parks and Recreation Commission Regular Meeting",
+      "date": "2026-09-22",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20471",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of Minutes from July 28, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Council Liaison Report – 5 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Department Report – 20 minutes",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Ad Hoc Committees and Liaison Updates (Discussion) – 15 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Review the Proposed Playground Synthetic Turf Use Guidelines – 45 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "6",
+          "title": "Park Improvements Ordinance Recommendation for Foothills Natures Preserve Improvement Project (PE-21000) – 45 minutes",
+          "topics": [
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "From Oahu to Mountain View: Ry’s Poke Shack opens at Ava’s Downtown Market",
+      "source": "Palo Alto Online",
+      "date": "2026-09-15",
+      "url": "https://www.paloaltoonline.com/mountain-view/2026/09/15/rys-poke-shack-opens-at-avas-downtown-market-mountain-view/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "An Oahu-based poke business is making waves in downtown Mountain View. Just a few weeks old and still in its soft-opening phase, Ry’s Poke Shack is already drawing long lines for i"
+    },
+    {
+      "title": "Santa Clara County Democrats endorsements include Deng, Veenker, Henigin and Dailey",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-15",
+      "url": "https://padailypost.com/2026/09/15/santa-clara-county-democrats-endorsements-include-deng-veenker-henigin-and-dailey/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "Parks and Rec board member Yu “Yudy” Deng and City Council incumbent Vicki Veenker were the two Palo Alto candidates to win an endorsement for council from the Santa Clara [...]"
+    },
     {
       "title": "Council approves 6-story parking garage at Waverley and Hamilton",
       "source": "Palo Alto Daily Post",
@@ -7098,17 +7034,6 @@
         "Parks & Open Space"
       ],
       "summary": "After he accused Menlo Park of illegally delaying a proposed high-rise development, Mayor Betsy Nash invited California Attorney General Rob Bonta to visit the former Sunset Magazi"
-    },
-    {
-      "title": "School gave 5th graders laptops with no parental controls — what could go wrong?",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-14",
-      "url": "https://padailypost.com/2026/09/14/school-gave-5th-graders-laptops-with-no-parental-controls-what-could-go-wrong/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto’s Ohlone Elementary School decided in 2024 to give all fifth graders laptops with no content controls for school and personal "
     },
     {
       "title": "East Palo Alto plants seeds for a future urban forest",
@@ -7290,16 +7215,6 @@
         "Downtown & Business"
       ],
       "summary": "A staple of Oaxacan cooking, insects are a sustainable protein source slowly creeping their way onto Peninsula menus. The post From chocolate-covered crickets to guacamole with gra"
-    },
-    {
-      "title": "Trader Joe’s at Town & Country closed following early morning fire",
-      "source": "Palo Alto Online",
-      "date": "2026-08-19",
-      "url": "https://www.paloaltoonline.com/business/2026/08/19/trader-joes-at-town-country-closed-following-early-morning-fire/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "The Trader Joe’s supermarket at Town Country Village was shut down Wednesday morning because of an early-morning fire, according to fire officials. The post Trader Joe’s at Town Co"
     },
     {
       "title": "Eight-story housing complex approved on San Antonio Road",
