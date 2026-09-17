@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T14:12:58.001Z",
+  "generatedAt": "2026-09-17T14:18:41.918Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-16",
-    "to": "2027-03-16"
+    "from": "2026-03-17",
+    "to": "2027-03-17"
   },
   "bodies": [
     {
@@ -114,121 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2809,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Regular Meeting",
-      "date": "2026-03-17",
-      "startTime": "16:00",
-      "videoId": "WUl-A2GuE_A",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18550",
-      "items": [
-        {
-          "num": "1",
-          "title": "Recommendation to the City Council to Adopt a Resolution Approving the Fiscal Year 2027 Wastewater Collection Utility Financial Forecast, and Amending Rate Schedules S-1 (Residential Wastewater Collection and Disposal), S-2 (Commercial Wastewater Collection and Disposal), S-6 (Restaurant Wastewater Collection and Disposal), and S-7 (Commercial Wastewater Collection and Disposal – Industrial Discharger); CEQA Status: Not a project under CEQA Guidelines Section 15378(b)(5) Staff Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Recommendation to the City Council to Adopt a Resolution Approving the Fiscal Year 2027 Water Utility Financial Forecast and Reserve Transfers, and Amending Rate Schedules W-1 (General Residential Water Service), W-2 (Water Service From Fire Hydrants), W-3 (Fire Service Connections), W-4 (Residential Master-Metered and General Non-Residential Water Service), and W-7 (Non-Residential Irrigation Water Service). CEQA Status: Not a project. Staff Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Recommendation to the City Council to Adopt a Resolution Amending the Utility Rate Schedule R-1 for Residential Refuse Collection and Utility Rate Schedule R-C for Commercial Refuse Collection Reflecting a 3.0 Percent Rate Increase for Fiscal Year 2027; CEQA status – Exempt under Public Resources Code Section 21080(b)(8) and CEQA Guidelines 15378(b)(4) Staff Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 3033,
-      "body": "Human Relations Commission",
-      "bodySlug": "human-relations-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Human Relations Commission Special Meeting",
-      "date": "2026-03-17",
-      "startTime": "18:00",
-      "videoId": "kV85KvKvuIQ",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20034",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of the February 12, 2026 Human Relations Commission Draft Action Minutes. - Action - 5 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "San Antonio Road Area Plan Land Use and Transportation Alternatives Study Session. CEQA Status: Exempt under CEQA Guidelines Section 15262.​ – Discussion – 45 minutes",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Discussion with Local Providers and Aaron Glantz, Investigative Reporter and Fellow at Stanford University’s Center for Advanced Study in the Behavioral Sciences, on Mental Health Challenges Faced by Veterans and Unhoused Individuals. – Discussion – 60 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Review and approve the subcommitee and liaisons commissioner assignments. – Action – 20 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Recognition of Service for Commissioner Hsieh. – Discussion – 5 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3022,
       "body": "Economic Development Committee",
@@ -7204,17 +7089,6 @@
         "Downtown & Business"
       ],
       "summary": "After nearly a decade of serving cacio e pepe and pinsa in San Francisco, Roma Antica is expanding to the Peninsula. The post Italian restaurant Roma Antica is coming soon to downt"
-    },
-    {
-      "title": "From chocolate-covered crickets to guacamole with grasshoppers, here’s why these Silicon Valley businesses are embracing bugs as food",
-      "source": "Palo Alto Online",
-      "date": "2026-08-19",
-      "url": "https://www.paloaltoonline.com/enterprise-story/2026/08/19/from-chocolate-covered-crickets-to-guacamole-with-grasshoppers-heres-why-these-silicon-valley-businesses-are-embracing-bugs-as-food/",
-      "topics": [
-        "Climate & Utilities",
-        "Downtown & Business"
-      ],
-      "summary": "A staple of Oaxacan cooking, insects are a sustainable protein source slowly creeping their way onto Peninsula menus. The post From chocolate-covered crickets to guacamole with gra"
     },
     {
       "title": "Eight-story housing complex approved on San Antonio Road",
