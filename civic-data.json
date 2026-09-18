@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-17T14:18:41.918Z",
+  "generatedAt": "2026-09-18T13:36:56.187Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-17",
-    "to": "2027-03-17"
+    "from": "2026-03-18",
+    "to": "2027-03-18"
   },
   "bodies": [
     {
@@ -114,56 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3022,
-      "body": "Economic Development Committee",
-      "bodySlug": "economic-development-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Economic Development Committee Regular Meeting",
-      "date": "2026-03-18",
-      "startTime": "16:15",
-      "videoId": "YXB4zRAaB-s",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19967",
-      "items": [
-        {
-          "num": "1",
-          "title": "Recommendation to the City Council to Adopt an Entertainment Zone Ordinance to Establish an Entertainment Zone on California Avenue Staff Presentation",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Update on Car-free California Avenue Outdoor Activation Program and Slow Bicycle Lanes Staff Presentation",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Business Retention, Expansion, and Attraction (BRE/A) Strategy.Staff Presentation",
-          "topics": [
-            "Climate & Utilities",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Designation of City Council Liaisons with Local Business Stakeholders and the March 2026 Economic Development Activity Report Staff Presentation",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2945,
       "body": "Architectural Review Board",
@@ -6777,7 +6727,7 @@
         },
         {
           "num": "2",
-          "title": "Interview Candidates for Vacancies on the Parks & Recreation Commission (PRC) and Public Art Commission (PAC); CEQA Status - Not a Project",
+          "title": "Interview Candidates for Vacancies on the Parks & Recreation Commission (PRC) and Public Art Commission (PAC); CEQA Status - Not a Project Title Updated, Supplemental Report added",
           "topics": [
             "Parks & Open Space",
             "Arts & Culture"
@@ -6863,9 +6813,278 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 2796,
+      "body": "City Schools Liaison Committee",
+      "bodySlug": "city-schools-liaison-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "City Schools Liaison Committee Regular Meeting - CANCELED",
+      "date": "2026-09-24",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
+      "id": 2903,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting ",
+      "date": "2026-09-28",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19162",
+      "items": [
+        {
+          "num": "1",
+          "title": "Caltrain Presentation of Framework for a ”No External Funding Scenario”. CEQA Status – Not a Project",
+          "topics": [
+            "Transportation",
+            "Budget & Taxes"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Review Applications and Select Candidates to Interview for the Human Relations Commission (HRC), Planning and Transportation Commission (PTC), and Stormwater Management Oversight Committee (SWMOC) Vacancies; CEQA Status – Not a Project",
+          "topics": [
+            "Transportation",
+            "Climate & Utilities"
+          ],
+          "schedTime": "5:40 PM",
+          "elapsedSec": 600
+        },
+        {
+          "num": "3",
+          "title": "CONFERENCE WITH CITY ATTORNEY-POTENTIAL LITIGATION Subject: Significant exposure to litigation Authority: Government Code Section 54956.9(d)(2) Number of potential cases: 1, as Defendant",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:55 PM",
+          "elapsedSec": 1500
+        },
+        {
+          "num": "4",
+          "title": "Approval of Minutes from August 19, September 9, and September 14, 2026 Meetings",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "5",
+          "title": "Approval of a Letter of Intent with Maker Nexus for collaboration on a long-term public-private partnership for a new multi-generational makerspace at the Cubberley site; CEQA status - Mitigated Negative Declaration Approved on May 19, 2026.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "6",
+          "title": "Approval of the Acceptance of State of California Citizens Options for Public Safety (COPS) Funds of $211,000 and a Budget Amendment in the Supplemental Law Enforcement Services Fund for revenue and municipal police service expenses; CEQA status – not a project.",
+          "topics": [
+            "Crime, Policing, and Public Safety",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "7",
+          "title": "Approval of a Term Sheet with Friends of the Recreation Wellness Center to Advance a Public-Private Partnership for a New Recreation Wellness Center at the Cubberley Site; CEQA status – Mitigated Negative Declaration Approved on May 19, 2026.",
+          "topics": [
+            "Parks & Open Space",
+            "Arts & Culture"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "8",
+          "title": "Approval of a Professional Services and SaaS Agreement C27195677 with TruePoint Solutions, LLC DBA GovPath for an Amount Not-to-Exceed $3,486,301 for the Licensing, Maintenance, and Support of the City’s Building Permitting System on the Accela Platform for a Period of Five Years; CEQA Status - Not a Project.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "9",
+          "title": "Approval of Professional Services Contract No. C27197334 with Cascadia Consulting Group, Inc. for a Waste Characterization Study of the City’s Municipal Solid Waste Stream in an Amount Not-to-Exceed $270,233; CEQA Status – Exempt under CEQA Guidelines Sections 15061, 15262",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "10",
+          "title": "Approval of Contract Amendment Number 2 to Contract C21181846 with CAD Masters, Inc. in the Amount of $420,000 for a total not to exceed $2,370,000 for Continued Support of Utility Engineering Systems and Applications through August 2, 2029 (a total of 8 years); CEQA Status: Not a Project Under CEQA Guidelines Section 15378",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "11",
+          "title": "Approval of Amendment No. 4 to Contract No. C20176877 with Schaaf & Wheeler Consulting Civil Engineers to Extend the Contract Term Through June 30, 2027 for the Corporation Way System Upgrades and Pump Station (SD-21000), West Bayshore Road Pump Station (SD-20000), and West Bayshore Trunk Line Improvements (SD-23000) Projects; CEQA Status - Exempt Under CEQA Guidelines Section 15301",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "12",
+          "title": "706 Cowper Street [26PLN-00144]. Council Preliminary Review for Comprehensive Plan Land Use Plan Map Amendment to Allow an Approximately 400 Square Foot Commercial Addition to a Category 1 Historic Resource in the Multiple-Family Residential Land Use Designation. CEQA Status: Not a Project.",
+          "topics": [
+            "Housing",
+            "Transportation",
+            "Parks & Open Space",
+            "Historic Preservation",
+            "Downtown & Business"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "13",
+          "title": "QUASI-JUDICIAL. 3200 Park/340 Portage: Final Map and Street Naming [26PLN-00009]: Request for a Final Map to Subdivide One Existing 3.92-Acre Parcel for Condominium Purposes, Consistent with the Approved Development Agreement, and to Name the New Private Streets. Zone District: PC 5597. CEQA Status: Council Adopted Resolution 10123 Certifying the EIR for the Project on September 12, 2023 (SCH # 2021120444).",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "7:05 PM",
+          "elapsedSec": 5700
+        },
+        {
+          "num": "14",
+          "title": "Direction to advance the Locally Preferred Alternatives for Grade Separation at Churchill Avenue, Meadow Drive, and Charleston Road crossings to 35% design and environmental documentation. CEQA Status – Statutorily Exempt.",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "7:35 PM",
+          "elapsedSec": 7500
+        },
+        {
+          "num": "A",
+          "title": "Monthly Investment Report - August 2026 (Unaudited)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:35 PM",
+          "elapsedSec": 7500
+        },
+        {
+          "num": "B",
+          "title": "Conflict of Interest Code 2026 Local Agency Biennial Notice; CEQA Status – Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:35 PM",
+          "elapsedSec": 7500
+        }
+      ]
+    },
+    {
+      "id": 3133,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting",
+      "date": "2026-09-30",
+      "startTime": "17:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20715",
+      "items": [
+        {
+          "num": "1",
+          "title": "Public Employee Performance Evaluations Authority: Cal. Gov. Code section 54957(b) Title: City Clerk and City Attorney",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:00 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Conference with Labor Negotiator Authority: Cal. Gov. Code section 54957.6 Agency Representative: Dan Rich, Municipal Resources Group Unrepresented Employees: City Attorney, City Clerk and City Manager",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:00 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "3",
+          "title": "Interview Candidates for Vacancies on the Human Relations Commission (HRC) and Planning and Transportation Commission (PTC); CEQA Status - Not a Project",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": "5:00 PM",
+          "elapsedSec": 0
+        }
+      ]
+    },
+    {
+      "id": 3116,
+      "body": "Climate Action and Sustainability Committee",
+      "bodySlug": "climate-action-and-sustainability-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Climate Action and Sustainability Committee Special Meeting",
+      "date": "2026-10-02",
+      "startTime": "14:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20601",
+      "items": [
+        {
+          "num": "A",
+          "title": "Staff Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Committee Member Comments and Announcements",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1",
+          "title": "Update on Electric System Long Duration Resiliency; CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Family wants investigation of death of NVDIA researcher",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-17",
+      "url": "https://padailypost.com/2026/09/17/family-wants-investigation-of-death-of-nvdia-researcher/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A grieving family and over 100 supporters gathered today (Sept. 17) in front of Palo Alto City Hall to call for a full investigation [.."
+    },
     {
       "title": "From Oahu to Mountain View: Ry’s Poke Shack opens at Ava’s Downtown Market",
       "source": "Palo Alto Online",
@@ -6898,17 +7117,6 @@
         "Downtown & Business"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Sept. 14) approved plans for a six-story downtown parking garage that previously had been put on the she"
-    },
-    {
-      "title": "San Mateo County Democrats announce endorsements, say they’re neutral on RWC rent control",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-15",
-      "url": "https://padailypost.com/2026/09/14/san-mateo-county-democrats-announce-endorsements-say-theyre-neutral-on-rwc-rent-control/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "The San Mateo County Democrats have decided to take a neutral position on the Redwood City rent control measure. The party has announced the following candidate endorsements for ra"
     },
     {
       "title": "‘We’ve done everything we can’ — Menlo Park mayor invites Bonta to see controversial skyscraper project site",
