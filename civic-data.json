@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-18T13:36:56.187Z",
+  "generatedAt": "2026-09-19T13:10:44.695Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-18",
-    "to": "2027-03-18"
+    "from": "2026-03-19",
+    "to": "2027-03-19"
   },
   "bodies": [
     {
@@ -114,104 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2945,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting",
-      "date": "2026-03-19",
-      "startTime": "08:30",
-      "videoId": "mxbvPRM6VLU",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19450",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "San Antonio Road Area Plan Land Use and Transportation Alternatives Study Session. CEQA Status: Exempt under CEQA Guidelines Section 15262.",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2977,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Regular Meeting",
-      "date": "2026-03-19",
-      "startTime": "19:00",
-      "videoId": "490WcmhpaoM",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19674",
-      "items": [
-        {
-          "num": "1",
-          "title": "Special Presentation and Discussion on partnering norms between staff and Commissioners for maximum effectiveness by Ed Shikada, City of Palo Alto City Manager.",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "February 12, 2026 PAC Special Meeting Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Acceptance of Donation of Artwork - Acceptance of an artwork to the City's public art collection by CASP artist Charlotta Hauksdottir.",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Collection Care - Allocation of funds for maintenance treatment of Universal Woman by Nathan Oliveira.",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "ArtLift Grants 2026 – Informational update on artist selection process for ArtLift Grants.",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3007,
       "body": "City Council",
@@ -6849,7 +6751,7 @@
         },
         {
           "num": "2",
-          "title": "Review Applications and Select Candidates to Interview for the Human Relations Commission (HRC), Planning and Transportation Commission (PTC), and Stormwater Management Oversight Committee (SWMOC) Vacancies; CEQA Status – Not a Project",
+          "title": "Review Applications and Select Candidates to Interview for the Human Relations Commission (HRC), Planning and Transportation Commission (PTC), and Stormwater Management Oversight Committee (SWMOC) Vacancies; CEQA Status – Not a Project Supplemental Report added",
           "topics": [
             "Transportation",
             "Climate & Utilities"
@@ -7076,6 +6978,17 @@
   ],
   "news": [
     {
+      "title": "School district to bring in outside auditor to verify that $33 million in cuts must be made",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-18",
+      "url": "https://padailypost.com/2026/09/18/school-district-to-bring-in-outside-auditor-to-verify-that-33-million-in-cuts-must-be-made/",
+      "topics": [
+        "Crime, Policing, and Public Safety",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto’s new superintendent is hiring an outside auditor to verify that the board needs to make $33 million in cuts next year, but [."
+    },
+    {
       "title": "Family wants investigation of death of NVDIA researcher",
       "source": "Palo Alto Daily Post",
       "date": "2026-09-17",
@@ -7094,29 +7007,6 @@
         "Downtown & Business"
       ],
       "summary": "An Oahu-based poke business is making waves in downtown Mountain View. Just a few weeks old and still in its soft-opening phase, Ry’s Poke Shack is already drawing long lines for i"
-    },
-    {
-      "title": "Santa Clara County Democrats endorsements include Deng, Veenker, Henigin and Dailey",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-15",
-      "url": "https://padailypost.com/2026/09/15/santa-clara-county-democrats-endorsements-include-deng-veenker-henigin-and-dailey/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "Parks and Rec board member Yu “Yudy” Deng and City Council incumbent Vicki Veenker were the two Palo Alto candidates to win an endorsement for council from the Santa Clara [...]"
-    },
-    {
-      "title": "Council approves 6-story parking garage at Waverley and Hamilton",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-15",
-      "url": "https://padailypost.com/2026/09/14/council-approves-6-story-parking-garage-at-waverley-and-hamilton/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Arts & Culture",
-        "Downtown & Business"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Sept. 14) approved plans for a six-story downtown parking garage that previously had been put on the she"
     },
     {
       "title": "‘We’ve done everything we can’ — Menlo Park mayor invites Bonta to see controversial skyscraper project site",
