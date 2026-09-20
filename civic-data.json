@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-19T13:10:44.695Z",
+  "generatedAt": "2026-09-20T13:35:39.263Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-19",
-    "to": "2027-03-19"
+    "from": "2026-03-20",
+    "to": "2027-03-20"
   },
   "bodies": [
     {
@@ -6978,25 +6978,46 @@
   ],
   "news": [
     {
-      "title": "School district to bring in outside auditor to verify that $33 million in cuts must be made",
+      "title": "Palo Alto Council race: Candidate Deng says the city moves too slowly to solve problems",
       "source": "Palo Alto Daily Post",
-      "date": "2026-09-18",
-      "url": "https://padailypost.com/2026/09/18/school-district-to-bring-in-outside-auditor-to-verify-that-33-million-in-cuts-must-be-made/",
+      "date": "2026-09-20",
+      "url": "https://padailypost.com/2026/09/19/palo-alto-council-race-candidate-deng-says-the-city-moves-too-slowly-to-solve-problems/",
       "topics": [
-        "Crime, Policing, and Public Safety",
+        "Parks & Open Space",
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto’s new superintendent is hiring an outside auditor to verify that the board needs to make $33 million in cuts next year, but [."
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Parks Commissioner Yudy Deng is positioning herself as a community organizer and an outsider to City Hall in her campaign for Palo Alto "
     },
     {
-      "title": "Family wants investigation of death of NVDIA researcher",
+      "title": "Palo Alto Council race: Lauing says the city should be more transparent",
       "source": "Palo Alto Daily Post",
-      "date": "2026-09-17",
-      "url": "https://padailypost.com/2026/09/17/family-wants-investigation-of-death-of-nvdia-researcher/",
+      "date": "2026-09-20",
+      "url": "https://padailypost.com/2026/09/19/palo-alto-council-race-lauing-says-the-city-should-be-more-transparent/",
+      "topics": [
+        "Housing",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Councilman Ed Lauing wants the city of Palo Alto to be more transparent. “We need to be telling people more, sooner,” Lauing said in [.."
+    },
+    {
+      "title": "Palo Alto school board race: Henigin says she’s flexible on delaning",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-20",
+      "url": "https://padailypost.com/2026/09/19/palo-alto-school-board-race-henigin-says-shes-flexible-on-delaning/",
       "topics": [
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A grieving family and over 100 supporters gathered today (Sept. 17) in front of Palo Alto City Hall to call for a full investigation [.."
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer On the controversial topic of math in Palo Alto, school board candidate Linda Henigin didn’t have a yes-or-no answer on whether she want"
+    },
+    {
+      "title": "Palo Alto mulls new rules for building, selling ADUs",
+      "source": "Palo Alto Online",
+      "date": "2026-09-19",
+      "url": "https://www.paloaltoonline.com/housing/2026/09/19/palo-alto-mulls-new-rules-for-building-selling-adus/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "The debate over whether the backyard units should be treated like condominiums comes at a time when Palo Alto leaders are increasingly leaning on ADUs to meet the city's housing go"
     },
     {
       "title": "From Oahu to Mountain View: Ry’s Poke Shack opens at Ava’s Downtown Market",
@@ -7165,18 +7186,6 @@
         "Parks & Open Space"
       ],
       "summary": "O Keefe-Manhattan Improvements Addresses proposed for renovation: Addresses proposed for demolition: West Bayshore-Newell Improvements Addresses proposed for renovation: Addresses "
-    },
-    {
-      "title": "‘Poised for growth’: A brief history of Woodland Park",
-      "source": "Palo Alto Online",
-      "date": "2026-08-21",
-      "url": "https://www.paloaltoonline.com/east-palo-alto/2026/08/21/poised-for-growth-a-brief-history-of-woodland-park/",
-      "topics": [
-        "Housing",
-        "Climate & Utilities",
-        "Parks & Open Space"
-      ],
-      "summary": "For decades, residents of Woodland Park have been bracing for redevelopment in their neighborhood, which contains the vast majority of East Palo Alto's below-market-rate housing. T"
     },
     {
       "title": "Italian restaurant Roma Antica is coming soon to downtown San Mateo",
