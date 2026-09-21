@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-20T13:35:39.263Z",
+  "generatedAt": "2026-09-21T15:54:31.049Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-20",
-    "to": "2027-03-20"
+    "from": "2026-03-21",
+    "to": "2027-03-21"
   },
   "bodies": [
     {
@@ -6615,7 +6615,7 @@
       "title": "City Council Special Meeting",
       "date": "2026-09-22",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "0Q-hYV9rfUY",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20721",
       "items": [
         {
@@ -6647,7 +6647,7 @@
       "title": " Parks and Recreation Commission Regular Meeting",
       "date": "2026-09-22",
       "startTime": "19:00",
-      "videoId": null,
+      "videoId": "gGHToThN7KA",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20471",
       "items": [
         {
@@ -7178,16 +7178,6 @@
       "summary": "For decades, Woodland Park apartments in East Palo Alto have remained an island of affordability in a region where real estate prices have escalated to unprecedented heights. With "
     },
     {
-      "title": "Sand Hill’s plans for Woodland Park",
-      "source": "Palo Alto Online",
-      "date": "2026-08-21",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/21/sand-hills-plans-for-woodland-park/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "O Keefe-Manhattan Improvements Addresses proposed for renovation: Addresses proposed for demolition: West Bayshore-Newell Improvements Addresses proposed for renovation: Addresses "
-    },
-    {
       "title": "Italian restaurant Roma Antica is coming soon to downtown San Mateo",
       "source": "Palo Alto Online",
       "date": "2026-08-19",
@@ -7273,26 +7263,6 @@
         "Downtown & Business"
       ],
       "summary": "The latest housing proposal in Palo Alto to take advantage of a new state law that encourages denser projects near public transit envisions six for-sale family condominiums in the "
-    },
-    {
-      "title": "Basket-inspired project on Cal Ave. returns, aided by state law",
-      "source": "Palo Alto Online",
-      "date": "2026-07-08",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/07/basket-inspired-project-on-cal-ave-returns-invokes-new-state-law/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Rather than petitioning Palo Alto leaders to make exceptions to its zoning code, the team behind a mixed-use development proposal on California Ave. are turning to a new state law "
-    },
-    {
-      "title": "Council member Ed Lauing files for reelection",
-      "source": "Palo Alto Online",
-      "date": "2026-07-07",
-      "url": "https://www.paloaltoonline.com/express-newsletter-content/2026/07/07/council-member-ed-lauing-files-for-reelection/",
-      "topics": [
-        "Climate & Utilities"
-      ],
-      "summary": "Ed Lauing, a member of the Palo Alto City Council who is known among his peers for maintaining a moderate and measured approach even in the most controversial discussions, has file"
     }
   ],
   "events": []
