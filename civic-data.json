@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-21T15:54:31.049Z",
+  "generatedAt": "2026-09-22T14:03:10.575Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-21",
-    "to": "2027-03-21"
+    "from": "2026-03-22",
+    "to": "2027-03-22"
   },
   "bodies": [
     {
@@ -6619,13 +6619,22 @@
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20721",
       "items": [
         {
+          "num": "AA1",
+          "title": "CONFERENCE WITH REAL PROPERTY NEGOTIATORS Authority: Government Code Section 54956.8 Property: 4000 Middlefield Road, Palo Alto (Informally known as the Cubberley Site) Negotiating Party: Palo Alto Unified School District City Negotiators: Ed Shikada, Kristen O'Kane, Sunny Tong Subject of Negotiations: Purchase, Exchange, and/or Lease Price and Terms of Payment New Item Added",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "5:45 PM",
+          "elapsedSec": null
+        },
+        {
           "num": "1",
           "title": "Public Employee Performance Evaluations Authority: Cal. Gov. Code section 54957 (b) Title: City Manager",
           "topics": [
             "Other"
           ],
-          "schedTime": "6:00 PM",
-          "elapsedSec": 0
+          "schedTime": "5:45 PM",
+          "elapsedSec": null
         },
         {
           "num": "2",
@@ -6634,8 +6643,8 @@
             "Parks & Open Space",
             "Arts & Culture"
           ],
-          "schedTime": "6:00 PM",
-          "elapsedSec": 0
+          "schedTime": "5:45 PM",
+          "elapsedSec": null
         }
       ]
     },
@@ -6974,40 +6983,52 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3050,
+      "body": "Public Art Commission",
+      "bodySlug": "public-art-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Public Art Commission Regular Meeting",
+      "date": "2026-10-15",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
     }
   ],
   "news": [
     {
-      "title": "Palo Alto Council race: Candidate Deng says the city moves too slowly to solve problems",
+      "title": "Today’s editorial cartoon",
       "source": "Palo Alto Daily Post",
-      "date": "2026-09-20",
-      "url": "https://padailypost.com/2026/09/19/palo-alto-council-race-candidate-deng-says-the-city-moves-too-slowly-to-solve-problems/",
+      "date": "2026-09-22",
+      "url": "https://padailypost.com/2026/09/21/todays-editorial-cartoon-2/",
       "topics": [
-        "Parks & Open Space",
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Parks Commissioner Yudy Deng is positioning herself as a community organizer and an outsider to City Hall in her campaign for Palo Alto "
+      "summary": ""
     },
     {
-      "title": "Palo Alto Council race: Lauing says the city should be more transparent",
+      "title": "Palo Alto council race: Vicki Veenker cites progress in addressing RV influx",
       "source": "Palo Alto Daily Post",
-      "date": "2026-09-20",
-      "url": "https://padailypost.com/2026/09/19/palo-alto-council-race-lauing-says-the-city-should-be-more-transparent/",
+      "date": "2026-09-21",
+      "url": "https://padailypost.com/2026/09/21/palo-alto-council-race-vicki-veenker-cites-progress-in-addressing-rv-influx/",
       "topics": [
-        "Housing",
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Councilman Ed Lauing wants the city of Palo Alto to be more transparent. “We need to be telling people more, sooner,” Lauing said in [.."
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Mayor Vicki Veenker is touting her progress on addressing the city’s influx of RV dwellers as she runs for a second term. “We’re finally"
     },
     {
-      "title": "Palo Alto school board race: Henigin says she’s flexible on delaning",
+      "title": "Palo Alto council race: Bryna Chang wants city planners to be more responsive",
       "source": "Palo Alto Daily Post",
-      "date": "2026-09-20",
-      "url": "https://padailypost.com/2026/09/19/palo-alto-school-board-race-henigin-says-shes-flexible-on-delaning/",
+      "date": "2026-09-21",
+      "url": "https://padailypost.com/2026/09/21/palo-alto-council-race-bryna-chang-wants-city-planners-to-be-more-responsive/",
       "topics": [
+        "Transportation",
+        "Climate & Utilities",
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer On the controversial topic of math in Palo Alto, school board candidate Linda Henigin didn’t have a yes-or-no answer on whether she want"
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council candidate Bryna Chang is frustrated with the city’s transportation planners. She said they’re pushing an agenda a"
     },
     {
       "title": "Palo Alto mulls new rules for building, selling ADUs",
