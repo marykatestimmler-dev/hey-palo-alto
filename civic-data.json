@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-22T14:03:10.575Z",
+  "generatedAt": "2026-09-23T14:15:09.479Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-22",
-    "to": "2027-03-22"
+    "from": "2026-03-23",
+    "to": "2027-03-23"
   },
   "bodies": [
     {
@@ -114,103 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3007,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting",
-      "date": "2026-03-23",
-      "startTime": "17:00",
-      "videoId": "GH4VheJi9LE",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19877",
-      "items": [
-        {
-          "num": "1",
-          "title": "Proclamation Recognizing March as Women's History Month Late Packet Report added",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:00 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "Approval of Minutes from March 9, 2026 Meeting",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:10 PM",
-          "elapsedSec": 600
-        },
-        {
-          "num": "3",
-          "title": "Approval of a Facility Agreement and Pet Addendum between the City of Palo Alto and the American Red Cross for the use of designated city facilities during disasters. CEQA Status – Not a Project Supplemental Report added",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:10 PM",
-          "elapsedSec": 600
-        },
-        {
-          "num": "4",
-          "title": "Approval of Purchase Order C26196995 with Insight Public Sector, Utilizing OMNIA Cooperative Contract No. 23-6692-03 , to Procure Mimecast Subscription services, including vendor maintenance, updates, and technical support services, for a 3-Year Term with an Annual Amount of $93,383 for a Total Not-To-Exceed Amount of $281,093; CEQA status - exempt under regulation 15601(b)(3).",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "5:10 PM",
-          "elapsedSec": 600
-        },
-        {
-          "num": "5",
-          "title": "Approval of Contract Amendment Number 4 to Contract S18165157 with Smart Energy Water Inc. (SEW) in the Amount of $972,625 for an Additional Three Years and for a Revised Not-to-Exceed Total of $2,002,771 for Licensing and Upgrade of the Utilities MyCPAU Customer Portal; CEQA Status – Not a Project",
-          "topics": [
-            "Climate & Utilities",
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": "5:10 PM",
-          "elapsedSec": 600
-        },
-        {
-          "num": "6",
-          "title": "FIRST READING: Adoption of an Ordinance to Amend Chapter 9.73 of the Palo Alto Municipal Code to Adopt a Local Policy to Implement the Foundational Principles of the United Nations Convention on the Elimination of all forms of Discrimination Against Women (CEDAW) as Recommended by the Policy and Services Committee; CEQA status – Not a Project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:15 PM",
-          "elapsedSec": 900
-        },
-        {
-          "num": "7",
-          "title": "Interview Candidates for Vacancies on the Human Relations Commission (HRC), Planning & Transportation Commission (PTC), and Utilities Advisory Commission (UAC); CEQA Status - Not a Project Supplemental Report added",
-          "topics": [
-            "Transportation",
-            "Climate & Utilities"
-          ],
-          "schedTime": "6:30 PM",
-          "elapsedSec": 5400
-        },
-        {
-          "num": "A",
-          "title": "Palo Alto Local Hazard Mitigation Plan Annual Update for Calendar Year 2025; CEQA Status: Not a Project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:30 PM",
-          "elapsedSec": 5400
-        },
-        {
-          "num": "B",
-          "title": "Monthly Investment Report - February 2026 (Unaudited)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:30 PM",
-          "elapsedSec": 5400
-        }
-      ]
-    },
     {
       "id": 2987,
       "body": "Parks and Recreation Commission",
@@ -6614,7 +6517,7 @@
       "bodyEmail": "city.council@PaloAlto.gov",
       "title": "City Council Special Meeting",
       "date": "2026-09-22",
-      "startTime": "18:00",
+      "startTime": "17:45",
       "videoId": "0Q-hYV9rfUY",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20721",
       "items": [
@@ -6625,7 +6528,7 @@
             "Arts & Culture"
           ],
           "schedTime": "5:45 PM",
-          "elapsedSec": null
+          "elapsedSec": 0
         },
         {
           "num": "1",
@@ -6634,7 +6537,7 @@
             "Other"
           ],
           "schedTime": "5:45 PM",
-          "elapsedSec": null
+          "elapsedSec": 0
         },
         {
           "num": "2",
@@ -6644,7 +6547,7 @@
             "Arts & Culture"
           ],
           "schedTime": "5:45 PM",
-          "elapsedSec": null
+          "elapsedSec": 0
         }
       ]
     },
@@ -6679,7 +6582,7 @@
         },
         {
           "num": "3",
-          "title": "Department Report – 20 minutes",
+          "title": "Department Report – 20 minutes – Staff Presentation",
           "topics": [
             "Arts & Culture"
           ],
@@ -6697,7 +6600,7 @@
         },
         {
           "num": "5",
-          "title": "Review the Proposed Playground Synthetic Turf Use Guidelines – 45 minutes",
+          "title": "Review the Proposed Playground Synthetic Turf Use Guidelines – 45 minutes – Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -6706,7 +6609,7 @@
         },
         {
           "num": "6",
-          "title": "Park Improvements Ordinance Recommendation for Foothills Natures Preserve Improvement Project (PE-21000) – 45 minutes",
+          "title": "Park Improvements Ordinance Recommendation for Foothills Natures Preserve Improvement Project (PE-21000) – 45 minutes – Staff Presentation",
           "topics": [
             "Parks & Open Space",
             "Budget & Taxes"
@@ -6905,6 +6808,37 @@
       ]
     },
     {
+      "id": 3140,
+      "body": "Human Relations Commission",
+      "bodySlug": "human-relations-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Human Relations Commission Special Meeting",
+      "date": "2026-09-29",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20757",
+      "items": [
+        {
+          "num": "1",
+          "title": "Consideration of the Human Relations Commission on (HRC) Providing a Recommendation to the City Council to Take a Position on California State Proposition 1, the Veterans and Affordable Housing Bond Act of 2026 – Action – 30 minutes",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 3133,
       "body": "City Council",
       "bodySlug": "city-council",
@@ -6998,6 +6932,16 @@
     }
   ],
   "news": [
+    {
+      "title": "New Mountain View skylight showroom lets the sunshine in",
+      "source": "Palo Alto Online",
+      "date": "2026-09-22",
+      "url": "https://www.paloaltoonline.com/home-improvement/2026/09/22/new-mountain-view-skylight-showroom-lets-the-sunshine-in/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "Danish skylight maker VELUX has opened first North American experience center in downtown Mountain View, providing visitors a chance to see skylights, sun tunnels and other product"
+    },
     {
       "title": "Today’s editorial cartoon",
       "source": "Palo Alto Daily Post",
@@ -7176,18 +7120,6 @@
       "summary": "The Mountain View Whisman School District is relinquishing its investment in a Palo Alto employee housing project due to low occupancy, with all but one of the district's dozen uni"
     },
     {
-      "title": "Palo Alto backs away from plan to restrict RVs to one side on certain streets",
-      "source": "Palo Alto Online",
-      "date": "2026-08-25",
-      "url": "https://www.paloaltoonline.com/social-services/2026/08/25/palo-alto-backs-away-from-plan-to-let-rvs-remain-in-neighborhoods/",
-      "topics": [
-        "Transportation",
-        "Climate & Utilities",
-        "Parks & Open Space"
-      ],
-      "summary": "Palo Alto officials deferred a controversial pilot program on Monday night that would have concentrated occupied RVs on certain streets in south Palo Alto, following significant up"
-    },
-    {
       "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
       "source": "Palo Alto Online",
       "date": "2026-08-21",
@@ -7197,16 +7129,6 @@
         "Arts & Culture"
       ],
       "summary": "For decades, Woodland Park apartments in East Palo Alto have remained an island of affordability in a region where real estate prices have escalated to unprecedented heights. With "
-    },
-    {
-      "title": "Italian restaurant Roma Antica is coming soon to downtown San Mateo",
-      "source": "Palo Alto Online",
-      "date": "2026-08-19",
-      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/08/19/italian-restaurant-roma-antica-is-coming-soon-to-downtown-san-mateo/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "After nearly a decade of serving cacio e pepe and pinsa in San Francisco, Roma Antica is expanding to the Peninsula. The post Italian restaurant Roma Antica is coming soon to downt"
     },
     {
       "title": "Eight-story housing complex approved on San Antonio Road",
@@ -7272,18 +7194,6 @@
         "Budget & Taxes"
       ],
       "summary": "A Palo Alto developer is suing Menlo Park after the city required a $127,400 in-lieu fee for a single-family home to be subdivided into two parcels. The post Palo Alto developer su"
-    },
-    {
-      "title": "Downtown North condo proposal is 7th to use new state housing law",
-      "source": "Palo Alto Online",
-      "date": "2026-07-14",
-      "url": "https://www.paloaltoonline.com/housing/2026/07/14/downtown-north-condo-proposal-is-7th-to-use-new-state-housing-law/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Downtown & Business"
-      ],
-      "summary": "The latest housing proposal in Palo Alto to take advantage of a new state law that encourages denser projects near public transit envisions six for-sale family condominiums in the "
     }
   ],
   "events": []
