@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-23T14:15:09.479Z",
+  "generatedAt": "2026-09-24T14:13:36.342Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-23",
-    "to": "2027-03-23"
+    "from": "2026-03-24",
+    "to": "2027-03-24"
   },
   "bodies": [
     {
@@ -114,73 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2987,
-      "body": "Parks and Recreation Commission",
-      "bodySlug": "parks-and-recreation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Parks and Recreation Commission Regular Meeting",
-      "date": "2026-03-24",
-      "startTime": "19:00",
-      "videoId": "sQdOdb3Kdgw",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19738",
-      "items": [
-        {
-          "num": "1",
-          "title": "Council Liaison Report – 5 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Department Report – 20 minutes – Staff Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Ad Hoc Committees and Liaison Updates (Discussion) – 15 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Cubberley Project: Receive Results of Community Poll #2 and #3; Recommendation to City Council on Adoption of the Cubberley Conceptual Master Plan. CEQA Status: A Draft Initial Study Mitigated Negative Declaration (MND) Report Was Circulated for a 30-day Public Review Beginning on March 2, 2026, and Ending on April 1, 2026. – 75 minutes – Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "San Antonio Road Area Plan Land Use and Transportation Alternatives Study Session. CEQA Status: Exempt under CEQA Guidelines Section 15262 (Discussion). – 30 minutes – Staff Presentation",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2924,
       "body": "Planning & Transportation Commission",
@@ -6879,6 +6812,18 @@
       ]
     },
     {
+      "id": 3061,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board Regular Meeting - CANCELED",
+      "date": "2026-10-01",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
       "id": 3116,
       "body": "Climate Action and Sustainability Committee",
       "bodySlug": "climate-action-and-sustainability-committee",
@@ -6932,6 +6877,26 @@
     }
   ],
   "news": [
+    {
+      "title": "East Palo Alto launches major home-repair program",
+      "source": "Palo Alto Online",
+      "date": "2026-09-24",
+      "url": "https://www.paloaltoonline.com/east-palo-alto/2026/09/24/east-palo-alto-launches-major-home-repair-program/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "The East Palo Alto City Council directed staff last week to prioritize low-income homeowners and renters in its recently launched Major Home Repair Program, which will distribute $"
+    },
+    {
+      "title": "As Menlo Park deli Lutticken’s faces its final days, regulars reminisce about its legacy and hope for a revival",
+      "source": "Palo Alto Online",
+      "date": "2026-09-23",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/09/23/as-menlo-park-deli-luttickens-faces-its-final-days-regulars-reminisce-about-its-legacy-and-hope-for-a-revival/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "After 45 years of deli sandwiches and community building, Menlo Park institution Lutticken’s will permanently close Sept. 30. But with the future of its storefront undecided and a "
+    },
     {
       "title": "New Mountain View skylight showroom lets the sunshine in",
       "source": "Palo Alto Online",
@@ -7069,17 +7034,6 @@
       "summary": "Residents in the Ventura neighborhood are by now well accustomed to being on the cusp of transformation. But for some, the latest attempt to rezone a Ventura property to accommodat"
     },
     {
-      "title": "Gregorys Coffee fights eviction attempt from Stanford Shopping Center",
-      "source": "Palo Alto Online",
-      "date": "2026-09-01",
-      "url": "https://www.paloaltoonline.com/business/2026/08/31/gregorys-coffee-fights-eviction-attempt-from-stanford-shopping-center/",
-      "topics": [
-        "Housing",
-        "Budget & Taxes"
-      ],
-      "summary": "Gregorys Coffee in Stanford Shopping Center is fighting the property managers’ eviction efforts, arguing in new court documents that the unpaid rent was due more than a year ago an"
-    },
-    {
       "title": "Palo Alto mulls releasing report on towing dispute that sparked resignation",
       "source": "Palo Alto Online",
       "date": "2026-08-28",
@@ -7108,16 +7062,6 @@
         "Housing"
       ],
       "summary": "Seniors and members of the Oshman Family Jewish Community Center turned out in full force last week to protest a multifamily housing development in south Palo Alto that would run u"
-    },
-    {
-      "title": "With just one unit filled, Mountain View Whisman sells stake in Palo Alto educator housing complex",
-      "source": "Palo Alto Online",
-      "date": "2026-08-26",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/26/with-just-one-unit-filled-mountain-view-whisman-sells-stake-in-palo-alto-educator-housing-complex/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "The Mountain View Whisman School District is relinquishing its investment in a Palo Alto employee housing project due to low occupancy, with all but one of the district's dozen uni"
     },
     {
       "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
