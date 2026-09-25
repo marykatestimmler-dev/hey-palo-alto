@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-24T14:13:36.342Z",
+  "generatedAt": "2026-09-25T14:37:05.577Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-24",
-    "to": "2027-03-24"
+    "from": "2026-03-25",
+    "to": "2027-03-25"
   },
   "bodies": [
     {
@@ -114,64 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2924,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting",
-      "date": "2026-03-25",
-      "startTime": "18:00",
-      "videoId": "HDwqYLHi16s",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19302",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "San Antonio Road Area Plan Land Use and Transportation Alternatives Study Session. CEQA Status: Exempt under CEQA Guidelines Section 15262.",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Recommendation on an Ordinance to Amend Various Sections of Title 16 (Building Regulations) and Title 18 (Zoning) of the Palo Alto Municipal Code to Implement Retail Vitality Policies in the Comprehensive Plan. CEQA Status: The Ordinance is Consistent with and Represents Implementation of Adopted Policies in the Comprehensive Plan, for Which an Environmental Impact Report (Comprehensive Plan EIR) was Certified on February 5, 2016. Staff Presentation",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of February 11, 2026",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2791,
       "body": "City Schools Liaison Committee",
@@ -6586,7 +6528,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Caltrain Presentation of Framework for a ”No External Funding Scenario”. CEQA Status – Not a Project",
+          "title": "Caltrain Presentation of Framework for a ”No External Funding Scenario”. CEQA Status – Not a Project Item Removed Off Agenda",
           "topics": [
             "Transportation",
             "Budget & Taxes"
@@ -6601,8 +6543,8 @@
             "Transportation",
             "Climate & Utilities"
           ],
-          "schedTime": "5:40 PM",
-          "elapsedSec": 600
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
         },
         {
           "num": "3",
@@ -6610,8 +6552,8 @@
           "topics": [
             "Other"
           ],
-          "schedTime": "5:55 PM",
-          "elapsedSec": 1500
+          "schedTime": "5:45 PM",
+          "elapsedSec": 900
         },
         {
           "num": "4",
@@ -6619,8 +6561,8 @@
           "topics": [
             "Other"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "5",
@@ -6628,8 +6570,8 @@
           "topics": [
             "Arts & Culture"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "6",
@@ -6638,8 +6580,8 @@
             "Crime, Policing, and Public Safety",
             "Budget & Taxes"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "7",
@@ -6648,8 +6590,8 @@
             "Parks & Open Space",
             "Arts & Culture"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "8",
@@ -6657,8 +6599,8 @@
           "topics": [
             "Other"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "9",
@@ -6666,8 +6608,8 @@
           "topics": [
             "Budget & Taxes"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "10",
@@ -6676,8 +6618,8 @@
             "Climate & Utilities",
             "Budget & Taxes"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "11",
@@ -6685,8 +6627,8 @@
           "topics": [
             "Budget & Taxes"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "12",
@@ -6698,8 +6640,8 @@
             "Historic Preservation",
             "Downtown & Business"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "13",
@@ -6708,8 +6650,8 @@
             "Transportation",
             "Parks & Open Space"
           ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
         },
         {
           "num": "14",
@@ -6717,8 +6659,8 @@
           "topics": [
             "Transportation"
           ],
-          "schedTime": "7:35 PM",
-          "elapsedSec": 7500
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
         },
         {
           "num": "A",
@@ -6726,8 +6668,8 @@
           "topics": [
             "Other"
           ],
-          "schedTime": "7:35 PM",
-          "elapsedSec": 7500
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
         },
         {
           "num": "B",
@@ -6735,8 +6677,8 @@
           "topics": [
             "Other"
           ],
-          "schedTime": "7:35 PM",
-          "elapsedSec": 7500
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
         }
       ]
     },
@@ -6812,6 +6754,65 @@
       ]
     },
     {
+      "id": 3082,
+      "body": "Planning & Transportation Commission",
+      "bodySlug": "planning-and-transportation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Planning & Transportation Commission Regular Meeting",
+      "date": "2026-09-30",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20374",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Assignments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Recommendation on an Ordinance Amending Various Palo Alto Municipal Code (PAMC) Chapters in Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions and Other Divisions of Land) of the Palo Alto Municipal Code to Replace Temporary Ordinances Implementing Senate Bill (SB) 9, SB 450, and Other State Housing Laws. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3). 6:15 PM – 7:00 PM",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "South Palo Alto Bike/Ped Connectivity: Review of Preferred Design Alternatives and Network Enhancements for the Midtown Bicycle and Pedestrian Undercrossing; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15262. 7:00 PM – 8:00 PM",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Bryant Street Bike Boulevard and Lincoln Avenue Traffic Calming Project Initial Design Concepts. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15301: Existing Facilities. 8:00 PM – 8:45 PM",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comment",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 3061,
       "body": "Architectural Review Board",
       "bodySlug": "architectural-review-board",
@@ -6854,8 +6855,214 @@
         },
         {
           "num": "1",
-          "title": "Update on Electric System Long Duration Resiliency; CEQA Status – Not a Project",
+          "title": "Update on Electric System Long Duration Resiliency; CEQA Status – Not a Project Late Packet Report Added",
           "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2904,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting ",
+      "date": "2026-10-05",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19168",
+      "items": [
+        {
+          "num": "1",
+          "title": "Appointment of Candidates to the Human Relations Commission (HRC), Parks and Recreation (PRC), and Planning and Transportation Commission (PTC), CEQA Status - Not a Project",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Proclamation Recognizing Fire Prevention Week- October 4-10",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": "5:40 PM",
+          "elapsedSec": 600
+        },
+        {
+          "num": "3",
+          "title": "Best Practices in Managing Consultant Services",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:25 PM",
+          "elapsedSec": 3300
+        },
+        {
+          "num": "4",
+          "title": "Approval of Business Retention, Expansion, and Attraction (BRE/A) Strategy as Recommended by the Economic Development Committee: CEQA – Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Downtown & Business"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "5",
+          "title": "Approval of Letters of Intent with Avenidas and HeartFit for Life for collaboration on a long-term public-private partnership for expanded services for aging adults at the Cubberley site; CEQA status – Mitigated Negative Declaration Approved on May 19, 2026.",
+          "topics": [
+            "Housing",
+            "Arts & Culture"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "6",
+          "title": "Approval of Surveillance Use Policy for Security Cameras at the Palo Alto Animal Shelter; CEQA Status - Not a Project.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "7",
+          "title": "Approval of Surveillance Use Policy for Security Cameras at the Palo Alto Junior Museum & Zoo; CEQA Status - Not a Project.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "8",
+          "title": "Approval of FY 2026 Reappropriation Requests to FY 2027 Operating and Capital Improvement Budgets and Additional Technical Clean-Up Actions and Corresponding Amendments to the FY 2027 Budget Appropriation for Various Funds. CEQA Status: Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "9",
+          "title": "Approval of Professional Services Contract Number C27196802 with BKF Engineers for the Design of Four Quadrant Gate Systems Improvements required for Quiet Zone Railroad Crossings at Churchill Avenue, Meadow Drive, and Charleston Road in an Amount Not to Exceed $1,294,522 for a term ending December 31, 2029; CEQA status: Categorically Exempt, CEQA Guidelines Section 15301.",
+          "topics": [
+            "Transportation",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:25 PM",
+          "elapsedSec": 6900
+        },
+        {
+          "num": "10",
+          "title": "Approval of FY 2027 Architectural Review Board, Historic Resources Board, Planning and Transportation Commission, and Utilities Advisory Commission Work Plans; CEQA Status – Not a Project",
+          "topics": [
+            "Transportation",
+            "Climate & Utilities",
+            "Historic Preservation"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "11",
+          "title": "Consideration of City Council Positions on State and Local Measures Presented to Palo Alto Voters on the November 3, 2026 Ballot; CEQA status – not a project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "9:15 PM",
+          "elapsedSec": 13500
+        },
+        {
+          "num": "A",
+          "title": "Informational Report: Utilities Quarterly Report for FY2026-Q3 (January 2026 – March 2026)",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": "7:30 PM",
+          "elapsedSec": 7200
+        }
+      ]
+    },
+    {
+      "id": 2888,
+      "body": "Utilities Advisory Commission",
+      "bodySlug": "utilities-advisory-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Utilities Advisory Commission Regular Meeting",
+      "date": "2026-10-07",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19066",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on September 2, 2026",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Approval of Water and Wastewater Collection Rate Design Guidelines and Principles (ACTION: 6:30PM – 7:30PM)",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Electric Grid Modernization Bond Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds Principal Amount Not-to-Exceed $100,000,000 (ACTION: 7:30PM – 7:45PM)",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Recommending Approval of Updated Palo Alto Low Carbon Fuel Standards Program Guidelines, including a Definition for Low-Income and a Methodology to Allocate Customer Program Cost Across Low-Income and Non-Low-Income (ACTION: 7:45PM – 8:30PM)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Informational Report on Framework for Data Center Capacity Reservation and Cost Recovery",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "C",
+          "title": "Informational Update on Voluntary Residential Time-of-Use Electric Rate Enrollment and Customer Outreach",
+          "topics": [
+            "Housing",
             "Climate & Utilities"
           ],
           "schedTime": null,
@@ -6877,6 +7084,26 @@
     }
   ],
   "news": [
+    {
+      "title": "Measure J sparks debate over Cubberley’s future",
+      "source": "Palo Alto Online",
+      "date": "2026-09-24",
+      "url": "https://www.paloaltoonline.com/election/2026/09/24/measure-j-sparks-debate-over-cubberleys-future/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "Both sides in Palo Alto's debate over Measure J believe that Cubberley Community Center urgently needs repairs. But while proponents says the measure is essential to the center's f"
+    },
+    {
+      "title": "Congressman calls for feds to investigate, sanction Russian owner of Menlo Park development site",
+      "source": "Palo Alto Online",
+      "date": "2026-09-24",
+      "url": "https://www.paloaltoonline.com/housing/2026/09/24/congressman-calls-for-feds-to-investigate-sanction-russian-owner-of-menlo-park-development-site/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "U.S. Rep. Sam Liccardo is calling for a federal investigation into the Russian national who reportedly owns 80 Willow Road, a Menlo Park site slated for a massive high-rise develop"
+    },
     {
       "title": "East Palo Alto launches major home-repair program",
       "source": "Palo Alto Online",
@@ -7052,16 +7279,6 @@
         "Parks & Open Space"
       ],
       "summary": "A new proposal for an 18-townhome project in Barron Park intends to use state law to seek more height than what would otherwise be allowed by Palo Alto standards. The post Townhome"
-    },
-    {
-      "title": "Housing project near JCC faces community pushback",
-      "source": "Palo Alto Online",
-      "date": "2026-08-27",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/26/housing-project-near-jcc-faces-community-pushback/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "Seniors and members of the Oshman Family Jewish Community Center turned out in full force last week to protest a multifamily housing development in south Palo Alto that would run u"
     },
     {
       "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
