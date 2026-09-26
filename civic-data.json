@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-25T14:37:05.577Z",
+  "generatedAt": "2026-09-26T13:45:36.360Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-25",
-    "to": "2027-03-25"
+    "from": "2026-03-26",
+    "to": "2027-03-26"
   },
   "bodies": [
     {
@@ -114,18 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2791,
-      "body": "City Schools Liaison Committee",
-      "bodySlug": "city-schools-liaison-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "City Schools Liaison Committee Regular Meeting - CANCELED",
-      "date": "2026-03-26",
-      "startTime": "19:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 3036,
       "body": "Utilities Advisory Commission",
@@ -6993,6 +6981,18 @@
       ]
     },
     {
+      "id": 2821,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting - CANCELED",
+      "date": "2026-10-06",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
       "id": 2888,
       "body": "Utilities Advisory Commission",
       "bodySlug": "utilities-advisory-commission",
@@ -7153,18 +7153,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Mayor Vicki Veenker is touting her progress on addressing the city’s influx of RV dwellers as she runs for a second term. “We’re finally"
-    },
-    {
-      "title": "Palo Alto council race: Bryna Chang wants city planners to be more responsive",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-21",
-      "url": "https://padailypost.com/2026/09/21/palo-alto-council-race-bryna-chang-wants-city-planners-to-be-more-responsive/",
-      "topics": [
-        "Transportation",
-        "Climate & Utilities",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council candidate Bryna Chang is frustrated with the city’s transportation planners. She said they’re pushing an agenda a"
     },
     {
       "title": "Palo Alto mulls new rules for building, selling ADUs",
