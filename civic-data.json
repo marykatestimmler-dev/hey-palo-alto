@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-28T17:39:51.808Z",
+  "generatedAt": "2026-09-29T15:51:46.958Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-28",
-    "to": "2027-03-28"
+    "from": "2026-03-29",
+    "to": "2027-03-29"
   },
   "bodies": [
     {
@@ -6511,7 +6511,7 @@
       "title": "City Council Special Meeting ",
       "date": "2026-09-28",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "flGqRoWzsis",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19162",
       "items": [
         {
@@ -6526,7 +6526,7 @@
         },
         {
           "num": "2",
-          "title": "Review Applications and Select Candidates to Interview for the Human Relations Commission (HRC), Planning and Transportation Commission (PTC), and Stormwater Management Oversight Committee (SWMOC) Vacancies; CEQA Status – Not a Project Supplemental Report added",
+          "title": "Review Applications and Select Candidates to Interview for the Human Relations Commission (HRC), Planning and Transportation Commission (PTC), and Stormwater Management Oversight Committee (SWMOC) Vacancies; CEQA Status – Not a Project Supplemental Report added, Staff Presentation",
           "topics": [
             "Transportation",
             "Climate & Utilities"
@@ -6643,7 +6643,7 @@
         },
         {
           "num": "14",
-          "title": "Direction to advance the Locally Preferred Alternatives for Grade Separation at Churchill Avenue, Meadow Drive, and Charleston Road crossings to 35% design and environmental documentation. CEQA Status – Statutorily Exempt.",
+          "title": "Direction to advance the Locally Preferred Alternatives for Grade Separation at Churchill Avenue, Meadow Drive, and Charleston Road crossings to 35% design and environmental documentation. CEQA Status – Statutorily Exempt. Staff Presentation, Public Comment",
           "topics": [
             "Transportation"
           ],
@@ -6678,7 +6678,7 @@
       "title": "Human Relations Commission Special Meeting",
       "date": "2026-09-29",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "4yHTcYjkDsc",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20757",
       "items": [
         {
@@ -6709,7 +6709,7 @@
       "title": "City Council Special Meeting",
       "date": "2026-09-30",
       "startTime": "17:00",
-      "videoId": null,
+      "videoId": "-JL9qhKDAiU",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20715",
       "items": [
         {
@@ -6749,7 +6749,7 @@
       "title": "Planning & Transportation Commission Regular Meeting",
       "date": "2026-09-30",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "O0W-ZPDu2hs",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20374",
       "items": [
         {
@@ -6820,7 +6820,7 @@
       "title": "Climate Action and Sustainability Committee Special Meeting",
       "date": "2026-10-02",
       "startTime": "14:30",
-      "videoId": null,
+      "videoId": "ObNgJpsSNjs",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20601",
       "items": [
         {
@@ -7095,46 +7095,6 @@
       "summary": "Both sides in Palo Alto's debate over Measure J believe that Cubberley Community Center urgently needs repairs. But while proponents says the measure is essential to the center's f"
     },
     {
-      "title": "Congressman calls for feds to investigate, sanction Russian owner of Menlo Park development site",
-      "source": "Palo Alto Online",
-      "date": "2026-09-24",
-      "url": "https://www.paloaltoonline.com/housing/2026/09/24/congressman-calls-for-feds-to-investigate-sanction-russian-owner-of-menlo-park-development-site/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "U.S. Rep. Sam Liccardo is calling for a federal investigation into the Russian national who reportedly owns 80 Willow Road, a Menlo Park site slated for a massive high-rise develop"
-    },
-    {
-      "title": "East Palo Alto launches major home-repair program",
-      "source": "Palo Alto Online",
-      "date": "2026-09-24",
-      "url": "https://www.paloaltoonline.com/east-palo-alto/2026/09/24/east-palo-alto-launches-major-home-repair-program/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "The East Palo Alto City Council directed staff last week to prioritize low-income homeowners and renters in its recently launched Major Home Repair Program, which will distribute $"
-    },
-    {
-      "title": "As Menlo Park deli Lutticken’s faces its final days, regulars reminisce about its legacy and hope for a revival",
-      "source": "Palo Alto Online",
-      "date": "2026-09-23",
-      "url": "https://www.paloaltoonline.com/menlo-park/2026/09/23/as-menlo-park-deli-luttickens-faces-its-final-days-regulars-reminisce-about-its-legacy-and-hope-for-a-revival/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "After 45 years of deli sandwiches and community building, Menlo Park institution Lutticken’s will permanently close Sept. 30. But with the future of its storefront undecided and a "
-    },
-    {
-      "title": "New Mountain View skylight showroom lets the sunshine in",
-      "source": "Palo Alto Online",
-      "date": "2026-09-22",
-      "url": "https://www.paloaltoonline.com/home-improvement/2026/09/22/new-mountain-view-skylight-showroom-lets-the-sunshine-in/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Danish skylight maker VELUX has opened first North American experience center in downtown Mountain View, providing visitors a chance to see skylights, sun tunnels and other product"
-    },
-    {
       "title": "Today’s editorial cartoon",
       "source": "Palo Alto Daily Post",
       "date": "2026-09-22",
@@ -7153,26 +7113,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Mayor Vicki Veenker is touting her progress on addressing the city’s influx of RV dwellers as she runs for a second term. “We’re finally"
-    },
-    {
-      "title": "Palo Alto mulls new rules for building, selling ADUs",
-      "source": "Palo Alto Online",
-      "date": "2026-09-19",
-      "url": "https://www.paloaltoonline.com/housing/2026/09/19/palo-alto-mulls-new-rules-for-building-selling-adus/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "The debate over whether the backyard units should be treated like condominiums comes at a time when Palo Alto leaders are increasingly leaning on ADUs to meet the city's housing go"
-    },
-    {
-      "title": "From Oahu to Mountain View: Ry’s Poke Shack opens at Ava’s Downtown Market",
-      "source": "Palo Alto Online",
-      "date": "2026-09-15",
-      "url": "https://www.paloaltoonline.com/mountain-view/2026/09/15/rys-poke-shack-opens-at-avas-downtown-market-mountain-view/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "An Oahu-based poke business is making waves in downtown Mountain View. Just a few weeks old and still in its soft-opening phase, Ry’s Poke Shack is already drawing long lines for i"
     },
     {
       "title": "‘We’ve done everything we can’ — Menlo Park mayor invites Bonta to see controversial skyscraper project site",
@@ -7195,50 +7135,6 @@
       "summary": "For years, East Palo Altans and the non-profit organization Canopy have planted trees to increase the city’s canopy coverage. The post East Palo Alto plants seeds for a future urba"
     },
     {
-      "title": "Stanford pitches ambitious new plan for campus growth",
-      "source": "Palo Alto Online",
-      "date": "2026-09-09",
-      "url": "https://www.paloaltoonline.com/news/2026/09/09/stanford-pitches-ambitious-new-plan-for-campus-growth/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "Seeking to accommodate more students and shifting academic needs, Stanford University is preparing to add nearly 2 million square feet of academic space, 2,500 student beds and abo"
-    },
-    {
-      "title": "How Palo Alto’s newest housing projects are testing the limits of what can be built",
-      "source": "Palo Alto Online",
-      "date": "2026-09-02",
-      "url": "https://www.paloaltoonline.com/housing/2026/09/01/how-palo-altos-newest-housing-projects-are-testing-the-limits-of-what-can-be-built/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "Palo Alto has long struggled to add enough housing, particularly affordable homes, under some of the region’s most restrictive zoning rules. Six projects now moving through the cit"
-    },
-    {
-      "title": "Palo Alto businesses raise funds for Nepal flood relief",
-      "source": "Palo Alto Online",
-      "date": "2026-09-02",
-      "url": "https://www.paloaltoonline.com/business/2026/09/02/1058591/",
-      "topics": [
-        "Budget & Taxes",
-        "Downtown & Business"
-      ],
-      "summary": "Following last week's devastating flood in Nepal, Palo Alto-based Pakistani restaurant Zareen’s will be among the businesses raising money to support Nepali relief efforts. And it "
-    },
-    {
-      "title": "‘The crumb is crack’: Belmont resident recreates 1969 coffee cake recipe, organizes food market",
-      "source": "Palo Alto Online",
-      "date": "2026-09-02",
-      "url": "https://www.paloaltoonline.com/san-mateo-county/2026/09/02/the-crumb-is-crack-belmont-resident-recreates-1969-coffee-cake-recipe-organizes-food-market/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes",
-        "Downtown & Business"
-      ],
-      "summary": "A monthly Artisan Garden Market at Ladera Garden Gifts brings together various cottage food businesses. The post ‘The crumb is crack’: Belmont resident recreates 1969 coffee cake r"
-    },
-    {
       "title": "Council weighs divisive rezoning plan in Ventura",
       "source": "Palo Alto Online",
       "date": "2026-09-01",
@@ -7257,16 +7153,6 @@
         "Parks & Open Space"
       ],
       "summary": "Palo Alto will debate next week a proposal from two City Council members to release a confidential report that looked into misconduct allegations against a planning commissioner wh"
-    },
-    {
-      "title": "Townhomes proposed for vacant lot in Barron Park",
-      "source": "Palo Alto Online",
-      "date": "2026-08-28",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/28/townhomes-proposed-for-vacant-lot-in-barron-park/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "A new proposal for an 18-townhome project in Barron Park intends to use state law to seek more height than what would otherwise be allowed by Palo Alto standards. The post Townhome"
     },
     {
       "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
