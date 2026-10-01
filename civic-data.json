@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-30T15:55:39.275Z",
+  "generatedAt": "2026-10-01T16:27:40.727Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-03-30",
-    "to": "2027-03-30"
+    "from": "2026-04-01",
+    "to": "2027-04-01"
   },
   "bodies": [
     {
@@ -114,102 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3036,
-      "body": "Utilities Advisory Commission",
-      "bodySlug": "utilities-advisory-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Utilities Advisory Commission Special Meeting",
-      "date": "2026-03-31",
-      "startTime": "18:00",
-      "videoId": "UgYIcdEiI8w",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20055",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on March 4, 2026 Late Packet Report added",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Staff Recommends the Utilities Advisory Commission Recommend that the City Council Adopt a Resolution Approving the Fiscal Year 2027 Gas Utility Financial Forecast, Reserve Transfer, General Fund Transfer, and Amending Rate Schedules G-1 (Residential Gas Service), G-2 (Residential Master-Metered and Commercial Gas Service), and G-3 (Large Commercial Gas Service) ; CEQA Status: Not a project under CEQA Guidelines Section 15378(b)(5) (ACTION: 6:35PM – 7:35PM) Staff Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Staff Recommends the Utilities Advisory Commission Recommend that the City Council Adopt a Resolution Approving the FY 2027 Electric Financial Forecast, including Approving a Reserve Transfers, and Amending Electric Rate Schedules E-1 (Residential Electric Service), E-1 TOU (Residential Time of Use Electric Service), E-2 (Residential Master-Metered and Small Non-Residential Electric Service), E-2-G (Residential Master-Metered and Small Non-Residential Green Power Electric Service), E-4 (Medium Non-Residential Electric Service), E-4-G (Medium Non-Residential Green Power Electric Service), E-4 TOU (Medium Non-Residential Time of Use Electric Service), E-7 (Large Non-Residential Electric Service), E-7-G (Large Non-Residential Green Power Electric Service), E-7 TOU (Large Non-Residential Time of Use Electric Service), E-14 (Street Lights), E-16 (Unmetered Electric Service), E-EEC-1 (Export Electricity Compensation), and E-NSE-1 (Net Metering Net Surplus Electricity Compensation); CEQA Status: Not a project. under CEQA Guidelines Section 15378(b)(5) (ACTION: 7:35PM – 8:35PM) Late Packet Report added, Staff Presentation",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Climate & Utilities",
-            "Parks & Open Space",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Preliminary Information on the City of Palo Alto's (City) 2025 Urban Water Management Plan (2025 UWMP) (DISCUSSION: 8:35PM – 9:00PM) Late Packet Report added, Staff Presentation",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "12 Month Rolling Calendar",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "C",
-          "title": "Information Report: Utilities Quarterly Report for FY2026-Q2",
-          "topics": [
-            "Climate & Utilities",
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2882,
-      "body": "Utilities Advisory Commission",
-      "bodySlug": "utilities-advisory-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": " Utilities Advisory Commission Regular Meeting - CANCELED",
-      "date": "2026-04-01",
-      "startTime": "18:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2946,
       "body": "Architectural Review Board",
@@ -6714,7 +6618,7 @@
       "items": [
         {
           "num": "3",
-          "title": "Interview Candidates for Vacancies on the Human Relations Commission (HRC) and Planning and Transportation Commission (PTC); CEQA Status - Not a Project",
+          "title": "Interview Candidates for Vacancies on the Human Relations Commission (HRC) and Planning and Transportation Commission (PTC); CEQA Status - Not a Project At-Places Report Added",
           "topics": [
             "Transportation"
           ],
@@ -6772,7 +6676,7 @@
         },
         {
           "num": "2",
-          "title": "Recommendation on an Ordinance Amending Various Palo Alto Municipal Code (PAMC) Chapters in Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions and Other Divisions of Land) of the Palo Alto Municipal Code to Replace Temporary Ordinances Implementing Senate Bill (SB) 9, SB 450, and Other State Housing Laws. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3). 6:15 PM – 7:00 PM",
+          "title": "Recommendation on an Ordinance Amending Various Palo Alto Municipal Code (PAMC) Chapters in Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions and Other Divisions of Land) of the Palo Alto Municipal Code to Replace Temporary Ordinances Implementing Senate Bill (SB) 9, SB 450, and Other State Housing Laws. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3). Staff Presentation 6:15 PM – 7:00 PM",
           "topics": [
             "Housing"
           ],
@@ -6781,7 +6685,7 @@
         },
         {
           "num": "3",
-          "title": "South Palo Alto Bike/Ped Connectivity: Review of Preferred Design Alternatives and Network Enhancements for the Midtown Bicycle and Pedestrian Undercrossing; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15262. 7:00 PM – 8:00 PM",
+          "title": "South Palo Alto Bike/Ped Connectivity: Review of Preferred Design Alternatives and Network Enhancements for the Midtown Bicycle and Pedestrian Undercrossing; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15262. Staff Presentation 7:00 PM – 8:00 PM",
           "topics": [
             "Transportation"
           ],
@@ -6790,7 +6694,7 @@
         },
         {
           "num": "4",
-          "title": "Bryant Street Bike Boulevard and Lincoln Avenue Traffic Calming Project Initial Design Concepts. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15301: Existing Facilities. 8:00 PM – 8:45 PM",
+          "title": "Bryant Street Bike Boulevard and Lincoln Avenue Traffic Calming Project Initial Design Concepts. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15301: Existing Facilities. Staff Presentation 8:00 PM – 8:45 PM",
           "topics": [
             "Transportation",
             "Parks & Open Space"
@@ -6852,7 +6756,7 @@
         },
         {
           "num": "1",
-          "title": "Update on Electric System Long Duration Resiliency; CEQA Status – Not a Project Late Packet Report Added",
+          "title": "Update on Electric System Long Duration Resiliency; CEQA Status – Not a Project Late Packet Report Added, Staff Presentation",
           "topics": [
             "Climate & Utilities"
           ],
@@ -7080,11 +6984,23 @@
       ]
     },
     {
+      "id": 3062,
+      "body": "Historic Resources Board",
+      "bodySlug": "historic-resources-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Historic Resources Board Regular Meeting - CANCELED",
+      "date": "2026-10-08",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
       "id": 3050,
       "body": "Public Art Commission",
       "bodySlug": "public-art-commission",
       "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Regular Meeting",
+      "title": "Public Art Commission Regular Meeting - CANCELED ",
       "date": "2026-10-15",
       "startTime": "19:00",
       "videoId": null,
@@ -7094,6 +7010,27 @@
   ],
   "news": [
     {
+      "title": "Menlo Park rejects state’s demand to approve Sunset magazine high-rise as a new property buyer emerges",
+      "source": "Palo Alto Online",
+      "date": "2026-09-30",
+      "url": "https://www.paloaltoonline.com/housing/2026/09/30/menlo-park-rejects-states-demand-to-approve-sunset-magazine-high-rise-as-a-new-property-buyer-emerges/",
+      "topics": [
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "The Menlo Park City Council is ready to fight the state to prevent a high-rise development on the former Sunset magazine campus, even if it means cutting local services to fund the"
+    },
+    {
+      "title": "A historic Peninsula post office is reopening as a fine-dining restaurant from the restaurant group behind The Village Pub and Selby’s",
+      "source": "Palo Alto Online",
+      "date": "2026-09-30",
+      "url": "https://www.paloaltoonline.com/food/feature-food/2026/09/30/the-old-post-office-opens-in-burlingame/",
+      "topics": [
+        "Historic Preservation"
+      ],
+      "summary": "The Old Post Office in Burlingame combines 1940s-inspired fare with architectural flair. The post A historic Peninsula post office is reopening as a fine-dining restaurant from the"
+    },
+    {
       "title": "Council candidates critical of city manager",
       "source": "Palo Alto Daily Post",
       "date": "2026-09-29",
@@ -7102,6 +7039,17 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Candidates for Palo Alto City Council have been critical of City Manager Ed Shikada’s performance. “I don’t think he’s done a great job,"
+    },
+    {
+      "title": "Deng raises $166,128 in campaign — smashing records thanks to out-of-town money",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-25",
+      "url": "https://padailypost.com/2026/09/25/deng-raises-166128-in-campaign-smashing-records-thanks-to-out-of-town-money/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "This story has been updated to include additional fundraising numbers that were not available when the story was first published on Sept. 25. BY BRADEN CARTWRIGHTDaily Post Staff W"
     },
     {
       "title": "Measure J sparks debate over Cubberley’s future",
@@ -7132,6 +7080,16 @@
         "Housing"
       ],
       "summary": "The East Palo Alto City Council directed staff last week to prioritize low-income homeowners and renters in its recently launched Major Home Repair Program, which will distribute $"
+    },
+    {
+      "title": "Henigin campaign benefits from use of district’s email — ‘Not a level playing field,’ opponent says",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-24",
+      "url": "https://padailypost.com/2026/09/24/henigin-campaign-benefits-from-use-of-districts-email-not-a-level-playing-field-opponent-says/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A Palo Alto school board candidate who was a teacher s aide recruited student interns and solicited endorsements from her school distric"
     },
     {
       "title": "As Menlo Park deli Lutticken’s faces its final days, regulars reminisce about its legacy and hope for a revival",
@@ -7225,17 +7183,6 @@
       "summary": "Palo Alto has long struggled to add enough housing, particularly affordable homes, under some of the region’s most restrictive zoning rules. Six projects now moving through the cit"
     },
     {
-      "title": "Palo Alto businesses raise funds for Nepal flood relief",
-      "source": "Palo Alto Online",
-      "date": "2026-09-02",
-      "url": "https://www.paloaltoonline.com/business/2026/09/02/1058591/",
-      "topics": [
-        "Budget & Taxes",
-        "Downtown & Business"
-      ],
-      "summary": "Following last week's devastating flood in Nepal, Palo Alto-based Pakistani restaurant Zareen’s will be among the businesses raising money to support Nepali relief efforts. And it "
-    },
-    {
       "title": "Council weighs divisive rezoning plan in Ventura",
       "source": "Palo Alto Online",
       "date": "2026-09-01",
@@ -7254,16 +7201,6 @@
         "Parks & Open Space"
       ],
       "summary": "Palo Alto will debate next week a proposal from two City Council members to release a confidential report that looked into misconduct allegations against a planning commissioner wh"
-    },
-    {
-      "title": "Townhomes proposed for vacant lot in Barron Park",
-      "source": "Palo Alto Online",
-      "date": "2026-08-28",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/28/townhomes-proposed-for-vacant-lot-in-barron-park/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "A new proposal for an 18-townhome project in Barron Park intends to use state law to seek more height than what would otherwise be allowed by Palo Alto standards. The post Townhome"
     },
     {
       "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
