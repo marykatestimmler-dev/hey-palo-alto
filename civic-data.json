@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-01T16:27:40.727Z",
+  "generatedAt": "2026-10-02T15:48:54.262Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-01",
-    "to": "2027-04-01"
+    "from": "2026-04-02",
+    "to": "2027-04-02"
   },
   "bodies": [
     {
@@ -114,18 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2946,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting - CANCELED",
-      "date": "2026-04-02",
-      "startTime": "08:30",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 3012,
       "body": "Climate Action and Sustainability Committee",
@@ -6882,14 +6870,23 @@
           "elapsedSec": 13500
         },
         {
+          "num": "AA1",
+          "title": "CONFERENCE WITH REAL PROPERTY NEGOTIATORS Authority: Government Code Section 54956.8 Property: 4000 Middlefield Road, Palo Alto (Informally known as the Cubberley Site) Negotiating Party: Palo Alto Unified School District City Negotiators: Ed Shikada, Kristen O'Kane, Sunny Tong Subject of Negotiations: Purchase, Exchange, and/or Lease Price and Terms of Payment New Item Added",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "10:15 PM",
+          "elapsedSec": 17100
+        },
+        {
           "num": "A",
           "title": "Informational Report: Utilities Quarterly Report for FY2026-Q3 (January 2026 – March 2026)",
           "topics": [
             "Climate & Utilities",
             "Arts & Culture"
           ],
-          "schedTime": "7:30 PM",
-          "elapsedSec": 7200
+          "schedTime": "10:15 PM",
+          "elapsedSec": 17100
         }
       ]
     },
@@ -6904,6 +6901,86 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3141,
+      "body": "Public Art Commission",
+      "bodySlug": "public-art-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Public Art Commission Special Meeting",
+      "date": "2026-10-06",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20764",
+      "items": [
+        {
+          "num": "1",
+          "title": "August 20, 2026 PAC Regular Meeting Minutes (as amended)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "September 17, 2026 PAC Regular Meeting Minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Public Art in Private Development – Final review and approval of a public art in private development project located at 3415-3431 Hillview Avenue and 900 – 910 Arastradero Road. Presentation by Danielle Fox of SLATE Art Consulting and the project team at Harvest Properties.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Code:ART 2027 - Approval of the use of private development generated in-lieu funds in an amount not to exceed $375,000 to support major projection mapping artworks in downtown Palo Alto featured during Code:ART 2027.",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture",
+            "Budget & Taxes",
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Public Art in Private Development - Final review and approval of a public art in private development proposal by artist Giles Miller associated with the 3150 El Camino Real development project.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "6",
+          "title": "Code:ART 2027 – Allocation of funds in the amount of up to $70,000 from the Art in Public Places CIP for temporary Code:ART 2027 interactive media installations.",
+          "topics": [
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "7",
+          "title": "Acceptance of Donations of Artworks - Acceptance of artworks to the City’s public art collection by CASP artists Adrienne Defendi and Eric Fei Guan.​",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     },
     {
       "id": 2888,
@@ -6927,7 +7004,7 @@
         },
         {
           "num": "2",
-          "title": "Approval of Water and Wastewater Collection Rate Design Guidelines and Principles (ACTION: 6:30PM – 7:30PM)",
+          "title": "Approval of Water and Wastewater Collection Rate Design Guidelines and Principles (ACTION: 6:30PM – 7:30PM) Staff Presentation",
           "topics": [
             "Climate & Utilities"
           ],
@@ -6936,7 +7013,7 @@
         },
         {
           "num": "3",
-          "title": "Electric Grid Modernization Bond Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds Principal Amount Not-to-Exceed $100,000,000 (ACTION: 7:30PM – 7:45PM)",
+          "title": "Electric Grid Modernization Bond Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds Principal Amount Not-to-Exceed $100,000,000 (ACTION: 7:30PM – 7:45PM) Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -6946,7 +7023,7 @@
         },
         {
           "num": "4",
-          "title": "Recommending Approval of Updated Palo Alto Low Carbon Fuel Standards Program Guidelines, including a Definition for Low-Income and a Methodology to Allocate Customer Program Cost Across Low-Income and Non-Low-Income (ACTION: 7:45PM – 8:30PM)",
+          "title": "Recommending Approval of Updated Palo Alto Low Carbon Fuel Standards Program Guidelines, including a Definition for Low-Income and a Methodology to Allocate Customer Program Cost Across Low-Income and Non-Low-Income (ACTION: 7:45PM – 8:30PM) Late Packet Report Added, Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -6994,6 +7071,109 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3090,
+      "body": "Human Relations Commission",
+      "bodySlug": "human-relations-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Human Relations Commission Meeting Regular Meeting ",
+      "date": "2026-10-08",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20430",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of Minutes from August 13 and September 10, 2026 HRC Meeting - Action - 5 Minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Discussion of the Proposed 2027 City Council Meeting Schedule and Review of Citywide Dates of Significance List – Discussion – 15 Minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Presentation and Determination of Priority of Needs for HSRAP FY 2028 – Action – 45 Minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Examination of HOA Fee Stabilization and Affordability Protections for Below Market Rate Homeowners - Action - 30 minutes",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3132,
+      "body": "Policy & Services Committee",
+      "bodySlug": "policy-and-services-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Policy & Services Committee Regular Meeting",
+      "date": "2026-10-13",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20709",
+      "items": [
+        {
+          "num": "1",
+          "title": "Discussion and Possible Recommendation to the City Council Regarding Implementation of Housing Element Program 3.9A, which is Intended to Identify Incentives at Strategic Locations to Shift the Economic Benefit of Redevelopment from Commercial Toward Home Building. CEQA Status: The Addendum to the Comprehensive Plan Environmental Impact Report (EIR), approved by the City Council on November 13, 2023, analyzed potential environmental impacts of the 6th Cycle Housing Element including Program 3.9(A).",
+          "topics": [
+            "Housing",
+            "Climate & Utilities",
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Office of the City Auditor Presentation of the Below Market Rate Housing Program Audit Report. CEQA Status –Not a project.",
+          "topics": [
+            "Housing",
+            "Climate & Utilities",
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Office of the City Auditor Presentation of the FY2026 Audit Recommendation Follow-up Report. CEQA Status: Not a Project.",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     },
     {
       "id": 3050,
