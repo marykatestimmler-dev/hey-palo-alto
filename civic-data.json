@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-02T15:48:54.262Z",
+  "generatedAt": "2026-10-03T14:19:51.052Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-02",
-    "to": "2027-04-02"
+    "from": "2026-04-03",
+    "to": "2027-04-03"
   },
   "bodies": [
     {
@@ -114,18 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3012,
-      "body": "Climate Action and Sustainability Committee",
-      "bodySlug": "climate-action-and-sustainability-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Climate Action and Sustainability Committee Regular Meeting - CANCELED",
-      "date": "2026-04-03",
-      "startTime": "14:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2832,
       "body": "City Council",
@@ -7190,6 +7178,28 @@
   ],
   "news": [
     {
+      "title": "Council candidate Deng drops out of debate unexpectedly",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-02",
+      "url": "https://padailypost.com/2026/10/02/council-candidate-deng-drops-out-of-debate-unexpectedly/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A Palo Alto City Council candidate has dropped out of the city s largest debate with less than 24 hours notice. Yudy Deng, who is [...]"
+    },
+    {
+      "title": "Candidates suggest ideas on dealing with RV influx, such as tow warning signs at entrances to city",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-02",
+      "url": "https://padailypost.com/2026/10/02/candidates-suggest-ideas-on-dealing-with-rv-influx-such-as-tow-warning-signs-at-entrances-to-city/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council candidates have varying opinions on how to address 150 RV dwellers living on city streets. That is the top issue,"
+    },
+    {
       "title": "Menlo Park rejects state’s demand to approve Sunset magazine high-rise as a new property buyer emerges",
       "source": "Palo Alto Online",
       "date": "2026-09-30",
@@ -7211,6 +7221,19 @@
       "summary": "The Old Post Office in Burlingame combines 1940s-inspired fare with architectural flair. The post A historic Peninsula post office is reopening as a fine-dining restaurant from the"
     },
     {
+      "title": "Council grapples with $19-$45 million shortfall in downtown housing plan — and construction hasn’t begun",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-09-30",
+      "url": "https://padailypost.com/2026/09/30/council-grapples-with-19-45-million-shortfall-in-downtown-housing-plan-and-construction-hasnt-begun/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space",
+        "Downtown & Business"
+      ],
+      "summary": "BY NORAH SHEPPARD-HUTCHINSDaily Post Staff Writer Menlo Park council members said they do not want to reduce the parking requirement or the number of subsidized homes to close fina"
+    },
+    {
       "title": "Council candidates critical of city manager",
       "source": "Palo Alto Daily Post",
       "date": "2026-09-29",
@@ -7219,17 +7242,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Candidates for Palo Alto City Council have been critical of City Manager Ed Shikada’s performance. “I don’t think he’s done a great job,"
-    },
-    {
-      "title": "Deng raises $166,128 in campaign — smashing records thanks to out-of-town money",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-25",
-      "url": "https://padailypost.com/2026/09/25/deng-raises-166128-in-campaign-smashing-records-thanks-to-out-of-town-money/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "This story has been updated to include additional fundraising numbers that were not available when the story was first published on Sept. 25. BY BRADEN CARTWRIGHTDaily Post Staff W"
     },
     {
       "title": "Measure J sparks debate over Cubberley’s future",
@@ -7262,16 +7274,6 @@
       "summary": "The East Palo Alto City Council directed staff last week to prioritize low-income homeowners and renters in its recently launched Major Home Repair Program, which will distribute $"
     },
     {
-      "title": "Henigin campaign benefits from use of district’s email — ‘Not a level playing field,’ opponent says",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-24",
-      "url": "https://padailypost.com/2026/09/24/henigin-campaign-benefits-from-use-of-districts-email-not-a-level-playing-field-opponent-says/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A Palo Alto school board candidate who was a teacher s aide recruited student interns and solicited endorsements from her school distric"
-    },
-    {
       "title": "As Menlo Park deli Lutticken’s faces its final days, regulars reminisce about its legacy and hope for a revival",
       "source": "Palo Alto Online",
       "date": "2026-09-23",
@@ -7290,16 +7292,6 @@
         "Downtown & Business"
       ],
       "summary": "Danish skylight maker VELUX has opened first North American experience center in downtown Mountain View, providing visitors a chance to see skylights, sun tunnels and other product"
-    },
-    {
-      "title": "Today’s editorial cartoon",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-22",
-      "url": "https://padailypost.com/2026/09/21/todays-editorial-cartoon-2/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": ""
     },
     {
       "title": "Palo Alto mulls new rules for building, selling ADUs",
@@ -7434,29 +7426,6 @@
         "Budget & Taxes"
       ],
       "summary": "As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged with a far bigger campaign coffer than the rest: Parks and Recreation Co"
-    },
-    {
-      "title": "Sobrato fast-tracks 316 apartments in a larger project in Menlo Park",
-      "source": "Palo Alto Online",
-      "date": "2026-08-01",
-      "url": "https://www.paloaltoonline.com/news/2026/08/01/sobrato-eyes-advancing-on-316-apartments-of-a-larger-project-in-menlo-park/",
-      "topics": [
-        "Housing",
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "The Sobrato Organization is aiming to break ground on 316 apartment units in Menlo Park sooner rather than later amid improving conditions in the Bay Area rental-housing market. Th"
-    },
-    {
-      "title": "Palo Alto developer sues Menlo Park over $127K subdivision fee",
-      "source": "Palo Alto Online",
-      "date": "2026-07-21",
-      "url": "https://www.paloaltoonline.com/menlo-park/2026/07/21/palo-alto-developer-sues-menlo-park-over-127k-subdivision-fee/",
-      "topics": [
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "A Palo Alto developer is suing Menlo Park after the city required a $127,400 in-lieu fee for a single-family home to be subdivided into two parcels. The post Palo Alto developer su"
     }
   ],
   "events": []
