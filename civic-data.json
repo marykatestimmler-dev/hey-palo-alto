@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-05T18:27:22.664Z",
+  "generatedAt": "2026-10-06T15:57:17.470Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-05",
-    "to": "2027-04-05"
+    "from": "2026-04-06",
+    "to": "2027-04-06"
   },
   "bodies": [
     {
@@ -114,181 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2832,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Regular Meeting",
-      "date": "2026-04-06",
-      "startTime": "17:30",
-      "videoId": "MtYxFSTXcPA",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18691",
-      "items": [
-        {
-          "num": "1",
-          "title": "Interview Candidate for Vacancies on the Planning & Transportation Commission; CEQA Status - Not a Project",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "Discussion of Nonprofit Partnership Workplan Phase I Purpose and Improvements for FY 2027. CEQA Status – Not a project. Staff Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": "6:35 PM",
-          "elapsedSec": 3900
-        },
-        {
-          "num": "3",
-          "title": "San Antonio Road Area Plan Update and Council Feedback on Draft Land Use and Transportation Concepts and Alternatives. CEQA Status: Exempt under CEQA Guidelines Section 15262. Staff Presentation, Public Comment",
-          "topics": [
-            "Transportation",
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:35 PM",
-          "elapsedSec": 7500
-        },
-        {
-          "num": "4",
-          "title": "Approval of Minutes from March 16 and March 23, 2026 Meeting",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "5",
-          "title": "Approval of Construction Contract No. C26196846 with FieldTurf USA, Inc. in an Amount Not-to-Exceed $878,919 for El Camino Park Turf Replacement PG-24000, Including Authorization to Execute Change Orders; and Amend the FY 2026 Budget Appropriation in the Capital Improvement Fund; CEQA status – categorically exempt under CEQA Guidelines sections 15301 (Existing Facilities) and 15302 (Replacement or Reconstruction). Supplemental Report added, At-Places Supplemental Report added, Public Comment",
-          "topics": [
-            "Parks & Open Space",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "6",
-          "title": "Approval of General Services Contract No. C26194173 with Duke’s Root Control for a Total Not-to-Exceed Amount of $279,098 and a Three-Year Term and for Root Foaming Treatment Services; and Finding of California Environmental Quality Act (CEQA) Categorical Exemption pursuant to CEQA Guideline 15301, Maintenance of Existing Facilities",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "7",
-          "title": "Approval of a Final Map for the Properties Located at 4335 and 4345 El Camino Real to Allow for a Condominium Subdivision to Create Eight Units on a 17,406-Square-Foot Parcel and to Create 21 Units on a 41,370-Square-Foot Parcel and the Naming of Three Private Streets Associated With the Development (25PLN-00160). CEQA Status: Exempt pursuant to CEQA Guidelines Section 15332 (In-fill Development). Zoning District: CS (Service Commercial).",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Downtown & Business"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "8",
-          "title": "Approval of Contract Amendment Number 2 to Contract Number C21177635B with Ingram Library Services in the amount of $664,000 for Print Materials and Services for a new not-to-exceed (NTE) of $1,119,000 and to extend the contract term to June 30, 2028, Contract Amendment Number 2 to Contract Number C21177635C with Midwest Tape in the amount of $360,000 for Media and Digital Materials and Services for a new NTE of $1,113,000 and to extend the contract term to June 30, 2028, and Contract Amendment Number 1 to Contract Number C25190507 with OverDrive in the amount of $200,000 for Digital Materials and Services for a new NTE of $400,000 and to extend the contract term to June 30, 2028; CEQA Status – Not a Project.",
-          "topics": [
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "9",
-          "title": "Approval of Amendment Number 2 to Contract Number S20178516 with Hohbach-Lewin Inc. to Increase Compensation by $10,000, Revising the Amount Not-to-Exceed to $70,000 and Extend the Contract Term Through March 30, 2029, for On-Call Structural Engineering Services for Public Art Installations; CEQA Status – exempt under regulation 15061(b)(3).",
-          "topics": [
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "10",
-          "title": "QUASI‐JUDICIAL. 530 Barron Avenue [25PLN‐00021]: Appeal of Director’s Decision to Deny an Individual Review Application to Allow Partial Deconstruction of an Existing 924-Square-Foot Single-Story Residence and to Allow the Construction of a New 2,528-Square-Foot Two Story Single-Family Residence with Attached One-Car Garage, 303-Square-Foot Junior Accessory Dwelling Unit and 497-Square-Foot of Existing House Converted to Detached Accessory Dwelling Unit. CEQA Status: Exempt from the Provisions of CEQA in Accordance with CEQA Guidelines Section 15303. Zoning District: R-1 (Single-Family Residential).",
-          "topics": [
-            "Housing",
-            "Arts & Culture"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "11",
-          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Title 18 (Zoning) Chapter 18.70 (Nonconforming Uses and Noncomplying Facilities) of the Palo Alto Municipal Code to Amend Requirements Relating to Accessory Dwelling Units and Junior Accessory Dwelling Units Allow De Minimis Exceptions (FIRST READING: March 9, 2026; PASSED: 7-0) Title Updated, Supplemental Report added",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "12",
-          "title": "SECOND READING: Ordinance of the Council of Authorizing Work in the Baylands Related to the Adjacent Development at 2100-2400 Geng Road (24-PLN-00356) (FIRST READING: March 16, 2026; PASSED 7-0)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "13",
-          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Chapter 18.40 (General Standards and Exceptions) of Title 18 (Zoning) of the Palo Alto Municipal Code to Adopt Bird Friendly Design Standards (FIRST READING: March 16, 2026; PASSED: 5-2, Lu, Lythcott-Haims no) Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "AA1",
-          "title": "Approval of Selection of and Employment Agreement with James Reifschneider as the Chief of Police at an Annual Salary of $363,584; CEQA Status – Not a Project New Item Added, Public Comment",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": "8:40 PM",
-          "elapsedSec": 11400
-        },
-        {
-          "num": "14",
-          "title": "Approval of FY 2026-2027 Human Relations Commission, Parks and Recreation Commission, Public Art Commission, and Stormwater Management Oversight Committee Work Plans; CEQA Status - not a project Staff Presentation",
-          "topics": [
-            "Climate & Utilities",
-            "Parks & Open Space",
-            "Arts & Culture"
-          ],
-          "schedTime": "9:35 PM",
-          "elapsedSec": 14700
-        },
-        {
-          "num": "15",
-          "title": "Adoption of Recommendations by the Policy & Services Committee Implementing Changes to Meeting Procedures Related to Teleconferencing, Remote Public Participation, Translation and Interpretation Assistance, and Expanded Public Outreach; CEQA Status – Not a Project. Staff Presentation, Public Comment",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": "10:20 PM",
-          "elapsedSec": 17400
-        },
-        {
-          "num": "16",
-          "title": "Approval of City Council Values (as Recommended by Policy & Services Committee), 2026 Objectives, Ad Hoc Purpose Statements, and Committee Workplans (Continued from 3/9/2026 - On March 9, 2026, the Council Received Presentations and Public Testimony; the Item Will be Continued to April 6 for further Council Deliberation and Action - No Public Testimony Will be Heard on April 6.) Item Removed Off Agenda",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:40 PM",
-          "elapsedSec": 11400
-        }
-      ]
-    },
     {
       "id": 2810,
       "body": "Finance Committee",
@@ -6749,12 +6574,12 @@
       "title": "City Council Regular Meeting ",
       "date": "2026-10-05",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "twoIHCfgCR0",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19168",
       "items": [
         {
           "num": "1",
-          "title": "Appointment of Candidates to the Human Relations Commission (HRC), Parks and Recreation (PRC), and Planning and Transportation Commission (PTC), CEQA Status - Not a Project",
+          "title": "Appointment of Candidates to the Human Relations Commission (HRC), Parks and Recreation (PRC), and Planning and Transportation Commission (PTC), CEQA Status - Not a Project Staff Presentation",
           "topics": [
             "Transportation",
             "Parks & Open Space"
@@ -6773,7 +6598,7 @@
         },
         {
           "num": "3",
-          "title": "Best Practices in Managing Consultant Services",
+          "title": "Best Practices in Managing Consultant Services Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -6850,7 +6675,7 @@
         },
         {
           "num": "11",
-          "title": "Consideration of City Council Positions on State and Local Measures Presented to Palo Alto Voters on the November 3, 2026 Ballot; CEQA status – not a project",
+          "title": "Consideration of City Council Positions on State and Local Measures Presented to Palo Alto Voters on the November 3, 2026 Ballot; CEQA status – not a project Public Comment, Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -6898,7 +6723,7 @@
       "title": "Public Art Commission Special Meeting",
       "date": "2026-10-06",
       "startTime": "19:00",
-      "videoId": null,
+      "videoId": "7gXsFStTfz4",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20764",
       "items": [
         {
@@ -6978,7 +6803,7 @@
       "title": " Utilities Advisory Commission Regular Meeting",
       "date": "2026-10-07",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "najy0o2KRFE",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19066",
       "items": [
         {
@@ -7068,7 +6893,7 @@
       "title": "Human Relations Commission Meeting Regular Meeting ",
       "date": "2026-10-08",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "ki8Vg7NwWVo",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20430",
       "items": [
         {
@@ -7178,6 +7003,26 @@
   ],
   "news": [
     {
+      "title": "City won’t release appraisal on Cubberley purchase, but discloses appraiser’s estimate",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-06",
+      "url": "https://padailypost.com/2026/10/05/city-paying-higher-than-appraised-value-for-cubberley/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The city of Palo Alto declined yesterday to release the appraisal it got for the seven acres of the Cubberley Community Center it plans "
+    },
+    {
+      "title": "Council picks replacement commissioner after resignation",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-06",
+      "url": "https://padailypost.com/2026/10/05/council-picks-replacement-commissioner-after-resignation/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Oct. 5) picked a replacement for a planning commissioner who was accused of trying to get special treatm"
+    },
+    {
       "title": "Council candidate Deng drops out of debate unexpectedly",
       "source": "Palo Alto Daily Post",
       "date": "2026-10-02",
@@ -7186,18 +7031,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A Palo Alto City Council candidate has dropped out of the city s largest debate with less than 24 hours notice. Yudy Deng, who is [...]"
-    },
-    {
-      "title": "Candidates suggest ideas on dealing with RV influx, such as tow warning signs at entrances to city",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-02",
-      "url": "https://padailypost.com/2026/10/02/candidates-suggest-ideas-on-dealing-with-rv-influx-such-as-tow-warning-signs-at-entrances-to-city/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council candidates have varying opinions on how to address 150 RV dwellers living on city streets. That is the top issue,"
     },
     {
       "title": "Menlo Park rejects state’s demand to approve Sunset magazine high-rise as a new property buyer emerges",
@@ -7219,19 +7052,6 @@
         "Historic Preservation"
       ],
       "summary": "The Old Post Office in Burlingame combines 1940s-inspired fare with architectural flair. The post A historic Peninsula post office is reopening as a fine-dining restaurant from the"
-    },
-    {
-      "title": "Council grapples with $19-$45 million shortfall in downtown housing plan — and construction hasn’t begun",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-09-30",
-      "url": "https://padailypost.com/2026/09/30/council-grapples-with-19-45-million-shortfall-in-downtown-housing-plan-and-construction-hasnt-begun/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space",
-        "Downtown & Business"
-      ],
-      "summary": "BY NORAH SHEPPARD-HUTCHINSDaily Post Staff Writer Menlo Park council members said they do not want to reduce the parking requirement or the number of subsidized homes to close fina"
     },
     {
       "title": "Measure J sparks debate over Cubberley’s future",
