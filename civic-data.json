@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-06T15:57:17.470Z",
+  "generatedAt": "2026-10-07T16:28:39.188Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-06",
-    "to": "2027-04-06"
+    "from": "2026-04-07",
+    "to": "2027-04-07"
   },
   "bodies": [
     {
@@ -114,38 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2810,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Regular Meeting",
-      "date": "2026-04-07",
-      "startTime": "16:00",
-      "videoId": "T7UbJDZ-60k",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18556",
-      "items": [
-        {
-          "num": "1",
-          "title": "Recommend City Council Adoption of a Resolution Amending Utility Rate Schedule D-1 (Storm and Surface Water Drainage) Reflecting a 3.0% Consumer Price Index Rate Increase to $18.14 Per Month Per Equivalent Residential Unit for Fiscal Year 2027; CEQA Status - Not a Project Staff Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Discussion of Electrification State Caps and Additional Discretionary Subsidies and Potential Recommendation to City Council Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2925,
       "body": "Planning & Transportation Commission",
@@ -7112,16 +7080,6 @@
         "Housing"
       ],
       "summary": "The debate over whether the backyard units should be treated like condominiums comes at a time when Palo Alto leaders are increasingly leaning on ADUs to meet the city's housing go"
-    },
-    {
-      "title": "From Oahu to Mountain View: Ry’s Poke Shack opens at Ava’s Downtown Market",
-      "source": "Palo Alto Online",
-      "date": "2026-09-15",
-      "url": "https://www.paloaltoonline.com/mountain-view/2026/09/15/rys-poke-shack-opens-at-avas-downtown-market-mountain-view/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "An Oahu-based poke business is making waves in downtown Mountain View. Just a few weeks old and still in its soft-opening phase, Ry’s Poke Shack is already drawing long lines for i"
     },
     {
       "title": "‘We’ve done everything we can’ — Menlo Park mayor invites Bonta to see controversial skyscraper project site",
