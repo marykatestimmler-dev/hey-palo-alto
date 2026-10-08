@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-07T16:28:39.188Z",
+  "generatedAt": "2026-10-08T16:28:44.151Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-07",
-    "to": "2027-04-07"
+    "from": "2026-04-08",
+    "to": "2027-04-08"
   },
   "bodies": [
     {
@@ -114,67 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2925,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting",
-      "date": "2026-04-08",
-      "startTime": "18:00",
-      "videoId": "v7ULzcOpX48",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19309",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Study Session on Housing Element Program 6.5: Alternative Housing Program, Objective B. CEQA Status: Exempt Under CEQA Guidelines Section 15262. Staff Presentation",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 788-790 and 796 San Antonio Road [25PLN-00294]: Review of a Conceptual Plan to Rezone the Subject Properties From Service Commercial (CS) to a New Planned Community/Planned Home Zoning and to Redevelop the Site With an Eight-Story Mixed Use Building with 167 Residential Units, including 28 Below Market Rate Units, and Approximately 1,400 Square Feet of Ground Floor Retail Space, and Recommendation to Forward to the Architectural Review Board. CEQA Status: An Addendum to the Previously Certified Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project EIR (SCH # 2019090070) is Currently Being Prepared. Applicant Presentation",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of February 25, 2026",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2966,
       "body": "Historic Resources Board",
@@ -6957,6 +6896,18 @@
       ]
     },
     {
+      "id": 3083,
+      "body": "Planning & Transportation Commission",
+      "bodySlug": "planning-and-transportation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Planning & Transportation Commission Regular Meeting - CANCELED",
+      "date": "2026-10-14",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
       "id": 3050,
       "body": "Public Art Commission",
       "bodySlug": "public-art-commission",
@@ -6967,9 +6918,31 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3025,
+      "body": "Economic Development Committee",
+      "bodySlug": "economic-development-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Economic Development Committee Regular Meeting - CANCELED ",
+      "date": "2026-10-21",
+      "startTime": "16:15",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
     }
   ],
   "news": [
+    {
+      "title": "Why a Foster City resident started his own line of decaf teas",
+      "source": "Palo Alto Online",
+      "date": "2026-10-07",
+      "url": "https://www.paloaltoonline.com/food/feature-food/2026/10/07/why-a-foster-city-resident-started-his-own-line-of-decaf-teas/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "Chris Horng’s company de-tea offers decaffeinated teas in green and black varieties, with more options brewing. The post Why a Foster City resident started his own line of decaf te"
+    },
     {
       "title": "City won’t release appraisal on Cubberley purchase, but discloses appraiser’s estimate",
       "source": "Palo Alto Daily Post",
