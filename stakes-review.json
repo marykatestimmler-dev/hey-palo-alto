@@ -1,38 +1,32 @@
 {
-  "generatedAt": "2026-10-08T16:30:36.239Z",
+  "generatedAt": "2026-10-09T16:14:27.353Z",
   "mode": "live",
   "dryRun": false,
   "stats": {
-    "items": 464,
-    "newLines": 2,
-    "kept": 362,
+    "items": 476,
+    "newLines": 10,
+    "kept": 361,
     "rejectedByChecker": 9,
-    "skippedOrFailedValidation": 91,
-    "retired": 1,
+    "skippedOrFailedValidation": 96,
+    "retired": 3,
     "errors": 0
   },
   "log": [
     {
-      "key": "historic resources board schedule of meetings and assignments​",
-      "title": "Historic Resources Board Schedule of Meetings and Assignments​",
+      "key": "approval of minutes from october 27, 2025 – action needed (5 min)",
+      "title": "Approval of Minutes from October 27, 2025 – Action Needed (5 min)",
       "draft": "SKIP",
       "verdict": "model skipped"
     },
     {
-      "key": "public hearing / quasi-judicial. 405 kipling street [25pln-00322] request to elevate the existing category 4 historic resource to a category",
-      "title": "PUBLIC HEARING / QUASI-JUDICIAL. 405 Kipling Street [25PLN-00322] Request to Elevate The Existing Category 4 Historic Resource to a Category 2 Including a Floor Area Bonus Application to Grant 5,000 Square Feet of Bonus Floor Area for Historic and Seismic Rehabilitation. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15301 (Modifications to Existing Facilities). Zone District: CD-C(P) (Downtown Commercial with Pedestrian Shopping Combining District).",
-      "draft": "The Historic Resources Board reviews a request to change the historic status of 405 Kipling Street and allow additional floor area.",
-      "verdict": "local validator: too long (131)"
+      "key": "cip updated – no action needed (15 min)",
+      "title": "CIP Updated – No Action Needed (15 min)",
+      "draft": "The Stormwater Management Oversight Committee reviews an updated Capital Improvement Program.",
+      "verdict": "PASSED — will display"
     },
     {
-      "key": "public comment",
-      "title": "Public Comment",
-      "draft": "SKIP",
-      "verdict": "model skipped"
-    },
-    {
-      "key": "approval of the march 17, 2026 human relations commission special meeting draft action minutes. – action – 5 minutes",
-      "title": "Approval of the March 17, 2026 Human Relations Commission Special Meeting Draft Action Minutes. – Action – 5 minutes",
+      "key": "council workplan debrief – no action needed (5 min)",
+      "title": "Council Workplan Debrief – No Action Needed (5 min)",
       "draft": "SKIP",
       "verdict": "model skipped"
     },
@@ -43,34 +37,16 @@
       "verdict": "model skipped"
     },
     {
-      "key": "approval of minutes from october 27, 2025 – action needed (5 min)",
-      "title": "Approval of Minutes from October 27, 2025 – Action Needed (5 min)",
-      "draft": "SKIP",
-      "verdict": "model skipped"
-    },
-    {
-      "key": "cip updated – no action needed (15 min)",
-      "title": "CIP Updated – No Action Needed (15 min)",
-      "draft": "The Stormwater Management Oversight Committee reviews an updated capital improvement plan.",
-      "verdict": "checker rejected: The headline states the committee 'reviews' an updated CIP, but the official agenda item explicitly states 'No Action Needed,' which indicates this is informational/presentational only, not a review requiring deliberation. The headline omits this material fact and could mislead readers about the nature of the committee's engagement with the item."
-    },
-    {
-      "key": "council workplan debrief – no action needed (5 min)",
-      "title": "Council Workplan Debrief – No Action Needed (5 min)",
-      "draft": "SKIP",
-      "verdict": "model skipped"
-    },
-    {
       "key": "appointment of candidates to the human relations commission (hrc), planning & transportation commission (ptc), and utilities advisory commis",
       "title": "Appointment of Candidates to the Human Relations Commission (HRC), Planning & Transportation Commission (PTC), and Utilities Advisory Commission (UAC); CEQA Status - Not a Project Staff Presentation",
-      "draft": "The City Council considers appointments to the Human Relations, Planning & Transportation, and Utilities Advisory commissions.",
+      "draft": "The City Council considers appointments to the Human Relations, Planning & Transportation, and Utilities Advisory Commissions.",
       "verdict": "local validator: too long (126)"
     },
     {
       "key": "appointment of 2026 emergency standby council",
       "title": "Appointment of 2026 Emergency Standby Council",
-      "draft": "The City Council appoints members to serve as emergency standby council for 2026.",
-      "verdict": "checker rejected: Cannot verify grounding. The official agenda item text was not provided—only the item title 'Appointment of 2026 Emergency Standby Council' is present. Without the full item text, it is impossible to confirm whether every fact in the candidate headline is directly supported by the official source material."
+      "draft": "The City Council appoints members to serve on the 2026 Emergency Standby Council.",
+      "verdict": "checker rejected: The headline cannot be fully evaluated against the grounding requirement because the official agenda item text provided does not include the actual item details — only its title. Without access to the full item text, it is impossible to verify that every fact in the headline is directly supported by official documentation. Additionally, the headline's use of 'appoints members' assumes specific action and outcome that should be confirmed against the complete agenda item."
     },
     {
       "key": "director's report, meeting schedule, and upcoming agenda items",
@@ -117,8 +93,8 @@
     {
       "key": "4075 el camino way [23pln-00202]: recommendation to decline adoption on second reading of an ordinance adopting an amendment to a planned co",
       "title": "4075 El Camino Way [23PLN-00202]: Recommendation to Decline Adoption on Second Reading of an Ordinance Adopting an Amendment to a Planned Community Ordinance (PC-5116) to Allow for Modifications to an Existing 121-Unit Assisted Living and Memory Care Facility. First Reading Adoption was on March 16, 2026. CEQA Status: Exempt from the Provisions of the California Environmental Quality Act (CEQA) in Accordance with CEQA Guidelines Section 15301 (Modifications to Existing Facilities). Supplemental Report Added",
-      "draft": "The City Council votes on declining a zoning amendment for modifications to an assisted living facility.",
-      "verdict": "checker rejected: The headline states the Council 'votes on declining' but the agenda item shows this is a 'Second Reading' of a recommendation to decline. The actual vote outcome is not stated in the agenda item—only that a recommendation to decline is being considered. The headline conflates the agenda action (consideration of a decline recommendation) with a confirmed voting outcome, which is not grounded in the official text."
+      "draft": "The City Council votes on whether to decline modifications to an assisted living facility at 4075 El Camino Way.",
+      "verdict": "local validator: too long (112)"
     },
     {
       "key": "approval of minutes from february 24, 2026 and march 24, 2026",
@@ -147,8 +123,8 @@
     {
       "key": "public hearing / quasi-judicial. 4103 old trace road [25pln-00298]: recommendation on applicant’s request for approval of a tentative map to",
       "title": "PUBLIC HEARING / QUASI-JUDICIAL. 4103 Old Trace Road [25PLN-00298]: Recommendation on Applicant’s Request for Approval of a Tentative Map to Allow for the Subdivision of a Vacant 1.02-Acre Lot to Create Nine Residential Lots and One Private Street to Facilitate Construction of Nine New Single-Family Residences and Seven Junior Accessory Dwelling Units (25PLN-00296). CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code Section 21080.66). Zone District: RE (Residential Estate).",
-      "draft": "The Planning & Transportation Commission reviews a request to subdivide a lot into nine homes and accessory units.",
-      "verdict": "local validator: too long (114)"
+      "draft": "The Planning & Transportation Commission reviews a proposal to divide a lot into nine homes and accessory units.",
+      "verdict": "local validator: too long (112)"
     },
     {
       "key": "approval of planning & transportation commission draft summary & verbatim minutes of march 11, 2026",
@@ -163,6 +139,12 @@
       "verdict": "model skipped"
     },
     {
+      "key": "public comment",
+      "title": "Public Comment",
+      "draft": "SKIP",
+      "verdict": "model skipped"
+    },
+    {
       "key": "approval of minutes from april 13, april 15, and april 20, 2026 meeting",
       "title": "Approval of Minutes from April 13, April 15, and April 20, 2026 Meeting",
       "draft": "SKIP",
@@ -171,8 +153,8 @@
     {
       "key": "approval of second amendment to the lease between the city of palo alto and community skating, inc. for the tennis facility at 3005 middlefi",
       "title": "Approval of Second Amendment to the Lease Between the City of Palo Alto and Community Skating, Inc. for the Tennis Facility at 3005 Middlefield Road, Extending the Term to January 1, 2040; CEQA Status – Categorically Exempt",
-      "draft": "The City Council reviews a lease extension for the tennis facility at 3005 Middlefield Road through 2040.",
-      "verdict": "checker rejected: The headline omits a material fact from the official agenda item: the tenant is 'Community Skating, Inc.,' not a generic facility operator. While the omission is not false per se, it is incomplete in a way that could obscure the specific nature of the arrangement. Additionally, the headline describes the facility only as 'tennis facility,' but the official item identifies it as a lease for a 'Tennis Facility' operated by Community Skating, Inc.—a potential mismatch in description that introduces ambiguity about what activity actually occurs at this location. For a strictly neutral civic information site, the headline should either include the operator name or be verified to align precisely with the official description to avoid any appearance of selective reporting."
+      "draft": "The City Council considers extending the lease for the tennis facility at 3005 Middlefield Road.",
+      "verdict": "checker rejected: The headline states 'considers extending' but the official item indicates the Council is voting on 'Approval of Second Amendment,' which is a decision point, not merely consideration. This conflates deliberation with action and softens the agency of the vote, potentially misrepresenting the nature of the agenda item to readers."
     },
     {
       "key": "summary of day 1 (9:00 am – 9:30 am) staff presentation",
@@ -195,14 +177,14 @@
     {
       "key": "approval of chair and vice chair to serve a one-year term beginning may 6, 2026 (action: 6:35pm – 6:55pm)",
       "title": "Approval of Chair and Vice Chair to Serve a One-Year Term beginning May 6, 2026 (ACTION: 6:35PM – 6:55PM)",
-      "draft": "The Utilities Advisory Commission votes on its chair and vice chair for the next year.",
-      "verdict": "checker rejected: The headline states 'votes on' but the official item says 'Approval of Chair and Vice Chair' — this describes an approval action, not a vote that is currently happening. The headline uses present tense 'votes on' which mischaracterizes the agenda item as a future action to be taken, rather than accurately reflecting that it IS the approval action itself. This is a factual misalignment with the official item text."
+      "draft": "The Utilities Advisory Commission votes on chair and vice chair selections for a one-year term.",
+      "verdict": "checker rejected: The headline uses 'votes on' which suggests a decision/action outcome, but the official item describes an 'Approval' agenda item where selections are presented for approval—not a voting process by the commission itself. This is a material distinction in what action occurs. The headline should reflect that the body is approving (or considering approval of) selections, not that the commission votes on them."
     },
     {
       "key": "recommendation to the city council to adopt the proposed operating and capital budgets for the utilities department for fiscal year 2027 (ac",
       "title": "Recommendation to the City Council to Adopt the Proposed Operating and Capital Budgets for the Utilities Department for Fiscal Year 2027 (ACTION: 6:55PM – 7:40PM) Supplemental Report Added",
-      "draft": "The Utilities Advisory Commission reviews the proposed operating and capital budgets for the Utilities Department for fiscal year 2027.",
-      "verdict": "local validator: too long (135)"
+      "draft": "The Utilities Advisory Commission reviews the Utilities Department's proposed operating and capital budgets for fiscal year 2027.",
+      "verdict": "local validator: too long (129)"
     },
     {
       "key": "public hearing / quasi-judicial. 800-808/814 san antonio road [25pln-00225]: proposal to rezone the subject properties from pc-5622 to a new",
@@ -268,7 +250,7 @@
       "key": "proclamation honoring june 2026 as lgbtqia+ pride month late packet report added",
       "title": "Proclamation Honoring June 2026 as LGBTQIA+ Pride Month Late Packet Report added",
       "draft": "The City Council considers a proclamation honoring June 2026 as LGBTQIA+ Pride Month.",
-      "verdict": "checker rejected: The headline uses 'considers' which introduces uncertainty about whether the item will actually be voted on or passed. The official agenda item states it is being added as a 'Late Packet Report,' indicating it is scheduled for discussion/action, not merely under consideration. Additionally, the specific acronym 'LGBTQIA+' in the headline, while technically grounded, goes beyond neutral civic description by using the most expansive form; a neutral headline would use the more standard reference or simply state the substance. The framing 'considers a proclamation' subtly neutralizes what appears to be a scheduled action item."
+      "verdict": "checker rejected: The headline states the Council 'considers' a proclamation, but the official item indicates this is a 'Late Packet Report added'—suggesting it has already been added to the agenda rather than merely being under consideration. This represents a factual divergence from the source material. Additionally, the specific acronym 'LGBTQIA+' is a group-identity label that, while factually present in the official item, could be perceived by some residents as carrying political or cultural positioning rather than purely administrative neutrality. A strictly neutral headline would use more procedurally precise language: 'City Council to vote on proclamation for June 2026 Pride Month' or similar."
     },
     {
       "key": "approval of minutes from may 11 and may 18, 2026 meeting",
@@ -279,8 +261,8 @@
     {
       "key": "public hearing/quasi-judicial. 762 san antonio road [24pln‐00120]: request for recommendation on a major architectural review application to",
       "title": "PUBLIC HEARING/QUASI-JUDICIAL. 762 San Antonio Road [24PLN‐00120]: Request for Recommendation on a Major Architectural Review Application to Demolish Three Existing Commercial Buildings and Construct an Eight-Story Multi-Family Residential Building Containing 228 Rental Apartments. Thirteen (13) Percent of the Units (30 Units) Would be Deed Restricted to Serve Lower Income Households. The Project is Proposed in Accordance with California Government Code Section 65589.5(d)(5) “Builders Remedy\". A Senate Bill 330 Pre-Application was Filed January 9, 2024. CEQA Status: An Addendum to the Previously Certified Environmental Impact Report for the Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project (SCH # 2019090070) has Been Prepared. Zoning District: CS (AD); Service Commercial (Automobile Dealership). Supplemental Report Added",
-      "draft": "The Architectural Review Board reviews a proposal to demolish three buildings and construct an eight-story apartment complex with 228 units at 762 San Antonio Road.",
-      "verdict": "local validator: too long (164)"
+      "draft": "The Architectural Review Board reviews a proposal to demolish three commercial buildings and construct an eight-story residential building with 228 apartments.",
+      "verdict": "local validator: too long (159)"
     },
     {
       "key": "draft architectural review board meeting minutes for may 7, 2026",
@@ -291,8 +273,8 @@
     {
       "key": "adopt an ordinance and resolution calling an election and placing a ½ cent (0.5%) transactions and use tax measure on the november 3, 2026 b",
       "title": "Adopt an Ordinance and Resolution Calling an Election and Placing a ½ Cent (0.5%) Transactions and Use Tax Measure on the November 3, 2026 Ballot; and a Resolution Adopting Advisory Spending Guidelines for the Use of the Proceeds if the Measure Passes to Support Improving the Cubberley Community Center; CEQA Status - Not a Project. Late Packet Report Added, Staff Presentation, Public Comment",
-      "draft": "The City Council considers a half-cent sales tax measure for the November 2026 ballot to fund Cubberley Community Center improvements.",
-      "verdict": "local validator: too long (134)"
+      "draft": "The City Council considers placing a half-cent sales tax measure on the 2026 ballot for Cubberley Community Center improvements.",
+      "verdict": "local validator: too long (128)"
     },
     {
       "key": "approval of planning & transportation commission draft summary minutes of april 29, 2026",
@@ -319,22 +301,16 @@
       "verdict": "model skipped"
     },
     {
-      "key": "public hearing / quasi-judicial. 929 laurel glenn dr [25pln-00005]: adoption of a record of land use action approving a major site and desig",
-      "title": "PUBLIC HEARING / QUASI-JUDICIAL. 929 Laurel Glenn Dr [25PLN-00005]: Adoption of a Record of Land Use Action Approving a Major Site and Design Application for the Construction of a New 6,581-Square-Foot Single-Family Residence and Associated Site Improvements on a Vacant 4.23-Acre Site. CEQA Status: Exempt Per CEQA Guidelines Section 15303. Zoning District: Open Space (OS).",
-      "draft": "The City Council reviews a proposal for a new single-family home at 929 Laurel Glenn Drive.",
-      "verdict": "PASSED — will display"
-    },
-    {
       "key": "quasi-judicial. 3200 park/340 portage: final map and street naming [26pln-00009]: request for a final map to subdivide one existing 3.92-acr",
       "title": "QUASI-JUDICIAL. 3200 Park/340 Portage: Final Map and Street Naming [26PLN-00009]: Request for a Final Map to Subdivide One Existing 3.92-Acre Parcel for Condominium Purposes, Consistent with the Approved Development Agreement, and to Name the New Private Streets. Zone District: PC 5597. CEQA Status: Council Adopted Resolution 10123 Certifying the EIR for the Project on September 12, 2023 (SCH # 2021120444). Item Removed Off Agenda",
-      "draft": "SKIP",
-      "verdict": "model skipped"
+      "draft": "The City Council reviews a final map to subdivide a 3.92-acre parcel for condominiums.",
+      "verdict": "checker rejected: The headline omits the critical fact that the item was 'Removed Off Agenda' — a material procedural detail that changes the informational value. A non-partisan civic site must convey that no review actually occurred."
     },
     {
       "key": "second reading and adoption of temporary ordinances implementing senate bill (sb) 79, and introduction and adoption of interim urgency ordin",
       "title": "SECOND READING and Adoption of Temporary Ordinances Implementing Senate Bill (SB) 79, and Introduction and Adoption of Interim Urgency Ordinances Excluding Certain Historic Resource Sites and Transit-Oriented Development (TOD) Eligible Sites from Government Code Section 65912.157 and Authorizing Corresponding Zoning Map Updates. CEQA Status: Exempt Under Government Code Section 65912.160(c)(2). Supplemental Report Added, Public Comment a. SECOND READING and Adoption of Temporary Ordinances Implementing SB 79 (Staff Recommendations 1 & 2) b. Introduction and Adoption of Interim Urgency Ordinances Excluding Certain Historic Resource Sites from Government Code Section 65912.157 (Staff Recommendation 3) c. Introduction and Adoption of Interim Urgency Ordinances Excluding Certain Transit-Oriented Development (TOD) Eligible Sites from Government Code Section 65912.157 (Staff Recommendation 4)",
-      "draft": "The City Council adopts ordinances implementing state housing law with exceptions for historic and transit-oriented sites.",
-      "verdict": "local validator: too long (122)"
+      "draft": "The City Council adopts ordinances implementing state housing law with exclusions for historic sites and transit areas.",
+      "verdict": "local validator: too long (119)"
     },
     {
       "key": "conference with legal counsel—potential litigation (one case) subject: initiation of litigation in one case authority: government code secti",
@@ -351,7 +327,7 @@
     {
       "key": "approval of promised gift of artwork – approval of promised gift of artwork by viola frey by a private donor into the permanent collection o",
       "title": "Approval of Promised Gift of Artwork – Approval of promised gift of artwork by Viola Frey by a private donor into the permanent collection of public art.",
-      "draft": "The Public Art Commission reviews a promised gift of artwork by Viola Frey for the permanent collection.",
+      "draft": "The Public Art Commission reviews a promised gift of artwork by Viola Frey for the city's collection.",
       "verdict": "local validator: banned pattern: promis"
     },
     {
@@ -411,8 +387,8 @@
     {
       "key": "recommendation to city council to accept the rwqcp biosolids facility plan update as part of the long range facilities plan update and adopt",
       "title": "Recommendation to City Council to Accept the RWQCP Biosolids Facility Plan Update as Part of the Long Range Facilities Plan Update and Adopt a Park Dedication Ordinance for a Portion of the Measure E Site; CEQA Status – Not a Project Title Updated, Late Packet Report Added, Staff Presentation",
-      "draft": "The Climate Action and Sustainability Committee reviews a biosolids facility plan update and park dedication ordinance.",
-      "verdict": "local validator: too long (119)"
+      "draft": "The Climate Action and Sustainability Committee reviews a biosolids facility plan and park dedication ordinance.",
+      "verdict": "local validator: too long (112)"
     },
     {
       "key": "approval of minutes from june 8 and june 15, 2026 meetings",
@@ -429,8 +405,8 @@
     {
       "key": "public hearing/quasi-judicial: 332 forest avenue [26pln-00043]: recommendation to forward a planned home zone (phz) application to the archi",
       "title": "PUBLIC HEARING/QUASI-JUDICIAL: 332 Forest Avenue [26PLN-00043]: Recommendation to forward a Planned Home Zone (PHZ) Application to the Architectural Review Board to Redevelop the Site with an Eight-Story, 82-Unit Multi-Family Residential Development. CEQA Status: An Exemption under CEQA Guidelines Section 15183 (Comprehensive Plan Consistency) is Currently Being Prepared. Zone District: Multiple Family (RM-40).",
-      "draft": "The Planning & Transportation Commission reviews an eight-story, 82-unit residential development proposal for 332 Forest Avenue.",
-      "verdict": "local validator: too long (128)"
+      "draft": "The Planning & Transportation Commission reviews an 82-unit residential development proposal for 332 Forest Avenue.",
+      "verdict": "local validator: too long (115)"
     },
     {
       "key": "approval of planning & transportation commission draft summary minutes of june 10, 2026",
@@ -445,22 +421,16 @@
       "verdict": "model skipped"
     },
     {
-      "key": "approval of historic resources board draft minutes of june 11, 2026",
-      "title": "Approval of Historic Resources Board Draft Minutes of June 11, 2026",
-      "draft": "The Historic Resources Board reviews its draft minutes from June 11.",
-      "verdict": "PASSED — will display"
-    },
-    {
       "key": "approve expansion of the city’s overnight warming/cooling location program, approve an operating framework for emergency inclement weather r",
       "title": "Approve Expansion of the City’s Overnight Warming/Cooling Location Program, Approve an Operating Framework for Emergency Inclement Weather Response; CEQA status.",
-      "draft": "The City Council considers expanding the overnight warming and cooling program and setting emergency weather response procedures.",
-      "verdict": "local validator: too long (129)"
+      "draft": "The City Council considers expansion of overnight warming and cooling locations and an emergency weather response plan.",
+      "verdict": "local validator: too long (119)"
     },
     {
       "key": "public hearing/quasi-judicial. 762 san antonio road [24pln‐00120]: request for approval of a major architectural review application to demol",
       "title": "PUBLIC HEARING/QUASI-JUDICIAL. 762 San Antonio Road [24PLN‐00120]: Request for Approval of a Major Architectural Review Application to Demolish Three Existing Commercial Buildings and Construct an Eight-Story Multi-Family Residential Building Containing 228 Rental Apartments. The Project is Proposed in Accordance with California Government Code Section 65589.5(d)(5) “Builders Remedy\". CEQA Status: An Addendum to the Previously Certified Environmental Impact Report for the Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project (SCH # 2019090070) has Been Prepared. Zoning District: CS (AD); Service Commercial (Automobile Dealership). Public Comment, Staff Presentation, Applicant Presentation",
-      "draft": "The City Council reviews a proposal to demolish three buildings and construct an eight-story apartment complex at 762 San Antonio Road.",
-      "verdict": "local validator: too long (135)"
+      "draft": "The City Council reviews a proposal to demolish three buildings and construct an eight-story apartment building at 762 San Antonio Road.",
+      "verdict": "local validator: too long (136)"
     },
     {
       "key": "draft architectural review board meeting minutes for july 16, 2026",
@@ -478,7 +448,7 @@
       "key": "public letters",
       "title": "Public Letters",
       "draft": "The Public Art Commission reviews public letters.",
-      "verdict": "checker rejected: The headline fails the GROUNDED criterion. The official agenda item is titled 'Public Letters' under the Public Art Commission body, but this only indicates that 'Public Letters' is an agenda item—not that the Commission 'reviews' them. The verb 'reviews' adds interpretation about what action will occur during discussion of this item and is not directly supported by the official text provided."
+      "verdict": "checker rejected: The headline states a complete action ('reviews public letters') but the official agenda item only lists 'Public Letters' as a topic heading under the Public Art Commission body. The headline adds an unstated verb and suggests an active review process that is not explicitly confirmed in the item text provided. This exceeds what is directly grounded in the source material."
     },
     {
       "key": "review applications and select candidates to interview for vacancies on the historic resources board (hrb); ceqa status – not a project staf",
@@ -513,8 +483,8 @@
     {
       "key": "overview of approaches to achieving the city's carbon neutrality goal and committee feedback on areas for further staff analysis; ceqa statu",
       "title": "Overview of Approaches to Achieving the City's Carbon Neutrality Goal and Committee Feedback on Areas for Further Staff Analysis; CEQA Status - Not a Project Late Packet Report Added, Staff Presentation",
-      "draft": "The Climate Action and Sustainability Committee reviews approaches to achieving the city's carbon neutrality goal.",
-      "verdict": "local validator: too long (114)"
+      "draft": "The Climate Action and Sustainability Committee reviews approaches to reaching the city's carbon neutrality goal.",
+      "verdict": "local validator: too long (113)"
     },
     {
       "key": "approval of minutes from august 17 and august 24, 2026 meetings",
@@ -538,13 +508,13 @@
       "key": "public employee performance evaluations authority: cal. gov. code section 54957 (b) title: city manager",
       "title": "Public Employee Performance Evaluations Authority: Cal. Gov. Code section 54957 (b) Title: City Manager",
       "draft": "The City Council reviews the City Manager's performance evaluation.",
-      "verdict": "checker rejected: The headline uses the verb 'reviews' which implies an active evaluative process occurring, but the official agenda item only establishes the authority and legal basis (Gov. Code section 54957(b)) for such a review. The headline adds interpretive content about what action is actually happening that is not explicitly stated in the official item text itself. A strictly grounded headline would need to be limited to what the agenda item directly conveys: that this is a closed session agenda item concerning the City Manager's performance evaluation under the cited statute."
+      "verdict": "checker rejected: The headline states 'reviews' as present tense, implying an action that will occur or is occurring. The official item only establishes the authority/agenda topic under which such a review could happen, not that a review is actually taking place. This adds interpretive content not directly supported by the item text."
     },
     {
       "key": "interview candidates for vacancies on the parks & recreation commission (prc) and public art commission (pac); ceqa status - not a project t",
       "title": "Interview Candidates for Vacancies on the Parks & Recreation Commission (PRC) and Public Art Commission (PAC); CEQA Status - Not a Project Title Updated, Supplemental Report added",
-      "draft": "The City Council interviews candidates for vacancies on the Parks & Recreation Commission and Public Art Commission.",
-      "verdict": "local validator: too long (116)"
+      "draft": "The City Council interviews candidates for openings on the Parks & Recreation Commission and Public Art Commission.",
+      "verdict": "local validator: too long (115)"
     },
     {
       "key": "approval of minutes from july 28, 2026",
@@ -567,8 +537,8 @@
     {
       "key": "consideration of the human relations commission on (hrc) providing a recommendation to the city council to take a position on california sta",
       "title": "Consideration of the Human Relations Commission on (HRC) Providing a Recommendation to the City Council to Take a Position on California State Proposition 1, the Veterans and Affordable Housing Bond Act of 2026 – Action – 30 minutes",
-      "draft": "The Human Relations Commission considers whether to recommend that the City Council take a position on California's Veterans and Affordable Housing Bond Act.",
-      "verdict": "local validator: too long (157)"
+      "draft": "The Human Relations Commission considers whether to recommend a city position on a state veterans and housing bond measure.",
+      "verdict": "local validator: too long (123)"
     },
     {
       "key": "interview candidates for vacancies on the human relations commission (hrc) and planning and transportation commission (ptc); ceqa status - n",
@@ -597,8 +567,8 @@
     {
       "key": "code:art 2027 - approval of the use of private development generated in-lieu funds in an amount not to exceed $375,000 to support major proj",
       "title": "Code:ART 2027 - Approval of the use of private development generated in-lieu funds in an amount not to exceed $375,000 to support major projection mapping artworks in downtown Palo Alto featured during Code:ART 2027.",
-      "draft": "The Public Art Commission reviews use of $375,000 in development funds for projection mapping artworks in downtown Palo Alto.",
-      "verdict": "local validator: too long (125)"
+      "draft": "The Public Art Commission decides whether to use $375,000 in development funds for projection mapping artworks in downtown Palo Alto.",
+      "verdict": "local validator: too long (133)"
     },
     {
       "key": "approval of the minutes of the utilities advisory commission meeting held on september 2, 2026",
@@ -621,8 +591,116 @@
     {
       "key": "presentation and determination of priority of needs for hsrap fy 2028 – action – 45 minutes",
       "title": "Presentation and Determination of Priority of Needs for HSRAP FY 2028 – Action – 45 Minutes",
-      "draft": "The Human Relations Commission sets priorities for community needs funding for fiscal year 2028.",
-      "verdict": "checker rejected: The headline describes the Commission as 'setting priorities' (active/conclusive framing), but the official item text says 'Presentation and Determination of Priority of Needs' (Determination suggests decision-making is occurring at this meeting, but 'Presentation' indicates information-sharing may also be primary). More critically, the headline omits the specific program acronym 'HSRAP' and fiscal year identifier, which are material factual details that distinguish this action. The omission of 'HSRAP FY 2028' creates vagueness about scope that could mislead readers about which funding stream is under discussion."
+      "draft": "The Human Relations Commission sets priority needs for the HSRAP program for fiscal year 2028.",
+      "verdict": "checker rejected: The headline states the Commission 'sets priority needs' but the official item describes only 'Presentation and Determination of Priority of Needs' — an action item that may or may not result in setting priorities. The headline presumes the outcome of a determination process that has not yet occurred. This is interpretive beyond what the official text supports."
+    },
+    {
+      "key": "public hearing / quasi-judicial. 250 hamilton avenue [26pln-00229]. request by at&t for review of two tier 2 general wireless communication ",
+      "title": "PUBLIC HEARING / QUASI-JUDICIAL. 250 Hamilton Avenue [26PLN-00229]. Request by AT&T for Review of Two Tier 2 General Wireless Communication Facilities to Collocate New Antennas, Remote Radio Units (RRUs), Seven-Foot Fiberglass Pole Extensions and Associated Equipment on Existing City-Owned Wood Utility Poles in the Public Right-of-Way (ROW) Near 670 Guinda Street and 754 Homer Avenue. CEQA Status: Exempt Pursuant to California Environmental Quality Act (CEQA) Guideline Section 15301 (Existing Facilities). Zoning District: Not Applicable (Public ROW).",
+      "draft": "The Architectural Review Board reviews AT&T's request to add antennas and equipment to utility poles near Guinda Street and Homer Avenue.",
+      "verdict": "local validator: too long (137)"
+    },
+    {
+      "key": "draft architectural review board meeting minutes for august 20, 2026",
+      "title": "Draft Architectural Review Board Meeting Minutes for August 20, 2026",
+      "draft": "SKIP",
+      "verdict": "model skipped"
+    },
+    {
+      "key": "draft architectural review board meeting minutes for september 3, 2026",
+      "title": "Draft Architectural Review Board Meeting Minutes for September 3, 2026",
+      "draft": "SKIP",
+      "verdict": "model skipped"
+    },
+    {
+      "key": "caltrain presentation of framework for a ”no external funding scenario”. ceqa status – not a project",
+      "title": "Caltrain Presentation of Framework for a ”No External Funding Scenario”. CEQA Status – Not a Project",
+      "draft": "The City Council reviews Caltrain's framework for operating without external funding.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "celebrating palo alto's relationship with tsuchiura, japan and denis shovkoplyas, the palo alto 2026 tsuchiura marathon runner",
+      "title": "Celebrating Palo Alto's Relationship with Tsuchiura, Japan and Denis Shovkoplyas, the Palo Alto 2026 Tsuchiura Marathon Runner",
+      "draft": "The City Council celebrates Palo Alto's relationship with Tsuchiura, Japan and a marathon runner.",
+      "verdict": "checker rejected: The headline omits a specific named individual (Denis Shovkoplyas) who is explicitly featured in the official agenda item title. This constitutes a material omission of fact from the official record, violating the GROUNDED requirement. The official item names him as 'the Palo Alto 2026 Tsuchiura Marathon Runner,' making his inclusion factually necessary for accuracy."
+    },
+    {
+      "key": "approval of minutes from september 28 and october 5, 2026 meetings",
+      "title": "Approval of Minutes from September 28 and October 5, 2026 Meetings",
+      "draft": "SKIP",
+      "verdict": "model skipped"
+    },
+    {
+      "key": "approve $15,000 from council contingency to the know your neighbors grant program; ceqa – not a project",
+      "title": "Approve $15,000 from Council Contingency to the Know Your Neighbors Grant Program; CEQA – Not a Project",
+      "draft": "The City Council decides on $15,000 in funding for the Know Your Neighbors Grant Program.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "approval of a letter of intent with palo alto community child care for collaboration on a long-term public-private partnership for expanded ",
+      "title": "Approval of a Letter of Intent with Palo Alto Community Child Care for collaboration on a long-term public-private partnership for expanded child care at the Cubberley site; CEQA status – Mitigated Negative Declaration Approved on May 19, 2026.",
+      "draft": "The City Council considers a partnership agreement for expanded child care at the Cubberley site.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "adoption of an ordinance to amend pamc chapter 10.44 prohibiting overnight parking of oversized vehicles (osvs) in residential areas, and a ",
+      "title": "Adoption of an ordinance to amend PAMC Chapter 10.44 prohibiting overnight parking of oversized vehicles (OSVs) in residential areas, and a resolution to support implementation of the Embarcadero Road OSV parking permit pilot program and Approve Budget Amendments in the Capital Improvement Fund. CEQA status – categorically and statutorily exempt.",
+      "draft": "The City Council considers new rules on overnight parking of large vehicles in residential areas.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "adoption of an ordinance amending the special setback map to reduce the special setback along a portion of hansen way at 3300 el camino real",
+      "title": "Adoption of an Ordinance Amending the Special Setback Map to Reduce the Special Setback Along a Portion of Hansen Way at 3300 El Camino Real from 50 Feet to 20 Feet. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15305 (Minor Alterations in Land Use Limitations).",
+      "draft": "The City Council considers reducing the special setback requirement along Hansen Way at 3300 El Camino Real.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "approve two purchase orders with packet fusion, utilizing one naspo cooperative and one cmas cooperative agreement, to procure zoom governme",
+      "title": "Approve Two Purchase Orders with Packet Fusion, Utilizing One NASPO Cooperative and One CMAS Cooperative Agreement, to Procure Zoom Government Unified Communications Solutions for a Five-Year Term for a Total Not-To-Exceed Amount of $1,206,456; CEQA Status – exempt under section 15061(b)(3).",
+      "draft": "The City Council approves purchases of Zoom communications software for five years at a total cost of $1.2 million.",
+      "verdict": "local validator: too long (115)"
+    },
+    {
+      "key": "quasi-judicial. 751 waverley street [26pln-00034]: appeal of director’s decision to uphold the issuance of the permit, confirming approval t",
+      "title": "QUASI-JUDICIAL. 751 Waverley Street [26PLN-00034]: Appeal of Director’s Decision to Uphold the Issuance of the Permit, Confirming Approval to Remove Four Protected Coast Redwoods (Sequoia sempervirens) Located at 751 Waverley Street under the Right Tree in the Right Place Principles for Removal in Palo Alto Municipal Code 8.10.050; CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3)",
+      "draft": "The City Council reviews an appeal of a permit decision for tree removal at 751 Waverley Street.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "interview candidates for vacancies on the public art commission (pac) and stormwater management oversight committee (swmoc); ceqa status – n",
+      "title": "Interview Candidates for Vacancies on the Public Art Commission (PAC) and Stormwater Management Oversight Committee (SWMOC); CEQA Status – Not a Project - Appointments",
+      "draft": "The City Council interviews candidates for vacancies on the Public Art Commission and Stormwater Management Oversight Committee.",
+      "verdict": "local validator: too long (128)"
+    },
+    {
+      "key": "conference with city attorney – potential litigation subject: significant exposure to litigation one case, as defendant authority: governmen",
+      "title": "CONFERENCE WITH CITY ATTORNEY – POTENTIAL LITIGATION Subject: Significant exposure to litigation One Case, as Defendant Authority: Government Code Section 54956.9(d)(2)",
+      "draft": "SKIP",
+      "verdict": "model skipped"
+    },
+    {
+      "key": "conference with city attorney – existing litigation; potential litigation subject: willow project llc v. city of menlo park et al. santa mat",
+      "title": "CONFERENCE WITH CITY ATTORNEY – EXISTING LITIGATION; POTENTIAL LITIGATION Subject: Willow Project LLC v. City of Menlo Park et al. Santa Mateo County Superior Court Case No. 26-CIV-07675 One Case Authority: Government Code Section 54956.9(d)(1) and 54956.9(d)(2)",
+      "draft": "The City Council reviews litigation involving the City of Menlo Park.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "california public employees’ retirement system (calpers) pension annual valuation reports as of june 30, 2025; ceqa status—not a project.",
+      "title": "California Public Employees’ Retirement System (CalPERS) Pension Annual Valuation Reports as of June 30, 2025; CEQA Status—Not a Project.",
+      "draft": "The City Council reviews CalPERS pension valuation reports for the fiscal year ending June 30, 2025.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "grid modernization for electrification project financing; recommendation to the city council to adopt a resolution authorizing the issuance ",
+      "title": "Grid Modernization for Electrification Project Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds in a Principal Amount Not-to-Exceed $100 Million: Approval of the Electric Revenue Bond Indenture, First Supplemental Electric Bond Indenture of Trust, Official Statement, Bond Purchase Agreement, and Authorizing Official Actions and Documents; CEQA Status - Not a Project",
+      "draft": "The Finance Committee reviews $100 million in electric revenue bonds for grid modernization.",
+      "verdict": "PASSED — will display"
+    },
+    {
+      "key": "review and provide a recommendation to city council on proposed reserve categories and target funding approach for the regional water qualit",
+      "title": "Review and Provide a Recommendation to City Council on Proposed Reserve Categories and Target Funding Approach for the Regional Water Quality Control Plant; CEQA Status – Not a Project​",
+      "draft": "The Finance Committee reviews reserve categories and funding approach for the Regional Water Quality Control Plant.",
+      "verdict": "local validator: too long (115)"
     }
   ]
 }

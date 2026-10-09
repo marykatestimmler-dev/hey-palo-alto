@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-08T16:28:44.151Z",
+  "generatedAt": "2026-10-09T16:12:17.885Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-08",
-    "to": "2027-04-08"
+    "from": "2026-04-09",
+    "to": "2027-04-09"
   },
   "bodies": [
     {
@@ -114,108 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2966,
-      "body": "Historic Resources Board",
-      "bodySlug": "historic-resources-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Historic Resources Board Regular Meeting",
-      "date": "2026-04-09",
-      "startTime": "08:30",
-      "videoId": "UrHHCcr3nfA",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19597",
-      "items": [
-        {
-          "num": "1",
-          "title": "Historic Resources Board Schedule of Meetings and Assignments​",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 405 Kipling Street [25PLN-00322] Request to Elevate The Existing Category 4 Historic Resource to a Category 2 Including a Floor Area Bonus Application to Grant 5,000 Square Feet of Bonus Floor Area for Historic and Seismic Rehabilitation. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15301 (Modifications to Existing Facilities). Zone District: CD-C(P) (Downtown Commercial with Pedestrian Shopping Combining District).",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Historic Preservation",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Approval of Historic Resources Board Draft Minutes of March 12, 2026",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2868,
-      "body": "Human Relations Commission",
-      "bodySlug": "human-relations-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Human Relations Commission Regular Meeting",
-      "date": "2026-04-09",
-      "startTime": "18:00",
-      "videoId": "ZxnQLMkDhwU",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18925",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of the March 17, 2026 Human Relations Commission Special Meeting Draft Action Minutes. – Action – 5 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Discussion on Youth Mental Health with Youth Community Service (YCS), Stanford Center for Youth Mental Health and Wellbeing, and Health Alliance in Response to Adolescent Depression (HEARD). Update from City Staff on City Efforts with the Jed Foundation. – Discussion – 60 minutes Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Recommendations for Fiscal Year 2026-27 Community Development Block Grant Funding Allocations and Review of the Draft Fiscal Year 2026-27 Annual Action Plan. – Action – 45 minutes Presentation",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3038,
       "body": "Stormwater Management Oversight Committee",
@@ -6908,6 +6806,66 @@
       "items": []
     },
     {
+      "id": 3063,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board Regular Meeting",
+      "date": "2026-10-15",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20242",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 250 Hamilton Avenue [26PLN-00229]. Request by AT&T for Review of Two Tier 2 General Wireless Communication Facilities to Collocate New Antennas, Remote Radio Units (RRUs), Seven-Foot Fiberglass Pole Extensions and Associated Equipment on Existing City-Owned Wood Utility Poles in the Public Right-of-Way (ROW) Near 670 Guinda Street and 754 Homer Avenue. CEQA Status: Exempt Pursuant to California Environmental Quality Act (CEQA) Guideline Section 15301 (Existing Facilities). Zoning District: Not Applicable (Public ROW).",
+          "topics": [
+            "Transportation",
+            "Climate & Utilities",
+            "Parks & Open Space"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Draft Architectural Review Board Meeting Minutes for August 20, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Draft Architectural Review Board Meeting Minutes for September 3, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 3050,
       "body": "Public Art Commission",
       "bodySlug": "public-art-commission",
@@ -6918,6 +6876,175 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 2905,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting ",
+      "date": "2026-10-19",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19174",
+      "items": [
+        {
+          "num": "1",
+          "title": "Caltrain Presentation of Framework for a ”No External Funding Scenario”. CEQA Status – Not a Project",
+          "topics": [
+            "Transportation",
+            "Budget & Taxes"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Celebrating Palo Alto's Relationship with Tsuchiura, Japan and Denis Shovkoplyas, the Palo Alto 2026 Tsuchiura Marathon Runner",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:40 PM",
+          "elapsedSec": 600
+        },
+        {
+          "num": "3",
+          "title": "Approval of Minutes from September 28 and October 5, 2026 Meetings",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:35 PM",
+          "elapsedSec": 3900
+        },
+        {
+          "num": "4",
+          "title": "Approve $15,000 from Council Contingency to the Know Your Neighbors Grant Program; CEQA – Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "6:35 PM",
+          "elapsedSec": 3900
+        },
+        {
+          "num": "5",
+          "title": "Approval of a Letter of Intent with Palo Alto Community Child Care for collaboration on a long-term public-private partnership for expanded child care at the Cubberley site; CEQA status – Mitigated Negative Declaration Approved on May 19, 2026.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "6:35 PM",
+          "elapsedSec": 3900
+        },
+        {
+          "num": "6",
+          "title": "Adoption of an ordinance to amend PAMC Chapter 10.44 prohibiting overnight parking of oversized vehicles (OSVs) in residential areas, and a resolution to support implementation of the Embarcadero Road OSV parking permit pilot program and Approve Budget Amendments in the Capital Improvement Fund. CEQA status – categorically and statutorily exempt.",
+          "topics": [
+            "Housing",
+            "Transportation",
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:35 PM",
+          "elapsedSec": 3900
+        },
+        {
+          "num": "7",
+          "title": "Adoption of an Ordinance Amending the Special Setback Map to Reduce the Special Setback Along a Portion of Hansen Way at 3300 El Camino Real from 50 Feet to 20 Feet. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15305 (Minor Alterations in Land Use Limitations).",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:35 PM",
+          "elapsedSec": 3900
+        },
+        {
+          "num": "8",
+          "title": "Approve Two Purchase Orders with Packet Fusion, Utilizing One NASPO Cooperative and One CMAS Cooperative Agreement, to Procure Zoom Government Unified Communications Solutions for a Five-Year Term for a Total Not-To-Exceed Amount of $1,206,456; CEQA Status – exempt under section 15061(b)(3).",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "6:35 PM",
+          "elapsedSec": 3900
+        },
+        {
+          "num": "9",
+          "title": "QUASI-JUDICIAL. 751 Waverley Street [26PLN-00034]: Appeal of Director’s Decision to Uphold the Issuance of the Permit, Confirming Approval to Remove Four Protected Coast Redwoods (Sequoia sempervirens) Located at 751 Waverley Street under the Right Tree in the Right Place Principles for Removal in Palo Alto Municipal Code 8.10.050; CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3)",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "6:35 PM",
+          "elapsedSec": 3900
+        },
+        {
+          "num": "10",
+          "title": "Interview Candidates for Vacancies on the Public Art Commission (PAC) and Stormwater Management Oversight Committee (SWMOC); CEQA Status – Not a Project - Appointments",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": "6:45 PM",
+          "elapsedSec": 4500
+        },
+        {
+          "num": "11",
+          "title": "CONFERENCE WITH CITY ATTORNEY – POTENTIAL LITIGATION Subject: Significant exposure to litigation One Case, as Defendant Authority: Government Code Section 54956.9(d)(2)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "9:00 PM",
+          "elapsedSec": 12600
+        },
+        {
+          "num": "12",
+          "title": "CONFERENCE WITH CITY ATTORNEY – EXISTING LITIGATION; POTENTIAL LITIGATION Subject: Willow Project LLC v. City of Menlo Park et al. Santa Mateo County Superior Court Case No. 26-CIV-07675 One Case Authority: Government Code Section 54956.9(d)(1) and 54956.9(d)(2)",
+          "topics": [
+            "Parks & Open Space"
+          ],
+          "schedTime": "9:00 PM",
+          "elapsedSec": 12600
+        },
+        {
+          "num": "A",
+          "title": "California Public Employees’ Retirement System (CalPERS) Pension Annual Valuation Reports as of June 30, 2025; CEQA Status—Not a Project.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "9:00 PM",
+          "elapsedSec": 12600
+        }
+      ]
+    },
+    {
+      "id": 3110,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting",
+      "date": "2026-10-20",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20562",
+      "items": [
+        {
+          "num": "1",
+          "title": "Grid Modernization for Electrification Project Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds in a Principal Amount Not-to-Exceed $100 Million: Approval of the Electric Revenue Bond Indenture, First Supplemental Electric Bond Indenture of Trust, Official Statement, Bond Purchase Agreement, and Authorizing Official Actions and Documents; CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Review and Provide a Recommendation to City Council on Proposed Reserve Categories and Target Funding Approach for the Regional Water Quality Control Plant; CEQA Status – Not a Project​",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     },
     {
       "id": 3025,
@@ -6933,6 +7060,19 @@
     }
   ],
   "news": [
+    {
+      "title": "‘I realized there was a lot of demand for this’: A new Peninsula business offers rentals of curated baby and toddler toys",
+      "source": "Palo Alto Online",
+      "date": "2026-10-09",
+      "url": "https://www.paloaltoonline.com/family-lifestyle/2026/10/08/i-realized-there-was-a-lot-of-demand-for-this-a-new-peninsula-business-offers-rentals-of-curated-baby-and-toddler-toys/",
+      "topics": [
+        "Housing",
+        "Climate & Utilities",
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "A desire to avoid filling up her house with unwanted stuff that her daughter would soon outgrow led Redwood City resident Amy Bearman to start her business BurbleBox. The post I re"
+    },
     {
       "title": "Why a Foster City resident started his own line of decaf teas",
       "source": "Palo Alto Online",
@@ -7033,16 +7173,6 @@
         "Parks & Open Space"
       ],
       "summary": "After 45 years of deli sandwiches and community building, Menlo Park institution Lutticken’s will permanently close Sept. 30. But with the future of its storefront undecided and a "
-    },
-    {
-      "title": "New Mountain View skylight showroom lets the sunshine in",
-      "source": "Palo Alto Online",
-      "date": "2026-09-22",
-      "url": "https://www.paloaltoonline.com/home-improvement/2026/09/22/new-mountain-view-skylight-showroom-lets-the-sunshine-in/",
-      "topics": [
-        "Downtown & Business"
-      ],
-      "summary": "Danish skylight maker VELUX has opened first North American experience center in downtown Mountain View, providing visitors a chance to see skylights, sun tunnels and other product"
     },
     {
       "title": "Palo Alto mulls new rules for building, selling ADUs",
