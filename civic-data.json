@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-09T16:12:17.885Z",
+  "generatedAt": "2026-10-10T15:23:18.836Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-09",
-    "to": "2027-04-09"
+    "from": "2026-04-10",
+    "to": "2027-04-10"
   },
   "bodies": [
     {
@@ -6750,13 +6750,35 @@
       ]
     },
     {
+      "id": 3147,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting",
+      "date": "2026-10-13",
+      "startTime": "17:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20804",
+      "items": [
+        {
+          "num": "1",
+          "title": "Potential release of documents related to offer to purchase Cubberley Community Center property.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 3132,
       "body": "Policy & Services Committee",
       "bodySlug": "policy-and-services-committee",
       "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Policy & Services Committee Regular Meeting",
+      "title": "Policy & Services Committee Special Meeting",
       "date": "2026-10-13",
-      "startTime": "18:00",
+      "startTime": "18:30",
       "videoId": null,
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20709",
       "items": [
