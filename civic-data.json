@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-10T15:23:18.836Z",
+  "generatedAt": "2026-10-11T15:40:23.087Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-10",
-    "to": "2027-04-10"
+    "from": "2026-04-11",
+    "to": "2027-04-11"
   },
   "bodies": [
     {
@@ -7083,6 +7083,28 @@
   ],
   "news": [
     {
+      "title": "City to expand overnight RV parking ban to more residential areas",
+      "source": "Palo Alto Online",
+      "date": "2026-10-11",
+      "url": "https://www.paloaltoonline.com/housing/2026/10/11/city-to-expand-overnight-rv-parking-ban-to-more-residential-areas/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space"
+      ],
+      "summary": "While RVs are not allowed to park overnight in most residential areas of Palo Alto, the city is gearing up to address a potential loophole for streets that fall outside of resident"
+    },
+    {
+      "title": "Council members criticize Kou for opposing Measure J",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-10",
+      "url": "https://padailypost.com/2026/10/10/council-members-criticize-kou-for-opposing-measure-j/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "This was printed in Thursday s Daily Post. BY BRADEN CARTWRIGHTDaily Post Staff Writer There s a rift among three Palo Alto council members who negotiated a deal to buy seven acres"
+    },
+    {
       "title": "‘I realized there was a lot of demand for this’: A new Peninsula business offers rentals of curated baby and toddler toys",
       "source": "Palo Alto Online",
       "date": "2026-10-09",
@@ -7124,16 +7146,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Oct. 5) picked a replacement for a planning commissioner who was accused of trying to get special treatm"
-    },
-    {
-      "title": "Council candidate Deng drops out of debate unexpectedly",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-02",
-      "url": "https://padailypost.com/2026/10/02/council-candidate-deng-drops-out-of-debate-unexpectedly/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A Palo Alto City Council candidate has dropped out of the city s largest debate with less than 24 hours notice. Yudy Deng, who is [...]"
     },
     {
       "title": "Menlo Park rejects state’s demand to approve Sunset magazine high-rise as a new property buyer emerges",
