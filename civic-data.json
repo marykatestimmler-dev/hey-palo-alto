@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-11T15:40:23.087Z",
+  "generatedAt": "2026-10-12T19:02:54.659Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-11",
-    "to": "2027-04-11"
+    "from": "2026-04-12",
+    "to": "2027-04-12"
   },
   "bodies": [
     {
@@ -7083,6 +7083,39 @@
   ],
   "news": [
     {
+      "title": "City withheld crucial documents before a previous tax election",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-12",
+      "url": "https://padailypost.com/2026/10/12/city-has-withheld-crucial-documents-before-previous-tax-votes/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "BY DAVE PRICEDaily Post Editor Palo Alto City Council’s refusal to release the Cubberley appraisal isn’t the first time the city has withheld crucial information before a tax vote."
+    },
+    {
+      "title": "Palo Alto may jump into the battle over the Russian billionaire’s plans to put a skyscraper in Menlo Park",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-12",
+      "url": "https://padailypost.com/2026/10/12/palo-alto-may-jump-into-the-battle-over-the-russian-billionaires-plans-to-put-a-skyscraper-in-menlo-park/",
+      "topics": [
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council is wading into a lawsuit between the city of Menlo Park and a developer representing a Russian billionaire who wa"
+    },
+    {
+      "title": "Council may expand RV ban to additional residential streets",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-12",
+      "url": "https://padailypost.com/2026/10/12/council-may-expand-rv-ban-to-additional-residential-streets/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space"
+      ],
+      "summary": "This story originally appeared in Saturday s Daily Post. Since then, other media have copied the story. To get important local news first, pick up the Post in the mornings at [...]"
+    },
+    {
       "title": "City to expand overnight RV parking ban to more residential areas",
       "source": "Palo Alto Online",
       "date": "2026-10-11",
@@ -7093,16 +7126,6 @@
         "Parks & Open Space"
       ],
       "summary": "While RVs are not allowed to park overnight in most residential areas of Palo Alto, the city is gearing up to address a potential loophole for streets that fall outside of resident"
-    },
-    {
-      "title": "Council members criticize Kou for opposing Measure J",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-10",
-      "url": "https://padailypost.com/2026/10/10/council-members-criticize-kou-for-opposing-measure-j/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "This was printed in Thursday s Daily Post. BY BRADEN CARTWRIGHTDaily Post Staff Writer There s a rift among three Palo Alto council members who negotiated a deal to buy seven acres"
     },
     {
       "title": "‘I realized there was a lot of demand for this’: A new Peninsula business offers rentals of curated baby and toddler toys",
@@ -7126,26 +7149,6 @@
         "Arts & Culture"
       ],
       "summary": "Chris Horng’s company de-tea offers decaffeinated teas in green and black varieties, with more options brewing. The post Why a Foster City resident started his own line of decaf te"
-    },
-    {
-      "title": "City won’t release appraisal on Cubberley purchase, but discloses appraiser’s estimate",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-06",
-      "url": "https://padailypost.com/2026/10/05/city-paying-higher-than-appraised-value-for-cubberley/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The city of Palo Alto declined yesterday to release the appraisal it got for the seven acres of the Cubberley Community Center it plans "
-    },
-    {
-      "title": "Council picks replacement commissioner after resignation",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-06",
-      "url": "https://padailypost.com/2026/10/05/council-picks-replacement-commissioner-after-resignation/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Oct. 5) picked a replacement for a planning commissioner who was accused of trying to get special treatm"
     },
     {
       "title": "Menlo Park rejects state’s demand to approve Sunset magazine high-rise as a new property buyer emerges",
