@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-12T19:02:54.659Z",
+  "generatedAt": "2026-10-13T16:57:28.550Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-12",
-    "to": "2027-04-12"
+    "from": "2026-04-13",
+    "to": "2027-04-13"
   },
   "bodies": [
     {
@@ -103,230 +103,12 @@
       "email": "city.clerk@PaloAlto.gov"
     },
     {
-      "name": "Stormwater Management Oversight Committee",
-      "slug": "stormwater-management-oversight-committee",
-      "email": "city.clerk@PaloAlto.gov"
-    },
-    {
       "name": "Utilities Advisory Commission",
       "slug": "utilities-advisory-commission",
       "email": "city.clerk@PaloAlto.gov"
     }
   ],
   "meetings": [
-    {
-      "id": 3038,
-      "body": "Stormwater Management Oversight Committee",
-      "bodySlug": "stormwater-management-oversight-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Stormwater Management Oversight Committee",
-      "date": "2026-04-13",
-      "startTime": "14:00",
-      "videoId": "MwdzUt0RVsI",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20069",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of Minutes from October 27, 2025 – Action Needed (5 min)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Updated Terms – No Action Needed (5 min)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Review Proposed Budget for Fiscal Year 2027 – No Action Needed (15 min)",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Memorandum for Fiscal Year 2027 Proposed Budget – Action Needed (10 min)",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Stormwater Management Fee Rate Increase – No Action Needed (5 min)",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "6",
-          "title": "CIP Updated – No Action Needed (15 min)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "7",
-          "title": "Stormwater Compliance Updates – No Action Needed (10 min)",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "8",
-          "title": "Council Workplan Debrief – No Action Needed (5 min)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2833,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Regular Meeting",
-      "date": "2026-04-13",
-      "startTime": "17:30",
-      "videoId": "YUVVjzCM7kc",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18697",
-      "items": [
-        {
-          "num": "1",
-          "title": "Appointment of Candidates to the Human Relations Commission (HRC), Planning & Transportation Commission (PTC), and Utilities Advisory Commission (UAC); CEQA Status - Not a Project Staff Presentation",
-          "topics": [
-            "Transportation",
-            "Climate & Utilities"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "Proclamation Honoring National Animal Control Officer Appreciation Week April 12-18, 2026",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:45 PM",
-          "elapsedSec": 900
-        },
-        {
-          "num": "3",
-          "title": "Proclamation Honoring National Public Safety Telecommunicators Week April 12-18, 2026",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": "5:45 PM",
-          "elapsedSec": 900
-        },
-        {
-          "num": "4",
-          "title": "Adoption of a Resolution Vacating an Easement at 700 Hansen Way; CEQA Status – Exempt under Cal. Code Regs. Title 14, Section 15305",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:35 PM",
-          "elapsedSec": 3900
-        },
-        {
-          "num": "5",
-          "title": "Approval of Amendment Number 3 to Contract C21178333 with Black & Veatch, Inc., to increase the Contract Amount by $963,160 for a revised total not-to-exceed amount of $4,146,109, and to Extend the Contract Term to December 31, 2028, for the Local Advanced Water Purification System Project (WQ-19003); CEQA Status - Notice of Determination Adopted November 18, 2019",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:35 PM",
-          "elapsedSec": 3900
-        },
-        {
-          "num": "6",
-          "title": "Authorize the City Manager to Execute Amendment No. 1 to Eight Professional Services Contracts for SAP On-Call Services: Contract C26193272A with 360S2G, C26193272B with Sage Group Technologies Inc, C26193272C with Avertra Corp, C26193272D with Amick Brown LLC, C26193272E with 2iSolutions Inc, C26193272F with the Peloton Group, C26193272G with Phoenix Business Inc, C26193272H with EPI-USE America, to Increase the Not-to-Exceed Amount by $2,000,000 and Extend the Term for One Year; CEQA Status – Not a Project",
-          "topics": [
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": "6:35 PM",
-          "elapsedSec": 3900
-        },
-        {
-          "num": "7",
-          "title": "Appointment of 2026 Emergency Standby Council",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": "6:35 PM",
-          "elapsedSec": 3900
-        },
-        {
-          "num": "8",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 3606 El Camino Real [24PLN-00162 & 25PLN-00243]: Request for Approval of Applications for Major Architectural Review and Vesting Tentative Map to Merge Seven Existing Parcels to Create a 113,907-Square-Foot Parcel and to Construct a Seven-Story, Multi-Family Residential Housing Development Project with 321 Units, Thirteen Percent of Which Would be Provided at a Rate Affordable to Low Income. The Project is Proposed in Accordance with Builder’s Remedy (California Government Code Section 65589.5(d)(5)). A Senate Bill 330 Pre-Application was Filed on February 15, 2024. CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code Section 21080.66). Supplemental Report added, Staff Presentation, Applicant Presentation, Public Comment",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": "7:05 PM",
-          "elapsedSec": 5700
-        },
-        {
-          "num": "9",
-          "title": "Approval of City Council Values (as Recommended by Policy & Services Committee), 2026 Objectives, Ad Hoc Purpose Statements, and Committee Workplans (Continued from 3/9/2026 - On March 9, 2026, the Council Received Presentations and Public Testimony; the Item Will be Continued to April 13 for further Council Deliberation and Action - No Public Testimony Will be Heard on April 13.) Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:35 PM",
-          "elapsedSec": 11100
-        },
-        {
-          "num": "10",
-          "title": "Colleagues Memo on Mitigating Impacts of Property Aggregation in Residential Districts Public Comment",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": "9:20 PM",
-          "elapsedSec": 13800
-        },
-        {
-          "num": "A",
-          "title": "Semiannual Update on 2000 Geng Road Recreational Vehicle Safe Parking Expansion and Summary of Financial Needs",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:40 PM",
-          "elapsedSec": 4200
-        }
-      ]
-    },
     {
       "id": 2779,
       "body": "Policy & Services Committee",
@@ -6757,7 +6539,7 @@
       "title": "City Council Special Meeting",
       "date": "2026-10-13",
       "startTime": "17:00",
-      "videoId": null,
+      "videoId": "6rZnK_ZXJ4g",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20804",
       "items": [
         {
@@ -6779,7 +6561,7 @@
       "title": "Policy & Services Committee Special Meeting",
       "date": "2026-10-13",
       "startTime": "18:30",
-      "videoId": null,
+      "videoId": "uea3HfSU7qk",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20709",
       "items": [
         {
@@ -6835,7 +6617,7 @@
       "title": "Architectural Review Board Regular Meeting",
       "date": "2026-10-15",
       "startTime": "08:30",
-      "videoId": null,
+      "videoId": "TKt6t_-LRVk",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20242",
       "items": [
         {
@@ -7083,6 +6865,39 @@
   ],
   "news": [
     {
+      "title": "Chipotle building could make way for housing project near Cal Ave.",
+      "source": "Palo Alto Online",
+      "date": "2026-10-13",
+      "url": "https://www.paloaltoonline.com/housing/2026/10/12/chipotle-building-could-make-way-for-housing-project-near-cal-ave/",
+      "topics": [
+        "Housing",
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "A commercial building just south of California Avenue that houses Chipotle Mexican Grill would be demolished and replaced with an 85-foot-tall complex featuring 156 apartments unde"
+    },
+    {
+      "title": "Proposal calls for replacing Chipotle on El Camino with apartments",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-13",
+      "url": "https://padailypost.com/2026/10/13/proposal-calls-for-replacing-chipotle-on-el-camino-with-apartments/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "If you read the Daily Post print edition, you saw the following story on page 4 of Monday’s edition. Since then, one of our competitors has re-written it and presented [...]"
+    },
+    {
+      "title": "Feud between water agency and board member escalates with lawsuit, investigation",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-12",
+      "url": "https://padailypost.com/2026/10/12/feud-between-water-agency-and-board-member-escalates-with-lawsuit-investigation/",
+      "topics": [
+        "Climate & Utilities",
+        "Arts & Culture"
+      ],
+      "summary": "(The lawsuit Eisenberg filed) (The water board s executive summary of the investigation into Eisenberg.) BY BRADEN CARTWRIGHTDaily Post Staff Writer A four-year feud between Valley"
+    },
+    {
       "title": "City withheld crucial documents before a previous tax election",
       "source": "Palo Alto Daily Post",
       "date": "2026-10-12",
@@ -7102,18 +6917,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council is wading into a lawsuit between the city of Menlo Park and a developer representing a Russian billionaire who wa"
-    },
-    {
-      "title": "Council may expand RV ban to additional residential streets",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-12",
-      "url": "https://padailypost.com/2026/10/12/council-may-expand-rv-ban-to-additional-residential-streets/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "This story originally appeared in Saturday s Daily Post. Since then, other media have copied the story. To get important local news first, pick up the Post in the mornings at [...]"
     },
     {
       "title": "City to expand overnight RV parking ban to more residential areas",
@@ -7250,17 +7053,6 @@
         "Budget & Taxes"
       ],
       "summary": "Seeking to accommodate more students and shifting academic needs, Stanford University is preparing to add nearly 2 million square feet of academic space, 2,500 student beds and abo"
-    },
-    {
-      "title": "How Palo Alto’s newest housing projects are testing the limits of what can be built",
-      "source": "Palo Alto Online",
-      "date": "2026-09-02",
-      "url": "https://www.paloaltoonline.com/housing/2026/09/01/how-palo-altos-newest-housing-projects-are-testing-the-limits-of-what-can-be-built/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "Palo Alto has long struggled to add enough housing, particularly affordable homes, under some of the region’s most restrictive zoning rules. Six projects now moving through the cit"
     },
     {
       "title": "Council weighs divisive rezoning plan in Ventura",
