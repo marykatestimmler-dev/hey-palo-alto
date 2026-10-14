@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-13T16:57:28.550Z",
+  "generatedAt": "2026-10-14T14:31:04.769Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-13",
-    "to": "2027-04-13"
+    "from": "2026-04-14",
+    "to": "2027-04-14"
   },
   "bodies": [
     {
@@ -109,49 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2779,
-      "body": "Policy & Services Committee",
-      "bodySlug": "policy-and-services-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Policy & Services Committee Regular Meeting",
-      "date": "2026-04-14",
-      "startTime": "18:00",
-      "videoId": "DbWHrz2fAPM",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18370",
-      "items": [
-        {
-          "num": "1",
-          "title": "Update, Discussion, and Potential Feedback on Bill Positions Regarding State and Federal Legislation, Executive Orders and Other Regulatory and Funding Activity. CEQA Status: Not a Project. Staff Presentation",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Office of the City Auditor Presentation of the City of Palo Alto Utility Reserves Advisory Report. CEQA Status: Not a Project. Staff Presentation",
-          "topics": [
-            "Climate & Utilities",
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Update on Citywide Development Impact Fee Nexus and Housing Feasibility Study. CEQA Status: Exempt under CEQA Guidelines Section 15378. Late Packet Report Added, Staff Presentation",
-          "topics": [
-            "Housing",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3039,
       "body": "City Council",
@@ -6566,7 +6523,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Discussion and Possible Recommendation to the City Council Regarding Implementation of Housing Element Program 3.9A, which is Intended to Identify Incentives at Strategic Locations to Shift the Economic Benefit of Redevelopment from Commercial Toward Home Building. CEQA Status: The Addendum to the Comprehensive Plan Environmental Impact Report (EIR), approved by the City Council on November 13, 2023, analyzed potential environmental impacts of the 6th Cycle Housing Element including Program 3.9(A).",
+          "title": "Discussion and Possible Recommendation to the City Council Regarding Implementation of Housing Element Program 3.9A, which is Intended to Identify Incentives at Strategic Locations to Shift the Economic Benefit of Redevelopment from Commercial Toward Home Building. CEQA Status: The Addendum to the Comprehensive Plan Environmental Impact Report (EIR), approved by the City Council on November 13, 2023, analyzed potential environmental impacts of the 6th Cycle Housing Element including Program 3.9(A). Staff Presentation",
           "topics": [
             "Housing",
             "Climate & Utilities",
@@ -6577,7 +6534,7 @@
         },
         {
           "num": "2",
-          "title": "Office of the City Auditor Presentation of the Below Market Rate Housing Program Audit Report. CEQA Status –Not a project.",
+          "title": "Office of the City Auditor Presentation of the Below Market Rate Housing Program Audit Report. CEQA Status –Not a project. Staff Presentation",
           "topics": [
             "Housing",
             "Climate & Utilities",
@@ -6588,7 +6545,7 @@
         },
         {
           "num": "3",
-          "title": "Office of the City Auditor Presentation of the FY2026 Audit Recommendation Follow-up Report. CEQA Status: Not a Project.",
+          "title": "Office of the City Auditor Presentation of the FY2026 Audit Recommendation Follow-up Report. CEQA Status: Not a Project. Staff Presentation",
           "topics": [
             "Crime, Policing, and Public Safety"
           ],
@@ -6865,6 +6822,17 @@
   ],
   "news": [
     {
+      "title": "Mayor to travel to Turkey to attend climate conference",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-14",
+      "url": "https://padailypost.com/2026/10/13/mayor-to-travel-to-turkey-to-attend-climate-conference/",
+      "topics": [
+        "Climate & Utilities",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto Mayor Vicki Veenker will go to Turkey in November for a climate change conference, but not without her colleague on the board "
+    },
+    {
       "title": "Chipotle building could make way for housing project near Cal Ave.",
       "source": "Palo Alto Online",
       "date": "2026-10-13",
@@ -6875,6 +6843,17 @@
         "Downtown & Business"
       ],
       "summary": "A commercial building just south of California Avenue that houses Chipotle Mexican Grill would be demolished and replaced with an 85-foot-tall complex featuring 156 apartments unde"
+    },
+    {
+      "title": "This Mountain View food truck specializes in a cuisine rarely seen along the Peninsula",
+      "source": "Palo Alto Online",
+      "date": "2026-10-13",
+      "url": "https://www.paloaltoonline.com/mountain-view/2026/10/13/this-mountain-view-food-truck-specializes-in-a-cuisine-rarely-seen-along-the-peninsula/",
+      "topics": [
+        "Climate & Utilities",
+        "Parks & Open Space"
+      ],
+      "summary": "Parked in an unassuming Valero gas station in Mountain View is a food truck serving juicy shish kebab and flaky samsa cooked in a tandoor. The food is halal and created by a 23-yea"
     },
     {
       "title": "Proposal calls for replacing Chipotle on El Camino with apartments",
@@ -6896,27 +6875,6 @@
         "Arts & Culture"
       ],
       "summary": "(The lawsuit Eisenberg filed) (The water board s executive summary of the investigation into Eisenberg.) BY BRADEN CARTWRIGHTDaily Post Staff Writer A four-year feud between Valley"
-    },
-    {
-      "title": "City withheld crucial documents before a previous tax election",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-12",
-      "url": "https://padailypost.com/2026/10/12/city-has-withheld-crucial-documents-before-previous-tax-votes/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "BY DAVE PRICEDaily Post Editor Palo Alto City Council’s refusal to release the Cubberley appraisal isn’t the first time the city has withheld crucial information before a tax vote."
-    },
-    {
-      "title": "Palo Alto may jump into the battle over the Russian billionaire’s plans to put a skyscraper in Menlo Park",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-12",
-      "url": "https://padailypost.com/2026/10/12/palo-alto-may-jump-into-the-battle-over-the-russian-billionaires-plans-to-put-a-skyscraper-in-menlo-park/",
-      "topics": [
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council is wading into a lawsuit between the city of Menlo Park and a developer representing a Russian billionaire who wa"
     },
     {
       "title": "City to expand overnight RV parking ban to more residential areas",
