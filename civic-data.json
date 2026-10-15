@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-14T14:31:04.769Z",
+  "generatedAt": "2026-10-15T14:10:26.416Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-14",
-    "to": "2027-04-14"
+    "from": "2026-04-15",
+    "to": "2027-04-15"
   },
   "bodies": [
     {
@@ -109,28 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3039,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting",
-      "date": "2026-04-15",
-      "startTime": "18:00",
-      "videoId": "oTPsEy2OUiE",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20077",
-      "items": [
-        {
-          "num": "1",
-          "title": "Expedited Evaluation of the Potential Temporary Closure of the Churchill Avenue Rail Crossing, Determination of Next Steps, and CEQA Status – Statutorily and Categorically Exempt. Title Updated, Late Packet Report added, Supplemental Report added, Staff Presentation, Public Comment",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2947,
       "body": "Architectural Review Board",
@@ -6588,7 +6566,7 @@
         },
         {
           "num": "2",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 250 Hamilton Avenue [26PLN-00229]. Request by AT&T for Review of Two Tier 2 General Wireless Communication Facilities to Collocate New Antennas, Remote Radio Units (RRUs), Seven-Foot Fiberglass Pole Extensions and Associated Equipment on Existing City-Owned Wood Utility Poles in the Public Right-of-Way (ROW) Near 670 Guinda Street and 754 Homer Avenue. CEQA Status: Exempt Pursuant to California Environmental Quality Act (CEQA) Guideline Section 15301 (Existing Facilities). Zoning District: Not Applicable (Public ROW).",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 250 Hamilton Avenue [26PLN-00229]. Request by AT&T for Review of Two Tier 2 General Wireless Communication Facilities to Collocate New Antennas, Remote Radio Units (RRUs), Seven-Foot Fiberglass Pole Extensions and Associated Equipment on Existing City-Owned Wood Utility Poles in the Public Right-of-Way (ROW) Near 670 Guinda Street and 754 Homer Avenue. CEQA Status: Exempt Pursuant to California Environmental Quality Act (CEQA) Guideline Section 15301 (Existing Facilities). Zoning District: Not Applicable (Public ROW). Supplemental Report Added",
           "topics": [
             "Transportation",
             "Climate & Utilities",
@@ -6822,6 +6800,50 @@
   ],
   "news": [
     {
+      "title": "Train strikes car in Palo Alto",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-15",
+      "url": "https://padailypost.com/2026/10/14/train-strikes-car-in-palo-alto/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space"
+      ],
+      "summary": "A Caltrain hit a car that had been stopped on the tracks on Alma Street in Palo Alto. The crash happened around 6:15 p.m., snarling evening traffic along Alma and [...]"
+    },
+    {
+      "title": "What does it cost to run for local public office?",
+      "source": "Palo Alto Online",
+      "date": "2026-10-14",
+      "url": "https://www.paloaltoonline.com/election/2026/10/14/what-does-it-cost-to-run-for-local-public-office/",
+      "topics": [
+        "Housing",
+        "Crime, Policing, and Public Safety",
+        "Budget & Taxes"
+      ],
+      "summary": "Local elected officials make decisions that shape schools, housing, taxes, public safety and more. While decisions made in local government chambers affect everyone, candidate demo"
+    },
+    {
+      "title": "Audit: Hidden fees hinder Palo Alto housing program",
+      "source": "Palo Alto Online",
+      "date": "2026-10-14",
+      "url": "https://www.paloaltoonline.com/housing/2026/10/14/audit-hidden-fees-hinder-palo-alto-housing-program/",
+      "topics": [
+        "Housing",
+        "Budget & Taxes"
+      ],
+      "summary": "Palo Alto's effort to assist people in purchasing affordable homes is hindered by a significant supply shortage and a laundry list of hidden fees that place these residences out of"
+    },
+    {
+      "title": "True Food Kitchen files for bankruptcy. Palo Alto location remains open",
+      "source": "Palo Alto Online",
+      "date": "2026-10-14",
+      "url": "https://www.paloaltoonline.com/palo-alto/2026/10/14/true-food-kitchen-files-for-bankruptcy-palo-alto-location-remains-open/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "True Food Kitchen, a wellness-driven restaurant chain that’s been a tenant of Stanford Shopping Center since 2016, filed for Chapter 11 bankruptcy protection Oct. 4. But despite th"
+    },
+    {
       "title": "Mayor to travel to Turkey to attend climate conference",
       "source": "Palo Alto Daily Post",
       "date": "2026-10-14",
@@ -6864,17 +6886,6 @@
         "Arts & Culture"
       ],
       "summary": "If you read the Daily Post print edition, you saw the following story on page 4 of Monday’s edition. Since then, one of our competitors has re-written it and presented [...]"
-    },
-    {
-      "title": "Feud between water agency and board member escalates with lawsuit, investigation",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-12",
-      "url": "https://padailypost.com/2026/10/12/feud-between-water-agency-and-board-member-escalates-with-lawsuit-investigation/",
-      "topics": [
-        "Climate & Utilities",
-        "Arts & Culture"
-      ],
-      "summary": "(The lawsuit Eisenberg filed) (The water board s executive summary of the investigation into Eisenberg.) BY BRADEN CARTWRIGHTDaily Post Staff Writer A four-year feud between Valley"
     },
     {
       "title": "City to expand overnight RV parking ban to more residential areas",
@@ -6963,16 +6974,6 @@
       "summary": "The East Palo Alto City Council directed staff last week to prioritize low-income homeowners and renters in its recently launched Major Home Repair Program, which will distribute $"
     },
     {
-      "title": "As Menlo Park deli Lutticken’s faces its final days, regulars reminisce about its legacy and hope for a revival",
-      "source": "Palo Alto Online",
-      "date": "2026-09-23",
-      "url": "https://www.paloaltoonline.com/menlo-park/2026/09/23/as-menlo-park-deli-luttickens-faces-its-final-days-regulars-reminisce-about-its-legacy-and-hope-for-a-revival/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "After 45 years of deli sandwiches and community building, Menlo Park institution Lutticken’s will permanently close Sept. 30. But with the future of its storefront undecided and a "
-    },
-    {
       "title": "Palo Alto mulls new rules for building, selling ADUs",
       "source": "Palo Alto Online",
       "date": "2026-09-19",
@@ -7001,16 +7002,6 @@
         "Parks & Open Space"
       ],
       "summary": "For years, East Palo Altans and the non-profit organization Canopy have planted trees to increase the city’s canopy coverage. The post East Palo Alto plants seeds for a future urba"
-    },
-    {
-      "title": "Stanford pitches ambitious new plan for campus growth",
-      "source": "Palo Alto Online",
-      "date": "2026-09-09",
-      "url": "https://www.paloaltoonline.com/news/2026/09/09/stanford-pitches-ambitious-new-plan-for-campus-growth/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "Seeking to accommodate more students and shifting academic needs, Stanford University is preparing to add nearly 2 million square feet of academic space, 2,500 student beds and abo"
     },
     {
       "title": "Council weighs divisive rezoning plan in Ventura",
@@ -7073,17 +7064,6 @@
         "Parks & Open Space"
       ],
       "summary": "A residential skyscraper proposal in Menlo Park has scored a big boost after California Attorney General Rob Bonta sent a letter to the city alleging that it violated state housing"
-    },
-    {
-      "title": "Deng takes big fundraising lead in Palo Alto council race",
-      "source": "Palo Alto Online",
-      "date": "2026-08-04",
-      "url": "https://www.paloaltoonline.com/election/2026/08/04/yudy-deng-takes-big-lead-in-campaign-cash-in-palo-alto-council-race/",
-      "topics": [
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "As five candidates vie for three open seats on the Palo Alto City Council this fall, one person has emerged with a far bigger campaign coffer than the rest: Parks and Recreation Co"
     }
   ],
   "events": []
