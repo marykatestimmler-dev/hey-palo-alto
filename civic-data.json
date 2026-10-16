@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-15T14:10:26.416Z",
+  "generatedAt": "2026-10-16T13:57:54.267Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-15",
-    "to": "2027-04-15"
+    "from": "2026-04-16",
+    "to": "2027-04-16"
   },
   "bodies": [
     {
@@ -103,127 +103,17 @@
       "email": "city.clerk@PaloAlto.gov"
     },
     {
+      "name": "Stormwater Management Oversight Committee",
+      "slug": "stormwater-management-oversight-committee",
+      "email": "city.clerk@PaloAlto.gov"
+    },
+    {
       "name": "Utilities Advisory Commission",
       "slug": "utilities-advisory-commission",
       "email": "city.clerk@PaloAlto.gov"
     }
   ],
   "meetings": [
-    {
-      "id": 2947,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting",
-      "date": "2026-04-16",
-      "startTime": "08:30",
-      "videoId": "mvfffsEU_1w",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19464",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING. Recommendation to City Council on Outdoor Activation Standards and Pre-Approved Parklet Plans for the Car-Free Portion of California Avenue. CEQA Status: Exempt pursuant to CEQA Guidelines Section 15303. In addition, on March 10, 2025, the City Council Approved an Addendum to the Comprehensive Plan Environmental Impact Report (EIR) for street closure and associated improvements (SCH#2014052101). Presentation",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Draft Architectural Review Board Meeting Minutes for March 5, 2026",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Draft Architectural Review Board Meeting Minutes for March 19, 2026",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 3034,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Regular Meeting",
-      "date": "2026-04-16",
-      "startTime": "19:00",
-      "videoId": "w9l7Pum0_d8",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20041",
-      "items": [
-        {
-          "num": "1",
-          "title": "March 19, 2026 PAC Regular Meeting Minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Downtown Parking Garage - Approval of conceptual design of artwork by Amy Landesberg and approval of funding in the amount of up to $237,000 for the fabrication and delivery of artwork for the new Downtown Parking Garage.",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Arts & Culture",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Sherman Ave Parking Garage Temporary Mural Project - Approval of artist for the Sherman Avenue Garage Mural project.",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Public Art in Private Development - Initial review of a public art in private development associated with the 4103 Old Trace Road development project. Presentation by project developer Melanie Griswold, Steel Bridge Capital LLC.",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3028,
       "body": "Climate Action and Sustainability Committee",
@@ -6675,7 +6565,7 @@
         },
         {
           "num": "6",
-          "title": "Adoption of an ordinance to amend PAMC Chapter 10.44 prohibiting overnight parking of oversized vehicles (OSVs) in residential areas, and a resolution to support implementation of the Embarcadero Road OSV parking permit pilot program and Approve Budget Amendments in the Capital Improvement Fund. CEQA status – categorically and statutorily exempt.",
+          "title": "Adoption of an ordinance to amend PAMC Chapter 10.44 prohibiting overnight parking of oversized vehicles (OSVs) in residential areas, and a resolution to support implementation of the Embarcadero Road OSV parking permit pilot program and Approve Budget Amendments in the Capital Improvement Fund. CEQA status – categorically and statutorily exempt. Supplemental Report added",
           "topics": [
             "Housing",
             "Transportation",
@@ -6765,7 +6655,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Grid Modernization for Electrification Project Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds in a Principal Amount Not-to-Exceed $100 Million: Approval of the Electric Revenue Bond Indenture, First Supplemental Electric Bond Indenture of Trust, Official Statement, Bond Purchase Agreement, and Authorizing Official Actions and Documents; CEQA Status - Not a Project",
+          "title": "Grid Modernization for Electrification Project Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds in a Principal Amount Not-to-Exceed $100 Million: Approval of the Electric Revenue Bond Indenture, First Supplemental Electric Bond Indenture of Trust, Official Statement, Bond Purchase Agreement, and Authorizing Official Actions and Documents; CEQA Status - Not a Project Supplemental Report Added",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -6796,9 +6686,233 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3145,
+      "body": "Stormwater Management Oversight Committee",
+      "bodySlug": "stormwater-management-oversight-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Stormwater Management Oversight Committee",
+      "date": "2026-10-22",
+      "startTime": "14:00",
+      "videoId": "tSJA31kPTgg",
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20790",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of Minutes from April 13, 2026 – Action Needed (10 min)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Review Fiscal Year 2026 Actuals and 2027 Adopted – No Action Needed (10 min)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Memorandum for Fiscal Year 2026 Actual Expenditures – Action Needed (10 min)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Capital Update – No Action Needed (15 min)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Committee Member Updates: Recruitment and Expiration – No Action Needed (10 min)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2797,
+      "body": "City Schools Liaison Committee",
+      "bodySlug": "city-schools-liaison-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "City Schools Liaison Committee Regular Meeting",
+      "date": "2026-10-22",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
+      "id": 2906,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting ",
+      "date": "2026-10-26",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19180",
+      "items": [
+        {
+          "num": "1",
+          "title": "Appointment of Candidates to the Public Art Commission (PAC) and Stormwater Management Oversight Committee (SWMOC); CEQA Status - Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "CONFERENCE WITH REAL PROPERTY NEGOTIATORS Authority: Government Code Section 54956.8 Property: 1900 Embarcadero Road Negotiating Parties: BioScience Property Investments City Negotiators: Karin North, Brad Eggleston, Sunny Tong Subject of Potential Negotiations: Price and Terms of Payment",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "5:45 PM",
+          "elapsedSec": 900
+        },
+        {
+          "num": "3",
+          "title": "Review of 2026-2027 Winter Storm Preparedness Activities",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "4",
+          "title": "Approval of Minutes from October 13, 2026 Meeting",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:10 PM",
+          "elapsedSec": 9600
+        },
+        {
+          "num": "5",
+          "title": "Approval of the FY 2028-2029 Human Services Resource Allocation Process (HSRAP) Program Expansion with Additional Annual Funding in the Amount of $428,000; CEQA- Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:10 PM",
+          "elapsedSec": 9600
+        },
+        {
+          "num": "6",
+          "title": "Adoption of an Ordinance Amending Chapter 18.20 (Office, Research, and Manufacturing (MOR, ROLM, RP and GM) Districts) of Title 18 (Zoning) of the Palo Alto Municipal Code to Clarify that Multiple-Family Residential Uses in the ROLM(E) Zone District May Be Permitted Through a Use Permit; CEQA Status: Exempt pursuant to CEQA Guidelines Section 15061(b)(3).",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "8:10 PM",
+          "elapsedSec": 9600
+        },
+        {
+          "num": "7",
+          "title": "Adoption of an Ordinance amending the FY 2027 Municipal Fee Schedule and Making Findings Regarding the Reasonable Cost to Issue Permits for Solar Energy Systems. CEQA Status: Not a project.",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:10 PM",
+          "elapsedSec": 9600
+        },
+        {
+          "num": "8",
+          "title": "Adoption of an Ordinance Amending the Palo Alto Municipal Code (PAMC) Section 18.40.140 (Stream Corridor Protection). CEQA Status: Exempt pursuant to CEQA Guidelines Section 15308 (Actions for Protection of the Environment).",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:40 PM",
+          "elapsedSec": 11400
+        },
+        {
+          "num": "9",
+          "title": "Adoption of a Temporary Ordinance Imposing a Moratorium on the Establishment of New or Expanded Detention and Custodial Facilities within Palo Alto City Limits",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "10:10 PM",
+          "elapsedSec": 16800
+        },
+        {
+          "num": "A",
+          "title": "Monthly Investment Report - September 2026 (Unaudited)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "B",
+          "title": "City of Palo Alto's Energy Risk Management Report for the second half of Fiscal Year 2026 (January 1, 2026 – June 30, 2026) CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Teachers’ union is encouraging ‘bullet voting’ to help Linda Henigin",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-16",
+      "url": "https://padailypost.com/2026/10/15/school-board-is-encouraging-bullet-voting-to-help-linda-henigin/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto teachers union is encouraging voters to leave the second spot on their ballot blank in the school board race and engage [."
+    },
+    {
+      "title": "Portola Valley voters considering a tax on home sales",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-16",
+      "url": "https://padailypost.com/2026/10/15/portola-valley-voters-considering-a-tax-homebuyers-would-pay/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "BY NORAH SHEPPARD-HUTCHINSDaily Post Staff Writer If voters pass Measure N in Portola Valley, the sale of a home will be subject to a special property transfer tax of $10 [...]"
+    },
+    {
+      "title": "School board considers putting parcel tax on the ballot again",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-15",
+      "url": "https://padailypost.com/2026/10/15/school-board-considers-putting-parcel-tax-on-the-ballot-again/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto school board is grappling with whether to ask voters to renew a parcel tax sooner or later. A special election on [...]"
+    },
     {
       "title": "Train strikes car in Palo Alto",
       "source": "Palo Alto Daily Post",
@@ -6844,17 +6958,6 @@
       "summary": "True Food Kitchen, a wellness-driven restaurant chain that’s been a tenant of Stanford Shopping Center since 2016, filed for Chapter 11 bankruptcy protection Oct. 4. But despite th"
     },
     {
-      "title": "Mayor to travel to Turkey to attend climate conference",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-14",
-      "url": "https://padailypost.com/2026/10/13/mayor-to-travel-to-turkey-to-attend-climate-conference/",
-      "topics": [
-        "Climate & Utilities",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto Mayor Vicki Veenker will go to Turkey in November for a climate change conference, but not without her colleague on the board "
-    },
-    {
       "title": "Chipotle building could make way for housing project near Cal Ave.",
       "source": "Palo Alto Online",
       "date": "2026-10-13",
@@ -6878,16 +6981,6 @@
       "summary": "Parked in an unassuming Valero gas station in Mountain View is a food truck serving juicy shish kebab and flaky samsa cooked in a tandoor. The food is halal and created by a 23-yea"
     },
     {
-      "title": "Proposal calls for replacing Chipotle on El Camino with apartments",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-13",
-      "url": "https://padailypost.com/2026/10/13/proposal-calls-for-replacing-chipotle-on-el-camino-with-apartments/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "If you read the Daily Post print edition, you saw the following story on page 4 of Monday’s edition. Since then, one of our competitors has re-written it and presented [...]"
-    },
-    {
       "title": "City to expand overnight RV parking ban to more residential areas",
       "source": "Palo Alto Online",
       "date": "2026-10-11",
@@ -6900,7 +6993,7 @@
       "summary": "While RVs are not allowed to park overnight in most residential areas of Palo Alto, the city is gearing up to address a potential loophole for streets that fall outside of resident"
     },
     {
-      "title": "‘I realized there was a lot of demand for this’: A new Peninsula business offers rentals of curated baby and toddler toys",
+      "title": "A new Peninsula business offers rentals of curated baby and toddler toys",
       "source": "Palo Alto Online",
       "date": "2026-10-09",
       "url": "https://www.paloaltoonline.com/family-lifestyle/2026/10/08/i-realized-there-was-a-lot-of-demand-for-this-a-new-peninsula-business-offers-rentals-of-curated-baby-and-toddler-toys/",
@@ -6910,7 +7003,7 @@
         "Arts & Culture",
         "Downtown & Business"
       ],
-      "summary": "A desire to avoid filling up her house with unwanted stuff that her daughter would soon outgrow led Redwood City resident Amy Bearman to start her business BurbleBox. The post I re"
+      "summary": "A desire to avoid filling up her house with unwanted stuff that her daughter would soon outgrow led Redwood City resident Amy Bearman to start her business BurbleBox. The post A ne"
     },
     {
       "title": "Why a Foster City resident started his own line of decaf teas",
