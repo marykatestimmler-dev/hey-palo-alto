@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-16T13:57:54.267Z",
+  "generatedAt": "2026-10-17T12:59:13.405Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-16",
-    "to": "2027-04-16"
+    "from": "2026-04-17",
+    "to": "2027-04-17"
   },
   "bodies": [
     {
@@ -114,56 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3028,
-      "body": "Climate Action and Sustainability Committee",
-      "bodySlug": "climate-action-and-sustainability-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Climate Action and Sustainability Committee Special Meeting",
-      "date": "2026-04-17",
-      "startTime": "14:00",
-      "videoId": null,
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20004",
-      "items": [
-        {
-          "num": "A",
-          "title": "Staff Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Committee Member Comments and Announcements",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "1",
-          "title": "Review and Discussion of Scope of Policy Research and Analysis Planned for 2026-2027 S/CAP Work Plan Items CA13, CA14, and CA16 focused on the Regulatory and Financial Strategies and Scenarios for Community-wide Electrification; CEQA Status – Not a Project Late Packet Report Added, Staff Presentation",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Status Update on 2026 Communications and Engagement Planned for 2026-2027 S/CAP Work Plan Items C1, C2, and C3; CEQA Status – Not a Project Late Packet Report Added, Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2834,
       "body": "City Council",
@@ -6912,17 +6862,6 @@
         "Budget & Taxes"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto school board is grappling with whether to ask voters to renew a parcel tax sooner or later. A special election on [...]"
-    },
-    {
-      "title": "Train strikes car in Palo Alto",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-15",
-      "url": "https://padailypost.com/2026/10/14/train-strikes-car-in-palo-alto/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "A Caltrain hit a car that had been stopped on the tracks on Alma Street in Palo Alto. The crash happened around 6:15 p.m., snarling evening traffic along Alma and [...]"
     },
     {
       "title": "What does it cost to run for local public office?",
