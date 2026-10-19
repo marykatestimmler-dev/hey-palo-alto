@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-18T13:17:05.178Z",
+  "generatedAt": "2026-10-19T16:28:22.580Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-18",
-    "to": "2027-04-18"
+    "from": "2026-04-19",
+    "to": "2027-04-19"
   },
   "bodies": [
     {
@@ -6464,7 +6464,7 @@
       "title": "City Council Regular Meeting ",
       "date": "2026-10-19",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "ZhHaDx8RHt0",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19174",
       "items": [
         {
@@ -6600,7 +6600,7 @@
       "title": "Finance Committee Regular Meeting",
       "date": "2026-10-20",
       "startTime": "16:00",
-      "videoId": null,
+      "videoId": "CC-dZp62BgM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20562",
       "items": [
         {
@@ -6832,6 +6832,16 @@
     }
   ],
   "news": [
+    {
+      "title": "School board candidates talk about their experience",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-19",
+      "url": "https://padailypost.com/2026/10/19/school-board-candidates-talk-about-their-experience/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Math advocacy, suicide prevention and international elevator manufacturing — Palo Alto school board candidates are bringing a wide range"
+    },
     {
       "title": "Teachers’ union is encouraging ‘bullet voting’ to help Linda Henigin",
       "source": "Palo Alto Daily Post",
