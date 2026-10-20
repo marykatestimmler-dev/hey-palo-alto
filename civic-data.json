@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T16:28:22.580Z",
+  "generatedAt": "2026-10-20T14:18:49.768Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-19",
-    "to": "2027-04-19"
+    "from": "2026-04-20",
+    "to": "2027-04-20"
   },
   "bodies": [
     {
@@ -114,160 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2834,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Regular Meeting",
-      "date": "2026-04-20",
-      "startTime": "17:30",
-      "videoId": "VQn8z-eAtJ0",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18703",
-      "items": [
-        {
-          "num": "1",
-          "title": "​Proclamation Recognizing Earth Day and the Palo Alto Youth Climate Advisory Board​",
-          "topics": [
-            "Climate & Utilities",
-            "Arts & Culture"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "Proclamation Recognizing National Crime Victims' Rights Week April 19-25, 2026",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "3",
-          "title": "Discussion of the Draft 2026-2030 Santa Clara County Community Plan to End Homelessness; CEQA Status—Not a project. County Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:25 PM",
-          "elapsedSec": 3300
-        },
-        {
-          "num": "4",
-          "title": "910 Webster Street [26PLN-00026]. Request for Council Prescreening to Rezone the Subject Property from RM-20 to Planned Community/Planned Home Zoning and to Allow Construction of 70 Residential Units in a Seven-Story Structure. CEQA Status: Not a Project. Public Comment, Staff Presentation, Applicant Presentation",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Parks & Open Space"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 6900
-        },
-        {
-          "num": "5",
-          "title": "Approval of Minutes from April 6, 2026 Meeting",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "6",
-          "title": "Adopt a Resolution Authorizing the Director of Planning and Development Services to Make Minor Modifications to the 2023-2031 Housing Element Site Inventory. CEQA Status: The City Council adopted a Revised Addendum to the Comprehensive Plan Final Environmental Impact Report on December 18, 2023, that, in conjunction with the Comprehensive Plan Final EIR, fully analyzes the impacts of the 6th Cycle Housing Element, including minor modifications to the site inventory. Supplemental Report Added, Public Comment",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "7",
-          "title": "Approval of Amendment Number 1 to Contract C23187554 with Vox Network Solutions to Increase Compensation by $212,819 and to Extend the Term to June 30, 2027, for Maintenance of the City’s Enterprise Phone System; CEQA Status – exempt under section 15061(b)(3).",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "8",
-          "title": "FIRST READ: Adopt an Entertainment Zone Ordinance to Establish an Entertainment Zone on California Avenue as Recommended by the Economic Development Ad Hoc Committee; CEQA status – Categorically Exempt.",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "9",
-          "title": "Approval of Contract Amendment No. 3 to Contract S25190354 with Larratt Brothers Plumbing Inc. in the Amount of $950,000, for a Revised Total Not to Exceed $1,445,000 and to Extend the Contract Term for One Additional Year ending July 21, 2027, for the Residential Emergency Water Heater Replacement Pilot Program Within Electrification Programs; CEQA Status – Not a Project.",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "10",
-          "title": "4075 El Camino Way [23PLN-00202]: Recommendation to Decline Adoption on Second Reading of an Ordinance Adopting an Amendment to a Planned Community Ordinance (PC-5116) to Allow for Modifications to an Existing 121-Unit Assisted Living and Memory Care Facility. First Reading Adoption was on March 16, 2026. CEQA Status: Exempt from the Provisions of the California Environmental Quality Act (CEQA) in Accordance with CEQA Guidelines Section 15301 (Modifications to Existing Facilities). Supplemental Report Added",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "AA1",
-          "title": "Amend the FY 2026 Budget Appropriation for the Capital Improvement Fund to Establish the Embarcadero Road Improvement Project, Phase 1, and Authorize the City Manager or Their Designee to Award a Construction Contract with a Qualified Contractor for the Embarcadero Road Improvement Project, Phase 1; CEQA Status – Exempt under CEQA Guidelines Section 15301(c) New Item Added, Supplemental At-Places Report Added, Public Comment",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "8:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "11",
-          "title": "Quasi-Judicial: Adoption of a Resolution Documenting the City Council’s Consideration and Decision on an Appeal of the Chief Building Official’s Order to Demolish the Buildings Located at 531 Stanford Avenue. Public Comment, Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:55 PM",
-          "elapsedSec": 12300
-        },
-        {
-          "num": "12",
-          "title": "Adoption of Recommendations by the Policy & Services Committee Implementing Changes to Meeting Procedures Related to Teleconferencing, Remote Public Participation, Translation and Interpretation Assistance, and Expanded Public Outreach; CEQA Status – Not a Project. Staff Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": "10:00 PM",
-          "elapsedSec": 16200
-        },
-        {
-          "num": "A",
-          "title": "Monthly Investment Report - March 2026 (Unaudited)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:30 PM",
-          "elapsedSec": 10800
-        },
-        {
-          "num": "AA2",
-          "title": "Informational Update on Stanford Palo Alto Community Playing Fields (Mayfield) PFAS Testing Results New Item Added",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "8:30 PM",
-          "elapsedSec": 10800
-        }
-      ]
-    },
     {
       "id": 2811,
       "body": "Finance Committee",
@@ -6469,7 +6315,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Caltrain Presentation of Framework for a ”No External Funding Scenario”. CEQA Status – Not a Project",
+          "title": "Caltrain Presentation of Framework for a ”No External Funding Scenario”. CEQA Status – Not a Project Caltrain Presentation",
           "topics": [
             "Transportation",
             "Budget & Taxes"
@@ -6545,7 +6391,7 @@
         },
         {
           "num": "9",
-          "title": "QUASI-JUDICIAL. 751 Waverley Street [26PLN-00034]: Appeal of Director’s Decision to Uphold the Issuance of the Permit, Confirming Approval to Remove Four Protected Coast Redwoods (Sequoia sempervirens) Located at 751 Waverley Street under the Right Tree in the Right Place Principles for Removal in Palo Alto Municipal Code 8.10.050; CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3)",
+          "title": "QUASI-JUDICIAL. 751 Waverley Street [26PLN-00034]: Appeal of Director’s Decision to Uphold the Issuance of the Permit, Confirming Approval to Remove Four Protected Coast Redwoods (Sequoia sempervirens) Located at 751 Waverley Street under the Right Tree in the Right Place Principles for Removal in Palo Alto Municipal Code 8.10.050; CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3) Public Comment",
           "topics": [
             "Transportation",
             "Parks & Open Space"
@@ -6833,6 +6679,40 @@
   ],
   "news": [
     {
+      "title": "Palo Alto expands controversial RV ban",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-20",
+      "url": "https://padailypost.com/2026/10/19/palo-alto-expands-controversial-rv-ban/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Oct. 19) approved an expanded ban on RVs parking in residential neighborhoods, despite a push from resid"
+    },
+    {
+      "title": "Menlo Park looks to outside law firm to defend against high-rise developer’s lawsuit",
+      "source": "Palo Alto Online",
+      "date": "2026-10-19",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/10/19/menlo-park-looks-to-outside-law-firm-to-defend-against-high-rise-developers-lawsuit/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "The Menlo Park City Council voted to approve an outside law firm on Oct. 13 to assist the City Attorney’s Office in its legal dispute with the developers of a high-rise project at "
+    },
+    {
+      "title": "Man arrested for firing pellet gun at school employee has fired at campus before",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-19",
+      "url": "https://padailypost.com/2026/10/19/man-arrested-for-firing-pellet-gun-at-school-employee-has-fired-at-campus-before/",
+      "topics": [
+        "Crime, Policing, and Public Safety",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto police have arrested a man who allegedly fired a pellet gun at a school employee. Bradford Minkoff, 67, of Palo Alto, allegedl"
+    },
+    {
       "title": "School board candidates talk about their experience",
       "source": "Palo Alto Daily Post",
       "date": "2026-10-19",
@@ -6851,28 +6731,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto teachers union is encouraging voters to leave the second spot on their ballot blank in the school board race and engage [."
-    },
-    {
-      "title": "School board considers putting parcel tax on the ballot again",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-15",
-      "url": "https://padailypost.com/2026/10/15/school-board-considers-putting-parcel-tax-on-the-ballot-again/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto school board is grappling with whether to ask voters to renew a parcel tax sooner or later. A special election on [...]"
-    },
-    {
-      "title": "Train strikes car in Palo Alto",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-15",
-      "url": "https://padailypost.com/2026/10/14/train-strikes-car-in-palo-alto/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "A Caltrain hit a car that had been stopped on the tracks on Alma Street in Palo Alto. The crash happened around 6:15 p.m., snarling evening traffic along Alma and [...]"
     },
     {
       "title": "What does it cost to run for local public office?",
