@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-20T14:18:49.768Z",
+  "generatedAt": "2026-10-21T14:29:54.970Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-20",
-    "to": "2027-04-20"
+    "from": "2026-04-21",
+    "to": "2027-04-21"
   },
   "bodies": [
     {
@@ -114,54 +114,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2811,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Regular Meeting",
-      "date": "2026-04-21",
-      "startTime": "16:00",
-      "videoId": "LB3rRjg-O-w",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18562",
-      "items": [
-        {
-          "num": "1",
-          "title": "Recommendation to the City Council to Adopt a Resolution Approving the Fiscal Year 2027 Gas Utility Financial Forecast, Reserve Transfer, General Fund Transfer, and Amending Rate Schedules G-1 (Residential Gas Service), G-2 (Residential Master-Metered and Commercial Gas Service), and G-3 (Large Commercial Gas Service) ; CEQA Status: Not a project under CEQA Guidelines Section 15378(b)(5)",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Staff Recommends the Utilities Advisory Commission Recommend that the City Council Adopt a Resolution Approving the FY 2027 Electric Financial Forecast, Approving a Reserve Transfer, and Amending Electric Rate Schedules E-1 (Residential Electric Service), E-1 TOU (Residential Time of Use Electric Service), E-2 (Residential Master-Metered and Small Non-Residential Electric Service), E-2-G (Residential Master-Metered and Small Non-Residential Green Power Electric Service), E-4 (Medium Non-Residential Electric Service), E-4-G (Medium Non-Residential Green Power Electric Service), E-4 TOU (Medium Non-Residential Time of Use Electric Service), E-7 (Large Non-Residential Electric Service), E-7-G (Large Non-Residential Green Power Electric Service), E-7 TOU (Large Non-Residential Time of Use Electric Service), E-14 (Street Lights), E-16 (Unmetered Electric Service), E-EEC-1 (Export Electricity Compensation), and E-NSE-1 (Net Metering Net Surplus Electricity Compensation); CEQA Status: Not a project. Staff Presentation",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Climate & Utilities",
-            "Parks & Open Space",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Recommendation to the City Council to: Adopt a Resolution Approving the Fiscal Year 2027 Schedule of Airport Rates and Charges; Accept the Palo Alto Airport Rates and Charges Study; and Authorize Annual Adjustments to Airport Fees and Charges Based on the Airport Benchmark Index (ABI), as Described in the Study; CEQA Status – Exempt Under Section 15061(b)(3) Staff Presentation",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3041,
       "body": "Public Works Director's Hearing",
@@ -6451,7 +6403,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Grid Modernization for Electrification Project Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds in a Principal Amount Not-to-Exceed $100 Million: Approval of the Electric Revenue Bond Indenture, First Supplemental Electric Bond Indenture of Trust, Official Statement, Bond Purchase Agreement, and Authorizing Official Actions and Documents; CEQA Status - Not a Project Supplemental Report Added",
+          "title": "Grid Modernization for Electrification Project Financing; Recommendation to the City Council to Adopt a Resolution Authorizing the Issuance and Sale of Tax-Exempt Electric Revenue Bonds in a Principal Amount Not-to-Exceed $100 Million: Approval of the Electric Revenue Bond Indenture, First Supplemental Electric Bond Indenture of Trust, Official Statement, Bond Purchase Agreement, and Authorizing Official Actions and Documents; CEQA Status - Not a Project Supplemental Report Added, Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -6461,7 +6413,7 @@
         },
         {
           "num": "2",
-          "title": "Review and Provide a Recommendation to City Council on Proposed Reserve Categories and Target Funding Approach for the Regional Water Quality Control Plant; CEQA Status – Not a Project​",
+          "title": "Review and Provide a Recommendation to City Council on Proposed Reserve Categories and Target Funding Approach for the Regional Water Quality Control Plant; CEQA Status – Not a Project​ Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -6675,6 +6627,84 @@
           "elapsedSec": 9900
         }
       ]
+    },
+    {
+      "id": 3097,
+      "body": "Parks and Recreation Commission",
+      "bodySlug": "parks-and-recreation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Parks and Recreation Commission Regular Meeting",
+      "date": "2026-10-27",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20478",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of Minutes from September 22, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Council Liaison Report – 5 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Department Report – 20 minutes",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Ad Hoc Committees and Liaison Updates (Discussion) – 15 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Recognition of Service for Commissioners Brown and Deng – 30 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "6",
+          "title": "Feedback on Concept Design for Foothills Nature Preserve Interpretive Center Exhibits and Funding Partners Opportunities – 60 minutes",
+          "topics": [
+            "Parks & Open Space",
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
@@ -6833,16 +6863,6 @@
         "Budget & Taxes"
       ],
       "summary": "The Menlo Park City Council is ready to fight the state to prevent a high-rise development on the former Sunset magazine campus, even if it means cutting local services to fund the"
-    },
-    {
-      "title": "A historic Peninsula post office is reopening as a fine-dining restaurant from the restaurant group behind The Village Pub and Selby’s",
-      "source": "Palo Alto Online",
-      "date": "2026-09-30",
-      "url": "https://www.paloaltoonline.com/food/feature-food/2026/09/30/the-old-post-office-opens-in-burlingame/",
-      "topics": [
-        "Historic Preservation"
-      ],
-      "summary": "The Old Post Office in Burlingame combines 1940s-inspired fare with architectural flair. The post A historic Peninsula post office is reopening as a fine-dining restaurant from the"
     },
     {
       "title": "Measure J sparks debate over Cubberley’s future",
