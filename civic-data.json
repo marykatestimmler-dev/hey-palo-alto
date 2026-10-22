@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-21T14:29:54.970Z",
+  "generatedAt": "2026-10-22T14:31:34.439Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-21",
-    "to": "2027-04-21"
+    "from": "2026-04-22",
+    "to": "2027-04-22"
   },
   "bodies": [
     {
@@ -6705,9 +6705,88 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3084,
+      "body": "Planning & Transportation Commission",
+      "bodySlug": "planning-and-transportation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Planning & Transportation Commission Regular Meeting",
+      "date": "2026-10-28",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20388",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Assignments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Review 60% Plans for the Quarry Road Transit Connection; CEQA Status – Statutorily Exempt Under Public Resources Code Section 21080(b)(12) 6:15 PM – 7:00 PM",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 51 Encina Avenue [26PLN-00236]: Recommendation on a Zoning Text Amendment to Palo Alto Municipal Code Section 18.18.080 (Transfer of Development Rights), and Section 18.16.060 (CS Development Standards) to Expand Floor Area Bonus and Transfer of Development Right Benefits for Category 1 and 2 Buildings on the City's Historic Inventory in the CS Zone District. CEQA Status: Exempt from CEQA per Section 15061(b)(3) (Common Sense Exemption). 7:00 PM – 8:00 PM",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 531 Stanford [26PLN-00011]: Recommendation on Applicant’s Request for Approval of a Vesting Tentative Map to Subdivide One 31,363 Square Foot Parcel into 20 Fee Simple Lots with a Private Road to Facilitate Construction of 20 New Prefabricated Residential Units. CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code section 21080.66). Zoning District: RM-30(TOD) (Multifamily Residential with Transit Oriented Development Combining District). This item has been rescheduled for 11/18/26",
+          "topics": [
+            "Housing",
+            "Transportation",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Approval of Planning & Transportation Commission Draft Summary Minutes of August 26, 2026",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comment",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Menlo Park mayor makes 2nd attempt to reach Bonta about controversial high-rise project on Willow Road",
+      "source": "Palo Alto Online",
+      "date": "2026-10-21",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/10/21/menlo-park-mayor-makes-2nd-attempt-to-reach-bonta-about-controversial-high-rise-project-on-willow-road/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "Menlo Park Mayor Betsy Nash is still hoping state Attorney General Rob Bonta will visit the site of a controversial high-rise project. She extended a second invitation to visit 80 "
+    },
     {
       "title": "Palo Alto expands controversial RV ban",
       "source": "Palo Alto Daily Post",
@@ -6964,27 +7043,6 @@
         "Housing"
       ],
       "summary": "The latest project that aims to fulfill Palo Alto's vision of creating a residential community on the city's southern edge is 762 San Antonio Road, a 228-home project that received"
-    },
-    {
-      "title": "Emergency doctor Gary Gechlik to run for Palo Alto council",
-      "source": "Palo Alto Online",
-      "date": "2026-08-11",
-      "url": "https://www.paloaltoonline.com/election/2026/08/10/emergency-doctor-gary-gechlik-to-run-for-palo-alto-council/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "Emergency medicine physician Gary Gechlik has pulled the papers to run for a seat on the Palo Alto City Council this fall, joining four other candidates with just two days to go be"
-    },
-    {
-      "title": "State backs controversial skyscraper proposal at old Sunset Magazine campus in Menlo Park",
-      "source": "Palo Alto Online",
-      "date": "2026-08-05",
-      "url": "https://www.paloaltoonline.com/news/2026/08/04/state-backs-controversial-skyscraper-proposal-at-old-sunset-magazine-campus-in-menlo-park/",
-      "topics": [
-        "Housing",
-        "Parks & Open Space"
-      ],
-      "summary": "A residential skyscraper proposal in Menlo Park has scored a big boost after California Attorney General Rob Bonta sent a letter to the city alleging that it violated state housing"
     }
   ],
   "events": []
