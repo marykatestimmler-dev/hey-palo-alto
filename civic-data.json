@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-22T14:31:34.439Z",
+  "generatedAt": "2026-10-23T14:14:24.833Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-22",
-    "to": "2027-04-22"
+    "from": "2026-04-23",
+    "to": "2027-04-23"
   },
   "bodies": [
     {
@@ -93,11 +93,6 @@
       "email": "city.clerk@PaloAlto.gov"
     },
     {
-      "name": "Public Works Director's Hearing",
-      "slug": "public-works-director-s-hearing",
-      "email": "city.clerk@PaloAlto.gov"
-    },
-    {
       "name": "Rail Committee",
       "slug": "rail-committee",
       "email": "city.clerk@PaloAlto.gov"
@@ -114,40 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3041,
-      "body": "Public Works Director's Hearing",
-      "bodySlug": "public-works-director-s-hearing",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Works Director's Hearing",
-      "date": "2026-04-23",
-      "startTime": "15:00",
-      "videoId": null,
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20089",
-      "items": [
-        {
-          "num": "1",
-          "title": "751 Waverley St [26PLN‐00034]: Request for Director's Review of an approved Protected Tree Removal Permit via Over-the-Counter Planning Entitlement.",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2792,
-      "body": "City Schools Liaison Committee",
-      "bodySlug": "city-schools-liaison-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "City Schools Liaison Committee Regular Meeting",
-      "date": "2026-04-23",
-      "startTime": "19:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 3043,
       "body": "Human Relations Commission",
@@ -6592,7 +6553,7 @@
         },
         {
           "num": "8",
-          "title": "Adoption of an Ordinance Amending the Palo Alto Municipal Code (PAMC) Section 18.40.140 (Stream Corridor Protection). CEQA Status: Exempt pursuant to CEQA Guidelines Section 15308 (Actions for Protection of the Environment).",
+          "title": "Adoption of an Ordinance Amending the Palo Alto Municipal Code (PAMC) Section 18.40.140 (Stream Corridor Protection). CEQA Status: Exempt pursuant to CEQA Guidelines Section 15308 (Actions for Protection of the Environment). Supplemental Report added",
           "topics": [
             "Other"
           ],
@@ -6774,9 +6735,179 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 2848,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting",
+      "date": "2026-11-02",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18791",
+      "items": [
+        {
+          "num": "1",
+          "title": "CONFERENCE WITH CITY ATTORNEY – POTENTIAL LITIGATION Subject: Significant exposure to litigation One Case, as Defendant Authority: Government Code Section 54956.9(d)(2)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "Review of the 2025 Greenhouse Gas Inventory and S/CAP Key Performance Indicators Annual Progress Report; CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "6:55 PM",
+          "elapsedSec": 5100
+        },
+        {
+          "num": "3",
+          "title": "Approval of Minutes from October 19, 2026 Meeting",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "4",
+          "title": "Update and Referral to Staff Regarding Electric System Long Duration Resiliency as Recommended by the Climate and Sustainability Committee; CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "5",
+          "title": "Approval of Amendment No. 1 to Contract No. C24185703A with SWA Services Group, Inc. to Increase Compensation by $293,501 for a new Total Not-to-Exceed Amount of $19,621,048 for Janitorial Cleaning Services; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15301",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "6",
+          "title": "Approval of a Blanket Purchase Order with Graniterock Company in the Amount of $400,000 Annually for a Three-Year Term, beginning July 1, 2026, through June 30, 2029, for a Total Not-to-Exceed Amount of $1,200,000 for Hot Mix Asphalt Materials for Public Works and Utilities Departments; CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "7",
+          "title": "Approval of the Junior Museum & Zoo Audit as Recommended by the Policy & Services Committee. CEQA Status: Not a Project.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "8",
+          "title": "Approval of an Alternative Means of Compliance with Palo Alto Municipal Code Chapter 16.65 (Citywide Affordable Housing Requirements) to Allow a Bifurcated Term in the Regulatory Agreement for a Previously Approved Housing Development Project at 3150 El Camino Real. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15061(b)(3).",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "7:55 PM",
+          "elapsedSec": 8700
+        },
+        {
+          "num": "9",
+          "title": "PUBLIC HEARING: Adoption of an Ordinance Amending Various Palo Alto Municipal Code (PAMC) Chapters in Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions and Other Divisions of Land) of the Palo Alto Municipal Code to Replace Temporary Ordinances Implementing Senate Bill (SB) 9, SB 450, and Other State Housing Laws. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3).",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "8:25 PM",
+          "elapsedSec": 10500
+        },
+        {
+          "num": "10",
+          "title": "Adopt a Resolution Establishing the City Council and Council Standing Committees Annual Calendar of Meetings, Recesses, and City Council Events for the Calendar Year 2027; CEQA status – not a project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "9:55 PM",
+          "elapsedSec": 15900
+        }
+      ]
+    },
+    {
+      "id": 2823,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Special Meeting - CANCELED",
+      "date": "2026-11-04",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
+      "id": 3150,
+      "body": "Economic Development Committee",
+      "bodySlug": "economic-development-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Economic Development Committee Special Meeting ",
+      "date": "2026-11-04",
+      "startTime": "16:15",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20822",
+      "items": [
+        {
+          "num": "1",
+          "title": "Recommendation to the City Council to Amend the Entertainment Zone Ordinance to Establish an Entertainment Zone on Ramona Street; CEQA: Not a Project",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Economic Development Activity Report for November 2026",
+          "topics": [
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Teen reports attempted groping in Homer tunnel",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-22",
+      "url": "https://padailypost.com/2026/10/22/teen-reports-attempted-groping-in-homer-tunnel/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "Palo Alto police announced today (Oct. 22) that are investigating an attempted groping of a teenage girl in the Homer tunnel. The teenager was walking through the Homer tunnel arou"
+    },
+    {
+      "title": "Campaign to increase the sales tax and improve Cubberley has raised $120,000 in campaign donations",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-22",
+      "url": "https://padailypost.com/2026/10/22/campaign-to-raise-sales-tax-and-improve-cubberley-has-raised-120000-in-campaign-donations/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A campaign to increase Palo Alto s sales tax to fund a land deal and renovations at the Cubberley Community Center has raised $120,206 f"
+    },
     {
       "title": "Menlo Park mayor makes 2nd attempt to reach Bonta about controversial high-rise project on Willow Road",
       "source": "Palo Alto Online",
@@ -6820,26 +6951,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto police have arrested a man who allegedly fired a pellet gun at a school employee. Bradford Minkoff, 67, of Palo Alto, allegedl"
-    },
-    {
-      "title": "School board candidates talk about their experience",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-19",
-      "url": "https://padailypost.com/2026/10/19/school-board-candidates-talk-about-their-experience/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Math advocacy, suicide prevention and international elevator manufacturing — Palo Alto school board candidates are bringing a wide range"
-    },
-    {
-      "title": "Teachers’ union is encouraging ‘bullet voting’ to help Linda Henigin",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-16",
-      "url": "https://padailypost.com/2026/10/15/school-board-is-encouraging-bullet-voting-to-help-linda-henigin/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer The Palo Alto teachers union is encouraging voters to leave the second spot on their ballot blank in the school board race and engage [."
     },
     {
       "title": "What does it cost to run for local public office?",
