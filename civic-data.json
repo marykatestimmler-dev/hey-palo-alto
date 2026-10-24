@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-23T14:14:24.833Z",
+  "generatedAt": "2026-10-24T13:19:58.486Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-23",
-    "to": "2027-04-23"
+    "from": "2026-04-24",
+    "to": "2027-04-24"
   },
   "bodies": [
     {
@@ -6888,6 +6888,42 @@
   ],
   "news": [
     {
+      "title": "Trailblazing Uyghur restaurant Mrs Khan shutters in Menlo Park",
+      "source": "Palo Alto Online",
+      "date": "2026-10-23",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/10/23/trailblazing-uyghur-restaurant-mrs-khan-shutters-in-menlo-park/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space"
+      ],
+      "summary": "Mrs Khan founder Kalbinur Tursungjan reopens the restaurant as Dragon General, offering Peking duck and Dongbei specialties. The post Trailblazing Uyghur restaurant Mrs Khan shutte"
+    },
+    {
+      "title": "Deng says she ended fundraising, but the money keeps coming",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-23",
+      "url": "https://padailypost.com/2026/10/23/deng-says-she-ended-fundraising-but-the-money-keeps-coming/",
+      "topics": [
+        "Parks & Open Space",
+        "Budget & Taxes"
+      ],
+      "summary": "Despite ending her fundraising efforts, Palo Alto Parks and Recreation Commissioner Yudy Deng raised $16,000 in two weeks, according to finance forms released Thursday. That brings"
+    },
+    {
+      "title": "City bans RV parking 100 feet from any home from 8 p.m. to 8 a.m. — but some want a broader ban",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-23",
+      "url": "https://padailypost.com/2026/10/23/city-bans-rv-parking-100-feet-from-any-home-from-8-a-m-to-8-p-m-but-some-want-a-broader-ban/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space",
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council has approved an expanded ban on RVs parking in residential neighborhoods, despite a push from residents and busin"
+    },
+    {
       "title": "Teen reports attempted groping in Homer tunnel",
       "source": "Palo Alto Daily Post",
       "date": "2026-10-22",
@@ -6896,17 +6932,6 @@
         "Crime, Policing, and Public Safety"
       ],
       "summary": "Palo Alto police announced today (Oct. 22) that are investigating an attempted groping of a teenage girl in the Homer tunnel. The teenager was walking through the Homer tunnel arou"
-    },
-    {
-      "title": "Campaign to increase the sales tax and improve Cubberley has raised $120,000 in campaign donations",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-22",
-      "url": "https://padailypost.com/2026/10/22/campaign-to-raise-sales-tax-and-improve-cubberley-has-raised-120000-in-campaign-donations/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A campaign to increase Palo Alto s sales tax to fund a land deal and renovations at the Cubberley Community Center has raised $120,206 f"
     },
     {
       "title": "Menlo Park mayor makes 2nd attempt to reach Bonta about controversial high-rise project on Willow Road",
@@ -6919,19 +6944,6 @@
       "summary": "Menlo Park Mayor Betsy Nash is still hoping state Attorney General Rob Bonta will visit the site of a controversial high-rise project. She extended a second invitation to visit 80 "
     },
     {
-      "title": "Palo Alto expands controversial RV ban",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-20",
-      "url": "https://padailypost.com/2026/10/19/palo-alto-expands-controversial-rv-ban/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Oct. 19) approved an expanded ban on RVs parking in residential neighborhoods, despite a push from resid"
-    },
-    {
       "title": "Menlo Park looks to outside law firm to defend against high-rise developer’s lawsuit",
       "source": "Palo Alto Online",
       "date": "2026-10-19",
@@ -6940,17 +6952,6 @@
         "Parks & Open Space"
       ],
       "summary": "The Menlo Park City Council voted to approve an outside law firm on Oct. 13 to assist the City Attorney’s Office in its legal dispute with the developers of a high-rise project at "
-    },
-    {
-      "title": "Man arrested for firing pellet gun at school employee has fired at campus before",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-19",
-      "url": "https://padailypost.com/2026/10/19/man-arrested-for-firing-pellet-gun-at-school-employee-has-fired-at-campus-before/",
-      "topics": [
-        "Crime, Policing, and Public Safety",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto police have arrested a man who allegedly fired a pellet gun at a school employee. Bradford Minkoff, 67, of Palo Alto, allegedl"
     },
     {
       "title": "What does it cost to run for local public office?",
@@ -7032,16 +7033,6 @@
         "Downtown & Business"
       ],
       "summary": "A desire to avoid filling up her house with unwanted stuff that her daughter would soon outgrow led Redwood City resident Amy Bearman to start her business BurbleBox. The post A ne"
-    },
-    {
-      "title": "Why a Foster City resident started his own line of decaf teas",
-      "source": "Palo Alto Online",
-      "date": "2026-10-07",
-      "url": "https://www.paloaltoonline.com/food/feature-food/2026/10/07/why-a-foster-city-resident-started-his-own-line-of-decaf-teas/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "Chris Horng’s company de-tea offers decaffeinated teas in green and black varieties, with more options brewing. The post Why a Foster City resident started his own line of decaf te"
     },
     {
       "title": "Menlo Park rejects state’s demand to approve Sunset magazine high-rise as a new property buyer emerges",
