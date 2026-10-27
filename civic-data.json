@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-26T16:07:42.245Z",
+  "generatedAt": "2026-10-27T15:21:28.633Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-26",
-    "to": "2027-04-26"
+    "from": "2026-04-27",
+    "to": "2027-04-27"
   },
   "bodies": [
     {
@@ -109,28 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3043,
-      "body": "Human Relations Commission",
-      "bodySlug": "human-relations-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Human Relations Commission Special Meeting",
-      "date": "2026-04-27",
-      "startTime": "17:30",
-      "videoId": null,
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20102",
-      "items": [
-        {
-          "num": "1",
-          "title": "Recieve informational training regarding open government and transparency laws.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        }
-      ]
-    },
     {
       "id": 2988,
       "body": "Parks and Recreation Commission",
@@ -6483,12 +6461,12 @@
       "title": "City Council Special Meeting ",
       "date": "2026-10-26",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "opLkezN6Vs4",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19180",
       "items": [
         {
           "num": "1",
-          "title": "Appointment of Candidates to the Public Art Commission (PAC) and Stormwater Management Oversight Committee (SWMOC); CEQA Status - Not a Project",
+          "title": "Appointment of Candidates to the Public Art Commission (PAC) and Stormwater Management Oversight Committee (SWMOC); CEQA Status - Not a Project Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Arts & Culture"
@@ -6507,7 +6485,7 @@
         },
         {
           "num": "3",
-          "title": "Review of 2026-2027 Winter Storm Preparedness Activities",
+          "title": "Review of 2026-2027 Winter Storm Preparedness Activities Staff Presentation, Public Comment",
           "topics": [
             "Other"
           ],
@@ -6525,7 +6503,7 @@
         },
         {
           "num": "5",
-          "title": "Approval of the FY 2028-2029 Human Services Resource Allocation Process (HSRAP) Program Expansion with Additional Annual Funding in the Amount of $428,000; CEQA- Not a Project",
+          "title": "Approval of the FY 2028-2029 Human Services Resource Allocation Process (HSRAP) Program Expansion with Additional Annual Funding in the Amount of $428,000; CEQA- Not a Project Consent Questions",
           "topics": [
             "Budget & Taxes"
           ],
@@ -6534,7 +6512,7 @@
         },
         {
           "num": "6",
-          "title": "Adoption of an Ordinance Amending Chapter 18.20 (Office, Research, and Manufacturing (MOR, ROLM, RP and GM) Districts) of Title 18 (Zoning) of the Palo Alto Municipal Code to Clarify that Multiple-Family Residential Uses in the ROLM(E) Zone District May Be Permitted Through a Use Permit; CEQA Status: Exempt pursuant to CEQA Guidelines Section 15061(b)(3).",
+          "title": "Adoption of an Ordinance Amending Chapter 18.20 (Office, Research, and Manufacturing (MOR, ROLM, RP and GM) Districts) of Title 18 (Zoning) of the Palo Alto Municipal Code to Clarify that Multiple-Family Residential Uses in the ROLM(E) Zone District May Be Permitted Through a Use Permit; CEQA Status: Exempt pursuant to CEQA Guidelines Section 15061(b)(3). Consent Questions",
           "topics": [
             "Housing"
           ],
@@ -6553,7 +6531,7 @@
         },
         {
           "num": "8",
-          "title": "Adoption of an Ordinance Amending the Palo Alto Municipal Code (PAMC) Section 18.40.140 (Stream Corridor Protection). CEQA Status: Exempt pursuant to CEQA Guidelines Section 15308 (Actions for Protection of the Environment). Supplemental Report added",
+          "title": "Adoption of an Ordinance Amending the Palo Alto Municipal Code (PAMC) Section 18.40.140 (Stream Corridor Protection). CEQA Status: Exempt pursuant to CEQA Guidelines Section 15308 (Actions for Protection of the Environment). Supplemental Report added, Staff Presentation, Public Comment",
           "topics": [
             "Other"
           ],
@@ -6562,7 +6540,7 @@
         },
         {
           "num": "9",
-          "title": "Adoption of a Temporary Ordinance Imposing a Moratorium on the Establishment of New or Expanded Detention and Custodial Facilities within Palo Alto City Limits",
+          "title": "Adoption of a Temporary Ordinance Imposing a Moratorium on the Establishment of New or Expanded Detention and Custodial Facilities within Palo Alto City Limits. Public Comment",
           "topics": [
             "Other"
           ],
@@ -6597,7 +6575,7 @@
       "title": " Parks and Recreation Commission Regular Meeting",
       "date": "2026-10-27",
       "startTime": "19:00",
-      "videoId": null,
+      "videoId": "QCwG7hYQhpk",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20478",
       "items": [
         {
@@ -6675,7 +6653,7 @@
       "title": "Planning & Transportation Commission Regular Meeting",
       "date": "2026-10-28",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "_TRrHKRrm-s",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20388",
       "items": [
         {
@@ -6888,6 +6866,26 @@
   ],
   "news": [
     {
+      "title": "Revised project would bring 269 housing units to Palo Verde",
+      "source": "Palo Alto Online",
+      "date": "2026-10-26",
+      "url": "https://www.paloaltoonline.com/housing/2026/10/26/revised-project-would-bring-269-housing-units-to-palo-verde/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "A developer who is looking to build a residential complex next to U.S. Highway 101, in the Palo Verde neighborhood, has revised the project application, which now calls for a seven"
+    },
+    {
+      "title": "U.S. Department of Education launches investigation into Palo Alto school district questionnaire",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-26",
+      "url": "https://padailypost.com/2026/10/26/u-s-department-of-education-launches-investigation-into-palo-alto-school-district-questionnaire/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "The U.S. Department of Education announced an investigation today (Oct. 26) into the Palo Alto Unified School District over a questionnaire that allegedly asked students about thei"
+    },
+    {
       "title": "Trailblazing Uyghur restaurant Mrs Khan shutters in Menlo Park",
       "source": "Palo Alto Online",
       "date": "2026-10-23",
@@ -6922,16 +6920,6 @@
         "Budget & Taxes"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council has approved an expanded ban on RVs parking in residential neighborhoods, despite a push from residents and busin"
-    },
-    {
-      "title": "Teen reports attempted groping in Homer tunnel",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-22",
-      "url": "https://padailypost.com/2026/10/22/teen-reports-attempted-groping-in-homer-tunnel/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "Palo Alto police announced today (Oct. 22) that are investigating an attempted groping of a teenage girl in the Homer tunnel. The teenager was walking through the Homer tunnel arou"
     },
     {
       "title": "Menlo Park mayor makes 2nd attempt to reach Bonta about controversial high-rise project on Willow Road",
@@ -7074,16 +7062,6 @@
         "Housing"
       ],
       "summary": "The East Palo Alto City Council directed staff last week to prioritize low-income homeowners and renters in its recently launched Major Home Repair Program, which will distribute $"
-    },
-    {
-      "title": "Palo Alto mulls new rules for building, selling ADUs",
-      "source": "Palo Alto Online",
-      "date": "2026-09-19",
-      "url": "https://www.paloaltoonline.com/housing/2026/09/19/palo-alto-mulls-new-rules-for-building-selling-adus/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "The debate over whether the backyard units should be treated like condominiums comes at a time when Palo Alto leaders are increasingly leaning on ADUs to meet the city's housing go"
     },
     {
       "title": "‘We’ve done everything we can’ — Menlo Park mayor invites Bonta to see controversial skyscraper project site",
