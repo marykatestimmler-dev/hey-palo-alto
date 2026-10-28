@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-27T15:21:28.633Z",
+  "generatedAt": "2026-10-28T16:01:18.819Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-27",
-    "to": "2027-04-27"
+    "from": "2026-04-28",
+    "to": "2027-04-28"
   },
   "bodies": [
     {
@@ -109,83 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2988,
-      "body": "Parks and Recreation Commission",
-      "bodySlug": "parks-and-recreation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Parks and Recreation Commission Regular Meeting",
-      "date": "2026-04-28",
-      "startTime": "19:00",
-      "videoId": "7Hv77R1aU20",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19745",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of Minutes from February 24, 2026 and March 24, 2026",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Department Report – 20 minutes – Staff Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Ad Hoc Committees and Liaison Updates (Discussion) – 15 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Informational Update on the Foothills Nature Preserve Improvements Project (PE-21000) – 30 minutes – Staff Presentation",
-          "topics": [
-            "Parks & Open Space",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Middle School Athletics Program: Future Management Model and Program Direction – 45 minutes – Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "6",
-          "title": "Review and Confirm the Revised Parks and Recreation Commission Fiscal Year 2027 Work Plan – 30 minutes",
-          "topics": [
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2926,
       "body": "Planning & Transportation Commission",
@@ -6598,7 +6521,7 @@
         },
         {
           "num": "3",
-          "title": "Department Report – 20 minutes",
+          "title": "Department Report – 20 minutes – Staff Presentation",
           "topics": [
             "Arts & Culture"
           ],
@@ -6625,7 +6548,7 @@
         },
         {
           "num": "6",
-          "title": "Feedback on Concept Design for Foothills Nature Preserve Interpretive Center Exhibits and Funding Partners Opportunities – 60 minutes",
+          "title": "Feedback on Concept Design for Foothills Nature Preserve Interpretive Center Exhibits and Funding Partners Opportunities – 60 minutes – Staff Presentation",
           "topics": [
             "Parks & Open Space",
             "Arts & Culture",
@@ -6857,6 +6780,94 @@
           "title": "Economic Development Activity Report for November 2026",
           "topics": [
             "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2889,
+      "body": "Utilities Advisory Commission",
+      "bodySlug": "utilities-advisory-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Utilities Advisory Commission Regular Meeting",
+      "date": "2026-11-04",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19073",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on October 7, 2026",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Staff Recommends the Utilities Advisory Commission Recommend that the City Council Approve the Proposed Updates to the Utilities Reserve Management Practices for (1) the Capital Improvement Program Reserve for the Wastewater Collection Utility and (2) the Rate Stabilization Reserves for the Electric, Gas, Water, and Wastewater Collection Utilities (ACTION: 6:30PM – 7:20PM)",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Discussion and Update on the Fiscal Year 2028 Preliminary Utilities Financial Forecast and Rate Projections (DISCUSSION: 7:20PM – 8:10PM)",
+          "topics": [
+            "Climate & Utilities",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Recommend the City Council Conceptually Approve the Use of a New Proposed Capacity Reservation Agreement Structure and Reservation Charge, within Staff’s Existing Framework for Managing Electric System Capacity Requests; CEQA Status: Not a Project (ACTION: 8:10PM – 8:30PM)",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Informational Report on Dahl and Park Storage Reservoir Condition Assessment and Strategic Rehabilitation",
+          "topics": [
+            "Climate & Utilities",
+            "Parks & Open Space"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Informational Report on Utilities Customer Communications and Engagement",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "C",
+          "title": "12 Month Rolling Calendar",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "D",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
           ],
           "schedTime": null,
           "elapsedSec": null
