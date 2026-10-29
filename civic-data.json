@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-28T16:01:18.819Z",
+  "generatedAt": "2026-10-29T16:07:56.617Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-28",
-    "to": "2027-04-28"
+    "from": "2026-04-29",
+    "to": "2027-04-29"
   },
   "bodies": [
     {
@@ -109,75 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2926,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting",
-      "date": "2026-04-29",
-      "startTime": "18:00",
-      "videoId": "MEchzR642KY",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19316",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 4103 Old Trace Road [25PLN-00298]: Recommendation on Applicant’s Request for Approval of a Tentative Map to Allow for the Subdivision of a Vacant 1.02-Acre Lot to Create Nine Residential Lots and One Private Street to Facilitate Construction of Nine New Single-Family Residences and Seven Junior Accessory Dwelling Units (25PLN-00296). CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code Section 21080.66). Zone District: RE (Residential Estate).",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Election of Chair and Vice Chair",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of March 11, 2026",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of March 25, 2026",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3013,
       "body": "Climate Action and Sustainability Committee",
@@ -6590,7 +6521,7 @@
         },
         {
           "num": "2",
-          "title": "Review 60% Plans for the Quarry Road Transit Connection; CEQA Status – Statutorily Exempt Under Public Resources Code Section 21080(b)(12) 6:15 PM – 7:00 PM",
+          "title": "Review 60% Plans for the Quarry Road Transit Connection; CEQA Status – Statutorily Exempt Under Public Resources Code Section 21080(b)(12) Staff Presentation 6:15 PM – 7:00 PM",
           "topics": [
             "Transportation"
           ],
@@ -6599,7 +6530,7 @@
         },
         {
           "num": "3",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 51 Encina Avenue [26PLN-00236]: Recommendation on a Zoning Text Amendment to Palo Alto Municipal Code Section 18.18.080 (Transfer of Development Rights), and Section 18.16.060 (CS Development Standards) to Expand Floor Area Bonus and Transfer of Development Right Benefits for Category 1 and 2 Buildings on the City's Historic Inventory in the CS Zone District. CEQA Status: Exempt from CEQA per Section 15061(b)(3) (Common Sense Exemption). 7:00 PM – 8:00 PM",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 51 Encina Avenue [26PLN-00236]: Recommendation on a Zoning Text Amendment to Palo Alto Municipal Code Section 18.18.080 (Transfer of Development Rights), and Section 18.16.060 (CS Development Standards) to Expand Floor Area Bonus and Transfer of Development Right Benefits for Category 1 and 2 Buildings on the City's Historic Inventory in the CS Zone District. CEQA Status: Exempt from CEQA per Section 15061(b)(3) (Common Sense Exemption). Staff Presentation 7:00 PM – 8:00 PM",
           "topics": [
             "Historic Preservation"
           ],
@@ -6808,7 +6739,7 @@
         },
         {
           "num": "2",
-          "title": "Staff Recommends the Utilities Advisory Commission Recommend that the City Council Approve the Proposed Updates to the Utilities Reserve Management Practices for (1) the Capital Improvement Program Reserve for the Wastewater Collection Utility and (2) the Rate Stabilization Reserves for the Electric, Gas, Water, and Wastewater Collection Utilities (ACTION: 6:30PM – 7:20PM)",
+          "title": "Staff Recommends the Utilities Advisory Commission Recommend that the City Council Approve the Proposed Updates to the Utilities Reserve Management Practices for (1) the Capital Improvement Program Reserve for the Wastewater Collection Utility and (2) the Rate Stabilization Reserves for the Electric, Gas, Water, and Wastewater Collection Utilities (ACTION: 6:30PM – 7:20PM) Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -6818,7 +6749,7 @@
         },
         {
           "num": "3",
-          "title": "Discussion and Update on the Fiscal Year 2028 Preliminary Utilities Financial Forecast and Rate Projections (DISCUSSION: 7:20PM – 8:10PM)",
+          "title": "Discussion and Update on the Fiscal Year 2028 Preliminary Utilities Financial Forecast and Rate Projections (DISCUSSION: 7:20PM – 8:10PM) Staff Presentation",
           "topics": [
             "Climate & Utilities",
             "Budget & Taxes"
@@ -6828,7 +6759,7 @@
         },
         {
           "num": "4",
-          "title": "Recommend the City Council Conceptually Approve the Use of a New Proposed Capacity Reservation Agreement Structure and Reservation Charge, within Staff’s Existing Framework for Managing Electric System Capacity Requests; CEQA Status: Not a Project (ACTION: 8:10PM – 8:30PM)",
+          "title": "Recommend the City Council Conceptually Approve the Use of a New Proposed Capacity Reservation Agreement Structure and Reservation Charge, within Staff’s Existing Framework for Managing Electric System Capacity Requests; CEQA Status: Not a Project (ACTION: 8:10PM – 8:30PM) Staff Presentation",
           "topics": [
             "Climate & Utilities"
           ],
@@ -6873,9 +6804,32 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3018,
+      "body": "Climate Action and Sustainability Committee",
+      "bodySlug": "climate-action-and-sustainability-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Climate Action and Sustainability Committee Regular Meeting - CANCELED ",
+      "date": "2026-11-13",
+      "startTime": "14:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
     }
   ],
   "news": [
+    {
+      "title": "Stanford Research Park celebrates 75 years as Silicon Valley’s engine of innovation",
+      "source": "Palo Alto Online",
+      "date": "2026-10-29",
+      "url": "https://www.paloaltoonline.com/technology/2026/10/29/stanford-research-park-celebrates-75-years-as-silicon-valleys-engine-of-innovation/",
+      "topics": [
+        "Climate & Utilities",
+        "Parks & Open Space"
+      ],
+      "summary": "Stanford Research Park, which sits on land owned by Stanford University, celebrated its 75-year anniversary in a two-day celebration on Oct. 21 and 22. The festivities commemorated"
+    },
     {
       "title": "Revised project would bring 269 housing units to Palo Verde",
       "source": "Palo Alto Online",
@@ -6976,16 +6930,6 @@
       "summary": "Palo Alto's effort to assist people in purchasing affordable homes is hindered by a significant supply shortage and a laundry list of hidden fees that place these residences out of"
     },
     {
-      "title": "True Food Kitchen files for bankruptcy. Palo Alto location remains open",
-      "source": "Palo Alto Online",
-      "date": "2026-10-14",
-      "url": "https://www.paloaltoonline.com/palo-alto/2026/10/14/true-food-kitchen-files-for-bankruptcy-palo-alto-location-remains-open/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "True Food Kitchen, a wellness-driven restaurant chain that’s been a tenant of Stanford Shopping Center since 2016, filed for Chapter 11 bankruptcy protection Oct. 4. But despite th"
-    },
-    {
       "title": "Chipotle building could make way for housing project near Cal Ave.",
       "source": "Palo Alto Online",
       "date": "2026-10-13",
@@ -6998,17 +6942,6 @@
       "summary": "A commercial building just south of California Avenue that houses Chipotle Mexican Grill would be demolished and replaced with an 85-foot-tall complex featuring 156 apartments unde"
     },
     {
-      "title": "This Mountain View food truck specializes in a cuisine rarely seen along the Peninsula",
-      "source": "Palo Alto Online",
-      "date": "2026-10-13",
-      "url": "https://www.paloaltoonline.com/mountain-view/2026/10/13/this-mountain-view-food-truck-specializes-in-a-cuisine-rarely-seen-along-the-peninsula/",
-      "topics": [
-        "Climate & Utilities",
-        "Parks & Open Space"
-      ],
-      "summary": "Parked in an unassuming Valero gas station in Mountain View is a food truck serving juicy shish kebab and flaky samsa cooked in a tandoor. The food is halal and created by a 23-yea"
-    },
-    {
       "title": "City to expand overnight RV parking ban to more residential areas",
       "source": "Palo Alto Online",
       "date": "2026-10-11",
@@ -7019,19 +6952,6 @@
         "Parks & Open Space"
       ],
       "summary": "While RVs are not allowed to park overnight in most residential areas of Palo Alto, the city is gearing up to address a potential loophole for streets that fall outside of resident"
-    },
-    {
-      "title": "A new Peninsula business offers rentals of curated baby and toddler toys",
-      "source": "Palo Alto Online",
-      "date": "2026-10-09",
-      "url": "https://www.paloaltoonline.com/family-lifestyle/2026/10/08/i-realized-there-was-a-lot-of-demand-for-this-a-new-peninsula-business-offers-rentals-of-curated-baby-and-toddler-toys/",
-      "topics": [
-        "Housing",
-        "Climate & Utilities",
-        "Arts & Culture",
-        "Downtown & Business"
-      ],
-      "summary": "A desire to avoid filling up her house with unwanted stuff that her daughter would soon outgrow led Redwood City resident Amy Bearman to start her business BurbleBox. The post A ne"
     },
     {
       "title": "Menlo Park rejects state’s demand to approve Sunset magazine high-rise as a new property buyer emerges",
@@ -7124,16 +7044,6 @@
         "Arts & Culture"
       ],
       "summary": "For decades, Woodland Park apartments in East Palo Alto have remained an island of affordability in a region where real estate prices have escalated to unprecedented heights. With "
-    },
-    {
-      "title": "Eight-story housing complex approved on San Antonio Road",
-      "source": "Palo Alto Online",
-      "date": "2026-08-18",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/18/eight-story-housing-complex-approved-on-san-antonio-road/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "The latest project that aims to fulfill Palo Alto's vision of creating a residential community on the city's southern edge is 762 San Antonio Road, a 228-home project that received"
     }
   ],
   "events": []
