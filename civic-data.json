@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-29T16:07:56.617Z",
+  "generatedAt": "2026-10-30T15:56:11.859Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-29",
-    "to": "2027-04-29"
+    "from": "2026-04-30",
+    "to": "2027-04-30"
   },
   "bodies": [
     {
@@ -6806,6 +6806,214 @@
       ]
     },
     {
+      "id": 3064,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board Regular Meeting - CANCELED",
+      "date": "2026-11-05",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
+      "id": 2849,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting",
+      "date": "2026-11-09",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18797",
+      "items": [
+        {
+          "num": "1",
+          "title": "Proclamation Recognizing National Police Records and Support Personnel Week",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "720 San Antonio Road [26PLN-00246]. Request for Council Prescreening to Rezone the Subject Property from Service Commercial (CS) to Planned Community/Planned Home Zoning and to Allow Construction of 200 Residential Rental Units in an Eight-Story Structure on an Approximately 1.35-Acre Site. CEQA Status: Not a Project.",
+          "topics": [
+            "Housing",
+            "Downtown & Business"
+          ],
+          "schedTime": "6:20 PM",
+          "elapsedSec": 3000
+        },
+        {
+          "num": "3",
+          "title": "Review and Provide Feedback on 60% Design Plans for the Quarry Road Transit Connection; CEQA Status – Statutorily Exempt Under Public Resources Code Section 21080(b)(12)",
+          "topics": [
+            "Transportation",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:20 PM",
+          "elapsedSec": 6600
+        },
+        {
+          "num": "4",
+          "title": "Approval of Minutes from October 26, 2026 Meeting",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:20 PM",
+          "elapsedSec": 10200
+        },
+        {
+          "num": "5",
+          "title": "2026 Council Priorities and Objectives Q3 Update",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:20 PM",
+          "elapsedSec": 10200
+        },
+        {
+          "num": "6",
+          "title": "Approval of Contract C27194784 with Veolia North America to Provide Efficiency and Electrification Program Services to Commercial Customers for a Term of Up to Five Years for a Total Not-to-Exceed Amount of $3,012,410; CEQA Status: Not a Project Under CEQA Guidelines Sections 15378(b)(5).",
+          "topics": [
+            "Budget & Taxes",
+            "Downtown & Business"
+          ],
+          "schedTime": "8:20 PM",
+          "elapsedSec": 10200
+        },
+        {
+          "num": "7",
+          "title": "Approval of Contract Amendment Number 3 to Contract C22183462 with Macias Gini & O’Connell LLP (MGO) to Increase Compensation by $477,261, for a New Total Not-to Exceed Amount of $1,491,651 and Extend the Term for Two Years for External Financial Audit Services; CEQA Status – Not a Project.",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:20 PM",
+          "elapsedSec": 10200
+        },
+        {
+          "num": "8",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending PAMC Sections 10.44.015 and 10.44.020 (FIRST READING: October 19, 2026; PASSED: 6-1, Lauing no)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:20 PM",
+          "elapsedSec": 10200
+        },
+        {
+          "num": "9",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending the Special Setback Map to Reduce the Special Setback Along Hansen Way at El Camino Real to 20 Feet (FIRST READING: October 19, 2026; PASSED: 7-0)",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:20 PM",
+          "elapsedSec": 10200
+        },
+        {
+          "num": "10",
+          "title": "SECOND READING: An Ordinance of the City of Palo Alto Establishing a Temporary Moratorium on the Establishment of Detention and Custodial Facilities (FIRST READING: October 26, 2026; PASSED: 7-0)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:20 PM",
+          "elapsedSec": 10200
+        },
+        {
+          "num": "11",
+          "title": "Authorization to Advance Bryant Street Bike Boulevard and Lincoln Avenue Traffic Calming Project to Final Design. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15301: Existing Facilities.",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "8:50 PM",
+          "elapsedSec": 12000
+        }
+      ]
+    },
+    {
+      "id": 3032,
+      "body": "Rail Committee",
+      "bodySlug": "rail-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Rail Committee Regular Meeting",
+      "date": "2026-11-10",
+      "startTime": "14:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20028",
+      "items": [
+        {
+          "num": "A",
+          "title": "Caltrain",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "VTA",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "C",
+          "title": "City Staff",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1",
+          "title": "South Palo Alto Bike/Ped Connectivity: Recommendation on Preferred Design Alternatives and Network Enhancements for the Midtown Bicycle and Pedestrian Undercrossing; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15262.",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2786,
+      "body": "Policy & Services Committee",
+      "bodySlug": "policy-and-services-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Policy & Services Committee Regular Meeting",
+      "date": "2026-11-10",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18412",
+      "items": [
+        {
+          "num": "1",
+          "title": "Review of the New Council Member Orientation / Onboarding Outline for Discussion and Possible Recommended Action by Council",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Referral Follow Up: Discussion and Recommendation to City Council Regarding Potential New Procedure for Councilmembers to Make Referrals to Staff Besides Colleagues’ Memo; CEQA – Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 3018,
       "body": "Climate Action and Sustainability Committee",
       "bodySlug": "climate-action-and-sustainability-committee",
@@ -6820,6 +7028,20 @@
   ],
   "news": [
     {
+      "title": "Police ticket alleged political sign thief",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-30",
+      "url": "https://padailypost.com/2026/10/29/police-ticket-alleged-political-sign-thief/",
+      "topics": [
+        "Transportation",
+        "Crime, Policing, and Public Safety",
+        "Parks & Open Space",
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A woman has been cited for allegedly stealing a sign supporting a measure to protect downtown parking lots in Los Altos, police said yes"
+    },
+    {
       "title": "Stanford Research Park celebrates 75 years as Silicon Valley’s engine of innovation",
       "source": "Palo Alto Online",
       "date": "2026-10-29",
@@ -6829,6 +7051,39 @@
         "Parks & Open Space"
       ],
       "summary": "Stanford Research Park, which sits on land owned by Stanford University, celebrated its 75-year anniversary in a two-day celebration on Oct. 21 and 22. The festivities commemorated"
+    },
+    {
+      "title": "After 98 years in Menlo Park, Cook’s Seafood abruptly shutters both locations",
+      "source": "Palo Alto Online",
+      "date": "2026-10-29",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/10/29/after-98-years-in-menlo-park-cooks-seafood-abruptly-shutters-both-locations/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "Employees were notified via text message around 3 a.m., according to employees. The post After 98 years in Menlo Park, Cook’s Seafood abruptly shutters both locations appeared firs"
+    },
+    {
+      "title": "Money pours into campaigns for Measure P, the Menlo Park parking lot/public housing initiative",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-29",
+      "url": "https://padailypost.com/2026/10/29/money-pours-into-campaigns-for-measure-p-the-menlo-park-parking-lot-public-housing-initiative/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space"
+      ],
+      "summary": "BY NORAH SHEPPARD-HUTCHINSDaily Post Staff Writer As election day approaches, large donations are pouring into campaigns for and against Menlo Park s Measure P, an initiative to ha"
+    },
+    {
+      "title": "Train hits car on the tracks",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-29",
+      "url": "https://padailypost.com/2026/10/29/train-hits-car-on-the-tracks/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space"
+      ],
+      "summary": "A Caltrain hit a car at the Alma Street crossing in Palo Alto on Wednesday the second strike at the location in the past two weeks. Nobody was in [...]"
     },
     {
       "title": "Revised project would bring 269 housing units to Palo Verde",
@@ -6841,16 +7096,6 @@
       "summary": "A developer who is looking to build a residential complex next to U.S. Highway 101, in the Palo Verde neighborhood, has revised the project application, which now calls for a seven"
     },
     {
-      "title": "U.S. Department of Education launches investigation into Palo Alto school district questionnaire",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-26",
-      "url": "https://padailypost.com/2026/10/26/u-s-department-of-education-launches-investigation-into-palo-alto-school-district-questionnaire/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "The U.S. Department of Education announced an investigation today (Oct. 26) into the Palo Alto Unified School District over a questionnaire that allegedly asked students about thei"
-    },
-    {
       "title": "Trailblazing Uyghur restaurant Mrs Khan shutters in Menlo Park",
       "source": "Palo Alto Online",
       "date": "2026-10-23",
@@ -6860,31 +7105,6 @@
         "Parks & Open Space"
       ],
       "summary": "Mrs Khan founder Kalbinur Tursungjan reopens the restaurant as Dragon General, offering Peking duck and Dongbei specialties. The post Trailblazing Uyghur restaurant Mrs Khan shutte"
-    },
-    {
-      "title": "Deng says she ended fundraising, but the money keeps coming",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-23",
-      "url": "https://padailypost.com/2026/10/23/deng-says-she-ended-fundraising-but-the-money-keeps-coming/",
-      "topics": [
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "Despite ending her fundraising efforts, Palo Alto Parks and Recreation Commissioner Yudy Deng raised $16,000 in two weeks, according to finance forms released Thursday. That brings"
-    },
-    {
-      "title": "City bans RV parking 100 feet from any home from 8 p.m. to 8 a.m. — but some want a broader ban",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-23",
-      "url": "https://padailypost.com/2026/10/23/city-bans-rv-parking-100-feet-from-any-home-from-8-a-m-to-8-p-m-but-some-want-a-broader-ban/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space",
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council has approved an expanded ban on RVs parking in residential neighborhoods, despite a push from residents and busin"
     },
     {
       "title": "Menlo Park mayor makes 2nd attempt to reach Bonta about controversial high-rise project on Willow Road",
