@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-30T15:56:11.859Z",
+  "generatedAt": "2026-10-31T15:20:25.151Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-04-30",
-    "to": "2027-04-30"
+    "from": "2026-05-01",
+    "to": "2027-05-01"
   },
   "bodies": [
     {
@@ -109,18 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3013,
-      "body": "Climate Action and Sustainability Committee",
-      "bodySlug": "climate-action-and-sustainability-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Climate Action and Sustainability Committee Regular Meeting  - CANCELED",
-      "date": "2026-05-01",
-      "startTime": "14:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2835,
       "body": "City Council",
