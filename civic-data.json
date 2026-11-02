@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-01T16:01:11.106Z",
+  "generatedAt": "2026-11-02T19:29:58.488Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-01",
-    "to": "2027-05-01"
+    "from": "2026-05-02",
+    "to": "2027-05-02"
   },
   "bodies": [
     {
@@ -6564,7 +6564,7 @@
       "title": "City Council Regular Meeting",
       "date": "2026-11-02",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "4Mp8fLP2ziM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18791",
       "items": [
         {
@@ -6681,7 +6681,7 @@
       "title": "Economic Development Committee Special Meeting ",
       "date": "2026-11-04",
       "startTime": "16:15",
-      "videoId": null,
+      "videoId": "qNCHV1jf8EE",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20822",
       "items": [
         {
@@ -6713,7 +6713,7 @@
       "title": " Utilities Advisory Commission Regular Meeting",
       "date": "2026-11-04",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "F9vgbOldKss",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19073",
       "items": [
         {
@@ -7016,6 +7016,16 @@
   ],
   "news": [
     {
+      "title": "Deng says she’s returning check for $2,500",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-10-30",
+      "url": "https://padailypost.com/2026/10/30/deng-says-shes-returning-check-for-2500/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council candidate Yudy Deng said she will stand by her pledge to stop taking donations after collecting $182,131 — by far"
+    },
+    {
       "title": "Updated: Police ticket alleged political sign thief",
       "source": "Palo Alto Daily Post",
       "date": "2026-10-30",
@@ -7061,17 +7071,6 @@
         "Parks & Open Space"
       ],
       "summary": "BY NORAH SHEPPARD-HUTCHINSDaily Post Staff Writer As election day approaches, large donations are pouring into campaigns for and against Menlo Park s Measure P, an initiative to ha"
-    },
-    {
-      "title": "Train hits car on the tracks",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-29",
-      "url": "https://padailypost.com/2026/10/29/train-hits-car-on-the-tracks/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "A Caltrain hit a car at the Alma Street crossing in Palo Alto on Wednesday the second strike at the location in the past two weeks. Nobody was in [...]"
     },
     {
       "title": "Revised project would bring 269 housing units to Palo Verde",
