@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-02T19:29:58.488Z",
+  "generatedAt": "2026-11-03T17:02:34.596Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-02",
-    "to": "2027-05-02"
+    "from": "2026-05-03",
+    "to": "2027-05-03"
   },
   "bodies": [
     {
@@ -6578,7 +6578,7 @@
         },
         {
           "num": "2",
-          "title": "Review of the 2025 Greenhouse Gas Inventory and S/CAP Key Performance Indicators Annual Progress Report; CEQA Status – Not a Project",
+          "title": "Review of the 2025 Greenhouse Gas Inventory and S/CAP Key Performance Indicators Annual Progress Report; CEQA Status – Not a Project Staff Presentation",
           "topics": [
             "Climate & Utilities"
           ],
@@ -6643,7 +6643,7 @@
         },
         {
           "num": "9",
-          "title": "PUBLIC HEARING: Adoption of an Ordinance Amending Various Palo Alto Municipal Code (PAMC) Chapters in Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions and Other Divisions of Land) of the Palo Alto Municipal Code to Replace Temporary Ordinances Implementing Senate Bill (SB) 9, SB 450, and Other State Housing Laws. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3).",
+          "title": "PUBLIC HEARING: Adoption of an Ordinance Amending Various Palo Alto Municipal Code (PAMC) Chapters in Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions and Other Divisions of Land) of the Palo Alto Municipal Code to Replace Temporary Ordinances Implementing Senate Bill (SB) 9, SB 450, and Other State Housing Laws. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3). Staff Presentation",
           "topics": [
             "Housing"
           ],
@@ -6652,7 +6652,7 @@
         },
         {
           "num": "10",
-          "title": "Adopt a Resolution Establishing the City Council and Council Standing Committees Annual Calendar of Meetings, Recesses, and City Council Events for the Calendar Year 2027; CEQA status – not a project",
+          "title": "Adopt a Resolution Establishing the City Council and Council Standing Committees Annual Calendar of Meetings, Recesses, and City Council Events for the Calendar Year 2027; CEQA status – not a project Staff Presentation",
           "topics": [
             "Other"
           ],
@@ -7016,6 +7016,18 @@
   ],
   "news": [
     {
+      "title": "Mollie Stone’s housing project adds more parking at city’s request",
+      "source": "Palo Alto Online",
+      "date": "2026-11-03",
+      "url": "https://www.paloaltoonline.com/housing/2026/11/02/mollie-stones-housing-project-adds-more-parking-at-citys-request/",
+      "topics": [
+        "Housing",
+        "Transportation",
+        "Parks & Open Space"
+      ],
+      "summary": "Responding to criticisms from the City Council, the developer behind the three-building project at the site of Mollie Stone's has agreed to add a layer of parking. The post Mollie "
+    },
+    {
       "title": "Deng says she’s returning check for $2,500",
       "source": "Palo Alto Daily Post",
       "date": "2026-10-30",
@@ -7059,18 +7071,6 @@
         "Parks & Open Space"
       ],
       "summary": "Employees were notified via text message around 3 a.m., according to employees. The post After 98 years in Menlo Park, Cook’s Seafood abruptly shutters both locations appeared firs"
-    },
-    {
-      "title": "Money pours into campaigns for Measure P, the Menlo Park parking lot/public housing initiative",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-10-29",
-      "url": "https://padailypost.com/2026/10/29/money-pours-into-campaigns-for-measure-p-the-menlo-park-parking-lot-public-housing-initiative/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "BY NORAH SHEPPARD-HUTCHINSDaily Post Staff Writer As election day approaches, large donations are pouring into campaigns for and against Menlo Park s Measure P, an initiative to ha"
     },
     {
       "title": "Revised project would bring 269 housing units to Palo Verde",
