@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-04T17:15:07.436Z",
+  "generatedAt": "2026-11-05T17:23:56.904Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-04",
-    "to": "2027-05-04"
+    "from": "2026-05-05",
+    "to": "2027-05-05"
   },
   "bodies": [
     {
@@ -109,67 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2812,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Special Meeting",
-      "date": "2026-05-05",
-      "startTime": "09:00",
-      "videoId": "a2TkKDhnK5Y",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18568",
-      "items": [
-        {
-          "num": "1",
-          "title": "Fiscal Year 2027 Budget Overview & Strategies (9:00 AM - 10:15 AM) At Places Memo, Staff Presentation",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Infrastructure and Environment: Capital Improvement Program, Capital Fund Projects (10:15 AM - 11:15 AM) Staff Presentation a) Capital Improvement Fund (C:79-367) b) Cubberley Property Infrastructure Fund (C: 369-389)",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Citywide Internal Support and Administration (11:15 AM – 12:00 PM) Staff Presentation a) City Attorney’s Office (O:147-156) b) City Auditor’s Office (O:157-162) c) City Clerk’s Office (O:163-173) d) City Manager’s Office (Including Non-Profit Workplan Phase 1 Grants) (O:179-193) e) City Council (O:175-178) f) Non-Departmental (O:517-523)",
-          "topics": [
-            "Crime, Policing, and Public Safety",
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Community and Library Services (1:45 PM – 3:30 PM) Staff Presentation a) Community Services (O:219-243) b) Library (O:299-311)",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Infrastructure and Environment - Operating (3:30 PM – 5:00 PM) Staff Presentation a) Public Works: Operating (O:369-444) i) General Fund (O:377-390) ii) Airport Fund (O:391-399) iii) Refuse Fund (O:401-410) iv) Stormwater Management Fund (O:411-421) v) Vehicle Replacement and Maintenance Fund (O:423-432) vi) Wastewater Treatment Fund (O:433-444) b) Utilities: Operating (O:445-515) i) Electric Fund (O:453-467) ii) Fiber Optics Fund (O:469-476) iii) Gas Fund (O:477-490) iv) Wastewater Collection Fund (O:491-501) v) Water Fund (O:503-515)",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2813,
       "body": "Finance Committee",
@@ -6505,7 +6444,7 @@
       "items": [
         {
           "num": "1",
-          "title": "Recommendation to the City Council to Amend the Entertainment Zone Ordinance to Establish an Entertainment Zone on Ramona Street; CEQA: Not a Project",
+          "title": "Recommendation to the City Council to Amend the Entertainment Zone Ordinance to Establish an Entertainment Zone on Ramona Street; CEQA: Not a Project Staff Presentation",
           "topics": [
             "Transportation",
             "Parks & Open Space"
@@ -6515,7 +6454,7 @@
         },
         {
           "num": "2",
-          "title": "Economic Development Activity Report for November 2026",
+          "title": "Economic Development Activity Report for November 2026 Staff Presentation",
           "topics": [
             "Downtown & Business"
           ],
@@ -6878,6 +6817,16 @@
       "summary": "Palo Alto voters elected Bryna Chang, a planning commission member and strong advocate for better traffic management in neighborhoods, to City Council. She was in first in early re"
     },
     {
+      "title": "Amid lawsuit, Menlo Park mayor makes third attempt to reach state AG about controversial high-rise project",
+      "source": "Palo Alto Online",
+      "date": "2026-11-03",
+      "url": "https://www.paloaltoonline.com/menlo-park/2026/11/03/amid-lawsuit-menlo-park-mayor-makes-third-attempt-to-reach-state-ag-about-controversial-high-rise-project/",
+      "topics": [
+        "Parks & Open Space"
+      ],
+      "summary": "On Oct. 29, Menlo Park Mayor Betsy Nash sent a third letter inviting Attorney General Rob Bonta to visit 80 Willow Road and learn more about the controversial mega-project. Nash’s "
+    },
+    {
       "title": "Mollie Stone’s housing project adds more parking at city’s request",
       "source": "Palo Alto Online",
       "date": "2026-11-03",
@@ -7030,16 +6979,6 @@
       "summary": "U.S. Rep. Sam Liccardo is calling for a federal investigation into the Russian national who reportedly owns 80 Willow Road, a Menlo Park site slated for a massive high-rise develop"
     },
     {
-      "title": "East Palo Alto launches major home-repair program",
-      "source": "Palo Alto Online",
-      "date": "2026-09-24",
-      "url": "https://www.paloaltoonline.com/east-palo-alto/2026/09/24/east-palo-alto-launches-major-home-repair-program/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "The East Palo Alto City Council directed staff last week to prioritize low-income homeowners and renters in its recently launched Major Home Repair Program, which will distribute $"
-    },
-    {
       "title": "‘We’ve done everything we can’ — Menlo Park mayor invites Bonta to see controversial skyscraper project site",
       "source": "Palo Alto Online",
       "date": "2026-09-14",
@@ -7078,17 +7017,6 @@
         "Parks & Open Space"
       ],
       "summary": "Palo Alto will debate next week a proposal from two City Council members to release a confidential report that looked into misconduct allegations against a planning commissioner wh"
-    },
-    {
-      "title": "A neighborhood in limbo: Woodland Park residents organize amid redevelopment plans",
-      "source": "Palo Alto Online",
-      "date": "2026-08-21",
-      "url": "https://www.paloaltoonline.com/housing/2026/08/21/a-neighborhood-in-limbo-woodland-park-residents-organize-amid-redevelopment-plans/",
-      "topics": [
-        "Parks & Open Space",
-        "Arts & Culture"
-      ],
-      "summary": "For decades, Woodland Park apartments in East Palo Alto have remained an island of affordability in a region where real estate prices have escalated to unprecedented heights. With "
     }
   ],
   "events": []
