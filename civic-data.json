@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-05T17:23:56.904Z",
+  "generatedAt": "2026-11-06T16:46:08.610Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-05",
-    "to": "2027-05-05"
+    "from": "2026-05-06",
+    "to": "2027-05-06"
   },
   "bodies": [
     {
@@ -109,156 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2813,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Special Meeting",
-      "date": "2026-05-06",
-      "startTime": "09:00",
-      "videoId": "jfYssT7v5bM",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18574",
-      "items": [
-        {
-          "num": "1",
-          "title": "Summary of Day 1 (9:00 AM – 9:30 AM) Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Planning and Transportation (9:30 AM – 11:00 AM) Staff Presentation a) Planning and Development Services (O:337-352) i) Community Development Block Grant ii) Business Improvement District iii) Impact Fee Funds iv) Housing Funds b) Office of Transportation (O:323-335) i) Parking Funds",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Parks & Open Space",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Public Safety (11:00 AM – 12:30 PM) Staff Presentation a) Police (O:353-367) b) Fire (O:245-258) c) Office of Emergency Services (O:313-322)",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "FY 2027 Proposed Municipal Fee Schedule (1:30 PM – 2:00 PM) Late Packet Report Added, Staff Presentation",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Infrastructure and Environemnt: Capital Improvement Program (continued), Enterprise Fund Projects & Internal Service Fund Projects (2:00 PM – 3:30 PM) Staff Presentation a) Information Technology i) Technology Fund (C:715-742) b) Public Works i) Airport Fund (Public Works) (C:393-415) ii) Stormwater Management Fund (Public Works) (C:555-586) iii) Wastewater Treatment Fund (Public Works) (C:627-666) iv) Vehicle Replacement and Maintenance Fund (C:743-771) c) Utilities i) Electric Fund (C:417-495) ii) Fiber Optics Fund (C:497-517) iii) Gas Fund (C:519-553) iv) Wastewater Collection Fund (C:587-625) v) Water Fund (C:667-711)",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "6",
-          "title": "Closing Review (3:30 PM – 5:00 PM)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2883,
-      "body": "Utilities Advisory Commission",
-      "bodySlug": "utilities-advisory-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": " Utilities Advisory Commission Regular Meeting",
-      "date": "2026-05-06",
-      "startTime": "18:00",
-      "videoId": "4feIANRH_Ns",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19031",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on March 31, 2026",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Approval of Chair and Vice Chair to Serve a One-Year Term beginning May 6, 2026 (ACTION: 6:35PM – 6:55PM)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Recommendation to the City Council to Adopt the Proposed Operating and Capital Budgets for the Utilities Department for Fiscal Year 2027 (ACTION: 6:55PM – 7:40PM) Supplemental Report Added",
-          "topics": [
-            "Climate & Utilities",
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Recommendation to the City Council to Adopt a Resolution Adopting the 2025 Urban Water Management Plan, a Resolution Adopting the 2025 Water Shortage Contingency Plan, and an Ordinance to amend the City’s Water Use Ordinance (ACTION: 7:40PM – 8:30PM)",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "2026 Annual Water Shortage Assessment Report (ACTION: 8:30PM – 8:50PM)",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "12 Month Rolling Calendar",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2948,
       "body": "Architectural Review Board",
@@ -6595,7 +6445,7 @@
         },
         {
           "num": "3",
-          "title": "Review and Provide Feedback on 60% Design Plans for the Quarry Road Transit Connection; CEQA Status – Statutorily Exempt Under Public Resources Code Section 21080(b)(12)",
+          "title": "Review and Provide Feedback on 60% Design Plans for the Quarry Road Transit Connection; CEQA Status – Statutorily Exempt Under Public Resources Code Section 21080(b)(12) Supplemental Report added",
           "topics": [
             "Transportation",
             "Budget & Taxes"
@@ -6676,6 +6526,16 @@
           ],
           "schedTime": "8:50 PM",
           "elapsedSec": 12000
+        },
+        {
+          "num": "AA1",
+          "title": "CONFERENCE WITH REAL PROPERTY NEGOTIATORS Authority: Government Code Section 54956.8 Properties: 3525 & 3543 Park Boulevard, Palo Alto Negotiating Party: Maria Gonzalez and Osbaldo Valadez, as co-trustees of the Refujio and Trinidad Valadez Family Trust dated 12-28-2006, Kimberly Murray, Trustee of the Murray Family Living Trust dated August 29, 2018 City Negotiators: Ed Shikada, Ria Hutabarat Lo, Sunny Tong Subject of Negotiations: Purchase, Exchange, and/or Lease Price and Terms of Payment New Item Added",
+          "topics": [
+            "Parks & Open Space",
+            "Arts & Culture"
+          ],
+          "schedTime": "9:50 PM",
+          "elapsedSec": 15600
         }
       ]
     },
@@ -6760,6 +6620,126 @@
       ]
     },
     {
+      "id": 3065,
+      "body": "Historic Resources Board",
+      "bodySlug": "historic-resources-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Historic Resources Board Regular Meeting",
+      "date": "2026-11-12",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20256",
+      "items": [
+        {
+          "num": "1",
+          "title": "Historic Resources Board Schedule of Meetings and Assignments",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 51 Encina Avenue [26BLD-02396]: Recommendation on a Demolition Application for a Related Detached Structure to a Significant Building. CEQA Status: Exempt under CEQA Guidelines Section 15268 (Ministerial Projects). Zoning District: CS (Service Commercial).",
+          "topics": [
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 1870 University Avenue [26PLN-00092]: Request for Major Historic Resources Board Review of Exterior Modifications to a Single-Family Residence that is a Category 2 Historic Resource. CEQA Status: Exempt per CEQA Guidelines Section 15301. Zoning District: R-1 (10,000).",
+          "topics": [
+            "Historic Preservation",
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 611 Emerson Street [26PLN-00131]: Request for a Major Historic Review and Minor-Staff Level Architectural Review for the Rehabilitation of an Existing Category 2 Historic Resource. CEQA Status: Exempt under CEQA Guidelines Section 15331 (Historic Resource Rehabilitation). Zoning District: Downtown Commercial [CD-C (GF)(P)].",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space",
+            "Historic Preservation",
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Approval of Historic Resources Board Draft Minutes of August 13, 2026",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comment",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3091,
+      "body": "Human Relations Commission",
+      "bodySlug": "human-relations-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Human Relations Commission Meeting Regular Meeting ",
+      "date": "2026-11-12",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20437",
+      "items": [
+        {
+          "num": "2",
+          "title": "Fraud Prevention Presentation — Discussion — 60 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Project Safety Net Integration with Youth Community Service – Discussion – 60 minutes",
+          "topics": [
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "CEDAW Subcommittee Audit Findings and Recommendations to City Council — Action — 60 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 3018,
       "body": "Climate Action and Sustainability Committee",
       "bodySlug": "climate-action-and-sustainability-committee",
@@ -6770,9 +6750,261 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 2850,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Regular Meeting",
+      "date": "2026-11-16",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18803",
+      "items": [
+        {
+          "num": "1",
+          "title": "Joint Study Session of the City Council and Utilities Advisory Commission Regarding Water-Supply Reliability",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": "6:10 PM",
+          "elapsedSec": 2400
+        },
+        {
+          "num": "2",
+          "title": "Approval of Minutes from November 2, 2026 Meeting",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "3",
+          "title": "Implementation of Housing Element Program 3.9(A), which is Intended to Identify Incentives at Strategic Locations to Shift the Economic Benefit of Redevelopment from Commercial Toward Home Building. CEQA Status: The Addendum to the Comprehensive Plan Environmental Impact Report (EIR), approved by the City Council on November 13, 2023, analyzed potential environmental impacts of the 6th Cycle Housing Element including Program 3.9(A).",
+          "topics": [
+            "Housing",
+            "Climate & Utilities",
+            "Downtown & Business"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "4",
+          "title": "Approval of an Agreement with Santa Clara Valley Water District to Provide Local Matching Funds in the Amount of $1,555,050 for Construction of the Newell Road/San Francisquito Creek Bridge Replacement Project PE-12011; CEQA Status - Environmental Impact Report for Newell Road/San Francisquito Creek Bridge (Resolution No. 9889)",
+          "topics": [
+            "Climate & Utilities",
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "5",
+          "title": "Adoption of a Resolution Amending the Conflict of Interest Code for Designated City Officers and Employees as Required by the Political Reform Act and Regulations of the Fair Political Practices Commission and Repealing Resolution Number 10217; CEQA Status - Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "6",
+          "title": "Adoption of a Park Improvement Ordinance for the Foothills Nature Preserve Improvements Project as Recommended by the Parks and Recreation Commission; CEQA Status – Exempt under CEQA Guidelines Section 15301",
+          "topics": [
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "7",
+          "title": "Approval of the Below Market Rate Housing Program Audit and FY 2026 Audit Recommendation Follow-Up Report as Recommended by the Policy & Services Committee. CEQA Status – Not a Project",
+          "topics": [
+            "Housing",
+            "Climate & Utilities"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "8",
+          "title": "Authorize Release of 340 Portage Avenue Affordable Housing Development (Matadero Creek) Request for Proposals and Local Funding Contribution. CEQA Status: Not a project.",
+          "topics": [
+            "Housing",
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "9",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Making Findings Regarding the Reasonable Cost to Issue Permits for Solar Energy Systems and Amending the Fiscal Year 2027 Municipal Fee Schedule to Update Fees for Service in the Planning and Development Services Department (FIRST READING: October 26, 2026; PASSED: 7-0)",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": "7:10 PM",
+          "elapsedSec": 6000
+        },
+        {
+          "num": "10",
+          "title": "470 Olive Avenue [25PLN-00228]: Recommend City Council Adopt an Ordinance Amending the Zoning Map to Change the Zoning District for 470 Olive Avenue from NV-R1 (Single-Family Residential) to NV-MXM (Medium Density Mixed Use) and Adopt a Resolution Changing the North Ventura Coordinated Area Plan (NVCAP) Land Use Designation from Low Density Residential to Medium Density Mixed Use to Align it With the NVMXM Zoning of the Adjacent and Connected Parcel at 2951 El Camino Real. This Action Supports a Staff Determination to Add 470 Olive Avenue as a Housing Inventory Site to Address No Net Loss Requirements. CEQA Status: Statutorily Exempt per Public Resources Code Section 21080.085. [Continued from 9/9/26]",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "7:40 PM",
+          "elapsedSec": 7800
+        },
+        {
+          "num": "11",
+          "title": "Approval of Amendments to the Employment Agreements between the City of Palo Alto and Council Appointed Officers, specifically the City Manager, City Attorney, and City Clerk. CEQA Status – Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:40 PM",
+          "elapsedSec": 11400
+        },
+        {
+          "num": "12",
+          "title": "Colleagues’ Memo on Zoning Ordinance Amendments to Enable Permitting of Childcare",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:55 PM",
+          "elapsedSec": 12300
+        },
+        {
+          "num": "13",
+          "title": "CONFERENCE WITH CITY ATTORNEY-POTENTIAL LITIGATION Subject: Potential litigation regarding 156 North California Avenue Authority: Government Code Section 54956.9(d)(2) Number of potential cases: 1, as Defendant",
+          "topics": [
+            "Downtown & Business"
+          ],
+          "schedTime": "9:55 PM",
+          "elapsedSec": 15900
+        },
+        {
+          "num": "A",
+          "title": "Investment Activity Report for the First Quarter (July - September), Fiscal Year 2027.CEQA Status – Not a Project.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "9:55 PM",
+          "elapsedSec": 15900
+        }
+      ]
+    },
+    {
+      "id": 3148,
+      "body": "Climate Action and Sustainability",
+      "bodySlug": "climate-action-and-sustainability",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Climate Action and Sustainability Special Meeting",
+      "date": "2026-11-17",
+      "startTime": "13:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20810",
+      "items": [
+        {
+          "num": "A",
+          "title": "Staff Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Committee Member Comments and Announcements",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1",
+          "title": "Status Update on Multi-Family Residential Electrification; CEQA Status – Not a Project",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Status Update on Non-Residential Climate Action Programs; CEQA Status – Not a Project",
+          "topics": [
+            "Housing",
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3111,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting",
+      "date": "2026-11-17",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20568",
+      "items": [
+        {
+          "num": "1",
+          "title": "Recommend City Council Approval of Rate Design Principles for Water and Wastewater Rate Setting as Recommended by the Utilities Advisory Commission; CEQA – Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Discussion and Recommendation to the City Council of Proposed Revisions to the Retiree Benefit Funding Policy. CEQA – Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Train hits car on tracks",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-06",
+      "url": "https://padailypost.com/2026/11/05/train-hits-car-on-tracks/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space"
+      ],
+      "summary": "A Caltrain hit a car at the Alma Street and Churchill Avenue crossing in Palo Alto yesterday. Nobody was in the car at the time of the crash around 6:40 [...]"
+    },
+    {
+      "title": "City manager says he asked for Yes-on-J banner to be pulled down from overpass",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-05",
+      "url": "https://padailypost.com/2026/11/05/city-manager-says-he-asked-for-yes-on-j-banner-to-be-pulled-down/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer City Manager Ed Shikada says he asked the campaign supporting Measure J, the half-cent sales tax, to remove their banner from a city ove"
+    },
     {
       "title": "Abrupt closure of 98-year-old Cook’s Seafood rattles Menlo Park community",
       "source": "Palo Alto Online",
@@ -6805,16 +7037,6 @@
         "Downtown & Business"
       ],
       "summary": "Voters in Los Altos and Menlo Park rejected attempts to take away their city government’s ability to redevelop downtown parking lots, according to early returns. Measure P in Menlo"
-    },
-    {
-      "title": "Money can’t buy you love or a seat on city council",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-04",
-      "url": "https://padailypost.com/2026/11/04/money-cant-buy-you-love-or-a-seat-on-city-council/",
-      "topics": [
-        "Transportation"
-      ],
-      "summary": "Palo Alto voters elected Bryna Chang, a planning commission member and strong advocate for better traffic management in neighborhoods, to City Council. She was in first in early re"
     },
     {
       "title": "Amid lawsuit, Menlo Park mayor makes third attempt to reach state AG about controversial high-rise project",
