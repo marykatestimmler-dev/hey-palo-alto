@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-06T16:46:08.610Z",
+  "generatedAt": "2026-11-07T15:39:57.369Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-06",
-    "to": "2027-05-06"
+    "from": "2026-05-07",
+    "to": "2027-05-07"
   },
   "bodies": [
     {
@@ -109,58 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2948,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting",
-      "date": "2026-05-07",
-      "startTime": "08:30",
-      "videoId": "aKqsmNdoNo0",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19471",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING/QUASI-JUDICIAL. 450 Lytton Avenue [26PLN-00016] Request for a Streamlined Housing Development Review to Allow the Construction of a Six-Story, Approximately 76,400 Square-Foot Multi-Family Project Consisting of 72 Residential Dwelling Units on a 0.43-acre (19,700 Square-Foot) Parcel. The Project Would Replace a Paved, 52-Space City-Owned Surface Parking Lot (Lot T). The Project is 100% Affordable Housing and, Accordingly, Requests Concessions and Waivers Pursuant to State Density Bonus Law. CEQA Status: The City is Evaluating Eligibility for an Exemption Pursuant to Assembly Bill 130 (Public Resources Code section 21080.66). Zoning District: PF (Public Facilities)",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 800-808/814 San Antonio Road [25PLN-00225]: Proposal to Rezone the Subject Properties From PC-5622 to a New Planned Community/Planned Home Zoning and to Redevelop the Site With an Eight-Story 174-Unit Residential Building with 35 Below Market Rate Units. CEQA Status: An Addendum to the Previously Certified Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project EIR (SCH # 2019090070) is Currently Being Prepared. Zoning District: Planned Community (PC-5622).",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2836,
       "body": "City Council",
@@ -6984,6 +6932,29 @@
   ],
   "news": [
     {
+      "title": "Stanford looks to build 8-story housing complex at Research Park",
+      "source": "Palo Alto Online",
+      "date": "2026-11-06",
+      "url": "https://www.paloaltoonline.com/housing/2026/11/06/stanford-looks-to-build-8-story-housing-complex-at-research-park/",
+      "topics": [
+        "Housing",
+        "Parks & Open Space",
+        "Arts & Culture"
+      ],
+      "summary": "Responding to Palo Alto’s recent push to add more housing, Stanford University is proposing to build nearly 200 apartments as part of a new mixed-use complex on its property in Sta"
+    },
+    {
+      "title": "Palo Alto’s Measure J, which would raise the sales tax to buy part of Cubberley, is leading",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-06",
+      "url": "https://padailypost.com/2026/11/06/palo-altos-measure-j-which-would-raise-the-sales-tax-so-the-city-can-buy-part-of-cubberley-is-passing-in-early-returns/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "After a rough-and-tumble campaign, Measure J remains ahead in returns posted Friday, with 8,476 (51.43%) in favor and 8,006 (48.57%) against. Measure J was City Council s response "
+    },
+    {
       "title": "Train hits car on tracks",
       "source": "Palo Alto Daily Post",
       "date": "2026-11-06",
@@ -7014,17 +6985,6 @@
         "Parks & Open Space"
       ],
       "summary": "For 98 years, Cook’s Seafood provided fresh fish and seafood to Menlo Park and surrounding communities. Its abrupt closure came as a shock to both patrons and its roughly 45 employ"
-    },
-    {
-      "title": "Palo Alto’s Measure J, which would raise the sales tax to buy part of Cubberley, is passing in early returns",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-04",
-      "url": "https://padailypost.com/2026/11/04/palo-altos-measure-j-which-would-raise-the-sales-tax-so-the-city-can-buy-part-of-cubberley-is-passing-in-early-returns/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "After a rough-and-tumble campaign, Measure J was winning in returns posted Wednesday morning, with 7,083 (51.32%) in favor and 6,718 (48.68%) against. Measure J was City Council s "
     },
     {
       "title": "Measure P in Menlo Park, Measure D in Los Altos appear to have failed",
@@ -7189,16 +7149,6 @@
         "Parks & Open Space"
       ],
       "summary": "Both sides in Palo Alto's debate over Measure J believe that Cubberley Community Center urgently needs repairs. But while proponents says the measure is essential to the center's f"
-    },
-    {
-      "title": "Congressman calls for feds to investigate, sanction Russian owner of Menlo Park development site",
-      "source": "Palo Alto Online",
-      "date": "2026-09-24",
-      "url": "https://www.paloaltoonline.com/housing/2026/09/24/congressman-calls-for-feds-to-investigate-sanction-russian-owner-of-menlo-park-development-site/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "U.S. Rep. Sam Liccardo is calling for a federal investigation into the Russian national who reportedly owns 80 Willow Road, a Menlo Park site slated for a massive high-rise develop"
     },
     {
       "title": "‘We’ve done everything we can’ — Menlo Park mayor invites Bonta to see controversial skyscraper project site",
