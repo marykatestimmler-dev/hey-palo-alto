@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-08T15:58:11.321Z",
+  "generatedAt": "2026-11-09T19:48:15.798Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-08",
-    "to": "2027-05-08"
+    "from": "2026-05-09",
+    "to": "2027-05-09"
   },
   "bodies": [
     {
@@ -6369,7 +6369,7 @@
       "title": "City Council Regular Meeting",
       "date": "2026-11-09",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "4qnGOFdTg-E",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18797",
       "items": [
         {
@@ -6932,6 +6932,39 @@
   ],
   "news": [
     {
+      "title": "Some businesses hesitant about creating an ‘entertainment zone’ with alcohol on Ramona Street — city may test the concept first",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-09",
+      "url": "https://padailypost.com/2026/11/09/some-businesses-hesitant-about-creating-an-entertainment-zone-with-alcohol-on-ramona-street-city-may-test-the-concept-first/",
+      "topics": [
+        "Transportation",
+        "Parks & Open Space",
+        "Arts & Culture",
+        "Downtown & Business"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Some downtown Palo Alto business owners aren t thrilled about the city s plan to allow open alcohol containers on the closed portion of "
+    },
+    {
+      "title": "Veenker, Burt at odds over when the mayor should give the ‘State of the City’ address",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-09",
+      "url": "https://padailypost.com/2026/11/09/veenker-burt-at-odds-over-when-the-mayor-should-give-the-state-of-the-city-address/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto Mayor Vicki Veenker and Councilman Pat Burt are at odds over when the mayor should give the annual “state of the city” [...]"
+    },
+    {
+      "title": "3 arrested after person is shot outside East Palo Alto school",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-08",
+      "url": "https://padailypost.com/2026/11/08/3-arrested-after-person-is-shot-outside-east-palo-alto-school/",
+      "topics": [
+        "Crime, Policing, and Public Safety"
+      ],
+      "summary": "A man and two teens were arrested after shots were fired early Saturday near an East Palo Alto high school and one person was wounded, police said. A ShotSpotter acoustic [...]"
+    },
+    {
       "title": "Stanford looks to build 8-story housing complex at Research Park",
       "source": "Palo Alto Online",
       "date": "2026-11-06",
@@ -6955,28 +6988,6 @@
       "summary": "After a rough-and-tumble campaign, Measure J remains ahead in returns posted Friday, with 8,476 (51.43%) in favor and 8,006 (48.57%) against. Measure J was City Council s response "
     },
     {
-      "title": "Train hits car on tracks",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-06",
-      "url": "https://padailypost.com/2026/11/05/train-hits-car-on-tracks/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "A Caltrain hit a car at the Alma Street and Churchill Avenue crossing in Palo Alto yesterday. Nobody was in the car at the time of the crash around 6:40 [...]"
-    },
-    {
-      "title": "City manager says he asked for Yes-on-J banner to be pulled down from overpass",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-05",
-      "url": "https://padailypost.com/2026/11/05/city-manager-says-he-asked-for-yes-on-j-banner-to-be-pulled-down/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer City Manager Ed Shikada says he asked the campaign supporting Measure J, the half-cent sales tax, to remove their banner from a city ove"
-    },
-    {
       "title": "Abrupt closure of 98-year-old Cook’s Seafood rattles Menlo Park community",
       "source": "Palo Alto Online",
       "date": "2026-11-04",
@@ -6985,18 +6996,6 @@
         "Parks & Open Space"
       ],
       "summary": "For 98 years, Cook’s Seafood provided fresh fish and seafood to Menlo Park and surrounding communities. Its abrupt closure came as a shock to both patrons and its roughly 45 employ"
-    },
-    {
-      "title": "Measure P in Menlo Park, Measure D in Los Altos appear to have failed",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-04",
-      "url": "https://padailypost.com/2026/11/04/measure-p-in-menlo-park-measure-d-in-los-altos-appear-to-have-failed/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Downtown & Business"
-      ],
-      "summary": "Voters in Los Altos and Menlo Park rejected attempts to take away their city government’s ability to redevelop downtown parking lots, according to early returns. Measure P in Menlo"
     },
     {
       "title": "Amid lawsuit, Menlo Park mayor makes third attempt to reach state AG about controversial high-rise project",
