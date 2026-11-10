@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-09T19:48:15.798Z",
+  "generatedAt": "2026-11-10T17:02:30.733Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-09",
-    "to": "2027-05-09"
+    "from": "2026-05-10",
+    "to": "2027-05-10"
   },
   "bodies": [
     {
@@ -6383,7 +6383,7 @@
         },
         {
           "num": "2",
-          "title": "720 San Antonio Road [26PLN-00246]. Request for Council Prescreening to Rezone the Subject Property from Service Commercial (CS) to Planned Community/Planned Home Zoning and to Allow Construction of 200 Residential Rental Units in an Eight-Story Structure on an Approximately 1.35-Acre Site. CEQA Status: Not a Project.",
+          "title": "720 San Antonio Road [26PLN-00246]. Request for Council Prescreening to Rezone the Subject Property from Service Commercial (CS) to Planned Community/Planned Home Zoning and to Allow Construction of 200 Residential Rental Units in an Eight-Story Structure on an Approximately 1.35-Acre Site. CEQA Status: Not a Project. Staff Presentation, Applicant Presentation",
           "topics": [
             "Housing",
             "Downtown & Business"
@@ -6393,7 +6393,7 @@
         },
         {
           "num": "3",
-          "title": "Review and Provide Feedback on 60% Design Plans for the Quarry Road Transit Connection; CEQA Status – Statutorily Exempt Under Public Resources Code Section 21080(b)(12) Supplemental Report added",
+          "title": "Review and Provide Feedback on 60% Design Plans for the Quarry Road Transit Connection; CEQA Status – Statutorily Exempt Under Public Resources Code Section 21080(b)(12) Supplemental Report added, Staff Presentation",
           "topics": [
             "Transportation",
             "Budget & Taxes"
@@ -6467,7 +6467,7 @@
         },
         {
           "num": "11",
-          "title": "Authorization to Advance Bryant Street Bike Boulevard and Lincoln Avenue Traffic Calming Project to Final Design. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15301: Existing Facilities.",
+          "title": "Authorization to Advance Bryant Street Bike Boulevard and Lincoln Avenue Traffic Calming Project to Final Design. CEQA Status: Exempt Pursuant to CEQA Guidelines Section 15301: Existing Facilities. Staff Presentation, Public Comment",
           "topics": [
             "Transportation",
             "Parks & Open Space"
@@ -6527,7 +6527,7 @@
         },
         {
           "num": "1",
-          "title": "South Palo Alto Bike/Ped Connectivity: Recommendation on Preferred Design Alternatives and Network Enhancements for the Midtown Bicycle and Pedestrian Undercrossing; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15262.",
+          "title": "South Palo Alto Bike/Ped Connectivity: Recommendation on Preferred Design Alternatives and Network Enhancements for the Midtown Bicycle and Pedestrian Undercrossing; CEQA Status – Exempt Pursuant to CEQA Guidelines Section 15262. Staff Presentation",
           "topics": [
             "Transportation"
           ],
@@ -6932,6 +6932,26 @@
   ],
   "news": [
     {
+      "title": "New housing project bolsters city’s vision for future of San Antonio",
+      "source": "Palo Alto Online",
+      "date": "2026-11-10",
+      "url": "https://www.paloaltoonline.com/housing/2026/11/09/new-housing-project-bolsters-citys-vision-for-future-of-san-antonio/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "Palo Alto’s plan to transform a stretch of San Antonio Road into the city’s newest residential community received a boost Monday, when the City Council reviewed and largely support"
+    },
+    {
+      "title": "Council frets over proposals near San Antonio Road",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-10",
+      "url": "https://padailypost.com/2026/11/09/council-frets-over-proposals-near-san-antonio-road/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council is worried about developers proposing large apartment buildings around San Antonio Road before the city has a pla"
+    },
+    {
       "title": "Some businesses hesitant about creating an ‘entertainment zone’ with alcohol on Ramona Street — city may test the concept first",
       "source": "Palo Alto Daily Post",
       "date": "2026-11-09",
@@ -6975,17 +6995,6 @@
         "Arts & Culture"
       ],
       "summary": "Responding to Palo Alto’s recent push to add more housing, Stanford University is proposing to build nearly 200 apartments as part of a new mixed-use complex on its property in Sta"
-    },
-    {
-      "title": "Palo Alto’s Measure J, which would raise the sales tax to buy part of Cubberley, is leading",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-06",
-      "url": "https://padailypost.com/2026/11/06/palo-altos-measure-j-which-would-raise-the-sales-tax-so-the-city-can-buy-part-of-cubberley-is-passing-in-early-returns/",
-      "topics": [
-        "Arts & Culture",
-        "Budget & Taxes"
-      ],
-      "summary": "After a rough-and-tumble campaign, Measure J remains ahead in returns posted Friday, with 8,476 (51.43%) in favor and 8,006 (48.57%) against. Measure J was City Council s response "
     },
     {
       "title": "Abrupt closure of 98-year-old Cook’s Seafood rattles Menlo Park community",
@@ -7129,17 +7138,6 @@
       "summary": "While RVs are not allowed to park overnight in most residential areas of Palo Alto, the city is gearing up to address a potential loophole for streets that fall outside of resident"
     },
     {
-      "title": "Menlo Park rejects state’s demand to approve Sunset magazine high-rise as a new property buyer emerges",
-      "source": "Palo Alto Online",
-      "date": "2026-09-30",
-      "url": "https://www.paloaltoonline.com/housing/2026/09/30/menlo-park-rejects-states-demand-to-approve-sunset-magazine-high-rise-as-a-new-property-buyer-emerges/",
-      "topics": [
-        "Parks & Open Space",
-        "Budget & Taxes"
-      ],
-      "summary": "The Menlo Park City Council is ready to fight the state to prevent a high-rise development on the former Sunset magazine campus, even if it means cutting local services to fund the"
-    },
-    {
       "title": "Measure J sparks debate over Cubberley’s future",
       "source": "Palo Alto Online",
       "date": "2026-09-24",
@@ -7168,16 +7166,6 @@
         "Parks & Open Space"
       ],
       "summary": "For years, East Palo Altans and the non-profit organization Canopy have planted trees to increase the city’s canopy coverage. The post East Palo Alto plants seeds for a future urba"
-    },
-    {
-      "title": "Council weighs divisive rezoning plan in Ventura",
-      "source": "Palo Alto Online",
-      "date": "2026-09-01",
-      "url": "https://www.paloaltoonline.com/land-use/2026/08/31/council-weighs-divisive-rezoning-plan-in-ventura/",
-      "topics": [
-        "Housing"
-      ],
-      "summary": "Residents in the Ventura neighborhood are by now well accustomed to being on the cusp of transformation. But for some, the latest attempt to rezone a Ventura property to accommodat"
     },
     {
       "title": "Palo Alto mulls releasing report on towing dispute that sparked resignation",
