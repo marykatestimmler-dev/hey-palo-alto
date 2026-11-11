@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-10T17:02:30.733Z",
+  "generatedAt": "2026-11-11T17:06:41.988Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-10",
-    "to": "2027-05-10"
+    "from": "2026-05-11",
+    "to": "2027-05-11"
   },
   "bodies": [
     {
@@ -109,123 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2836,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Special Meeting",
-      "date": "2026-05-11",
-      "startTime": "16:30",
-      "videoId": "EgZH_TqUdPk",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18715",
-      "items": [
-        {
-          "num": "1",
-          "title": "City Employee Years of Service Awards and Proclamation acknowledging Public Service Recognition Week",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "4:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "Recognizing May as Asian American, Native Hawaiian, and Pacific Islander (AANHPI) Heritage Month and May 10, 2026 as AANHPI Mental Health Awareness Day Item Removed Off Agenda",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": "4:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "AA1",
-          "title": "Proclamation Recognizing National Police Week as May 10-16, 2026 and National Peace Officers' Memorial Day as May 15, 2026 New Item Added",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": "4:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "3",
-          "title": "CONFERENCE WITH LEGAL COUNSEL—EXISTING LITIGATION Subject: Anne Kramer vs City of Palo Alto, Santa Clara County Superior Court Case No. 25CV461517 Authority: Government Code Section 54956.9(d)(1)",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "4:45 PM",
-          "elapsedSec": 900
-        },
-        {
-          "num": "4",
-          "title": "FY 2027 Proposed Operating and Capital Budget - Finance Committee Update and Council Budget Discussion. CEQA Status – Not a project Late Packet Report added, Staff Presentation, Public Comment",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "5:55 PM",
-          "elapsedSec": 5100
-        },
-        {
-          "num": "5",
-          "title": "Approval of Issuing Purchase Order C27197248 with Solutions Simplified, Utilizing a State of California Department of General Services Software Licensing Program Contract SLP-25-70-0181H, to Procure Zscaler Software Maintenance and Support for a Three-Year Term for a Total Not-To-Exceed Amount of $329,886; CEQA Status - Not a Project.",
-          "topics": [
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "6",
-          "title": "Approval of Contract Amendment No. 4 to Contract C19174648A with VERTEXONE SOFTWARE, LLC for the WaterSmart Utilities Customer Portal, to Extend the Term for Three Additional Years ending August 12, 2029 and Increase Compensation by $140,000, for a Revised Total Not to Exceed of $677,763; CEQA Status – Exempt under CEQA Guidelines Section 15308.",
-          "topics": [
-            "Climate & Utilities",
-            "Arts & Culture",
-            "Budget & Taxes"
-          ],
-          "schedTime": "7:25 PM",
-          "elapsedSec": 10500
-        },
-        {
-          "num": "7",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 3781 El Camino Real [24PLN-00161]: Request for Approval of Major Architectural Review Application to Merge Four Existing Parcels to Create a 63,025 Square-Foot Parcel and to Construct a Seven-Story, Multi-Family Residential Housing Development Project with 183 Units. Thirteen Percent of The Base Units Would be Provided at a Rate Affordable to Low Income. The Project is Proposed in Accordance with Builder’s Remedy (California Government Code Section 65589.5(d)(5)). A Senate Bill 330 Pre-Application was Filed on February 15, 2024. CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code Section 21080.66). Staff Presentation, Applicant Presentation, Public Comment",
-          "topics": [
-            "Housing",
-            "Climate & Utilities"
-          ],
-          "schedTime": "7:55 PM",
-          "elapsedSec": 12300
-        },
-        {
-          "num": "8",
-          "title": "Expedited Evaluation of the Potential Temporary Closure of the Churchill Avenue Rail Crossing, Determination of Next Steps, and CEQA Status – Statutorily and Categorically Exempt. Supplemental Report added (Continued Item from 4/15/2026 – On April 15, 2026, the City Council Received Presentations and Public Testimony; The Item is Continued to May 11, 2026 for further Council Discussion, Deliberation, and Potential Action – No Additional Public Testimony Will be Heard on May 11, 2026.) Public Comment",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": "8:55 PM",
-          "elapsedSec": 15900
-        },
-        {
-          "num": "A",
-          "title": "Informational Update on the Palo Alto Dark Fiber Expansion Plan and Fiber-to-the-Premises",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "7:30 PM",
-          "elapsedSec": 10800
-        },
-        {
-          "num": "B",
-          "title": "Palo Alto Transportation Management Association 2025 Annual Report, 2027-29 Strategic Plan, and 2025 Commute Survey",
-          "topics": [
-            "Transportation",
-            "Climate & Utilities"
-          ],
-          "schedTime": "7:30 PM",
-          "elapsedSec": 10800
-        }
-      ]
-    },
     {
       "id": 3030,
       "body": "Rail Committee",
@@ -6495,7 +6378,7 @@
       "title": "Rail Committee Regular Meeting",
       "date": "2026-11-10",
       "startTime": "14:30",
-      "videoId": null,
+      "videoId": "mOAtSot__iE",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20028",
       "items": [
         {
@@ -6544,7 +6427,7 @@
       "title": "Policy & Services Committee Regular Meeting",
       "date": "2026-11-10",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "gIYhnbtyKKw",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18412",
       "items": [
         {
@@ -6575,7 +6458,7 @@
       "title": "Historic Resources Board Regular Meeting",
       "date": "2026-11-12",
       "startTime": "08:30",
-      "videoId": null,
+      "videoId": "SfYluDZlS8c",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20256",
       "items": [
         {
@@ -6646,7 +6529,7 @@
       "title": "Human Relations Commission Meeting Regular Meeting ",
       "date": "2026-11-12",
       "startTime": "18:00",
-      "videoId": null,
+      "videoId": "ijWd9OMF2qI",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20437",
       "items": [
         {
@@ -6928,9 +6811,101 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3051,
+      "body": "Public Art Commission",
+      "bodySlug": "public-art-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Public Art Commission Regular Meeting",
+      "date": "2026-11-19",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20158",
+      "items": [
+        {
+          "num": "1",
+          "title": "October 6, 2026 PAC Special Meeting Minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "3606 El Camino Real – Initial review of public art in private development with the 3606 ECR development project. Presentation by Danielle Fox and development team.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Sherman Ave Parking Garage Temporary Mural – Approval of artist Adrian Kay Wong as project artist for the 2027 mural project and approval of funds in the amount of $6,000 for the artist design fee.",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space",
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Acceptance of Artwork – Acceptance of artworks into the collection from seven Cubberley artists.",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Code:ART – Allocation of funds in the amount of $50,000 for the events team to support the event.",
+          "topics": [
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "After 27 years in Mountain View, Vaso Azzurro prepares to close",
+      "source": "Palo Alto Online",
+      "date": "2026-11-11",
+      "url": "https://www.paloaltoonline.com/mountain-view/2026/11/10/after-27-years-in-mountain-view-vaso-azzurro-prepares-to-close/",
+      "topics": [
+        "Downtown & Business"
+      ],
+      "summary": "After service on Wednesday, Vaso Azzurro will no longer be at its longtime address in downtown Mountain View. Michael Sadri said he hopes to reopen Vaso Azzurro in a new space with"
+    },
+    {
+      "title": "Mom sues over son’s report card",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-11",
+      "url": "https://padailypost.com/2026/11/11/mom-sues-over-sons-report-card/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "This story was originally printed Oct. 7, 2026, in the Daily Post. BY BRADEN CARTWRIGHTDaily Post Staff Writer A mother has sued the Palo Alto Unified School District over her [..."
+    },
+    {
+      "title": "Palo Alto City Manager, City Attorney, Clerk in line for raises",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-11",
+      "url": "https://padailypost.com/2026/11/11/palo-alto-city-manager-city-attorney-clerk-in-line-for-raises/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council is giving raises to City Manager Ed Shikada, City Attorney Chris Jensen and City Clerk Mahealani Ah Yun. Shikada "
+    },
     {
       "title": "New housing project bolsters city’s vision for future of San Antonio",
       "source": "Palo Alto Online",
@@ -6942,6 +6917,17 @@
       "summary": "Palo Alto’s plan to transform a stretch of San Antonio Road into the city’s newest residential community received a boost Monday, when the City Council reviewed and largely support"
     },
     {
+      "title": "PAUSD’s legal bills are piling up",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-10",
+      "url": "https://padailypost.com/2026/11/10/pausds-legal-bills-are-piling-up/",
+      "topics": [
+        "Housing",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Legal settlements are adding up for the Palo Alto Unified School District. The district has paid parents and former employees over $4.6 "
+    },
+    {
       "title": "Council frets over proposals near San Antonio Road",
       "source": "Palo Alto Daily Post",
       "date": "2026-11-10",
@@ -6950,39 +6936,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council is worried about developers proposing large apartment buildings around San Antonio Road before the city has a pla"
-    },
-    {
-      "title": "Some businesses hesitant about creating an ‘entertainment zone’ with alcohol on Ramona Street — city may test the concept first",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-09",
-      "url": "https://padailypost.com/2026/11/09/some-businesses-hesitant-about-creating-an-entertainment-zone-with-alcohol-on-ramona-street-city-may-test-the-concept-first/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space",
-        "Arts & Culture",
-        "Downtown & Business"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Some downtown Palo Alto business owners aren t thrilled about the city s plan to allow open alcohol containers on the closed portion of "
-    },
-    {
-      "title": "Veenker, Burt at odds over when the mayor should give the ‘State of the City’ address",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-09",
-      "url": "https://padailypost.com/2026/11/09/veenker-burt-at-odds-over-when-the-mayor-should-give-the-state-of-the-city-address/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto Mayor Vicki Veenker and Councilman Pat Burt are at odds over when the mayor should give the annual “state of the city” [...]"
-    },
-    {
-      "title": "3 arrested after person is shot outside East Palo Alto school",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-08",
-      "url": "https://padailypost.com/2026/11/08/3-arrested-after-person-is-shot-outside-east-palo-alto-school/",
-      "topics": [
-        "Crime, Policing, and Public Safety"
-      ],
-      "summary": "A man and two teens were arrested after shots were fired early Saturday near an East Palo Alto high school and one person was wounded, police said. A ShotSpotter acoustic [...]"
     },
     {
       "title": "Stanford looks to build 8-story housing complex at Research Park",
