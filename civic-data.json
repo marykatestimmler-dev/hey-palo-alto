@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-11T17:06:41.988Z",
+  "generatedAt": "2026-11-12T17:35:33.822Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-11",
-    "to": "2027-05-11"
+    "from": "2026-05-12",
+    "to": "2027-05-12"
   },
   "bodies": [
     {
@@ -109,97 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3030,
-      "body": "Rail Committee",
-      "bodySlug": "rail-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Rail Committee Regular Meeting",
-      "date": "2026-05-12",
-      "startTime": "14:30",
-      "videoId": "Iw8pmneLQfc",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20016",
-      "items": [
-        {
-          "num": "A",
-          "title": "Caltrain",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "VTA",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "C",
-          "title": "City Staff",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "1",
-          "title": "Alma Street-Charleston Road Railroad Crossing Near-Term Section 130 Safety Improvement Project, Staff Presentation",
-          "topics": [
-            "Transportation",
-            "Crime, Policing, and Public Safety",
-            "Parks & Open Space"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Initial Review of the Technical Activities that Informed the 15% Design Development for the Grade Separations at Churchill Avenue, Meadow Drive, and Charleston Road, Staff Presentation",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2780,
-      "body": "Policy & Services Committee",
-      "bodySlug": "policy-and-services-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Policy & Services Committee Regular Meeting",
-      "date": "2026-05-12",
-      "startTime": "18:00",
-      "videoId": "d4zvaGBxqRs",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18376",
-      "items": [
-        {
-          "num": "1",
-          "title": "Office of the City Auditor Presentation of the Public Safety Staffing & Overtime Audit Staff Presentation",
-          "topics": [
-            "Crime, Policing, and Public Safety"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Nonprofit Partnership Workplan FY 2027 Phase I Process Refinements. CEQA Status – Not a Project. Staff Presentation",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2927,
       "body": "Planning & Transportation Commission",
@@ -6873,9 +6782,31 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 2798,
+      "body": "City Schools Liaison Committee",
+      "bodySlug": "city-schools-liaison-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "City Schools Liaison Committee Regular Meeting - CANCELED ",
+      "date": "2026-11-26",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
     }
   ],
   "news": [
+    {
+      "title": "Los Altos coffee brand debuts slow bar residency at Tal Palo",
+      "source": "Palo Alto Online",
+      "date": "2026-11-11",
+      "url": "https://www.paloaltoonline.com/los-altos/2026/11/11/los-altos-coffee-brand-debuts-slow-bar-residency-at-tal-palo/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "Silicon Valley moves at a fast pace. From grab-and-go coffee shops to drive-thrus, speed is often prioritized in the service industry. But for Amblett, a new pour-over coffee pop-u"
+    },
     {
       "title": "After 27 years in Mountain View, Vaso Azzurro prepares to close",
       "source": "Palo Alto Online",
