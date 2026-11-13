@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T17:35:33.822Z",
+  "generatedAt": "2026-11-13T17:13:24.089Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-12",
-    "to": "2027-05-12"
+    "from": "2026-05-13",
+    "to": "2027-05-13"
   },
   "bodies": [
     {
@@ -109,64 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2927,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting",
-      "date": "2026-05-13",
-      "startTime": "18:00",
-      "videoId": "VOPSPaAMMYY",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19323",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Recommendation on an Ordinance Amending Various Palo Alto Municipal Code (PAMC) Chapters in Titles 16, 18, and 21 to Address Changes in State Law and Direction from City Council Regarding Accessory and Junior Accessory Dwelling Units. CEQA Status: Exempt From the Provisions of the California Environmental Quality Act (CEQA) Pursuant to Public Resources Code Section 21080.17 and CEQA Guidelines Section 15061(b)(3).",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Recommendation on an Ordinance Amending the Palo Alto Municipal Code (PAMC) Section 18.40.140 (Stream Corridor Protection). CEQA Status: Exempt pursuant to CEQA Guidelines Section 15308 (Actions for Protection of the Environment).",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Approval of Planning & Transportation Commission Draft Summary & Verbatim Minutes of April 8, 2026",
-          "topics": [
-            "Transportation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2967,
       "body": "Historic Resources Board",
@@ -3750,44 +3692,7 @@
       "startTime": "14:00",
       "videoId": "RJBmZGj765I",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19931",
-      "items": [
-        {
-          "num": "A",
-          "title": "Staff Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Committee Member Comments and Announcements",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "1",
-          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project Staff Presentation",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Overview of Approaches to Achieving the City's Carbon Neutrality Goal and Committee Feedback on Areas for Further Staff Analysis; CEQA Status - Not a Project Late Packet Report Added, Staff Presentation",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
+      "items": []
     },
     {
       "id": 3031,
@@ -6613,7 +6518,7 @@
         },
         {
           "num": "12",
-          "title": "Colleagues’ Memo on Zoning Ordinance Amendments to Enable Permitting of Childcare",
+          "title": "Colleagues’ Memo on Zoning Ordinance Amendments to Enable Permitting of Childcare Title Updated",
           "topics": [
             "Other"
           ],
@@ -6797,6 +6702,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Palo Alto sees housing surge as state laws, local policies take effect",
+      "source": "Palo Alto Online",
+      "date": "2026-11-12",
+      "url": "https://www.paloaltoonline.com/housing/2026/11/12/palo-alto-sees-housing-surge-as-state-laws-local-policies-take-effect/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "Fueled by state laws and local zoning reforms, Palo Alto has seen a surge of housing development, with more than 3,000 units now in the city's pipeline. The post Palo Alto sees hou"
+    },
     {
       "title": "Los Altos coffee brand debuts slow bar residency at Tal Palo",
       "source": "Palo Alto Online",
@@ -7008,18 +6923,6 @@
         "Downtown & Business"
       ],
       "summary": "A commercial building just south of California Avenue that houses Chipotle Mexican Grill would be demolished and replaced with an 85-foot-tall complex featuring 156 apartments unde"
-    },
-    {
-      "title": "City to expand overnight RV parking ban to more residential areas",
-      "source": "Palo Alto Online",
-      "date": "2026-10-11",
-      "url": "https://www.paloaltoonline.com/housing/2026/10/11/city-to-expand-overnight-rv-parking-ban-to-more-residential-areas/",
-      "topics": [
-        "Housing",
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "While RVs are not allowed to park overnight in most residential areas of Palo Alto, the city is gearing up to address a potential loophole for streets that fall outside of resident"
     },
     {
       "title": "Measure J sparks debate over Cubberley’s future",
