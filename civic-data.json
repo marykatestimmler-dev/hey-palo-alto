@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-13T17:13:24.089Z",
+  "generatedAt": "2026-11-14T15:48:47.510Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-13",
-    "to": "2027-05-13"
+    "from": "2026-05-14",
+    "to": "2027-05-14"
   },
   "bodies": [
     {
@@ -35,11 +35,6 @@
     {
       "name": "Climate Action and Sustainability Committee & Utilities Advisory Commission Joint",
       "slug": "climate-action-and-sustainability-committee-and-utilities-advisory-commission-joint",
-      "email": "city.clerk@PaloAlto.gov"
-    },
-    {
-      "name": "Council Appointed Officer Committee",
-      "slug": "council-appointed-officer-committee",
       "email": "city.clerk@PaloAlto.gov"
     },
     {
@@ -109,89 +104,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2967,
-      "body": "Historic Resources Board",
-      "bodySlug": "historic-resources-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Historic Resources Board Regular Meeting - CANCELED",
-      "date": "2026-05-14",
-      "startTime": "08:30",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
-    {
-      "id": 3040,
-      "body": "Council Appointed Officer Committee",
-      "bodySlug": "council-appointed-officer-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Council Appointed Officer Committee Special Meeting",
-      "date": "2026-05-14",
-      "startTime": "15:30",
-      "videoId": "krjknS9l7pk",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20083",
-      "items": [
-        {
-          "num": "1",
-          "title": "Review and discuss the Council Appointed Officers (CAO) performance evaluation process and timeline for FY26 and make a recommendation to the City Council; CEQA status – not a project",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 2869,
-      "body": "Human Relations Commission",
-      "bodySlug": "human-relations-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Human Relations Commission Regular Meeting",
-      "date": "2026-05-14",
-      "startTime": "18:00",
-      "videoId": "KwzQ4ePsUY8",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18932",
-      "items": [
-        {
-          "num": "1",
-          "title": "Approval of the April 9, 2026, Human Relations Commission Regular Meeting Draft Action Minutes. – Action – 5 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Presentation on Pride Event by representatives from event planning committee. – Discussion – 60 - minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Consideration of HRC support of a community Pride Event on Sunday, June 7, 2026, at King Plaza (250 Hamilton Avenue, Palo Alto). – Action – 15 minutes",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3037,
       "body": "Climate Action and Sustainability",
@@ -3692,7 +3604,44 @@
       "startTime": "14:00",
       "videoId": "RJBmZGj765I",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19931",
-      "items": []
+      "items": [
+        {
+          "num": "A",
+          "title": "Staff Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Committee Member Comments and Announcements",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1",
+          "title": "Preliminary Review of the 2025 Greenhouse Gas Inventory and Overview of Scope 3 Emissions; CEQA Status - Not a Project Staff Presentation",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Overview of Approaches to Achieving the City's Carbon Neutrality Goal and Committee Feedback on Areas for Further Staff Analysis; CEQA Status - Not a Project Late Packet Report Added, Staff Presentation",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     },
     {
       "id": 3031,
@@ -6404,7 +6353,7 @@
       "title": "City Council Regular Meeting",
       "date": "2026-11-16",
       "startTime": "17:30",
-      "videoId": null,
+      "videoId": "IvjeRBp6VoY",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18803",
       "items": [
         {
@@ -6620,6 +6569,84 @@
           "title": "Discussion and Recommendation to the City Council of Proposed Revisions to the Retiree Benefit Funding Policy. CEQA – Not a Project",
           "topics": [
             "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3085,
+      "body": "Planning & Transportation Commission",
+      "bodySlug": "planning-and-transportation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Planning & Transportation Commission Special Meeting",
+      "date": "2026-11-18",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20395",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Assignments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "PUBLIC HEARING. Recommendation on an Ordinance Amending Palo Alto Municipal Code Title 18 to Address Development and Design Standards for Housing Element Program 6.5: Alternative Housing Program, Objective (B). CEQA Status: The Addendum to the Comprehensive Plan Environmental Impact Report (EIR), approved by the City Council on November 13, 2023, Analyzed Potential Environmental Impacts of the 6th Cycle Housing Element Including Program 6.5 (B). 6:15 PM – 7:15 PM",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "PUBLIC HEARING. Recommendation to the City Council on Ordinances to Replace Temporary Ordinances Amending Palo Alto Municipal Code (PAMC) Chapter 18.14.070 to Exclude Certain Historic Resource Sites and Transit-Oriented Development (TOD) Eligible Sites from Government Code Section 65912.157 and Authorizing Corresponding Zoning Map Updates. CEQA Status: Exempt Under Government Code Section 65912.160(c)(2). 7:15 PM – 7:45 PM",
+          "topics": [
+            "Transportation",
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 531 Stanford [26PLN-00011]: Recommendation on Applicant’s Request for Approval of a Vesting Tentative Map to Subdivide One 31,363-Square-Foot Parcel into 20 Fee-Simple Lots with a Private Road to Facilitate Construction of 20 New Prefabricated Residential Units. CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code section 21080.66). Zoning District: RM-30 (Multifamily Residential). 7:45 PM – 9:15 PM",
+          "topics": [
+            "Housing",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Approval of Planning & Transportation Commission Draft Summary Minutes of September 9, 2026",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "6",
+          "title": "Approval of Planning & Transportation Commission Draft Summary Minutes of September 30, 2026",
+          "topics": [
+            "Transportation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comment",
+          "topics": [
+            "Other"
           ],
           "schedTime": null,
           "elapsedSec": null
