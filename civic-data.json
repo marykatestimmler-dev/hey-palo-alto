@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-14T15:48:47.510Z",
+  "generatedAt": "2026-11-15T16:20:31.681Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-14",
-    "to": "2027-05-14"
+    "from": "2026-05-15",
+    "to": "2027-05-15"
   },
   "bodies": [
     {
@@ -104,46 +104,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3037,
-      "body": "Climate Action and Sustainability",
-      "bodySlug": "climate-action-and-sustainability",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Climate Action and Sustainability Special Meeting ",
-      "date": "2026-05-15",
-      "startTime": "14:00",
-      "videoId": "O-zZXZjFAKQ",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20063",
-      "items": [
-        {
-          "num": "A",
-          "title": "Staff Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "B",
-          "title": "Committee Member Comments and Announcements",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "1",
-          "title": "Residential Electrification Status Update and Proposed Principles for Electrification Programs to Assist with Air District Regulation Compliance; CEQA Status - Not a Project Late Packet Report Added, Staff Presentation",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 2837,
       "body": "City Council",
