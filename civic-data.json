@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-15T16:20:31.681Z",
+  "generatedAt": "2026-11-16T19:35:45.226Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-15",
-    "to": "2027-05-15"
+    "from": "2026-05-16",
+    "to": "2027-05-16"
   },
   "bodies": [
     {
@@ -6485,7 +6485,7 @@
         },
         {
           "num": "1",
-          "title": "Status Update on Multi-Family Residential Electrification; CEQA Status – Not a Project",
+          "title": "Status Update on Multi-Family Residential Electrification; CEQA Status – Not a Project Staff Presentation",
           "topics": [
             "Housing"
           ],
@@ -6494,7 +6494,7 @@
         },
         {
           "num": "2",
-          "title": "Status Update on Non-Residential Climate Action Programs; CEQA Status – Not a Project",
+          "title": "Status Update on Non-Residential Climate Action Programs; CEQA Status – Not a Project Staff Presentation",
           "topics": [
             "Housing",
             "Climate & Utilities"
@@ -6614,6 +6614,18 @@
       ]
     },
     {
+      "id": 3066,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board Regular Meeting - CANCELED",
+      "date": "2026-11-19",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": null,
+      "items": []
+    },
+    {
       "id": 3051,
       "body": "Public Art Commission",
       "bodySlug": "public-art-commission",
@@ -6690,6 +6702,17 @@
   ],
   "news": [
     {
+      "title": "School board in transition: Shounak Dharap and Shana Segal reflect on highs and lows",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-16",
+      "url": "https://padailypost.com/2026/11/16/school-board-in-transition-shounak-dharap-and-shana-segal-reflect-on-highs-and-lows/",
+      "topics": [
+        "Transportation",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHT Daily Post Staff Writer The Palo Alto Unified School District is saying goodbye to two board members who have had up and down tenures. Shounak Dharap and [...]"
+    },
+    {
       "title": "Palo Alto sees housing surge as state laws, local policies take effect",
       "source": "Palo Alto Online",
       "date": "2026-11-12",
@@ -6748,27 +6771,6 @@
         "Housing"
       ],
       "summary": "Palo Alto’s plan to transform a stretch of San Antonio Road into the city’s newest residential community received a boost Monday, when the City Council reviewed and largely support"
-    },
-    {
-      "title": "PAUSD’s legal bills are piling up",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-10",
-      "url": "https://padailypost.com/2026/11/10/pausds-legal-bills-are-piling-up/",
-      "topics": [
-        "Housing",
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Legal settlements are adding up for the Palo Alto Unified School District. The district has paid parents and former employees over $4.6 "
-    },
-    {
-      "title": "Council frets over proposals near San Antonio Road",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-10",
-      "url": "https://padailypost.com/2026/11/09/council-frets-over-proposals-near-san-antonio-road/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council is worried about developers proposing large apartment buildings around San Antonio Road before the city has a pla"
     },
     {
       "title": "Stanford looks to build 8-story housing complex at Research Park",
