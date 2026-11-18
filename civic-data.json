@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-17T18:33:49.055Z",
+  "generatedAt": "2026-11-18T18:02:46.800Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-17",
-    "to": "2027-05-17"
+    "from": "2026-05-18",
+    "to": "2027-05-18"
   },
   "bodies": [
     {
@@ -104,170 +104,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2837,
-      "body": "City Council",
-      "bodySlug": "city-council",
-      "bodyEmail": "city.council@PaloAlto.gov",
-      "title": "City Council Regular Meeting",
-      "date": "2026-05-18",
-      "startTime": "17:30",
-      "videoId": "Ty_2_Cn3LOc",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18721",
-      "items": [
-        {
-          "num": "1",
-          "title": "Recognizing May as Asian American, Native Hawaiian, and Pacific Islander (AANHPI) Heritage Month and May 10, 2026 as AANHPI Mental Health Awareness Day",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": "5:30 PM",
-          "elapsedSec": 0
-        },
-        {
-          "num": "2",
-          "title": "Approval of Minutes from May 4, 2026 Meeting",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "3",
-          "title": "2026 Council Priorities & Objectives Q1 Update",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "4",
-          "title": "Adoption of a Resolution Vacating a Portion of a Public Utility Easement at 590 Maybell Avenue; CEQA Status – Exempt under Cal. Code Regs. Title 14, Section 15305",
-          "topics": [
-            "Climate & Utilities"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "5",
-          "title": "Adoption of a Resolution for Senate Bill 1, the Road Repair and Accountability Act, for Fiscal Year 2027, Providing the Project List for the Street Maintenance Project, Capital Improvement Program Project PE-86070; CEQA Status – Not a Project",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "6",
-          "title": "Adoption of Resolution Suspending the Levy of Assessments on the Downtown Palo Alto Business Improvement District (BID) Assessment for Fiscal Year 2027; CEQA status – not a project. Consent Questions",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "7",
-          "title": "Adopt a Resolution Approving Amendment Number 1 to California Board of State and Community Corrections Agreement Number BSCC 1164-23 for Organized Retail Theft Grant to Extend the Term One Year with No Change to the Not-To-Exceed Total; CEQA status—not a project.",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "8",
-          "title": "Adoption of a Resolution Authorizing the Borrowing of Funds on an Interim Basis for Improvements to the City's Regional Water Quality Control Plant and Authorizing the Execution and Delivery of a Revolving Credit Agreement and Related Note; CEQA Status - Not a Project Item Removed Off Agenda",
-          "topics": [
-            "Climate & Utilities",
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "9",
-          "title": "Approval of Construction Contract No. C26197232 with Selway Construction, Inc. in the Amount Not-to of $261,600 and Authorization for the City Manager or Their Designee to Negotiate and Execute Change Orders for Related Additional but Unforeseen Work that may Develop During the Project Up to a Not-to-Exceed Amount of $26,160 for Site Work for a New Modular Restroom Building at Mitchell Park for the Park Restroom Installation Capital Improvement Project (PG-19000); CEQA status – Exempt Under CEQA Guidelines Section 15303",
-          "topics": [
-            "Parks & Open Space",
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "10",
-          "title": "Approval of Construction Contract No. C26197180 with Casey Construction, Inc. in the Not-to-Exceed Amount of $544,556 and Authorization for the City Manager or Their Designee to Negotiate and Execute Change Orders for Related Additional but Unforeseen Work that May Develop During the Project Up to a Not-to-Exceed Amount of $54,456 for the Storm Drainage System Replacement and Rehabilitation Project (SD-06101); CEQA status – Exempt under CEQA Guidelines Section 15301(c)",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "11",
-          "title": "Approve Amendment Number 2 to Contract C3780 with Stanford University, to Extend the Contract Term to September 30, 2027 for Public Safety Dispatch Services Provided to the Main Campus of Stanford University; CEQA status—not a project.",
-          "topics": [
-            "Crime, Policing, and Public Safety",
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "12",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 4103 Old Trace Road [25PLN-00298]: Request for Approval of a Tentative Map to Allow for the Subdivision of a Vacant 1.02-Acre Lot to Create Nine Residential Lots and One Private Street to Facilitate Construction of Nine New Single-Family Residences and Seven Junior Accessory Dwelling Units (25PLN-00296). CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code Section 21080.66). Zone District: RE (Residential Estate) Supplemental Report added, Public Comment, Staff Presentation, Applicant Presentation",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Parks & Open Space"
-          ],
-          "schedTime": "6:20 PM",
-          "elapsedSec": 3000
-        },
-        {
-          "num": "13",
-          "title": "Cubberley Project: Adopt the Cubberley Conceptual Master Plan and a Resolution Adopting the CEQA Mitigated Negative Declaration and Mitigated Monitoring and Reporting Program; Receive the Fourth Round of Community Polling Results; and Provide Direction on Next Steps for a Possible Sales Tax Ballot Measure. CEQA Status - A Draft Initial Study/Mitigated Negative Declaration (IS-MND) Report Circulated for Public Review from March 2, 2026, to April 1, 2026. The City published the Final IS-MND on April 9, 2026. Staff Presentation, Public Comment",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": "6:50 PM",
-          "elapsedSec": 4800
-        },
-        {
-          "num": "14",
-          "title": "Update Regarding the Builder’s Remedy Project at 156 California Avenue and Consideration of Adding Lot B (APN 124-28-003) Associated with the Development to the City’s Housing Element Sites Inventory. Public Comment, Staff Presentation",
-          "topics": [
-            "Housing",
-            "Downtown & Business"
-          ],
-          "schedTime": "7:50 PM",
-          "elapsedSec": 8400
-        },
-        {
-          "num": "15",
-          "title": "FIRST READING: Adoption of an Ordinance to Amend Various Sections of Title 16 (Building Regulations) and Title 18 (Zoning) of the Palo Alto Municipal Code to Implement Retail Vitality Policies in the Comprehensive Plan, including changes to the Zoning Map for parcels zoned CN(GF). CEQA Status: The Ordinance is Consistent with and Represents Implementation of Adopted Policies in the Comprehensive Plan, for Which an Environmental Impact Report (Comprehensive Plan EIR) was Certified on February 5, 2016. Public Comment, Staff Presentation",
-          "topics": [
-            "Downtown & Business"
-          ],
-          "schedTime": "8:50 PM",
-          "elapsedSec": 12000
-        },
-        {
-          "num": "A",
-          "title": "Investment Activity Report for the Third Quarter (January – March), Fiscal Year 2026. CEQA Status – Not a Project.",
-          "topics": [
-            "Arts & Culture"
-          ],
-          "schedTime": "6:25 PM",
-          "elapsedSec": 3300
-        }
-      ]
-    },
     {
       "id": 2814,
       "body": "Finance Committee",
@@ -6688,6 +6524,82 @@
       ]
     },
     {
+      "id": 3098,
+      "body": "Parks and Recreation Commission",
+      "bodySlug": "parks-and-recreation-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Parks and Recreation Commission Regular Meeting",
+      "date": "2026-11-24",
+      "startTime": "19:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20485",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of Minutes from October 27, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Council Liaison Report – 5 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Department Report – 20 minutes",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Ad Hoc Committees and Liaison Updates (Discussion) – 15 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Review of Proposed Revisions to the Community Garden Guidelines – 60 minutes",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "6",
+          "title": "FY27 Parks and Recreation Commission Ad Hoc Committee and Liaison Vacancies and Assignments – 30 minutes",
+          "topics": [
+            "Parks & Open Space"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
       "id": 2798,
       "body": "City Schools Liaison Committee",
       "bodySlug": "city-schools-liaison-committee",
@@ -6702,15 +6614,34 @@
   ],
   "news": [
     {
-      "title": "School board in transition: Shounak Dharap and Shana Segal reflect on highs and lows",
+      "title": "PG&E stops working on second power line into Palo Alto",
       "source": "Palo Alto Daily Post",
-      "date": "2026-11-16",
-      "url": "https://padailypost.com/2026/11/16/school-board-in-transition-shounak-dharap-and-shana-segal-reflect-on-highs-and-lows/",
+      "date": "2026-11-18",
+      "url": "https://padailypost.com/2026/11/18/pge-stops-working-on-second-power-line-into-palo-alto/",
       "topics": [
-        "Transportation",
         "Arts & Culture"
       ],
-      "summary": "BY BRADEN CARTWRIGHT Daily Post Staff Writer The Palo Alto Unified School District is saying goodbye to two board members who have had up and down tenures. Shounak Dharap and [...]"
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer PG E has stopped working on connecting a second power line to Palo Alto, according to the city manager. The power line is supposed to [."
+    },
+    {
+      "title": "Masseur hit with sexual assault charges",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-17",
+      "url": "https://padailypost.com/2026/11/17/masseur-hit-with-sexual-assault-charges/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "A masseur was charged yesterday with sexually assaulting a woman at a spa in Palo Alto. Seth Croswhite, 40, of San Jose, allegedly touched the woman inappropriately while massaging"
+    },
+    {
+      "title": "Council OKs once divisive building",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-17",
+      "url": "https://padailypost.com/2026/11/16/council-oks-once-divisive-building/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Nov. 16) voted to allow apartments on a property in the North Ventura neighborhood after the developer a"
     },
     {
       "title": "Palo Alto sees housing surge as state laws, local policies take effect",
@@ -6741,26 +6672,6 @@
         "Downtown & Business"
       ],
       "summary": "After service on Wednesday, Vaso Azzurro will no longer be at its longtime address in downtown Mountain View. Michael Sadri said he hopes to reopen Vaso Azzurro in a new space with"
-    },
-    {
-      "title": "Mom sues over son’s report card",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-11",
-      "url": "https://padailypost.com/2026/11/11/mom-sues-over-sons-report-card/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "This story was originally printed Oct. 7, 2026, in the Daily Post. BY BRADEN CARTWRIGHTDaily Post Staff Writer A mother has sued the Palo Alto Unified School District over her [..."
-    },
-    {
-      "title": "Palo Alto City Manager, City Attorney, Clerk in line for raises",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-11",
-      "url": "https://padailypost.com/2026/11/11/palo-alto-city-manager-city-attorney-clerk-in-line-for-raises/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council is giving raises to City Manager Ed Shikada, City Attorney Chris Jensen and City Clerk Mahealani Ah Yun. Shikada "
     },
     {
       "title": "New housing project bolsters city’s vision for future of San Antonio",
