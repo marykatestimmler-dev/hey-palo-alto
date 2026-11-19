@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-18T18:02:46.800Z",
+  "generatedAt": "2026-11-19T18:16:35.971Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-18",
-    "to": "2027-05-18"
+    "from": "2026-05-19",
+    "to": "2027-05-19"
   },
   "bodies": [
     {
@@ -104,37 +104,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2814,
-      "body": "Finance Committee",
-      "bodySlug": "finance-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Finance Committee Special Meeting",
-      "date": "2026-05-19",
-      "startTime": "13:00",
-      "videoId": "NRKfB_E0x-M",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18580",
-      "items": [
-        {
-          "num": "2",
-          "title": "Accept the Bi-Annual Actuarial Valuation Report of Palo Alto’s Retiree Healthcare and Other Post Employment Benefits (OPEB) Actuarial Evaluation Bi-Annual Evalution as of June 30, 2025 and Recommend that the City Council Approve the Annual Actuarially Determined Contribution for Fiscal Years 2027 and 2028; CEQA Status – Not a Project Agenda Item Reordered, Late Packet Report Added, Title Updated, Staff Presentation",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "1",
-          "title": "FY 2027 Budget Wrap-up and recommended FY 2027 Budget including FY 2027 Municipal Fee Schedule Agenda Item Reordered, Late Packet Report Added, At-Places Supplemental Report Added, Staff Presentation",
-          "topics": [
-            "Budget & Taxes"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3023,
       "body": "Economic Development Committee",
@@ -6393,7 +6362,7 @@
         },
         {
           "num": "2",
-          "title": "PUBLIC HEARING. Recommendation on an Ordinance Amending Palo Alto Municipal Code Title 18 to Address Development and Design Standards for Housing Element Program 6.5: Alternative Housing Program, Objective (B). CEQA Status: The Addendum to the Comprehensive Plan Environmental Impact Report (EIR), approved by the City Council on November 13, 2023, Analyzed Potential Environmental Impacts of the 6th Cycle Housing Element Including Program 6.5 (B). 6:15 PM – 7:15 PM",
+          "title": "PUBLIC HEARING. Recommendation on an Ordinance Amending Palo Alto Municipal Code Title 18 to Address Development and Design Standards for Housing Element Program 6.5: Alternative Housing Program, Objective (B). CEQA Status: The Addendum to the Comprehensive Plan Environmental Impact Report (EIR), approved by the City Council on November 13, 2023, Analyzed Potential Environmental Impacts of the 6th Cycle Housing Element Including Program 6.5 (B). Staff Presentation 6:15 PM – 7:15 PM",
           "topics": [
             "Housing"
           ],
@@ -6402,7 +6371,7 @@
         },
         {
           "num": "3",
-          "title": "PUBLIC HEARING. Recommendation to the City Council on Ordinances to Replace Temporary Ordinances Amending Palo Alto Municipal Code (PAMC) Chapter 18.14.070 to Exclude Certain Historic Resource Sites and Transit-Oriented Development (TOD) Eligible Sites from Government Code Section 65912.157 and Authorizing Corresponding Zoning Map Updates. CEQA Status: Exempt Under Government Code Section 65912.160(c)(2). 7:15 PM – 7:45 PM",
+          "title": "PUBLIC HEARING. Recommendation to the City Council on Ordinances to Replace Temporary Ordinances Amending Palo Alto Municipal Code (PAMC) Chapter 18.14.070 to Exclude Certain Historic Resource Sites and Transit-Oriented Development (TOD) Eligible Sites from Government Code Section 65912.157 and Authorizing Corresponding Zoning Map Updates. CEQA Status: Exempt Under Government Code Section 65912.160(c)(2). Staff Presentation 7:15 PM – 7:45 PM",
           "topics": [
             "Transportation",
             "Historic Preservation"
@@ -6412,7 +6381,7 @@
         },
         {
           "num": "4",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 531 Stanford [26PLN-00011]: Recommendation on Applicant’s Request for Approval of a Vesting Tentative Map to Subdivide One 31,363-Square-Foot Parcel into 20 Fee-Simple Lots with a Private Road to Facilitate Construction of 20 New Prefabricated Residential Units. CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code section 21080.66). Zoning District: RM-30 (Multifamily Residential). 7:45 PM – 9:15 PM",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 531 Stanford [26PLN-00011]: Recommendation on Applicant’s Request for Approval of a Vesting Tentative Map to Subdivide One 31,363-Square-Foot Parcel into 20 Fee-Simple Lots with a Private Road to Facilitate Construction of 20 New Prefabricated Residential Units. CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code section 21080.66). Zoning District: RM-30 (Multifamily Residential). Staff Presentation, Applicant Presentation 7:45 PM – 9:15 PM",
           "topics": [
             "Housing",
             "Budget & Taxes"
@@ -6614,6 +6583,16 @@
   ],
   "news": [
     {
+      "title": "Rice & Dice Board Game Cafe pivots, now opening in Sunnyvale",
+      "source": "Palo Alto Online",
+      "date": "2026-11-18",
+      "url": "https://www.paloaltoonline.com/mountain-view/2026/11/18/rice-dice-board-game-cafe-pivots-now-opening-in-sunnyvale/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "Choose from hundreds of board games, sip on Filipino rice coffee and snack on rice paper bagels at a new board game cafe expected to open in Sunnyvale in April. The post Rice Dice "
+    },
+    {
       "title": "PG&E stops working on second power line into Palo Alto",
       "source": "Palo Alto Daily Post",
       "date": "2026-11-18",
@@ -6632,16 +6611,6 @@
         "Budget & Taxes"
       ],
       "summary": "A masseur was charged yesterday with sexually assaulting a woman at a spa in Palo Alto. Seth Croswhite, 40, of San Jose, allegedly touched the woman inappropriately while massaging"
-    },
-    {
-      "title": "Council OKs once divisive building",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-17",
-      "url": "https://padailypost.com/2026/11/16/council-oks-once-divisive-building/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council tonight (Nov. 16) voted to allow apartments on a property in the North Ventura neighborhood after the developer a"
     },
     {
       "title": "Palo Alto sees housing surge as state laws, local policies take effect",
@@ -6757,17 +6726,6 @@
         "Housing"
       ],
       "summary": "A developer who is looking to build a residential complex next to U.S. Highway 101, in the Palo Verde neighborhood, has revised the project application, which now calls for a seven"
-    },
-    {
-      "title": "Trailblazing Uyghur restaurant Mrs Khan shutters in Menlo Park",
-      "source": "Palo Alto Online",
-      "date": "2026-10-23",
-      "url": "https://www.paloaltoonline.com/menlo-park/2026/10/23/trailblazing-uyghur-restaurant-mrs-khan-shutters-in-menlo-park/",
-      "topics": [
-        "Transportation",
-        "Parks & Open Space"
-      ],
-      "summary": "Mrs Khan founder Kalbinur Tursungjan reopens the restaurant as Dragon General, offering Peking duck and Dongbei specialties. The post Trailblazing Uyghur restaurant Mrs Khan shutte"
     },
     {
       "title": "Menlo Park mayor makes 2nd attempt to reach Bonta about controversial high-rise project on Willow Road",
