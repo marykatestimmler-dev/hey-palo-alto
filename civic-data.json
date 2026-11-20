@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-19T18:16:35.971Z",
+  "generatedAt": "2026-11-20T17:47:47.940Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-19",
-    "to": "2027-05-19"
+    "from": "2026-05-20",
+    "to": "2027-05-20"
   },
   "bodies": [
     {
@@ -35,6 +35,11 @@
     {
       "name": "Climate Action and Sustainability Committee & Utilities Advisory Commission Joint",
       "slug": "climate-action-and-sustainability-committee-and-utilities-advisory-commission-joint",
+      "email": "city.clerk@PaloAlto.gov"
+    },
+    {
+      "name": "Council Appointed Officer Committee",
+      "slug": "council-appointed-officer-committee",
       "email": "city.clerk@PaloAlto.gov"
     },
     {
@@ -104,18 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3023,
-      "body": "Economic Development Committee",
-      "bodySlug": "economic-development-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Economic Development Committee Regular Meeting - CANCELED",
-      "date": "2026-05-20",
-      "startTime": "16:15",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2949,
       "body": "Architectural Review Board",
@@ -6579,9 +6572,306 @@
       "videoId": null,
       "agendaUrl": null,
       "items": []
+    },
+    {
+      "id": 3146,
+      "body": "Council Appointed Officer Committee",
+      "bodySlug": "council-appointed-officer-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Council Appointed Officer Committee Special Meeting ",
+      "date": "2026-11-30",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20798",
+      "items": [
+        {
+          "num": "1",
+          "title": "Discussion, debrief and recommendation of the Council Appointed Officer (CAO) performance evaluation process; CEQA status – not a project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3142,
+      "body": "City Council",
+      "bodySlug": "city-council",
+      "bodyEmail": "city.council@PaloAlto.gov",
+      "title": "City Council Special Meeting ",
+      "date": "2026-11-30",
+      "startTime": "17:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20771",
+      "items": [
+        {
+          "num": "1",
+          "title": "Proclamation Recognizing November 2026 as Dementia Awareness Month",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:30 PM",
+          "elapsedSec": 0
+        },
+        {
+          "num": "2",
+          "title": "CONFERENCE WITH CITY ATTORNEY – POTENTIAL LITIGATION Subject: Significant exposure to litigation One Case, as Defendant Authority: Government Code Section 54956.9(d)(2)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "5:35 PM",
+          "elapsedSec": 300
+        },
+        {
+          "num": "3",
+          "title": "CONFERENCE WITH CITY ATTORNEY-POTENTIAL LITIGATION Subject: Potential litigation regarding 156 North California Avenue Authority: Government Code Section 54956.9(d)(2) Number of potential cases: 1, as Defendant",
+          "topics": [
+            "Downtown & Business"
+          ],
+          "schedTime": "6:35 PM",
+          "elapsedSec": 3900
+        },
+        {
+          "num": "4",
+          "title": "Approval of Minutes from November 9 and November 16, 2026 Meetings",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "5",
+          "title": "Approval of Purchase Agreements for 3525 Park Boulevard (Assessor’s Parcel Number 132-34-054) for $2,200,000 and 3543 Park Boulevard (Assessor’s Parcel Number 132-34-053) for $2,498,000 and Authorization for the City Manager or Designee to accept and execute on behalf of the City, any and all notices and documents associated with the acquisitions and Approval of Budget Amendments in the General Fund and General Capital Improvement Fund; CEQA Status – Exempt Under CEQA Guidelines Section 15301",
+          "topics": [
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "6",
+          "title": "Policy and Services Committee Recommendation to Adopt the Updated New Council Member Orientation / Onboarding Outline",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "7",
+          "title": "Policy and Services Committee Recommendation to the City Council of Approval of a Scope of Services for Legislative Advocacy Services and Grant Consulting and Compliance Services Request for Proposals (RFP)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "8",
+          "title": "Adoption of a Resolution Prohibiting the Use of City-Owned or Controlled Real Property, Including Parking Lots, Vacant Lots, and Garages, for Civil Immigration Enforcement Staging Areas, Processing Locations, or Operation Bases. CEQA Status – Not a Project.",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "9",
+          "title": "Approval of Amendment No. 2 to Contract No. C21179569 with Brown Reynolds Watford Architects to increase the compensation by $82,208, for a revised Not To Exceed Amount of $920,722 for Construction Administration Services and Extend Contract Term Through June 30, 2028; and Amendment No. 2 to Contract No. C24189293 with Cumming Management Group to increase compensation by $141,427 for a revised Not To Exceed Amount of $793,758 for Construction Management Services and Extend Contract Term Through December 31, 2027 for the Fire Station No 4. Replacement Project (PE-18004); CEQA Status – Exempt under CEQA Guidelines Sections 15302 and 15303",
+          "topics": [
+            "Crime, Policing, and Public Safety",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "10",
+          "title": "FIRST READING: Adopt an Ordinance Creating an Entertainment Zone on a Portion of Ramona Street and Direction for a Pilot Period of up to Three Activations as Recommended by the Economic Development Ad Hoc Committee; CEQA status – Categorically Exempt.",
+          "topics": [
+            "Transportation",
+            "Parks & Open Space",
+            "Downtown & Business"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "11",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Amending Various Chapters of Title 16 (Building Regulations), Title 18 (Zoning), and Title 21 (Subdivisions and Other Divisions of Land) of the Palo Alto Municipal Code to Implement SB 9 and Related State Housing Laws (FIRST READING: November 2, 2026; PASSED: 7-0)",
+          "topics": [
+            "Housing"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "12",
+          "title": "SECOND READING: Ordinance of the Council of the City of Palo Alto Repealing and Replacing Section 18.40.140 (Stream Corridor Protection and Review) of the Palo Alto Municipal Code (FIRST READING: October 26, 2026; PASSED: 7-0)",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": "8:15 PM",
+          "elapsedSec": 9900
+        },
+        {
+          "num": "13",
+          "title": "PUBLIC HEARING/QUASI-JUDICIAL. 450 Lytton Avenue [26PLN-00016] Request for Approval of a Streamlined Housing Development Review Application for a Six-Story, Approximately 76,560 Square-Foot, 100% Affordable Multifamily Project with 72 Residential Dwelling Units on City-Owned Surface Parking Lot (Lot T) and Approval of Predevelopment and $5.5 million Construction Loan Agreement and Ground Lease Option Agreement and Corresponding Budget Amendments. CEQA Status: Exempt Pursuant to Assembly Bill 130 (Public Resources Code Section 21080.66). Zoning District: PF (Public Facilities)",
+          "topics": [
+            "Housing",
+            "Transportation",
+            "Parks & Open Space",
+            "Budget & Taxes"
+          ],
+          "schedTime": "8:45 PM",
+          "elapsedSec": 11700
+        },
+        {
+          "num": "A",
+          "title": "Informational Update on Homekey Palo Alto Operations and FY 2027 First-Quarter Program Data: June 2026 – September 2026, including Bridge Program data December 2025 - May 2026",
+          "topics": [
+            "Arts & Culture"
+          ],
+          "schedTime": "8:45 PM",
+          "elapsedSec": 11700
+        }
+      ]
+    },
+    {
+      "id": 2825,
+      "body": "Finance Committee",
+      "bodySlug": "finance-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Finance Committee Regular Meeting",
+      "date": "2026-12-01",
+      "startTime": "16:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18646",
+      "items": [
+        {
+          "num": "1A",
+          "title": "Discussion and Recommendation to the City Council to Accept the Macias Gini & O'Connell's Audit of the City of Palo Alto's Financial Statements as of June 30, 2026",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1B",
+          "title": "Approval of the FY 2026 Annual Comprehensive Financial Report (ACFR), FY 2026 Year-End Budget Adjustments in Various Funds, and FY 2027 Budget Adjustment in the Capital Improvement Fund; CEQA Status – Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Review and Recommend the City Council Accept the FY 2028-2037 Long Range Financial Forecast (LRFF) and FY 2028 Annual Budget Development Guidelines. CEQA Status – Not a Project",
+          "topics": [
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Accept the Fiscal Year 2027 First Quarter Financial Status Report",
+          "topics": [
+            "Arts & Culture",
+            "Budget & Taxes"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 2890,
+      "body": "Utilities Advisory Commission",
+      "bodySlug": "utilities-advisory-commission",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Utilities Advisory Commission Regular Meeting",
+      "date": "2026-12-02",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19080",
+      "items": [
+        {
+          "num": "1",
+          "title": "Approval of the Minutes of the Utilities Advisory Commission Meeting Held on November 4, 2026",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Palo Alto Fiber Enterprise Business Plan Framework and Fiber Performance Metrics (DISCUSSION: 6:30PM – 7:30PM)",
+          "topics": [
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Draft 2027 Utilities Legislative Policy Guidelines and Update on 2026 State and Federal Legislative and Regulatory Activity (ACTION: 7:30PM – 8:00PM)",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Review of Preliminary Fiscal Year 2028-2032 Capital Improvement Project for the Utilities Department and Regional Water Quality Control Plant (DISCUSSION: 8:00PM – 8:45PM)",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Informational Report on the Annual Review of the City’s Renewable Procurement Plan, Renewable Portfolio Standard Compliance, and Carbon Neutral Electric Supplies for 2025",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Longtime Terún employee to open Ambia Coffee on Cal Ave in Palo Alto",
+      "source": "Palo Alto Online",
+      "date": "2026-11-19",
+      "url": "https://www.paloaltoonline.com/palo-alto/2026/11/19/longtime-terun-employee-to-open-ambia-coffee-on-cal-ave-in-palo-alto/",
+      "topics": [
+        "Budget & Taxes"
+      ],
+      "summary": "Jessica Torres is set to open Ambia Coffee, specializing in creative sourdough flavors as well as other baked goods made with sourdough culture, in the former Hotel California spac"
+    },
     {
       "title": "Rice & Dice Board Game Cafe pivots, now opening in Sunnyvale",
       "source": "Palo Alto Online",
