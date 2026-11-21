@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-20T17:47:47.940Z",
+  "generatedAt": "2026-11-21T16:47:06.570Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-20",
-    "to": "2027-05-20"
+    "from": "2026-05-21",
+    "to": "2027-05-21"
   },
   "bodies": [
     {
@@ -109,79 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 2949,
-      "body": "Architectural Review Board",
-      "bodySlug": "architectural-review-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Architectural Review Board Regular Meeting",
-      "date": "2026-05-21",
-      "startTime": "08:30",
-      "videoId": "6krA9n3EtC8",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19478",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 788-790 and 796 San Antonio Road [25PLN-00294]: Review of an Application to Rezone the Subject Properties From Service Commercial (CS) to a New Planned Community/Planned Home Zoning (PC/PHZ) and to Redevelop the Site With an Eight-Story Mixed-Use Building With 167 Residential Rental Units, Including 28 Below Market Rate (BMR) Units, and Approximately 1,400 Square Feet of Ground Floor Retail Space. CEQA Status: An Addendum to the Previously Certified Housing Incentive Program Expansion and 788 San Antonio Mixed Use Project EIR (SCH # 2019090070) Is Currently Being Prepared. Zoning District: Service Commercial (CS).",
-          "topics": [
-            "Housing",
-            "Climate & Utilities",
-            "Budget & Taxes",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Election of Chair and Vice Chair",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Draft Architectural Review Board Meeting Minutes for April 16, 2026",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
-    {
-      "id": 3035,
-      "body": "Public Art Commission",
-      "bodySlug": "public-art-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Public Art Commission Regular Meeting - CANCELED",
-      "date": "2026-05-21",
-      "startTime": "19:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2989,
       "body": "Parks and Recreation Commission",
@@ -6863,6 +6790,26 @@
   ],
   "news": [
     {
+      "title": "Developer plans to replace dilapidated hotel with factory-built homes",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-21",
+      "url": "https://padailypost.com/2026/11/21/developer-plans-to-replace-dilapidated-hotel-with-factory-built-homes/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A property owner is taking the first steps to redevelop an abandoned hotel that s become an eyesore in Palo Alto. The city s Planning an"
+    },
+    {
+      "title": "NASA eyes Moffett Field as site for massive data center",
+      "source": "Palo Alto Online",
+      "date": "2026-11-20",
+      "url": "https://www.paloaltoonline.com/technology/2026/11/20/nasa-ames-moffett-field-data-center/",
+      "topics": [
+        "Arts & Culture"
+      ],
+      "summary": "In the race to power artificial intelligence, NASA is floating the idea of leasing land at Moffett Field for a large-scale data center development, although few details about the p"
+    },
+    {
       "title": "Longtime Terún employee to open Ambia Coffee on Cal Ave in Palo Alto",
       "source": "Palo Alto Online",
       "date": "2026-11-19",
@@ -6891,16 +6838,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer PG E has stopped working on connecting a second power line to Palo Alto, according to the city manager. The power line is supposed to [."
-    },
-    {
-      "title": "Masseur hit with sexual assault charges",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-17",
-      "url": "https://padailypost.com/2026/11/17/masseur-hit-with-sexual-assault-charges/",
-      "topics": [
-        "Budget & Taxes"
-      ],
-      "summary": "A masseur was charged yesterday with sexually assaulting a woman at a spa in Palo Alto. Seth Croswhite, 40, of San Jose, allegedly touched the woman inappropriately while massaging"
     },
     {
       "title": "Palo Alto sees housing surge as state laws, local policies take effect",
@@ -7091,16 +7028,6 @@
         "Parks & Open Space"
       ],
       "summary": "After he accused Menlo Park of illegally delaying a proposed high-rise development, Mayor Betsy Nash invited California Attorney General Rob Bonta to visit the former Sunset Magazi"
-    },
-    {
-      "title": "East Palo Alto plants seeds for a future urban forest",
-      "source": "Palo Alto Online",
-      "date": "2026-09-09",
-      "url": "https://www.paloaltoonline.com/environment/2026/09/09/east-palo-alto-plants-seeds-for-a-future-urban-forest/",
-      "topics": [
-        "Parks & Open Space"
-      ],
-      "summary": "For years, East Palo Altans and the non-profit organization Canopy have planted trees to increase the city’s canopy coverage. The post East Palo Alto plants seeds for a future urba"
     },
     {
       "title": "Palo Alto mulls releasing report on towing dispute that sparked resignation",
