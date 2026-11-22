@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-21T16:47:06.570Z",
+  "generatedAt": "2026-11-22T17:08:55.572Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-21",
-    "to": "2027-05-21"
+    "from": "2026-05-22",
+    "to": "2027-05-22"
   },
   "bodies": [
     {
@@ -6790,6 +6790,17 @@
   ],
   "news": [
     {
+      "title": "Stanford Shopping Center sues to evict celebrity chef Jose Andres’ restaurant",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-22",
+      "url": "https://padailypost.com/2026/11/21/stanford-shopping-center-sues-to-evict-celebrity-chef-jose-andres-restaurant/",
+      "topics": [
+        "Housing",
+        "Arts & Culture"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Stanford Shopping Center is trying to evict celebrity chef Jose Andres for allegedly not paying rent. Simon Property Group filed a lawsu"
+    },
+    {
       "title": "Developer plans to replace dilapidated hotel with factory-built homes",
       "source": "Palo Alto Daily Post",
       "date": "2026-11-21",
@@ -6828,16 +6839,6 @@
         "Budget & Taxes"
       ],
       "summary": "Choose from hundreds of board games, sip on Filipino rice coffee and snack on rice paper bagels at a new board game cafe expected to open in Sunnyvale in April. The post Rice Dice "
-    },
-    {
-      "title": "PG&E stops working on second power line into Palo Alto",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-18",
-      "url": "https://padailypost.com/2026/11/18/pge-stops-working-on-second-power-line-into-palo-alto/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer PG E has stopped working on connecting a second power line to Palo Alto, according to the city manager. The power line is supposed to [."
     },
     {
       "title": "Palo Alto sees housing surge as state laws, local policies take effect",
