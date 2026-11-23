@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-22T17:08:55.572Z",
+  "generatedAt": "2026-11-23T21:20:57.535Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-22",
-    "to": "2027-05-22"
+    "from": "2026-05-23",
+    "to": "2027-05-23"
   },
   "bodies": [
     {
@@ -6420,7 +6420,7 @@
       "title": " Parks and Recreation Commission Regular Meeting",
       "date": "2026-11-24",
       "startTime": "19:00",
-      "videoId": null,
+      "videoId": "TUYMQydz4QQ",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20485",
       "items": [
         {
