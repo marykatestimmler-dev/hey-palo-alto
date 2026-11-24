@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-23T21:20:57.535Z",
+  "generatedAt": "2026-11-24T20:11:43.141Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-23",
-    "to": "2027-05-23"
+    "from": "2026-05-24",
+    "to": "2027-05-24"
   },
   "bodies": [
     {
@@ -927,66 +927,7 @@
       "startTime": "08:30",
       "videoId": "3kUMYWGgnjM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19611",
-      "items": [
-        {
-          "num": "1",
-          "title": "Historic Resources Board Schedule of Meetings and Assignments",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 439 Lincoln Avenue [26BLD-00812]: Recommendation on a Demolition Application for a Significant Building within the Professorville Historic District. CEQA Status: Exempt under CEQA Guidelines Section 15268 (Ministerial Projects). Zoning District: R-1 (Single Family)",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 243 Webster Street [25PLN-00052]: Request for Major Historic Resources Board Review for the Rehabilitation of an existing Category 2 resource including relocation of the residence and conversion to a duplex. CEQA Status: Exempt per CEQA Section 15303 (New Construction or Conversion of Small Structures). Zoning District: R-2 (Two Family Residential District).",
-          "topics": [
-            "Housing",
-            "Transportation",
-            "Parks & Open Space",
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 855 Hamilton Avenue [26PLN-00021]: Request for Major Historic Resources Board Review for the Rehabilitation and First Floor Addition at the Rear of the Residence with Incidental Exterior Window and Door Replacements. CEQA Status: Exempt per CEQA Section 15303 (New Construction or Conversion of Small Structures). Zoning District: R-1 (Single Family Residential).",
-          "topics": [
-            "Housing",
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "5",
-          "title": "Approval of Historic Resources Board Draft Minutes of April 9, 2026",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
+      "items": []
     },
     {
       "id": 2870,
@@ -6786,9 +6727,89 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 3067,
+      "body": "Architectural Review Board",
+      "bodySlug": "architectural-review-board",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Architectural Review Board",
+      "date": "2026-12-03",
+      "startTime": "08:30",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20270",
+      "items": [
+        {
+          "num": "1",
+          "title": "Director's Report, Meeting Schedule, and Upcoming Agenda Items",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "South of Forest Area (SOFA) Coordinated Area Plan Objective Design Standards Study Session. CEQA Status: Exempt under CEQA Guidelines Section 15262.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "3981 El Camino Real [26PLN-00310]: Preliminary Architectural Review for the Keys School Campus Expansion, Including New Buildings, Parking Garage, and Lot Merger with 3945 El Camino Real. CEQA Status: Not a Project. Zoning Districts: Service Commercial (CS) and High-Density Multiple-Family Residential (RM-40).",
+          "topics": [
+            "Housing",
+            "Transportation",
+            "Parks & Open Space",
+            "Downtown & Business"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Draft Architectural Review Board Meeting Minutes for September 17, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Draft Architectural Review Board Meeting for October 15, 2026",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
+    {
+      "title": "Stanford wants to kick out star chef over $2M in back rent",
+      "source": "Palo Alto Online",
+      "date": "2026-11-23",
+      "url": "https://www.paloaltoonline.com/palo-alto/2026/11/23/jose-andres-zaytinya-faces-eviction-from-stanford-shopping-center/",
+      "topics": [
+        "Housing"
+      ],
+      "summary": "A Palo Alto restaurant from a renowned celebrity chef and humanitarian is under heat from its landlord. The post Stanford wants to kick out star chef over $2M in back rent appeared"
+    },
     {
       "title": "Stanford Shopping Center sues to evict celebrity chef Jose Andres’ restaurant",
       "source": "Palo Alto Daily Post",
