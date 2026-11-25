@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-24T20:11:43.141Z",
+  "generatedAt": "2026-11-25T19:15:20.785Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-24",
-    "to": "2027-05-24"
+    "from": "2026-05-25",
+    "to": "2027-05-25"
   },
   "bodies": [
     {
@@ -927,7 +927,66 @@
       "startTime": "08:30",
       "videoId": "3kUMYWGgnjM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=19611",
-      "items": []
+      "items": [
+        {
+          "num": "1",
+          "title": "Historic Resources Board Schedule of Meetings and Assignments",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 439 Lincoln Avenue [26BLD-00812]: Recommendation on a Demolition Application for a Significant Building within the Professorville Historic District. CEQA Status: Exempt under CEQA Guidelines Section 15268 (Ministerial Projects). Zoning District: R-1 (Single Family)",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 243 Webster Street [25PLN-00052]: Request for Major Historic Resources Board Review for the Rehabilitation of an existing Category 2 resource including relocation of the residence and conversion to a duplex. CEQA Status: Exempt per CEQA Section 15303 (New Construction or Conversion of Small Structures). Zoning District: R-2 (Two Family Residential District).",
+          "topics": [
+            "Housing",
+            "Transportation",
+            "Parks & Open Space",
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "PUBLIC HEARING / QUASI-JUDICIAL. 855 Hamilton Avenue [26PLN-00021]: Request for Major Historic Resources Board Review for the Rehabilitation and First Floor Addition at the Rear of the Residence with Incidental Exterior Window and Door Replacements. CEQA Status: Exempt per CEQA Section 15303 (New Construction or Conversion of Small Structures). Zoning District: R-1 (Single Family Residential).",
+          "topics": [
+            "Housing",
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "5",
+          "title": "Approval of Historic Resources Board Draft Minutes of April 9, 2026",
+          "topics": [
+            "Historic Preservation"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "A",
+          "title": "Public Comment",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     },
     {
       "id": 2870,
@@ -6178,7 +6237,7 @@
       "title": "Finance Committee Regular Meeting",
       "date": "2026-11-17",
       "startTime": "16:00",
-      "videoId": "F9limhj6VyY",
+      "videoId": "Z0pePdg33CM",
       "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20568",
       "items": [
         {
@@ -6632,7 +6691,7 @@
         },
         {
           "num": "1B",
-          "title": "Approval of the FY 2026 Annual Comprehensive Financial Report (ACFR), FY 2026 Year-End Budget Adjustments in Various Funds, and FY 2027 Budget Adjustment in the Capital Improvement Fund; CEQA Status – Not a Project",
+          "title": "Approval of the FY 2026 Annual Comprehensive Financial Report (ACFR), FY 2026 Year-End Budget Adjustments in Various Funds, and FY 2027 Budget Adjustment in the Capital Improvement Fund; CEQA Status – Not a Project Late Packet Report Added",
           "topics": [
             "Budget & Taxes"
           ],
@@ -6641,7 +6700,7 @@
         },
         {
           "num": "2",
-          "title": "Review and Recommend the City Council Accept the FY 2028-2037 Long Range Financial Forecast (LRFF) and FY 2028 Annual Budget Development Guidelines. CEQA Status – Not a Project",
+          "title": "Review and Recommend the City Council Accept the FY 2028-2037 Long Range Financial Forecast (LRFF) and FY 2028 Annual Budget Development Guidelines. CEQA Status – Not a Project Late Packet Report Added",
           "topics": [
             "Budget & Taxes"
           ],
@@ -6797,18 +6856,118 @@
           "elapsedSec": null
         }
       ]
+    },
+    {
+      "id": 2787,
+      "body": "Policy & Services Committee",
+      "bodySlug": "policy-and-services-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": "Policy & Services Committee Regular Meeting",
+      "date": "2026-12-08",
+      "startTime": "18:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=18418",
+      "items": [
+        {
+          "num": "1",
+          "title": "Review of Proposals, Including Draft Ordinances, to Update, Strengthen and Support the City’s Existing Seismic Hazards Identification Program, as Codified in Palo Alto Municipal Code Chapters 16.42 and Related Transfer of Development Rights Program Codified in 18.18.080 and Make a Recommendation to City Council For Approval. CEQA Status – Not a Project.",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Discussion and Recommendation on the City’s 2027 Federal and State Legislative Guidelines and 2027 Utility Policy Guidelines and Update on State legislative activities. CEQA Status – Not a Project",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "3",
+          "title": "Discussion and Recommendation to City Council Regarding the 2027 City Council Priority Setting Process; CEQA – Not a Project",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "4",
+          "title": "Recommendation to the City Council on Adoption of an Ordinance Adding New Chapter 9.75 (Fair Chance in Housing) to Title 9 (Public Peace, Morals, and Safety) of the Palo Alto Municipal Code (PAMC) to Limit the Use of Criminal History Information in Rental Housing Decisions. CEQA Status: Exempt Under CEQA Guidelines Section 15061(b)(3).",
+          "topics": [
+            "Housing",
+            "Crime, Policing, and Public Safety"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
+    },
+    {
+      "id": 3117,
+      "body": "Climate Action and Sustainability Committee",
+      "bodySlug": "climate-action-and-sustainability-committee",
+      "bodyEmail": "city.clerk@PaloAlto.gov",
+      "title": " Climate Action and Sustainability Committee Special Meeting",
+      "date": "2026-12-11",
+      "startTime": "14:00",
+      "videoId": null,
+      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20607",
+      "items": [
+        {
+          "num": "A",
+          "title": "Staff Comments",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "B",
+          "title": "Committee Member Comments and Announcements",
+          "topics": [
+            "Other"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "1",
+          "title": "Sustainability and Climate Action Plan Quarterly Communications Update; CEQA Status – Not a Project.",
+          "topics": [
+            "Climate & Utilities",
+            "Arts & Culture"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        },
+        {
+          "num": "2",
+          "title": "Preliminary Emissions Reduction Results from Modeling of Strategies for Community-Wide Electrification for Future City Council Consideration; CEQA Status – Not a Project.",
+          "topics": [
+            "Climate & Utilities"
+          ],
+          "schedTime": null,
+          "elapsedSec": null
+        }
+      ]
     }
   ],
   "news": [
     {
-      "title": "Stanford wants to kick out star chef over $2M in back rent",
-      "source": "Palo Alto Online",
-      "date": "2026-11-23",
-      "url": "https://www.paloaltoonline.com/palo-alto/2026/11/23/jose-andres-zaytinya-faces-eviction-from-stanford-shopping-center/",
+      "title": "Man suspected in several burglaries is arrested",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-24",
+      "url": "https://padailypost.com/2026/11/24/43817/",
       "topics": [
-        "Housing"
+        "Crime, Policing, and Public Safety"
       ],
-      "summary": "A Palo Alto restaurant from a renowned celebrity chef and humanitarian is under heat from its landlord. The post Stanford wants to kick out star chef over $2M in back rent appeared"
+      "summary": "A man suspected in several burglaries in Palo Alto, San Jose and Los Altos was arrested by police in Stockton. In July and August 2025, seven homes were burglarized and [...]"
     },
     {
       "title": "Stanford Shopping Center sues to evict celebrity chef Jose Andres’ restaurant",
