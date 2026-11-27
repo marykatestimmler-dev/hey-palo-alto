@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-26T18:59:51.839Z",
+  "generatedAt": "2026-11-27T18:57:54.223Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-26",
-    "to": "2027-05-26"
+    "from": "2026-05-27",
+    "to": "2027-05-27"
   },
   "bodies": [
     {
@@ -109,66 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3072,
-      "body": "Planning & Transportation Commission",
-      "bodySlug": "planning-and-transportation-commission",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Planning & Transportation Commission Regular Meeting",
-      "date": "2026-05-27",
-      "startTime": "18:00",
-      "videoId": "vW1Xm_aHqPs",
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20305",
-      "items": [
-        {
-          "num": "1",
-          "title": "Director's Report, Meeting Schedule, and Assignments",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "2",
-          "title": "Review and Recommendation to Finance Committee and the City Council on the Proposed 2027-2031 Capital Improvement Plan and Comprehensive Plan Compliance. CEQA Status: Not a Project.",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "3",
-          "title": "Study Session to Review City of Palo Alto Prohousing Designation Program Application Materials. CEQA Status: Not a Project.",
-          "topics": [
-            "Housing"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "4",
-          "title": "Parking Programs Update & Downtown Parking Modernization Initiatives. CEQA Status: Not a Project. This item will not be heard at this meeting.",
-          "topics": [
-            "Transportation",
-            "Parks & Open Space",
-            "Downtown & Business"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        },
-        {
-          "num": "A",
-          "title": "Public Comment",
-          "topics": [
-            "Other"
-          ],
-          "schedTime": null,
-          "elapsedSec": null
-        }
-      ]
-    },
     {
       "id": 3100,
       "body": "Historic Resources Board",
@@ -7123,6 +7063,29 @@
   ],
   "news": [
     {
+      "title": "Opinion: There are ways to increase affordable housing here",
+      "source": "Palo Alto Online",
+      "date": "2026-11-27",
+      "url": "https://www.paloaltoonline.com/guest-opinion/2026/11/27/opinion-there-are-ways-to-increase-affordable-housing-here/",
+      "topics": [
+        "Housing",
+        "Climate & Utilities",
+        "Budget & Taxes"
+      ],
+      "summary": "Most residents support increasing the supply of affordable housing to low- and moderate-income residents. But finding funding and sites has proved challenging. Here are four ways t"
+    },
+    {
+      "title": "City buys two homes along the tracks",
+      "source": "Palo Alto Daily Post",
+      "date": "2026-11-27",
+      "url": "https://padailypost.com/2026/11/27/city-buys-two-homes-along-the-tracks/",
+      "topics": [
+        "Arts & Culture",
+        "Budget & Taxes"
+      ],
+      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Palo Alto City Council has inked deals to buy two houses in the Ventura neighborhood for $4.7 million. City Chief Financial Officer Laur"
+    },
+    {
       "title": "Man suspected in several burglaries is arrested",
       "source": "Palo Alto Daily Post",
       "date": "2026-11-24",
@@ -7142,16 +7105,6 @@
         "Arts & Culture"
       ],
       "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer Stanford Shopping Center is trying to evict celebrity chef Jose Andres for allegedly not paying rent. Simon Property Group filed a lawsu"
-    },
-    {
-      "title": "Developer plans to replace dilapidated hotel with factory-built homes",
-      "source": "Palo Alto Daily Post",
-      "date": "2026-11-21",
-      "url": "https://padailypost.com/2026/11/21/developer-plans-to-replace-dilapidated-hotel-with-factory-built-homes/",
-      "topics": [
-        "Arts & Culture"
-      ],
-      "summary": "BY BRADEN CARTWRIGHTDaily Post Staff Writer A property owner is taking the first steps to redevelop an abandoned hotel that s become an eyesore in Palo Alto. The city s Planning an"
     },
     {
       "title": "NASA eyes Moffett Field as site for massive data center",
@@ -7329,17 +7282,6 @@
         "Budget & Taxes"
       ],
       "summary": "Local elected officials make decisions that shape schools, housing, taxes, public safety and more. While decisions made in local government chambers affect everyone, candidate demo"
-    },
-    {
-      "title": "Audit: Hidden fees hinder Palo Alto housing program",
-      "source": "Palo Alto Online",
-      "date": "2026-10-14",
-      "url": "https://www.paloaltoonline.com/housing/2026/10/14/audit-hidden-fees-hinder-palo-alto-housing-program/",
-      "topics": [
-        "Housing",
-        "Budget & Taxes"
-      ],
-      "summary": "Palo Alto's effort to assist people in purchasing affordable homes is hindered by a significant supply shortage and a laundry list of hidden fees that place these residences out of"
     },
     {
       "title": "Chipotle building could make way for housing project near Cal Ave.",
