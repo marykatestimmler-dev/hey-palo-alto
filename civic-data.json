@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-27T18:57:54.223Z",
+  "generatedAt": "2026-11-28T17:31:31.385Z",
   "source": "City of Palo Alto PrimeGov portal",
   "portalBase": "https://cityofpaloalto.primegov.com",
   "window": {
-    "from": "2026-05-27",
-    "to": "2027-05-27"
+    "from": "2026-05-28",
+    "to": "2027-05-28"
   },
   "bodies": [
     {
@@ -109,40 +109,6 @@
     }
   ],
   "meetings": [
-    {
-      "id": 3100,
-      "body": "Historic Resources Board",
-      "bodySlug": "historic-resources-board",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "Historic Resources Board Special Meeting",
-      "date": "2026-05-28",
-      "startTime": "17:00",
-      "videoId": null,
-      "agendaUrl": "https://cityofpaloalto.primegov.com/Portal/Meeting?meetingTemplateId=20499",
-      "items": [
-        {
-          "num": "1",
-          "title": "Recognition of Projects that Exemplify Excellence in Historic Preservation, Rehabilitation, and Restoration Efforts within the Community.",
-          "topics": [
-            "Historic Preservation"
-          ],
-          "schedTime": "5:00 PM",
-          "elapsedSec": 0
-        }
-      ]
-    },
-    {
-      "id": 2793,
-      "body": "City Schools Liaison Committee",
-      "bodySlug": "city-schools-liaison-committee",
-      "bodyEmail": "city.clerk@PaloAlto.gov",
-      "title": "City Schools Liaison Committee Regular Meeting",
-      "date": "2026-05-28",
-      "startTime": "19:00",
-      "videoId": null,
-      "agendaUrl": null,
-      "items": []
-    },
     {
       "id": 2838,
       "body": "City Council",
